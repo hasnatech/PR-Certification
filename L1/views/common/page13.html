@@ -1,0 +1,24 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page13">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-6">
+                    <img ng-src="{{page.image}}"/>
+                </div>
+                <div class="col-6">
+                    <h3 class="animate" data-time="1" ng-bind-html="page.subTitle | to_trusted"></h3>
+                    <br/>
+                    <p class="animate" data-time="2" ng-bind-html="page.para | to_trusted"></p>
+                    <ul class="square_bullet">
+                        <li class="animate" ng-repeat="item in page.block" data-time="{{$index+14.2}}">{{item}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        syncAudio($(".animate"));
+    });
+</script>

@@ -1,0 +1,28 @@
+section.sec {
+	background-position: 352px 80px !important;
+	background-color: #f3f3f3;
+}
+
+img.animate {
+	width: 580px;
+	top: -150px;
+	left: 140px;
+	position: absolute;
+}
+
+.row h2 {
+	position: absolute;
+	top: -195px;
+	font-size: 20px;
+	color: #115f81;
+}
+
+.rgtText {
+	position: absolute;
+	right: 30px;
+	font-size: 27px;
+}
+
+.rgtText span {
+	color: #009499;
+}

@@ -1,0 +1,70 @@
+<section class="sec" data-current="{{curr_page}}">
+	<div class="objective">
+			<div class="container full-height">
+			<div class="row center_screen">
+					<div class="col-12" style="margin-top: -60px;">
+							<div class="dottedArrow orderArrow animate" data-time="5.2">
+								<span>Ordering</span>
+								<img src="image/topic1/mod2/mod2_scr4_line3.png">
+							</div>
+							<div class="dottedArrow approvingArrow animate" data-time="6.2">
+								<span>Approving</span>
+								<img src="image/topic1/mod2/mod2_scr4_line2.png">
+							</div>
+							<div class="dottedArrow receivingArrow animate" data-time="8.1">
+								<span>Receiving</span>
+								<img src="image/topic1/mod2/mod2_scr4_line3.png">
+							</div>
+							<div class="dottedArrow invoicingArrow animate" data-time="9.6">
+								<span>Invoicing</span>
+								<img src="image/topic1/mod2/mod2_scr4_line1.png">
+							</div>
+						<div class="animate clkImage" ng-repeat="image in page.imageList" data-audio="{{image.audio}}" data-link="{{image.link}}" data-time="{{image.time}}" style="background-image: url('{{image.path}}')">
+							
+						</div>
+						<span class="insTxt animate" data-time="14.5">Click each step to proceed.</span>
+					</div>
+
+				<div id="feedback" class="feedback" style="display: none">
+					<div class="cPanel">
+						<div class="exit">x</div>
+						<div class="cBorder"></div>
+						<div class="title">
+							
+						</div>
+						<div class="content">
+							
+						</div>
+					</div>
+				</div>
+
+				<div style="display: none">
+					<ul ng-repeat="list in page.pops" data-color="{{list.color}}" class="{{list.label}} square_bullet">
+						<li ng-repeat="list in list.list">{{list}}</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</section>
+<script>
+		$().ready(function () {
+			  syncAudio($(".animate"));
+			$(document).on('click','.clkImage',function(){
+				$('.feedback').slideDown();
+				var index = $(this).attr('data-link');
+				var audio = $(this).attr('data-audio');
+				playAudio(audio);
+				$('.feedback .content').empty();
+				$('.feedback .content').append($('.'+index).clone());
+				$('.feedback .title').empty();
+				$('.feedback .title').text(index);
+				var color = $('.'+index).attr('data-color');
+				$('.feedback .cBorder').css('border-color',color);
+				$('.feedback .title').css('color',color);
+				$('.feedback .content').css('background-color',color).css('border-color',color);
+			});
+			$(document).on('click','.exit',function(){
+				$('.feedback').slideToggle();
+			});
+		}); 
+	</script>

@@ -1,0 +1,28 @@
+#welcome_ul {
+    padding-left: 0px;
+}
+
+#welcome_ul {
+    list-style: none;
+}
+
+.welcome h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.welcome .number{
+    float: left;
+    color: #dddddd;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.welcome .text{
+    margin-left: 10px;
+    padding-top: 2px;
+    margin-bottom: 20px;
+    min-height: 36px;
+    font-size: 22px;
+}
+#welcome_ul li{
+    margin-bottom: 10px; 
+}

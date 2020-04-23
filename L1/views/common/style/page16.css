@@ -1,0 +1,12 @@
+.p_text{
+    background-image: url('../../../image/topic1/page_16.png');
+    width: 700px ;
+    height: 201px ;
+    margin: 50px;
+}
+
+.p_text .txt{
+    padding-top: 50px;
+    padding-left: 210px;
+    color: #fff;
+}

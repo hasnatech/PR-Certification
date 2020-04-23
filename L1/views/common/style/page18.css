@@ -1,0 +1,46 @@
+.page13 .item{
+    width: 900px;
+    height: 252px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.page13 .text0 {
+    width: 396px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
+.page13 .text1 {
+    width: 396px;
+    position: absolute;
+    left: 10px;
+    top: 52px;
+}
+
+h3 span {
+    color:#279383;
+}
+
+.col-6 img {
+	width: 540px;
+	position: relative;
+	top: 0px;
+	left: 70px;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.rightSec {
+	max-width: 390px;
+	position: absolute;
+	background: #dedede;
+	height: 100%;
+	padding: 200px 40px;
+	right: 93px;
+	top: 0px;
+}

@@ -1,0 +1,61 @@
+.dummy_btn {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.dummy_btn .btn {
+    background-color: rgba(0, 0, 0, 0);
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+}
+
+#popup1 ul{
+    font-size: 13px;
+}
+
+#popup1 .item  {
+    width: 350px;
+    position: absolute;
+}
+#popup2 .item {
+    width: 450px;
+    position: absolute;
+}
+
+
+#popup1 .item:nth-child(2){
+    top: 360px;
+    left:20px;
+}
+
+#popup1 .item:nth-child(3) ,  #popup2 .item:nth-child(1){
+    top: 10px;
+    right:50px;
+}
+
+#popup1 .item:nth-child(4){
+    top: 360px;
+    right:50px;
+}
+
+#popup1 .img, #popup2 .img {
+    position: absolute;
+    left: 30%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+#popup1 .info, #popup2 .info {
+    position: absolute;
+    bottom: 0px;
+    left: 27%;
+}
+
+#popup1 .info{
+    left: 36%;
+}

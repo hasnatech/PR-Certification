@@ -1,0 +1,32 @@
+.row img {
+	width: auto;
+	position: absolute;
+	top: 118px;
+	left: 53px;
+}
+
+.Heading {
+	position: absolute;
+	bottom: 0;
+	left: 96px;
+	width: 85%;
+	background: #279989;
+	padding: 13px 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 23px;
+	z-index: -1;
+}
+
+video {
+	width: 737px;
+	position: absolute;
+	top: 148px;
+	left: 257px;
+}
+
+.poster {
+	top: 149px !important;
+	width: 733px !important;
+	left: 256px !important;
+}

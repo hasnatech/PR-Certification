@@ -1,0 +1,47 @@
+section.sec {
+	background-image: none;
+	background-position: center bottom !important;
+	background-size: 80%;
+}
+
+img.animate {
+	width: 580px;
+	top: -150px;
+	left: 140px;
+	position: absolute;
+}
+
+h2 {
+	position: relative;
+}
+
+.col-12 img {
+	width: 270px;
+	position: absolute;
+}
+
+p {
+	position: absolute;
+	top: -210px;
+	width: 100%;
+	left: 10px;
+	font-size: 17px;
+	color: #232323;
+}
+
+#img_0 {
+	top: -128px;
+	left: 190px;
+}
+#img_1 {
+	top: 92px;
+	left: 192px;
+}
+#img_2 {
+	top: -127px;
+	left: 689px;
+}
+#img_3 {
+	top: 79px;
+	left: 690px;
+}

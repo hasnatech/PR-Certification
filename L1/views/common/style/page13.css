@@ -1,0 +1,24 @@
+.page13 .item{
+    width: 900px;
+    height: 252px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.page13 .text0 {
+    width: 396px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
+.page13 .text1 {
+    width: 396px;
+    position: absolute;
+    left: 10px;
+    top: 52px;
+}
+
+h3 span {
+    color:#279383;
+}

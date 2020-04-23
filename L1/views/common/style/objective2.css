@@ -1,0 +1,23 @@
+.objective{
+    width: 100%;
+    position: relative;
+}
+.col-12.tittle {
+    top: -140px;
+}
+#objective0 {
+    position: absolute;
+    top: 0px;
+    width: 326px;
+}
+
+div#objective1 {
+    position: absolute;
+    top: 210px;
+    left: 740px;
+    width: 350px;
+}
+
+#obj_image {
+    margin: auto 27%;
+}

@@ -1,0 +1,32 @@
+<section class="sec" data-current="{{curr_page}}" style="background-image: url('{{page.image}}')">
+    <div class="text_image">
+        <div class="full-height">
+            <div class="row center_screen">
+                <div class="col-6">
+                    <div class="white_bg text_content">
+                        <h2 class="animate">{{page.title}}</h2>
+                        <div class="image">
+                            <li> <img src="image/topic1/one.png" alt=""></li>
+                            <li> <img src="image/topic1/two.png" alt="" style=" margin-right: -30px;"></li>
+                        </div>
+                        <ul class="text">
+
+                            <li class="animate" ng-repeat="b in page.block" data-time="{{b.time}}">
+                                <p ng-bind-html="b.text | to_trusted"></p>
+                            </li>
+                        </ul>
+                        <!--<div style="text-align: right"><img src="D:\PT\Level2_course\image\shell\green\Untitled2.png" width="100" /></div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //alert("I am here")
+
+        syncAudio($(".animate"));
+    });
+</script>

@@ -1,0 +1,174 @@
+
+.group .grp{
+    margin-top: 10px;
+    /*! margin-bottom: 40px; */
+    /*! float: left; */
+    /*! width: 287px; */
+}
+.group hr, .group2 hr{
+    width: 300px;
+    margin-top:0px;
+}
+
+.group ul li, .group2 ul li {
+	list-style: square;
+	float: left;
+	font-size: small;
+	margin-bottom: -5px;
+}
+.group .title, .group2 .title {
+	font-weight: normal;
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+}
+ul {
+	padding-left: 13px;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-right: 10px;
+	color: #fff;
+	line-height: 23px;
+}
+
+.group2 {
+	margin-top: 110px;
+	width: 280px;
+	margin-left: 60px;
+}
+
+.bgLeft {
+	width: 420px;
+	position: absolute;
+	left: -16px;
+	top: 30px;
+}
+
+.di, .npf, .pc, .git {
+	width: 170px;
+}
+
+.flow div {
+	float: left;
+	margin-right: 5px;
+}
+
+.flow {
+	position: absolute;
+	top: 30px;
+	left: -80px;
+}
+
+.bgRight {
+	width: 694px;
+	margin-top: 7px;
+}
+
+.tabContentHold .contentTitle {
+	margin-top: -4px;
+	/* margin-bottom: 40px; */
+	float: left;
+	line-height: 16px;
+	font-size: 13px;
+	position: relative;
+	z-index: 0;
+}
+
+.tabContentHold .ulContent {
+	margin-top: -4px;
+	/* margin-bottom: 40px; */
+	float: left;
+	width: 287px;
+	line-height: 16px;
+	font-size: 13px;
+}
+
+.instruction {
+	position: absolute;
+	left: 455px;
+	top: 20px;
+	color: #1E1E1E;
+}
+.tabPart div {
+	background: #009E92;
+	color: #fff;
+	height: 60px;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.activeBottom {
+	position: absolute;
+	display: none;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid red;
+	bottom: -20px;
+	left: 0;
+}
+.activeBottom.enable {
+	display: block;
+}
+
+.di {
+	background: #009E92 !important;
+}
+.npf {
+	background: #008C86 !important;
+}
+.pc {
+	background: #007C80 !important;
+}
+.git {
+	background: #005E80 !important;
+}
+
+.di .activeBottom {
+	border-top-color: #009E92;
+}
+.npf .activeBottom {
+	border-top-color: #008C86;
+}
+.pc .activeBottom {
+	border-top-color: #007C80;
+}
+.git .activeBottom {
+	border-top-color: #005E80;
+}
+
+.clickTabs {
+	cursor: pointer;
+}
+
+
+.tabContentHold {
+	position: absolute;
+	top: 130px;
+	left: -61px;
+	right: 86px;
+	background: #009e92;
+	padding: 25px;
+	min-height: 270px;
+	display: none;
+	max-height: 398px;
+}
+
+.borderBg {
+	position: absolute;
+	display: none;
+	width: auto;
+	height: 150px;
+	border: 1px solid #009e92;
+	width: 710px;
+	left: -20px;
+	top: -20px;
+}
+
+.rightTextLi {
+	display: none
+}
+/* .TabC_2,.TabC_3,.TabC_4 {
+	display: none;
+} */

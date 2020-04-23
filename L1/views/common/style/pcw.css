@@ -1,0 +1,66 @@
+.clkImage {
+	width: 156px;
+	height: 198px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-right: 1px;
+	margin-left: 1px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.feedback {
+	top: calc(255% - 200px);
+	width: 750px;
+	left: calc(35% - 200px);
+}
+
+.feedback .title {
+    text-transform: uppercase;
+}
+
+.insTxt {
+	position: absolute;
+	top: -80px;
+	left: 34px;
+	color: #2a2a2a;
+}
+
+ul.square_bullet {
+	list-style-image: url("../../../image/shell/green/bulletWhite.png");
+}
+
+.dottedArrow {
+	position: absolute;
+	top: -21px;
+}
+
+.dottedArrow span {
+    position: absolute;
+    /*! left: 36%; */
+    top: -26px;
+    margin: 0 auto;
+    color: #666666;
+  }
+  .dottedArrow.approvingArrow {
+    left: 178px;
+  }
+  .dottedArrow.receivingArrow {
+    left: 494px;
+    /*! width: 124px; */
+  }
+  .dottedArrow.invoicingArrow {
+    left: 651px;
+  }
+  .dottedArrow.orderArrow span {
+    left: 45px;
+  }
+  .dottedArrow.approvingArrow span {
+    left: 120px;
+  }
+  .dottedArrow.receivingArrow span {
+    left: 40px;
+  }
+  .dottedArrow.invoicingArrow span {
+    left: 202px;
+  }

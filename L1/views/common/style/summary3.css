@@ -1,0 +1,36 @@
+.text_image {
+    
+    margin-left: 120px;
+    margin-right: 50px;
+}
+.text_content {
+	padding: 20px;
+	position: absolute;
+	width: 510px;
+	top: -200px;
+	right: -130px;
+}
+
+.text {
+	line-height: 64px;
+}
+.image{
+    float:right;
+    margin-top: 12px;
+    list-style-type: none;
+    margin-bottom:19px; 
+    margin-right: -30px; 
+    
+}
+
+li.animate{
+   
+    list-style-type: none;
+    margin-left: -37px;
+    margin-top: 17px;
+    
+}
+
+.image img {
+	margin-bottom: 35px;
+}

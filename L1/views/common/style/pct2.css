@@ -1,0 +1,89 @@
+.centerBg {
+	width: 68%;
+}
+.leftSec {
+	text-align: center;
+}
+.rightSec {
+	text-align: left;
+	padding-top: 80px;
+}
+.rightSec p {
+	font-size: 13px;
+	width: 197px;
+	padding-left: 14px;
+	text-align: justify;
+}
+.reveals {
+	position: absolute;
+	width: 68%;
+}
+.animate.reveals.reveal_0 {
+	left: 143px;
+	width: 539px;
+}
+.animate.reveals.reveal_1 {
+	left: 158px;
+	top: 76px;
+	width: 115px;
+}
+.animate.reveals.reveal_2 {
+	left: 295px;
+	top: 76px;
+	width: 115px;
+}
+.animate.reveals.reveal_3 {
+	left: 432px;
+	top: 76px;
+	width: 115px;
+}
+.animate.reveals.reveal_4 {
+	left: 569px;
+	top: 76px;
+	width: 115px;
+}
+.animate.reveals.reveal_5 {
+	left: 143px;
+	top: 186px;
+	width: 544px;
+}
+.animate.reveals.reveal_6 {
+	left: 143px;
+	top: 244px;
+	width: 406px;
+}
+.animate.reveals.reveal_7 {
+	left: 143px;
+	top: 302px;
+	width: 406px;
+}
+.animate.reveals.reveal_8 {
+	top: 370px;
+	left: 145px;
+	width: 129px;
+}
+.animate.reveals.reveal_9 {
+	right: 144px;
+	width: 130px;
+	top: 245px;
+}
+.animate.reveals.reveal_10 {
+	right: 144px;
+	width: 130px;
+	top: 303px;
+}
+.animate.reveals.reveal_11 {
+	right: 144px;
+	width: 130px;
+	top: 361px;
+}
+.animate.reveals.reveal_12 {
+	right: 144px;
+	width: 130px;
+	top: 420px;
+}
+.animate.reveals.reveal_13 {
+	right: 144px;
+	width: 130px;
+	top: 479px;
+}

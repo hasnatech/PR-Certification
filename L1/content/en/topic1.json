@@ -1,0 +1,1289 @@
+{
+    "course": {
+        "title": "Indirect Procurement Overview",
+        "section": "Introduction to Procurement",
+        "description": "In this section, we will define some of the course description.",
+        "duration": "Duration 20 minutes",
+        "start_btn": "start the course",
+        "audio": "media\/topic3_welcome.mp3",
+        "button": {
+            "next": "Next",
+            "prev": "Previous",
+            "try": "Try Again",
+            "submit": "Submit"
+        },
+        "lable": {
+            "transcript": "Transcript",
+            "resource": "Resources"
+        },
+        "resource": [{
+            "label": "Sample link to cargill.com for more information",
+            "link": "http://www.cargill.com"
+        }, {
+            "label": "Sample link to google.com for more information",
+            "link": "http://www.google.com"
+        }]
+    },
+
+    "menu": {
+        "topic": [{
+                "title": "Module 1 - Indirect Procurement Overview",
+                "pages": [{
+                        "file": "common\/course_intro.html",
+                        "style": "common\/style\/course_intro.css",
+                        "audio": "media\/3.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Purchase Requisitioner Certification Training Program",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Indirect Procurement Overview",
+                                "time": "3"
+                            },
+                            {
+                                "text": "Level 1",
+                                "time": "3"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/course_intro.png",
+                        "transcript": [{
+                                "text": "Transcript 1",
+                                "sec": "0.01"
+                            },
+                            {
+                                "text": "Transcript 2",
+                                "sec": "0.02"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "welcome",
+                        "title": "Overview",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "subTitle": "Welcome",
+                        "file": "common\/video.html",
+                        "style": "common\/style\/video.css",
+                        "showMenu": true,
+                        "audio": "",
+                        "time": "18.5",
+                        "interaction": false,
+                        "video": "video/News_video_level01.mp4",
+                        "videoThumbnail":"video/News_video_level01.png",
+                        "image": "image\/topic1\/tv_view.png",
+                        "heading": "How can we avoid such a situation?",
+                        "transcript": [{
+                            "text": "<p>Background music. </p><p>How can we avoid such a situation? </p><p>Well, it is highly important that we stay aligned to the process and policies of procurement at Cargill. </p><p>Come; let’s look through the Procurement process.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "welcome",
+                        "title": "Overview",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "subTitle": "Welcome",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media/5.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Source to Pay Process",
+                                "time": "3"
+                            },
+                            {
+                                "text": "Procurement",
+                                "time": "4"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [{
+                            "text": "<p>Welcome to an Introduction to Procurement.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Objective",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/6.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Introduce the Source to Pay process",
+                                "time": "4.1"
+                            },
+                            {
+                                "text": "Describe Procurement",
+                                "time": "7.3"
+                            },
+                            {
+                                "text": "",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Introduce the Cargill Strategic Sourcing and Procurement (CSSP) function",
+                                "time": "9.6"
+                            }
+                        ],
+                        "image": "image\/topic1\/objective_4.png",
+                        "transcript": [{
+                                "text": "<p>The objectives of this module are to: </p><ul><li>Introduce the Source to Pay process.</li><li>Describe Procurement.</li><li>Introduce the Cargill Strategic Sourcing and Procurement (CSSP) function</li><ul>",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Introduction",
+                        "title": "Source to pay process",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/source_to_pay_process.html",
+                        "style": "common\/style\/source_to_pay_process.css",
+                        "audio": "media\/8_e.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "heading":"Supplier Management",
+                                "text": "Discipline of strategically planning for, and managing, all interactions with third party vendor that supply goods and/or services to Cargill in order to maximize the value of those interactions.",
+                                "time": "14.9",
+                                "time2": "23.5",
+                                "image": "image\/topic1\/stp_1.png"
+                            },
+                            {
+                                "heading":"Strategic Sourcing",
+                                "text": "Approach to supply chain management that formalizes the way information is gathered and used so that Cargill can leverage its consolidated purchasing power to find the best possible values in the marketplace.",
+                                "time": "16.2",
+                                "time2": "42.5",
+                                "image": "image\/topic1\/stp_2.png"
+                            },
+                            {
+                                "heading":"Contract Management",
+                                "text": "Process of managing contract creation, execution and analysis to maximize operational and financial performance at Cargill, all while reducing financial risk.",
+                                "time": "17.3",
+                                "time2": "59.5",
+                                "image": "image\/topic1\/stp_3.png"
+                            },
+                            {
+                                "heading":"Procurement",
+                                "text": "Combination of the sourcing activities, negotiation and strategic supplier selection used to purchase materials and services from an external source, often via a negotiation or a competitive bidding process.",
+                                "time": "19",
+                                "time2": "74.9",
+                                "image": "image\/topic1\/stp_2.png"
+                            },
+                            {
+                                "heading":"Invoice-to-pay",
+                                "text": "Involves the processing of supplier invoices and payments. Also known as accounts payable.",
+                                "time": "20.5",
+                                "time2": "92.7",
+                                "image": "image\/topic1\/stp_5.png"
+                            }
+                        ],
+                        "image": "image\/topic1\/source_to_pay_process.png",
+                        "transcript": [{
+                                "text": "<p>Supplier relationship management (SRM) is the discipline of strategically planning for, and managing, all interactions with third party suppliers that supply goods and/or services to Cargill in order to maximize the value of those interactions. </p><p>Strategic sourcing is an approach to supply chain management that formalizes the way information is gathered and used so that Cargill can leverage its consolidated purchasing power to find the best possible values in the marketplace. </p><p>Contract management is the process of managing contract creation, execution and analysis to maximize operational and financial performance at Cargill, all while reducing financial risk. </p><p>Procurement is a combination of the sourcing activities, negotiation and strategic supplier selection used to purchase materials and services from an external source, often via a negotiation or a competitive bidding process. </p><p>Invoice-to-pay involves the processing of supplier invoices and payments. Also known as accounts payable.</p>",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Source To Pay Process",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/source_to_pay_benefit_Cargill.html",
+                        "style": "common\/style\/source_to_pay_benefit_Cargill.css",
+                        "audio": "media\/10.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "imgSrc": "image\/topic1\/source_to_pay_benefit_Cargill_1.png",
+                                "time": "17.6"
+                            },
+                            {
+                                "imgSrc": "image\/topic1\/source_to_pay_benefit_Cargill_2.png",
+                                "time": "28.5"
+                            },
+                            {
+                                "imgSrc": "image\/topic1\/source_to_pay_benefit_Cargill_3.png",
+                                "time": "38.2"
+                            }
+                        ],
+                        "image": "image\/topic1\/source_to_pay_benefit_Cargill_main.png",
+                        "transcript": [{
+                                "text": "<p>We just discussed the components of the Source-to-pay process. </p><p>But, how does it benefit Cargill? </p><p>Well, the Source-to-pay process supports the systematic collection and assessment of supplier information. This helps Cargill manage and assess supplier stability and risks. </p><p>Source-to-pay reduces the risks of working with new suppliers and helps Cargill to enhance contract visibility. It promotes efficient purchasing at the best possible terms. </p><p>Source-to-pay at Cargill simplifies the procurement process through compliance to regulatory guidelines and policies. </p><p>Take a look at our GPO policies that govern Source to Pay process at Cargill. </p><p>Click the link to view GPO policy.</p>",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Procurement",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/procurement_1.html",
+                        "style": "common\/style\/procurement_1.css",
+                        "audio": "media\/12_set01.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "images": [{
+                                "image": "image/topic1/procurement/DI.png",
+                                "class": "di",
+                                "tabText": "Direct & Indirect spend",
+                                "showCon":"TabC_1",
+                                "enable":"enable",
+                                "playAudio":"media\/12_set02.mp3",
+                                "color":"#009E92",
+                                "time": "25.5"
+                            },
+                            {
+                                "image": "image/topic1/procurement/NPF.png",
+                                "class": "npf",
+                                "tabText": "Non-PO / FI Invoices",
+                                "showCon":"TabC_2",
+                                "playAudio":"media\/12a.mp3",
+                                "color":"#008C86",
+                                "time": "26"
+                            },
+                            {
+                                "image": "image/topic1/procurement/PC.png",
+                                "class": "pc",
+                                "tabText": "Purchasing-Card (P-Card)",
+                                "showCon":"TabC_3",
+                                "playAudio":"media\/12b.mp3",
+                                "color":"#007C80",
+                                "time": "26.5"
+                            },
+                            {
+                                "image": "image/topic1/procurement/GIT.png",
+                                "class": "git",
+                                "tabText": "Global IT purchases",
+                                "showCon":"TabC_4",
+                                "playAudio":"media\/12c.mp3",
+                                "color":"#005E80",
+                                "time": "27"
+                            }
+                        ],
+                        "right_img": [{
+                            "image": "image/topic1/procurement/bgLeft.png",
+                            "class": "bgLeft",
+                            "time": "1"
+                        }],
+                        "tabContent": [{
+                                "title": "Direct spend refers to the purchase of materials that are directly incorporated into a product being manufactured. </br></br>Indirect spend refers to purchases of materials and services that support the daily operations of the business but do not get directly incorporated into a manufactured product.",
+                                "class":"rightTextLi TabC_1",
+                                "time": 8
+                            },{
+                                "title": "Non-PO / FI Invoices - Financial invoice is a type of invoice that relates to invoices or requests for payment that do not originate from the material or services procurement process. A financial invoice does not have a PO to match against. US Utilities (Gas, Electric, Water, Phone – excluding cell phones/pagers)Canada Utilities (Natural Gas, Electricity, Water, Telecommunications – excluding cell phones/pagers)",
+                                "list1": [
+                                    "Taxation payments",
+                                    "Workers compensation payments",
+                                    "Charitable donations",
+                                    "Licenses (USDA, kosher, FDA)",
+                                    "Legal & Contingent liability settlements Government charges (USDA, Import,",
+                                    "Export, OSHA)",
+                                    "American Express payments (via interface – no manual input)",
+                                    "Financial Settlements Internal and External (Futures / Options / CRM Pricing, Bank Payments)",
+                                    "Courier Services"
+                                ],
+                                "list2": [
+                                    "Intercompany allocations",
+                                    "Utilities (ECOVA)",
+                                    "Government Bidding Checks",
+                                    "Certification of Transport (COT) Prepayments",
+                                    "Customs Duties",
+                                    "Brokerage",
+                                    "Tax Only Invoices",
+                                    "Savings Plan Deductions",
+                                    "United Way Deductions",
+                                    "Customer Invoices/Deductions",
+                                    "Return of Recyclable Pallets",
+                                    "Credits for Recyclable Items",
+                                    "Council Payment",
+                                    "Legacy System Invoices"
+                                ],
+                                "class":"rightTextLi TabC_2",
+                                "time": 8
+                            },{
+                                "title": "Purchasing-Card, or P-Card, is a company or Business Unit charge card, which is used for accounts payable processing. It works in compliance to the P-card policy to purchase materials and services without the traditional purchase process.",
+                                "class":"rightTextLi TabC_3",
+                                "time": 8
+                            },{
+                                "title": "Global IT Purchases: These are purchases that are made through the Global IT function have a separate procurement process. Examples of these purchases are: software, computers, servers and other computer and networking hardware and software.",
+                                "class":"rightTextLi TabC_4",
+                                "time": 8
+                            }
+                        ],
+                        "group2": [{
+                                "title": "Procurement <br/>Process of buying and acquiring materials or services that business needs to operate efficiently.",
+                                "list": [
+                                    "Provides accurate spend visibility",
+                                    "Leverages Cargill’s spending power",
+                                    "Enforces contract compliance",
+                                    "Improves process efficiency"
+                                ],
+                                "class":"leftText",
+                                "time": 1
+                            }
+
+                        ],
+                        "transcript": [{
+                                "text": "<p>Procurement is the process of buying and acquiring materials or services that our business needs to operate efficiently. Procurement:</p><ul><li>Provides accurate spend visibility</li><li>Leverages Cargill’s spending power</li><li>Enforces contract compliance</li><li>Improves process efficiency</li></ul><p>Direct spend refers to the purchase of materials that are directly incorporated into a product being manufactured.</p><p>Whereas, Indirect spend refers to purchases of materials and services that support the daily operations of the business but do not get directly incorporated into a manufactured product.</p><p>In this course we will focus only on the procurement process for indirect spend.</p><p>In addition there are:</p><ul><li>Non-PO / FI Invoices</li><li>Purchasing-Card (P-Card)’</li><li>Global IT purchases</li></ul><p>Click each type of purchase spend to learn more.</p>",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "welcome",
+                        "scbTitle": "Cargill Strategic Sourcing & Procurement (CSSP)",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "title": "Procurement",
+                        "file": "common\/CSSP1.html",
+                        "style": "common\/style\/CSSP1.css",
+                        "audio": "media\/13.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "image": "image/topic1/procurement/iconGroup.png",
+                                "time": "11",
+                                "text":"<span>CSSP</span> determines the Procurement method of the <span>Indirect materials/services</span> at Cargill."
+                            }
+                        ],
+                        "image": "image/topic1/procurement/webBg.png",
+                        "transcript": [{
+                            "text": "<p>The Business determines what needs to be purchased, by when, and at what location the indirect materials/services must be delivered or completed. </p><p>Cargill Strategic Sourcing & Procurement (or CSSP) determines the procurement method of the indirect materials/services at Cargill.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "CSSP Overview",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/CSSP2.html",
+                        "style": "common\/style\/CSSP2.css",
+                        "audio": "media\/15.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "image": "image/topic1/cssp/bg.png",
+                        "text":"Cargill Strategic Sourcing and Procurement or CSSP is a function within Cargill that provides strategic sourcing of materials and services to Cargill businesses and functions. ",
+                        "block": [
+                            {
+                                "image": "image/topic1/cssp/ssa.png",
+                                "time": 40.9
+                            },
+                            {
+                                "image": "image/topic1/cssp/scn.png",
+                                "time": 29
+                            },
+                            {
+                                "image": "image/topic1/cssp/qms.png",
+                                "time": 36.1
+                            },
+                            {
+                                "image": "image/topic1/cssp/spp.png",
+                                "time": 32
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "<p>Cargill Strategic Sourcing and Procurement or CSSP is a function within Cargill that provides strategic sourcing of materials and services to Cargill businesses and functions.</p><p>CSSP is either directly involved in the procurement process or authorizes the business or function to manage the purchasing independently.</p><p>CSSP supports the delivery of:</p><ul><li>Strategic contract negotiation</li><li>Standardized procurement policies and procedures</li><li>Quality materials and services at a fair price</li><li>Select supplier agreements</li></ul><p>Where CSSP is managing the procurement process, a Buyer will work with the business and our select suppliers whenever possible to negotiate a fair price for the purchase with quality materials or services. </p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "Introduction",
+                        "title": "CSSP Overview",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/CSSP3.html",
+                        "style": "common\/style\/CSSP3.css",
+                        "audio": "media\/16.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Build strong supplier relationships",
+                                "list": [
+                                    "Promotes purchasing with Cargill preferred suppliers",
+                                    "Drives opportunities to increase supplier paid on time percentage"
+                                ],
+                                "time": 10.4
+                            },
+                            {
+                                "text": "Drive compliance and minimize risk",
+                                "list": [
+                                    "Ensures suppliers provide quality materials and services",
+                                    "Protects Cargill businesses from safety risks, operation issues and compliance fines and penalties"
+                                ],
+                                "time": 24.9
+                            },
+                            {
+                                "text": "Reduces unmanaged spend",
+                                "list": [
+                                    "Tracks unmanaged spend and analyze spending patterns",
+                                    "Increases managed spend enabling new catalogs and material and services master agreements",
+                                    "Minimizes business managed purchasing activity",
+                                    "Automates purchasing activities reducing manual steps",
+                                    "Provides user-friendly purchasing application to Cargill and suppliers"
+                                ],
+                                "time": 43.6
+                            },
+                            {
+                                "text": "Leverages negotiated pricing ",
+                                "list": [
+                                    "Offers competitive bidding services to Cargill businesses",
+                                    "Manages catalog and material and service master agreements"
+                                ],
+                                "time": 75
+                            }
+                        ],
+                        "image": "image/topic1/cssp/bg3.png",
+                        "transcript": [{
+                            "text": "<p>Now that you are familiar with the CSSP function, let’s see how it supports Cargill Businesses and Functions.</p><p>CSSP aims to build strong supplier relationships. </p><p>It: </p><ul><li> Promotes purchasing with Cargill select suppliers </li><li> Drives opportunities to increase supplier paid on time percentage </li></ul><p>Secondly, it helps drive compliance and minimize risk. </p><p>It:</p><ul><li> Ensures suppliers provide quality materials and services </li><li> Protects Cargill businesses from safety risks, operation issues and compliance fines and penalties </li></ul><p>In addition, CSSP reduces unmanaged spend. </p><p>It:</p><ul><li> Tracks unmanaged spend and analyze spending patterns </li><li> Increases managed spend enabling new catalogs and material and services master agreements </li><li> Minimizes business managed purchasing activity </li><li> Automates purchasing activities reducing manual steps </li><li> Provides user-friendly purchasing application to Cargill and suppliers </li></ul><p>It is also leverages negotiated pricing </p><ul><li> Offering competitive bidding services to Cargill businesses </li><li> Managing catalog and material and service master agreements </li></ul>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/17.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p> The key benefit of the CSSP function at Cargill is:</p>",
+                        "choices": [{
+                                "text": "Drive compliance and minimize risk",
+                                "correct": true
+                            },
+                            {
+                                "text": "Reduce and manage direct spend",
+                                "correct": false
+                            },
+                            {
+                                "text": "Build strong customer relationships",
+                                "correct": false
+                            },
+                            {
+                                "text": "Implement best practices",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "That’s not quite correct. <br/>The correct answer is A.<br/><br/> The answer is option “Drive compliance and minimize risk”",
+                            "correct": "That’s Correct! <br/>The key benefit of the CSSP function at Cargill is to drive compliance and minimize risk."
+                        },
+                        "image": "image\/topic1\/summary.png",
+                        "transcript": [{
+                            "text": "<p>Now, it’s time to check your knowledge. </p><p>Select an appropriate answer to the question given.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/summary.html",
+                        "audio": "media\/18.mp3",
+                        "style": "common\/style\/summary.css",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Source to Pay process ",
+                                "time": "3.5"
+                            },
+                            {
+                                "text": "Procurement",
+                                "time": "5"
+                            }
+                        ],
+                        "image": "image\/topic1\/summary.png",
+                        "transcript": [{
+                            "text": "<p>You have completed module 1, Source to Pay and Procurement.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            },
+            {
+                "title": "Module 2 - Introduction to Indirect Procurement",
+                "pages": [{
+                        "type": "welcome",
+                        "title": "Overview",
+                        "mainTitle": "Introduction to Indirect Procurement",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/21.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "What is Indirect Procurement",
+                                "time": "2.4"
+                            },
+                            {
+                                "text": "Indirect Procurement Process",
+                                "time": "3.4"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [{
+                            "text": "<p>Welcome to an introduction to Indirect Procurement.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "mainTitle": "Introduction to Indirect Procurement",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective2.css",
+                        "audio": "media\/22.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Discuss the Indirect (manual) purchasing process",
+                                "time": 3.7
+                            },
+                            {
+                                "text": "Describe the Indirect Procurement process flow",
+                                "time": 8.2
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_2.png",
+                        "transcript": [{
+                            "text": "<p>In this module, you will be introduced to the Indirect Procurement process.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Indirect Procurement",
+                        "subTitle": "Cargill Strategic<br/><span>Sourcing</span> & <span>Procurement</span>",
+                        "mainTitle": "Introduction to Indirect Procurement",
+                        "file": "common\/page13.html",
+                        "style": "common\/style\/page13.css",
+                        "audio": "media\/24.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "image":"image\/topic1\/mod2\/mod2_scr1.png",
+                        "para" : "Indirect procurement refers to the process of purchasing materials and services that keep Cargill running but are not directly linked to production and revenue generation. <br/><br/>Purchase requests for materials and services are manually created by the businesses and functions.",
+                        "block": [
+                            "Office equipment",
+                            "Repairing equipment",
+                            "Janitorial services",
+                            "Travel"
+                        ],
+                        "transcript": [{
+                            "text": "<p>The objectives of this module are to:<ul><li>Discuss the Indirect (manual) purchasing process </li><li>Describe the Indirect Procurement process flow</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": " Indirect Procurement",
+                        "subTitle": "<span>Category-Driven </span> Approach",
+                        "mainTitle": "Introduction to Indirect Procurement",
+                        "file": "common\/page17.html",
+                        "style": "common\/style\/page17.css",
+                        "audio": "media\/26.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "image":"image\/topic1\/mod2\/mod2_scr3.png",
+                        "para" : "Category-driven approach enables Cargill to:",
+                        "block": [
+                            "Examine the entire category spend on the use of the materials or services within the category Cross- functional team approach",
+                            "Make informed decisions on continuous improvement opportunities across our select suppliers, contracts, catalogs and other sourcing opportunities"
+                        ],
+                        "list": [
+                            {
+                                "name":"Packaging",
+                                "time": 17.6,
+                                "margin_right":"margin_right_0px"
+                            },
+                            {
+                                "name":"Ingredients",
+                                "time": 19.6,
+                                "margin_right":"margin_right_30px"
+                            },
+                            {
+                                "name":"Chemicals",
+                                "time": 21,
+                                "margin_right":"margin_right_64px"
+                            },
+                            {
+                                "name":"Energy",
+                                "time": 22.2,
+                                "margin_right":"margin_right_64px"
+                            },
+                            {
+                                "name":"Project Material & Services (PM&S)",
+                                "time": 24.1,
+                                "margin_right":"margin_right_30px"
+                            },
+                            {
+                                "name":"Corporate Materials & Services (CM&S)",
+                                "time": 29,
+                                "margin_right":"margin_right_0px"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "<p>Indirect procurement refers to the process of purchasing materials and services that keep Cargill running but are not directly linked to production and revenue generation.</p><p>Indirect procurement includes buying office equipment, repairing equipment, janitorial services, travel, and more; which allows Cargill to function efficiently and effectively.</p><p>At Cargill, purchase requests for materials and services are manually created by the businesses and functions.</p><p>These purchases are managed by CSSP.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": " Indirect Procurement Process",
+                        "mainTitle": "Introduction to Indirect Procurement",
+                        "file": "common\/pcw.html",
+                        "style": "common\/style\/pcw.css",
+                        "audio": "media\/28.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "imageList": [
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_1.png",
+                                "time": 1,
+                                "audio": "media\/28a.mp3",
+                                "link": "ordering"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_2.png",
+                                "time": 1.5,
+                                "audio": "media\/28b.mp3",
+                                "link": "approving"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_3.png",
+                                "time": 2,
+                                "audio": "media\/28b.mp3",
+                                "link": "approving"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_4.png",
+                                "time": 2.5,
+                                "audio": "media\/28c.mp3",
+                                "link": "receiving"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_5.png",
+                                "time": 3,
+                                "audio": "media\/28d.mp3",
+                                "link": "invoicing"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_6.png",
+                                "time": 3.5,
+                                "audio": "media\/28d.mp3",
+                                "link": "invoicing"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_7.png",
+                                "time": 4,
+                                "audio": "media\/28d.mp3",
+                                "link": "invoicing"
+                            }
+                        ],
+                       
+                        "pops": [
+                            {
+                                "label": "ordering",
+                                "list": [
+                                    "A Purchase request triggers the process.",
+                                    "The process begins with manual creation of a purchase requisition or the automatic creation of a purchase requisition from an approved Work Order."
+                                ],
+                                "color":"#BE531C"
+                            },
+                            {
+                                "label": "approving",
+                                "list": [
+                                    "The manual purchase requisition requires a needs approval, issued by the Cost Object Owner.",
+                                    "Subsequently, once the purchase requisition is approved, a purchase order is created and sent to the appropriate supplier for fulfillment. The purchase order will require an additional approval, the Business approval, if the total purchase price is above $5,000."
+                                ],
+                                "color":"#DAAA00"
+                            },
+                            {
+                                "label": "receiving",
+                                "list": [
+                                    "When the material or service is supplied from the vendor, the receipt of the goods or service is entered into the system."
+                                ],
+                                "color":"#658D1B"
+                            },
+                            {
+                                "label": "invoicing",
+                                "list": [
+                                    "The supplier then sends the invoice to Cargill.",
+                                    "The invoice is reconciled and payment is posted. The system compares what was ordered, to what was received, to what was billed by the supplier. If a discrepancy is identified, it is flagged and reported for investigation."
+                                ],
+                                "color":"rgb(39, 153, 137)"
+                            }
+                        ],
+                       
+                        "transcript": [{
+                            "text": "<p>The Indirect Procurement Process involves four main stages:<ul><li>Ordering</li><li>Approving</li><li>Receiving, and</li><li>Invoicing</li></ul><p>Let’s take a look at the process in detail.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "audio": "media\/29.mp3",
+                        "mainTitle": "Introduction to Indirect Procurement",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Indirect Procurement",
+                                "time": "4"
+                            },
+                            {
+                                "text": "Indirect Procurement Process",
+                                "time": "4.5"
+                            }
+                        ],
+                        "image": "image\/topic1\/summary.png",
+                       
+                        "transcript": [{
+                            "text": "<p>You have completed module 2 on the process of Indirect Procurement.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            },
+            {
+                "title": "Module 3 - Indirect Procurement Process at Cargill",
+                "pages": [{
+                        "type": "welcome",
+                        "title": "Overview",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/32.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Procurement Class Impact on Purchasing Process",
+                                "time": "4"
+                            },
+                            {
+                                "text": "Indirect Purchasing Process Flow using Procurement Classes",
+                                "time": "9"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [{
+                            "text": "<p>Welcome to the Indirect Procurement process at Cargill.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective2.css",
+                        "audio": "media\/33.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Discuss how Procurement Classes and Workflows impact <br/>the indirect procurement process",
+                                "time": 4.5
+                            },
+                            {
+                                "text": "Describe the detailed Indirect Procurement process flow including Procurement Classes",
+                                "time": 11.5
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_2.png",
+                        "transcript": [{
+                            "text": "<p>In this module, you will be introduced to:    <ul><li>Procurement Class Impact on Purchasing Process</li><li>Indirect Purchasing Process Flow using Procurement Classes</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Procurement class Impact on the Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct.html",
+                        "style": "common\/style\/pct.css",
+                        "audio": "media\/35.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block0":
+                            {
+                                "heading": "CSSP has introduced a set of Procurement Classes and associated approval workflows into our procurement process. The Procurement Class is selected during the creation of the purchase requisition or work order to categorize the spend type of each purchase.",
+                                
+                                "list" : [
+                                    {
+                                        "image":"image/topic1/mod3/Cart_1.png",
+                                        "image2":"image/topic1/mod3/Cart_1_1.png",
+                                        "text1":"Routes many purchase requests for automatic PO creation",
+                                        "text2":"Achieve a global procurement standard, focused on process excellence and improved compliance",
+                                        "time1":54,
+                                        "time2":11.4
+                                    },{
+                                        "image":"image/topic1/mod3/Cart_2.png",
+                                        "image2":"image/topic1/mod3/Cart_2_2.png",
+                                        "text1":"Purchase requests are quickly available to the supplier, speeding up the order fulfillment process",
+                                        "text2":"Enable touchless creation of many purchase order types",
+                                        "time1":60.3,
+                                        "time2":24.2
+                                    },{
+                                        "image":"image/topic1/mod3/Cart_3.png",
+                                        "image2":"image/topic1/mod3/Cart_3_3.png",
+                                        "text1":"Spends less time converting requests to POs; and spends more time in strategic negotiations with suppliers",
+                                        "text2":"Extend our strategic procurement approach, offer flexibility in our purchasing processes",
+                                        "time1":69.3,
+                                        "time2":30.5
+                                    },{
+                                        "image":"image/topic1/mod3/Cart_4.png",
+                                        "image2":"image/topic1/mod3/Cart_4_4.png",
+                                        "text1":"Increased usage of preferred supplier relationships; with better pricing and reduced risk for Cargill",
+                                        "text2":"Reduce risk across our indirect spend",
+                                        "time1":80.6,
+                                        "time2":37.2
+                                    }
+                                ]
+                            },
+                        "image": "image/topic1/mod3/mod3_scr_1.png",
+                        "image2": "image/topic1/mod3/mod3_scr_2.png",
+                        "transcript": [{
+                            "text": "<p>CSSP has introduced a set of Procurement Classes and associated approval workflows into our procurement process. </p><p>These capabilities help to achieve a global procurement standard, focused on process excellence and improved compliance within our Procure to Pay process. </p><p>The classes provide the tools Cargill needs to enable touchless creation of many purchase order types, extend our strategic procurement approach, offer flexibility in our purchasing processes, and reduce risk across our indirect spend.  </p><p>The Procurement Class is selected during the creation of the purchase requisition or work order to categorize the spend type of each purchase.</p><p>The assignment of certain Procurement Classes routes many purchase requests for automatic Purchase Order creation.</p><p>Automatic PO creation means our purchase requests are quickly available to the supplier, speeding up the order fulfillment process. In addition, the CSSP team spends less time converting requests to POs; and spends more time in strategic negotiations with suppliers. </p><p>This results in increased usage of preferred supplier relationships; with better pricing and reduced risk for Cargill.</p><p>The four procurement classes at Cargill are: </p><ul><li>Procurement Purchase, PP</li><li>Delegate Purchase Limit, DPL</li><li>DelegatePurchase Specific, DPS</li><li>Non-Compliant Spend, NCS</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Procurement class Impact on the Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct_split.html",
+                        "style": "common\/style\/pct.css",
+                        "audio": "media\/35a.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "heading":
+                                {
+                                    "main": "Procurement Purchase",
+                                    "sub": "(CSSP Managed)",
+                                    "color": "#005F86"
+                                },
+                                "image":"image/topic1/mod3/mod3_scr_1_splitLeft.png",
+                                "list_1" : [
+                                    "Outline Agreement",
+                                    "Catalog Buy",
+                                    "Spot Buy"
+                                ],
+                                "list_2" : [
+                                    "Auto &",
+                                    "Manual",
+                                    "PO"
+                                ],
+                                "time":"4.5",
+                                "para":"Purchases made exclusively by Procurement teams, which follow the regular purchasing process from beginning to end (requests, quotations, orders, and approvals)."
+                            },
+                            {
+                                "heading":
+                                    {
+                                        "main": "Delegate Purchase Limit",
+                                        "sub": "(Business Managed)",
+                                        "color": "#007681"
+                                    },
+                                "image":"image/topic1/mod3/mod3_scr_1_splitRight.png",
+                                "list_1" : [
+                                    "Purchases Under a",
+                                    "Specified Limit"
+                                ],
+                                "list_2" : [
+                                    "Automatic",
+                                    "PO"
+                                ],
+                                "time":"8.4",
+                                "para":"Purchases delegated by Procurement to authorized users and mainly to remote locations to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy."
+                            },
+                            {
+                                "heading":
+                                    {
+                                        "main": "Delegate Purchase Specific",
+                                        "sub": "(Business Managed)",
+                                        "color": "#279989"
+                                    },
+                                "image":"image/topic1/mod3/mod3_scr_1_splitLeft.png",
+                                "list_1" : [
+                                    "Purchases",
+                                    "Where CSSP",
+                                    "Elects Not to Engage"
+                                ],
+                                "list_2" : [
+                                    "Automatic PO"
+                                ],
+                                "time":"12.2",
+                                "para":"Purchasing authority delegated by Procurement to users within a business or function due to the need of a specific area of expertise, according to CSSP/Procurement policy."
+                            },
+                            {
+                                "heading":
+                                    {
+                                        "main": "Non-Compliant Spend",
+                                        "sub": "(Business Managed)",
+                                        "color": "#007681"
+                                    },
+                                "image":"image/topic1/mod3/mod3_scr_1_splitRight.png",
+                                "list_1" : [
+                                    "After-Hours",
+                                    "/ Emergency",
+                                    "Purchases"
+                                ],
+                                "list_2" : [
+                                    "Automatic PO"
+                                ],
+                                "time":"16.7",
+                                "para":"Purchases conducted directly by the stakeholder due to emergency item acquisition (material/service), that must be approved outside the normal process and a PO is created after-the-fact."
+                            }
+                        ],
+                        "image": "image/topic1/mod3/mod3_scr_1.png",
+                        "image2": "image/topic1/mod3/mod3_scr_2.png",
+                        "transcript": [{
+                            "text": "<p>CSSP has introduced a set of Procurement Classes and associated approval workflows into our procurement process. </p><p>These capabilities help to achieve a global procurement standard, focused on process excellence and improved compliance within our Procure to Pay process. </p><p>The classes provide the tools Cargill needs to enable touchless creation of many purchase order types, extend our strategic procurement approach, offer flexibility in our purchasing processes, and reduce risk across our indirect spend.  </p><p>The Procurement Class is selected during the creation of the purchase requisition or work order to categorize the spend type of each purchase.</p><p>The assignment of certain Procurement Classes routes many purchase requests for automatic Purchase Order creation.</p><p>Automatic PO creation means our purchase requests are quickly available to the supplier, speeding up the order fulfillment process. In addition, the CSSP team spends less time converting requests to POs; and spends more time in strategic negotiations with suppliers. </p><p>This results in increased usage of preferred supplier relationships; with better pricing and reduced risk for Cargill.</p><p>The four procurement classes at Cargill are: </p><ul><li>Procurement Purchase, PP</li><li>Delegate Purchase Limit, DPL</li><li>DelegatePurchase Specific, DPS</li><li>Non-Compliant Spend, NCS</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Procurement class Impact on the Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pctBenifits.html",
+                        "style": "common\/style\/pct.css",
+                        "audio": "media\/36.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "image2": "image/topic1/mod3/mod3_scr_2.png",
+                        "transcript": [{
+                            "text": "<p>Let’s look at how the Procurement Classes benefit Cargill.</p><p>The use of procurement classes help Cargill to:</p><ul><li>Identify the indirect spend that is managed by CSSP and that which is managed by the Business.</li><li>Simplify the ordering process and drive cost savings.</li><li>Reduce the time the CSSP team spends converting purchase requests to POs, and spend more time in strategic negotiations with suppliers. </li><li>Increase usage of preferred supplier relationships; reducing risk for Cargill</li></ul><p>Now, let’s take a deeper look at each of the classes to understand the purchase types they support.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": " Procurement Class Impact on Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct1.html",
+                        "style": "common\/style\/pct1.css",
+                        "audio": "media\/37.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "imgCss":"PP",
+                        "image": "image/topic1/mod3/PP.png",
+                        "block": [{
+                                "heading":
+                                {
+                                    "main": "Procurement Purchase",
+                                    "sub": "(CSSP Managed)",
+                                    "color": "PPcolor"
+                                },
+                                "image":"image/topic1/mod3/mod3_scr_1_splitLeft.png",
+                                "list_1" : [
+                                    "Outline Agreement",
+                                    "Catalog Buy",
+                                    "Spot Buy"
+                                ],
+                                "list_2" : [
+                                    "Auto &",
+                                    "Manual",
+                                    "PO"
+                                ],
+                                "para":"Purchases made exclusively by Procurement teams, which follow the regular purchasing process from beginning to end (requests, quotations, orders, and approvals)."
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "<p>The Procurement Purchase class, also known as the PP class, is managed by CSSP. CSSP directly manages the sourcing of PP purchases, driven by previously negotiated supplier contracts and electronic catalogs. </p><p>These PP purchase types enable automatic PO creation.</p><p>The other PP purchase type is the free text spot buy, or unsourced purchase, that CSSP negotiates on behalf of the Business at the time of need. </p><p>Here, the CSSP team manages the PO creation for the business to ensure the supplier provides the materials or services at a fair price and high level of quality.</p><p>All Requisitioners have access to create PP purchases.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": " Procurement Class Impact on Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct1.html",
+                        "style": "common\/style\/pct1.css",
+                        "audio": "media\/39.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "imgCss":"DPL",
+                        "image": "image/topic1/mod3/DPL.png",
+                        "block": [{},{
+                            "heading":
+                                {
+                                    "main": "Delegate Purchase Limit",
+                                    "sub": "(Business Managed)",
+                                    "color": "DPLcolor"
+                                },
+                            "image":"image/topic1/mod3/mod3_scr_1_splitRight.png",
+                            "list_1" : [
+                                "Purchases Under a",
+                                "Specified Limit"
+                            ],
+                            "list_2" : [
+                                "Automatic",
+                                "PO"
+                            ],
+                            "para":"Purchases delegated by Procurement to authorized users and mainly to remote locations to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy."
+                        }
+                        ],
+                        "transcript": [{
+                            "text": "<p>The Delegate Purchase Limit, or DPL purchase, is used when the Business knows the supplier, the price and the quantity of the materials or services they want to purchase. </p><p>In this case, the Business has already taken the time to manage the sourcing of the material or service and needs a purchase order to provide to the supplier. DPL purchases generate an automatic PO and offer the Business the flexibility to manage these purchases as long as the total amount of a DPL purchase does not exceed $5,000.</p><p>Access to DPL transactions is restricted. The Business makes the determination on which purchase requisitioners have access to process a DPL transaction.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": " Procurement Class Impact on Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct1.html",
+                        "style": "common\/style\/pct1.css",
+                        "audio": "media\/40.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "imgCss":"DPS",
+                        "image": "image/topic1/mod3/DPS.png",
+                        "block": [{},{},{
+                            "heading":
+                                {
+                                    "main": "Delegate Purchase Specific",
+                                    "sub": "(Business Managed)",
+                                    "color": "DPScolor"
+                                },
+                            "image":"image/topic1/mod3/mod3_scr_1_splitLeft.png",
+                            "list_1" : [
+                                "Purchases",
+                                "Where CSSP",
+                                "Elects Not to Engage"
+                            ],
+                            "list_2" : [
+                                "Automatic PO"
+                            ],
+                            "para":"Purchasing authority delegated by Procurement to users within a business or function due to the need of a specific area of expertise, according to CSSP/Procurement policy."
+                        }
+                        ],
+                        "transcript": [{
+                            "text": "<p>The DPS, Delegate Purchase Specific class, is a category of purchases where CSSP’s sourcing capabilities do not extend to a particular purchase type. So here, CSSP offers the Business the option to select the purchase as type DPS and manage the sourcing of the purchase. These purchases result in automatic PO creation from the PR.</p><p>DPS purchases do not have a specified dollar limit. Therefore, access to process DPS transactions is highly restricted. The Business and CSSP make the determination on which purchase requesters have access to the DPS procurement class.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": " Procurement Class Impact on Purchasing Process",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct1.html",
+                        "style": "common\/style\/pct1.css",
+                        "audio": "media\/38.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "imgCss":"NCS",
+                        "image": "image/topic1/mod3/NCS.png",
+                        "block": [{},{},{},{
+                            "heading":
+                                {
+                                    "main": "Non-Compliant Spend",
+                                    "sub": "(Business Managed)",
+                                    "color": "NCScolor"
+                                },
+                            "image":"image/topic1/mod3/mod3_scr_1_splitRight.png",
+                            "list_1" : [
+                                "After-Hours",
+                                "/ Emergency",
+                                "Purchases"
+                            ],
+                            "list_2" : [
+                                "Automatic PO"
+                            ],
+                            "para":"Purchases conducted directly by the stakeholder due to emergency item acquisition (material/service), that must be approved outside the normal process and a PO is created after-the-fact."
+                        }
+                        ],
+                        "transcript": [{
+                            "text": "<p>The NCS, Non-Compliant Spend class is reserved for processing POs on material and service requests that are already complete; such as in the case of an after-hours or emergency purchase</p><p>In this case, CSSP is unable to source or negotiate the purchase as it is already delivered or complete. </p><p>Here, the Business managed the purchase and needs a PO created to catch-up the system. Using an NCS class on a purchase requisition leads to automatic PO creation. In addition, the PO contains text to the supplier, instructing them not to ship the material or schedule the services for this purchase.</p><p>All Requisitioners have access to create NCS purchases.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Procurement Classes Workflow",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pct2.html",
+                        "style": "common\/style\/pct2.css",
+                        "audio": "media\/41.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "image_1": "image/topic1/mod3/mod3_scr_3_1.png",
+                        "image_2": "image/topic1/mod3/mod3_scr_3_2.png",
+                        "image_3": "image/topic1/mod3/mod3_scr_3_3.png",
+                        "image_4": "image/topic1/mod3/mod3_scr_3_4.png",
+                        "imageList": [
+                            {"source":"image/topic1/mod3/flowChart/0.png","time":4.6},
+                            {"source":"image/topic1/mod3/flowChart/1.png","time":10},
+                            {"source":"image/topic1/mod3/flowChart/2.png","time":10.5},
+                            {"source":"image/topic1/mod3/flowChart/3.png","time":11},
+                            {"source":"image/topic1/mod3/flowChart/4.png","time":11.5},
+                            {"source":"image/topic1/mod3/flowChart/5.png","time":22.7},
+                            {"source":"image/topic1/mod3/flowChart/6.png","time":40.3},
+                            {"source":"image/topic1/mod3/flowChart/7.png","time":44},
+                            {"source":"image/topic1/mod3/flowChart/8.png","time":58},
+                            {"source":"image/topic1/mod3/flowChart/9.png","time":84.6},
+                            {"source":"image/topic1/mod3/flowChart/10.png","time":90.9},
+                            {"source":"image/topic1/mod3/flowChart/11.png","time":94.9},
+                            {"source":"image/topic1/mod3/flowChart/12.png","time":111.2},
+                            {"source":"image/topic1/mod3/flowChart/13.png","time":118.5}
+                        ],
+                        "para_1" : "* The PO Business Approval is only required if the price on the PO differs from the price approved on the PR.",
+                        "para_2" : "* **This approval ensures the sourcing of the goods or services followed the correct procurement process.                        ",
+                        "transcript": [{
+                            "text": "<p>The Procurement class is selected during the creation of a purchase requisition or work order using the SAP Purchasing Group field. The selected class determines the PR to PO approval workflow for the purchase. </p><p>You’ll notice that all purchases, regardless of the Procurement Class, require a Needs approval by the cost object owner. In the case of the NCS, DPS, DPL and PP contract and catalog classes, once the Needs approval is complete, the PR is ready for automatic PO creation. If the total PO amount exceeds $5,000 a Business approval will be required before the PO is sent to the supplier.</p><p>In the case of the NCS purchase, an email is sent a designated resource of the Business providing them with awareness to the non-compliant spend once the PO is created.</p><p>The remaining purchase type, the PP Spot Buy, also called unsourced or free text, is routed to the CSSP procurement team for supplier selection and purchase order creation. If the PR amount is greater than $5,000, a Business Approval is required on the PR before CSSP begins the sourcing process. Once the PO is created, it is sent to the supplier for order fulfillment.</p><p>It is important to note that if the PP spot buy purchase order price changes during the CSSP sourcing process, a second Business approval will be required on the PO if it’s over $5,000. </p><p>Finally, if the PP spot buy purchase order price is above $10,000, then CSSP will review and approve the purchase to ensure it complies with the procurement procedures designated for the purchase, before sending the PO to the supplier. </p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Indirect Procurement Process with Procurement Class",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/pcw2.html",
+                        "style": "common\/style\/pcw.css",
+                        "audio": "media\/42_set01.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "imageList": [
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_1.png",
+                                "time": 1,
+                                "audio": "media\/42_set02.mp3",
+                                "link": "ordering"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_2.png",
+                                "time": 2,
+                                "audio": "media\/42_set03.mp3",
+                                "link": "approving"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_3.png",
+                                "time": 2,
+                                "audio": "media\/42_set03.mp3",
+                                "link": "approving"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_4.png",
+                                "time": 3,
+                                "audio": "media\/28c.mp3",
+                                "link": "receiving"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_5.png",
+                                "time": 4,
+                                "audio": "media\/28d.mp3",
+                                "link": "invoicing"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_6.png",
+                                "time": 4,
+                                "audio": "media\/28d.mp3",
+                                "link": "invoicing"
+                            },
+                            {
+                                "path": "image/topic1/mod2/mod2_scr4_7.png",
+                                "time": 4,
+                                "audio": "media\/28d.mp3",
+                                "link": "invoicing"
+                            }
+                        ],
+                       
+                        "pops": [
+                            {
+                                "label": "ordering",
+                                "list": [
+                                    "The manual creation of a purchase requisition or work order requires the selection of a procurement class using the Purchasing Group field."
+                                ],
+                                "color":"#BE531C"
+                            },
+                            {
+                                "label": "approving",
+                                "list": [
+                                    "Once the Needs Approval is completed by the Cost Object Owner, the procurement class directs the PR to PO conversion workflow of the requisition.",
+                                    "If the PR is NCS, DPS, DPL or PP contract or catalog, The PR is processed for automatic PO creation after Needs approval. If the PR is over $5,000 it requires a Business Approval before the PO is sent to the supplier.",
+                                    "Remember, if its a PP Spot Buy, The PR is sent to CSSP for sourcing and PO creation. The PR may require a Business Approval before CSSP sourcing begins, if total PR amount is over $5,000. If the PO for a PP purchase is over $10,000, the PO requires a Procurement Approval before it is sent to the supplier."
+                                ],
+                                "color":"#DAAA00"
+                            },
+                            {
+                                "label": "receiving",
+                                "list": [
+                                    "When the material or service is supplied from the vendor, the receipt of the goods or service is entered into the system."
+                                ],
+                                "color":"#658D1B"
+                            },
+                            {
+                                "label": "invoicing",
+                                "list": [
+                                    "The supplier then sends the invoice to Cargill.",
+                                    "The invoice is reconciled and payment is posted. The system compares what was ordered, to what was received, to what was billed by the supplier. If a discrepancy is identified, it is flagged and reported for investigation."
+                                ],
+                                "color":"rgb(39, 153, 137)"
+                            }
+                        ],
+                       
+                        "transcript": [{
+                            "text": "<p>Let’s revisit the Indirect Procurement Process we discussed earlier in the course and add in some detail on where Procurement Classes impact this process.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/43.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>Which Procurement Class at Cargill  is directly managed by CSSP ?</p>",
+                        "choices": [{
+                                "text": "PP, Procurement Purchase",
+                                "correct": true
+                            },
+                            {
+                                "text": "NCS, Non-Compliant Spend",
+                                "correct": false
+                            },
+                            {
+                                "text": "DPS, Delegate Purchase Specific",
+                                "correct": false
+                            },
+                            {
+                                "text": "DPL, Delegate Purchase Limit",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "That’s not quite correct. <br/>The correct answer is A. The answer is PP, Procurement Purchase. ",
+                            "correct": "That’s Correct! <br/>The Procurement Purchase (PP) procurement class at Cargill is directly managed by CSSP."
+                        },
+                        "image": "image\/topic1\/summary.png",
+                        "transcript": [{
+                            "text": "<p>Now, it’s time to check your knowledge. </p><p>Select an appropriate answer to the question given.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary3.css",
+                        "audio": "media\/44.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Procurement Class Impact on Purchasing Process",
+                                "time": "5.8"
+                            },
+                            {
+                                "text": "Indirect Purchasing Process Flow using Procurement Classes",
+                                "time": "6.5"
+                            }
+                        ],
+                        "image": "image\/topic1\/summary.png",
+                        "transcript": [{
+                            "text": "<p>You have now come to the end of this module.</p><p>You have been introduced to the Indirect Procurement process at Cargill.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            }
+        ]
+    }
+}

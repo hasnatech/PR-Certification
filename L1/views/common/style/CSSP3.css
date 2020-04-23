@@ -1,0 +1,23 @@
+.text_image {
+	margin-left: 60px;
+	margin-right: 180px;
+}
+.text_content{
+    padding: 20px;
+    margin-right:-100px;
+    margin-top: 100px;
+}
+
+.square_bullet {
+	line-height: 19px;
+}
+
+li {
+	margin: -5px;
+}
+
+
+p {
+	margin-top: 37px;
+	margin-bottom: 5px;
+}

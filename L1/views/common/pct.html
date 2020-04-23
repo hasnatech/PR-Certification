@@ -1,0 +1,22 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page13">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12" id="firstSeg" style="display: block; padding: 0 120px;">
+                    <p class="animate" data-time="0.5">{{page.block0.heading}}</p>
+                    <div class="animate carts" ng-repeat="block in page.block0.list" data-time="{{block.time2}}">
+                        <img class="bgColor" ng-src="{{block.image}}">
+                        <img class="animate bgCart" data-time="{{block.time1}}" ng-src="{{block.image2}}">
+                        <span class="upTxt animate" style="opacity: 0" data-time="{{block.time1}}">{{block.text1}}</span>
+                        <span class="downTxt animate" data-time="{{block.time2}}">{{block.text2}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        syncAudio($(".animate"));
+    });
+</script>

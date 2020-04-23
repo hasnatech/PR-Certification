@@ -1,0 +1,252 @@
+.centerBg {
+	width: 529px;
+}
+
+.col-12.rightSec {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.inner4 {
+	position: absolute;
+	top: 0;
+	width: 460px;
+}
+
+.inner4.inner4_0 {
+	left: 167px;
+}
+.inner4.inner4_1 {
+	left: 640px;
+}
+.inner4.inner4_2 {
+	left: 230px;
+	top: 210px;
+}
+.inner4.inner4_3 {
+	left: 680px;
+	top: 190px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: left;
+	width: 130px;
+	font-size: 14px;
+}
+
+.inner4 .header {
+	position: relative;
+	z-index: 100;
+	top: 10px;
+}
+
+.inner4 .header span {
+	display: block;
+	text-align: center;
+}
+
+.ulHolder {
+	position: absolute;
+	top: 80px;
+}
+.inner4_0 .ulHolder {
+	right: 190px;
+}
+
+.ulHolder_1 .ul_1, .ulHolder_3 .ul_1 {
+	text-align: left;
+	/* margin-left: 20px; */
+	left: 14px;
+	top: -6px;
+}
+.ulHolder_1 .ul_2, .ulHolder_3 .ul_2 {
+	left: 15px;
+	top: 72px;
+}
+.inner4 p {
+	position: absolute;
+}
+.inner4_0 p, .inner4_2 p {
+	right: 190px;
+	text-align: right;
+	padding: 0 20px;
+	top: 76px;
+	font-size: 15px;
+}
+.inner4_1 p, .inner4_3 p {
+	left: 171px;
+	text-align: left;
+	padding: 0 20px;
+	top: 76px;
+	font-size: 15px;
+}
+
+.ulHolder img {
+	position: absolute;
+}
+
+.inner4 .header span.mainHead {
+    font-size: 20px;
+}
+
+.inner4_1 .header span, .inner4_3 .header span {
+    text-align: center;
+}
+
+.ulHolder_2 .ul_1, .ulHolder_4 .ul_1 {
+	text-align: right;
+	left: -50px;
+	top: 5px;
+}
+.ulHolder_2 .ul_2, .ulHolder_4 .ul_2 {
+	left: -50px;
+	top: 78px;
+}
+.inner4_1 .ulHolder, .inner4_3 .ulHolder {
+	left: 77px;
+}
+
+.inner4_2 .ulHolder {
+	right: 190px;
+}
+
+.inner4_3 .header span {
+	padding-left: 40px;
+}
+
+
+.inner4_2 .header span {
+	padding-right: 40px;
+}
+
+.inner4.inner4_3 {
+	left: 642px;
+	top: 280px;
+}
+
+.inner4.inner4_2 {
+	left: 165px;
+	top: 278px;
+}
+
+.ulHolder_4 .ul_1 {
+	top: -6px;
+}
+.ulHolder_4 .ul_2 {
+	left: -6px;
+}
+
+.ulHolder_2 .ul_2 {
+	left: -50px;
+	top: 78px;
+	text-align: right;
+}
+
+.carts {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.carts img {
+	height: 483px;
+}
+.upTxt {
+	position: absolute;
+	left: 0px;
+	top: 90px;
+	padding: 0 60px;
+	font-size: 13px;
+}
+.downTxt {
+	position: absolute;
+	top: 260px;
+	left: 0;
+	color: #fff;
+	padding: 0 40px;
+	/* text-align: left; */
+	font-size: 15px;
+}
+
+#firstSeg p {
+	font-size: 14px;
+	margin: 10px 0 30px;
+}
+
+#thirdSeg .centerBg {
+	width: 783px;
+}
+
+#thirdSeg .rightSec {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.animate.centerBg {
+	width: 250px;
+	position: fixed;
+}
+
+.cBorder {
+	position: fixed;
+	left: 90px;
+	right: 90px;
+	top: 160px;
+	bottom: 60px;
+	border: 2px solid #005f86;
+	border-radius: 30px;
+		left: 210px\0;
+		right: 210px\0;
+		top: 210px\0;
+		bottom: 123px\0;	
+}
+
+.menu ul {
+	width: 58px;
+}
+
+.PP {
+	right: 90px; bottom: 60px;
+	right: 210px\0; bottom: 123px\0;
+}
+.DPL {
+	left: 90px; bottom: 60px;
+	left: 210px\0; bottom: 123px\0;
+}
+.DPS {
+	right: 90px; top: 159px;
+	right: 210px\0; top: 211px\0;
+}
+.NCS {
+	left: 90px; top: 159px;
+	left: 210px\0; top: 211px\0;
+}
+
+.PPcolor.mainHead {
+	color:#005F86;
+}
+.DPLcolor.mainHead {
+	color:#007681;
+}
+.DPScolor.mainHead {
+	color:#279989;
+}
+.NCScolor.mainHead {
+	color:#007681;
+}
+
+.PPcolor.cBorder {
+	border-color:#005F86;
+}
+.DPLcolor.cBorder {
+	border-color:#007681;
+}
+.DPScolor.cBorder {
+	border-color:#279989;
+}
+.NCScolor.cBorder {
+	border-color:#007681;
+}

@@ -1,0 +1,30 @@
+<section class="sec" data-current="{{curr_page}}"
+	style="background-image: url('{{page.image}}'); background-position: left;">
+	<div class="welcome">
+		<div class="container full-height">
+			<div class="row center_screen">
+				<p class="animate" data-time="1">{{page.text}}</p>
+				<!-- <img id="img_{{$index}}" class="animate" data-time="2" ng-src="{{page.image}}"/> -->
+				<div class="col-12" ng-repeat="b in page.block">
+					<img id="img_{{$index}}" class="animate" data-time="{{b.time}}" ng-src="{{b.image}}"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+	$().ready(function () {
+		var margin = ($("#welcome_ul li").length - 1) * 20;
+		$("#welcome_ul li").each(function () {
+			$(this).css("margin-left", margin)
+			margin -= 20;
+		})
+		anime({
+			targets: '.sec',
+			backgroundPosition: ['10% 0%', '0% 0%'],
+			opacity:[0, 1],
+			duration: 2000
+		});
+		syncAudio($(".animate"));
+	});
+</script>

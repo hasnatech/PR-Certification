@@ -1,0 +1,79 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page9">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12">
+                        <span class="instruction animate" data-time="24.5">Click each purchase spend to learn more.</span>
+                    <br>
+                    <div class="row">
+                        <div class="col-5" style="transform: translateX(40px);">
+                            <div class="col-sm-12">
+                                    <div class="flow2">
+                                        <div ng-repeat="item in page.right_img" class="animate img" data-time="{{item.time}}"
+                                            id="img5">
+                                            <img ng-src="{{item.image}}" class="{{item.class}}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="group2">
+                                        <div ng-repeat="item in page.group2" class="animate grp" data-time={{item.time}}>
+                                            <div class="title" ng-bind-html="item.title | to_trusted"></div>
+                                            <ul class="circle" class="{{item.class}}">
+                                                <li ng-repeat="i in item.list">{{i}}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-7" style="transform: translateX(40px);">
+                            <div class="col-sm-12">
+                                <div class="flow">
+                                    <div ng-repeat="item in page.images" class="animate img tabPart" data-time={{item.time}}
+                                        id="img{{$index}}">
+                                        <div class="{{item.class}} clickTabs" data-color="{{item.color}}" data-audio="{{item.playAudio}}" data-content="{{item.showCon}}" ng-init="$('.di').click();"><span class="text">{{item.tabText}}</span><span class="activeBottom"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="tabContentHold group animate" data-time="25">
+                                    <div class="borderBg"></div>
+                                    <div class="contentTitle {{item.class}}" ng-repeat="item in page.tabContent">
+                                        <div class="title" ng-bind-html="item.title | to_trusted"></div>
+                                        <div class="ulContent">
+                                            <ul class="circle grp">
+                                                <li ng-repeat="i in item.list1">{{i}}</li>
+                                            </ul>
+                                        </div>
+                                        <div class="ulContent">
+                                            <ul class="circle grp">
+                                                <li ng-repeat="i in item.list2">{{i}}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+
+        syncAudio($(".animate"));
+
+        $(document).on('click','.clickTabs',function(){
+            $('.clickTabs').children('.activeBottom').removeClass('enable');
+            $(this).children('.activeBottom').addClass('enable');
+            $('.contentTitle').hide();
+            $('.'+$(this).attr('data-content')).show();
+            $('.tabContentHold').show().css('background',$(this).attr('data-color'));
+            $('.borderBg').show().css('border-color',$(this).attr('data-color'));
+            if($(this).attr('data-audio') != '');
+            playAudio($(this).attr('data-audio'));
+        });
+    });
+</script>

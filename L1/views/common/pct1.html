@@ -1,0 +1,34 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page13">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12">
+                    <div class="cBorder animate {{block.heading.color}}" ng-repeat="block in page.block" data-time="1"></div>
+                    <img class="animate centerBg {{page.imgCss}}" data-time="1" ng-src="{{page.image}}"/>
+                    <div style="left: 380px;top: 135px;" class="animate inner4 inner4_{{$index}}" ng-repeat="block in page.block" data-time="2">
+                        <div class="header">
+                            <span class="mainHead {{block.heading.color}}">{{block.heading.main}}</span>
+                            <span>{{block.heading.sub}}</span>
+                        
+                        </div>
+                        <div class="ulHolder ulHolder_{{$index+1}}">
+                            <ul class="ul_{{$parent.$index+1}}">
+                                <li ng-repeat="list_1 in block.list_1">{{list_1}}</li>
+                            </ul>
+                            <img ng-src="{{block.image}}">
+                            <ul class="ul_{{$parent.$index+2}}">
+                                <li ng-repeat="list_2 in block.list_2">{{list_2}}</li>
+                            </ul>
+                        </div>
+                        <p>{{block.para}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        syncAudio($(".animate"));
+    });
+</script>

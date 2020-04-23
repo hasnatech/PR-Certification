@@ -1,0 +1,36 @@
+<section class="sec" data-current="{{curr_page}}">
+	<div class="objective">
+			<div class="container full-height">
+			<div class="row center_screen">
+					<div class="col-12 tittle">
+						<h2 class="animate" data-time="0" style="color: transparent">{{page.title}}</h2>
+						</div>
+			</div>
+			<div class="center_screen">
+					
+				<div class="objectives objective_{{$index}}" ng-repeat="b in page.block">
+					<img class="animate" data-time="{{b.time}}" src="{{b.image}}"></img>
+					<div id="heading_{{$index}}" class="animate heading" ng-bind-html="b.heading | to_trusted" data-time="{{b.time}}"></div>
+					<div id="text_{{$index}}" class="text animate" ng-bind-html="b.text | to_trusted" data-time="{{b.time2}}"></div>
+				</div>
+				<img id="obj_image" ng-src="{{page.image}}" class="img_animate position"></div>
+			</div>
+		</div>
+</section>
+<script>
+		$().ready(function () {
+		
+			syncAudio($(".animate"));
+
+			// anime({
+			// 	targets: '.animate',
+			// 	translateX: [50, 0],
+			// 	opacity:[0, 1],
+			// 	delay: function(el, i, l) {
+			// 		var time = getMilliSecond($(el).attr("data-time"));
+			// 		return time;
+			// 	},
+			// 	duration: 1000
+			// });
+		});
+	</script>

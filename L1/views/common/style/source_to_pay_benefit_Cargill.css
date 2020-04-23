@@ -1,0 +1,35 @@
+#obj_image {
+	position: absolute;
+	top: -130px;
+	left: 50px;
+	margin: 0;
+	height: auto;
+}
+
+h2.animate.ng-binding {
+	font-size: 20px;
+	margin-top: -180px;
+}
+
+#obj_image_0, #obj_image_1, #obj_image_2 {
+    float: left;
+    margin-left: 20px;
+}
+
+.img3holder div {
+	float: left;
+	width: 250px;
+}
+
+.img3holder {
+	position: absolute;
+	top: 140px;
+}
+
+a {
+	position: absolute;
+	left: 850px;
+	top: -175px;
+	color: #2a2a2a;
+	font-size: 14px;
+}

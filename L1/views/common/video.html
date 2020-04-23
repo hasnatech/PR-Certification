@@ -1,0 +1,29 @@
+<section class="white_bg">
+    <div data-current="{{curr_page}}">
+        <div class="row">
+            <video autoplay>
+                <source src="{{page.video}}"
+                        type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+            <img src="{{page.image}}">
+            <div class="Heading"><span class="animate" data-time="{{page.time}}">{{page.heading}}</span></div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    $().ready(function () {
+		anime({
+            targets: '.animate',
+            translateX: [50, 0],
+            opacity:[0, 1],
+            delay: function(el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });
+	});
+</script>

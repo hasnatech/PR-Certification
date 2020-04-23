@@ -1,0 +1,70 @@
+.objective{
+    width: 100%;
+    position: relative;
+}
+.col-12.tittle {
+    top: -140px;
+}
+.objectives {
+    position: absolute;
+    width: 500px;
+}
+
+.objective_0 {
+	top: 40px;
+	left: 430px;
+}
+.objective_1 {
+	top: 155px;
+    left: 506px;
+}
+.objective_2 {
+	top: 266px;
+	left: 530px;
+}
+.objective_3 {
+	top: 390px;
+	left: 505px;
+}
+.objective_4 {
+	top: 499px;
+	left: 430px;
+}
+
+#obj_image {
+	margin: auto -100px;
+	height: 580px;
+}
+
+.objectives .text {
+	font-size: 13px;
+	line-height: 16px;
+	margin-top: 2px;
+}
+
+.heading {
+	font-weight: bold;
+}
+
+#heading_0 {
+    color: #008c86;
+}
+#heading_1 {
+    color: #b9531c;
+}
+#heading_2 {
+    color: #a6a820;
+}
+#heading_3 {
+    color: #007c80;
+}
+#heading_4 {
+    color: #d5a500;
+}
+
+.objectives img {
+	position: absolute;
+	left: -17px;
+	top: -12px;
+	width: 210px;
+}
