@@ -1,0 +1,39 @@
+<section class="sec" data-current="{{curr_page}}" style="background-image: url('{{page.image}}')">
+    <div class="text_image">
+        <div class="full-height">
+            <div class="row center_screen">
+                <div class="col-6">
+                    <div class="white_bg text_content">
+                        <h2 class="animate" data-time="0">{{page.title}}</h2>
+                        <div class="numbers">
+                            <li ng-repeat="b in page.block"> <img src="image/shell/green/summary{{$index+1}}.png" alt=""></li>
+                        </div>
+                        <ul class="text">
+                            <li class="animate" ng-repeat="b in page.block" data-time="{{b.time}}">
+                                <p ng-bind-html="b.text | to_trusted"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //alert("I am here")
+
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+        syncAudio($(".animate"), "bottomToTop");
+    });
+</script>

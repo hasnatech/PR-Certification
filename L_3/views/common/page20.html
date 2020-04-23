@@ -1,0 +1,79 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="full-height">
+        <div class="container">
+            <div class="row align_top">
+                <div class="page20">
+                    <p>The following systems enable our procurement activities along each step of the process: </p>
+                    <div class="row" ng-repeat="row in page.block">
+                        <div class="col-sm-2" ng-repeat="item in row">
+                            <div class="square animate clk_img {{item.description ? 'clickable button' : ''}}" data-id="{{item.id}}" data-description="{{item.description}}"
+                                data-time="{{item.time}}" data-audio="{{item.audio}}" ng-if="item.text != 'empty'" ng-bind-html="item.text | to_trusted">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="description"></div>
+                        </div>
+                    </div>
+                    <div class="note button animate" style="display: none;" data-time="" data-description="{{page.note.desc}}">
+                        {{page.note.title}}
+                    </div>
+                    <div class="pointer">
+                        <div class="point"><img src="image/topic/slide15_point1.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point2.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point3.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point4.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point5.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point6.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point7.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point8.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point9.png" alt=""></div>
+                        <div class="point"><img src="image/topic/slide15_point10.png" alt=""></div>                         
+                    </div>
+                    <div class="instruction animate" data-time="7">{{page.note.instruction}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        $(".note").draggable();
+        $(".point").hide();
+        $(".description").hide();
+                            
+        $(".square").click(function () {
+            $(".square:contains(SAP)").removeClass("note_highlight");
+            console.log($(this).attr("data-id") +" = " +  $(".point").eq($(this).attr("data-id")).find("img").attr("src"));
+            $(".point").hide();
+            $(".point").eq($(this).attr("data-id")).show();
+            $(".description").fadeIn(100);
+            if($(this).text() == 'SAP '){
+                $('.note').fadeIn();
+            }
+            if($(this).attr("data-description") != "")
+                $(".description").html($(this).attr("data-description"));
+        });
+        $(".note").click(function () {
+            $(".square:contains(SAP)").addClass("note_highlight");
+            $(".description").fadeIn(100);
+            $(".description").html($(this).attr("data-description"));
+            $(".point").hide();
+        });
+            anime({
+				targets: '.animate',
+				translateY: [50, 0],
+				opacity:[0, 1],
+				delay: function(el, i, l) {
+					var time = getMilliSecond($(el).attr("data-time"));
+					return time;
+				},
+                duration: 1000
+            });
+            $(document).on('click','.clk_img',function(){
+                var audioSrc = $(this).attr('data-audio');
+                playAudio(audioSrc);
+            });
+    });
+</script>

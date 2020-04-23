@@ -1,0 +1,39 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page14">
+        <div class="full-height p-10">
+            <div class="row align_top">
+                <div ng-repeat="item in page.block" class="col-6 animate" data-time="{{item.time}}">
+                    <div class="panel {{item.class}}">
+                        <h3>{{item.title}}</h3>
+                        <div class="row">
+                            <div class="col-5">
+                                <img ng-src="{{item.image}}" alt="">
+                            </div>
+                            <div class="col-7">
+                                <div class="txt" ng-bind-html="item.text | to_trusted"></div>
+                            </div>
+                        </div>
+                        <p>{{item.note}}</p>
+                        <div>
+                            <img ng-src="{{item.screen}}" class="full_width" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });
+    });
+</script>

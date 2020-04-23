@@ -1,0 +1,78 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page14">
+        <div class="full-height p-10">
+            <div class="row align_top">
+                <div class="col-12">
+                    <p class="inst">{{page.text.instr}}</p>
+                    <div class="animate item" data-time="0">
+                        <img ng-src="{{page.text.image}}" alt="">
+                        <div class="pointers">
+                            <div class="animate point" ng-repeat="item in page.pointer" data-time="{{item.time}}"
+                                data-left="{{item.position.x}}px" data-top="{{item.position.y}}px">
+                                <div class="point_img" data-audio="{{item.audio}}"><img src="image/topic1/pointer_visited.png" alt=""></div>
+                                <div class="title">
+                                    <div class="arr"><img src="image/topic1/arrow.png" alt=""></div>
+                                    {{item.title}}
+                                </div>
+                                <div class="content">
+                                    <div class="txt">
+                                        {{item.content}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        $(".pointers .point").each(function () {
+            var x = $(this).attr("data-left");
+            var y = $(this).attr("data-top");
+            $(this).css("left", x);
+            $(this).css("top", y);
+        })
+        $(".pointers .title").each(function () {
+            var w = $(this).outerWidth();
+            //console.log(w / 2);
+            //$(this).css("margin-left", -w/2 - 5);
+        })
+
+        /*$(".point_img").hover(function () {
+            $(this).find("img").attr("src", "image/topic1/pointer.png");
+            $(this).parent().find(".title").fadeIn(300);
+            $(this).parent().find(".content").fadeIn(300);
+        }, function () {
+            $(this).find("img").attr("src", "image/topic1/pointer_visited.png");
+            $(this).parent().find(".title").fadeOut(100);
+            $(this).parent().find(".content").fadeOut(100);
+        })*/clearInterval
+        $(".point_img").click(function () {
+            $(".page14 .title").fadeOut(0);
+            $(".page14 .content").fadeOut(0);
+
+            $(this).find("img").attr("src", "image/topic1/pointer.png");
+            $(this).parent().find(".title").fadeIn(300);
+            $(this).parent().find(".content").fadeIn(300);
+            playAudio($(this).attr("data-audio"));
+        });
+        /*$(".point_img").click(function () {
+            $(".pointers .content").hide();
+           
+        })*/
+
+        anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });
+    });
+</script>

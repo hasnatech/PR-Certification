@@ -1,0 +1,62 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="full-height">
+        <div class="container">
+            <div class="row align_top">
+                <div class="page21">
+                    <p class="animate" style="position: absolute;bottom: 4px;left: 100px;" data-time="11.3">{{page.text}}</p>
+
+                    <div class="row">
+                        <div class="col-sm-3 animate" ng-repeat="b in page.block.icons" data-time="{{b.time}}">
+                            <div class="text-center clk_img img" data-audio="{{b.audio}}"><img ng-src="{{b.image}}" alt=""></div>
+                            <div class="title text-center">
+                                <p>{{b.title}}</p>
+                            </div>
+                            <div class="desc">
+                                <p ng-bind-html="b.description | to_trusted"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p class="others new" ng-bind-html="page.block.other.content.extra | to_trusted"></p>
+                    <div class="others">
+                        <div class="title">
+                            <p class="txt text-center">{{page.block.other.title.text}}</p>
+                        </div>
+                        <p ng-bind-html="page.block.other.content.text | to_trusted"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $().ready(function () {
+            $(".desc").fadeOut();
+            $(".others").fadeOut();
+            $(".img").click(function () {
+                $(".desc").fadeOut();
+                $(this).parent().find(".desc").fadeIn(500);
+                if ($(this).parent().index() == 3) {
+                    $(".others").fadeIn(500);
+                } else {
+                    $(".others").fadeOut();
+                }
+            });
+            anime({
+				targets: '.animate',
+				translateY: [50, 0],
+				opacity:[0, 1],
+				delay: function(el, i, l) {
+					var time = getMilliSecond($(el).attr("data-time"));
+					return time;
+				},
+                duration: 1000
+            });
+
+            $(document).on('click','.clk_img',function(){
+                var audioSrc = $(this).attr('data-audio');
+                playAudio(audioSrc);
+            });
+        })
+    </script>
+</section>

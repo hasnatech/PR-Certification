@@ -1,0 +1,111 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page14">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12">
+                    <p class="instr p-10">{{page.text.instr}}</p>
+                    <div class="animate item" data-time="1">
+                        <img ng-src="{{page.text.image}}" alt="">
+                        <div class="drop">
+                            <div class="d_item" ng-repeat="item in page.drag" data-id="{{$index+1}}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animate drag" data-time="2">
+                        <div class="d_panel">
+                            <div class="d_title">{{page.text.d_title}}</div>
+                        </div>
+                        <div class="item brand_bg" ng-repeat="item in page.drag" 
+                            data-id="{{item.id}}"
+                            data-audio="{{item.audio}}"
+                            data-feedback="{{item.feedback}}">
+                            {{item.title}}
+                        </div>
+                    </div>
+
+                </div>
+                <div class="feedback">
+                    <div class="cPanel">
+                        <div class="exit">x</div>
+                        <div class="cBorder"></div>
+                        <div class="title">
+                            Feedback
+                        </div>
+                        <div class="content">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        $(".drag .item").draggable({
+            start: function () {
+                $(this).removeClass('drag-revert');
+                $(".feedback").hide();
+            },
+            revert: function () {
+                if (!$(this).hasClass('drag-revert')) {
+                    $(this).data("uiDraggable").originalPosition = {
+                        top: 0,
+                        left: 0
+                    };
+                    $(this).removeClass('drag-revert');
+                    return true;
+                }
+            }
+        });
+        var cnt = 0;
+        var xpos = ['', '110px', '243px', '366px']
+        $(".d_item").droppable({
+            drop: function (e, ui) {
+                console.log($(ui.draggable).attr("data-id") + " == " + $(this).attr("data-id"));
+                if ($(ui.draggable).attr("data-id") == $(this).attr("data-id")) {
+                    $(ui.draggable).draggable({
+                        disabled: true
+                    })
+
+                    var $newPosX = -220;
+                    var $newPosY = $(this).offset().top - $(ui.draggable).parent().parent().offset().top + 20;
+                    var $newPosY = xpos[$(ui.draggable).attr("data-id")];
+                    $(ui.draggable).css("left", $newPosX);
+                    $(ui.draggable).css("top", $newPosY);
+                    $(ui.draggable).css("position", "absolute");
+                    $(ui.draggable).css("cursor", "default");
+
+                    $(".feedback").show();
+                    $(".feedback").css("bottom", "auto");
+                    $(".feedback").css("top", 110);
+                    $(".feedback .content").html($(ui.draggable).attr("data-feedback"));
+                    playAudio($(ui.draggable).attr("data-audio"));
+                    
+                    cnt++;
+                    if(cnt == $(".drag .item").length){
+                        $(".d_panel").hide();
+                        blinkNext();
+                    }
+                    return $(ui.draggable).addClass('drag-revert');
+                }
+            }
+        });
+
+        $(".exit").click(function () {
+            $(".feedback").hide();
+        })
+        $(".feedback").hide();
+
+        anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });
+    });
+</script>

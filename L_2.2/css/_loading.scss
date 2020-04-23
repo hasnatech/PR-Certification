@@ -1,0 +1,61 @@
+
+.loader {
+	animation: rotate 2s linear infinite normal;
+	height: 2rem;
+	position: relative;
+	width: 2rem;
+	left: calc(50% - 2rem);
+    top: calc(50% - 2rem);
+	&__ball {
+		animation: move1 1s ease-out infinite alternate;
+		background-color: #fff;
+		border-radius: 50%;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		
+		&:nth-of-type(2) {
+			animation-name: move2;
+		}
+		
+		&:nth-of-type(3) {
+			animation-name: move3;
+		}
+	} 
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes move1 {
+	0%, 5% {
+		transform: translate(0, 0);
+	}
+	to {
+		transform: translate(0, -100%);
+	}
+}
+
+@keyframes move2 {
+	0%, 5% {
+		transform: translate(0, 0);
+	}
+	to {
+		transform: translate(100%, 100%);
+	}
+}
+
+@keyframes move3 {
+	0%, 5% {
+		transform: translate(0);
+	}
+	to {
+		transform: translate(-100%, 100%);
+	}
+}

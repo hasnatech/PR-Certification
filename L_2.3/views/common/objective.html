@@ -1,0 +1,25 @@
+<section class="sec" data-current="{{curr_page}}">
+	<div class="objective">
+			<div class="container full-height">
+			<div class="center_screen">
+					
+				<div class="animate text" ng-repeat="b in page.block" data-time="{{b.time}}"  id="objective{{$index}}" ng-bind-html="b.text | to_trusted">
+					
+				</div>
+				<img id="obj_image" ng-src="{{page.image}}" class="img_animate position"></div>
+			</div>
+		</div>
+</section>
+<script>
+		$().ready(function () {
+		
+			anime({
+				targets: '.img_animate',
+				opacity:[0, 1],
+				delay: 750,
+				 duration: 500
+			  });
+
+			syncAudio($(".animate"), "bottomToTop");
+		});
+	</script>

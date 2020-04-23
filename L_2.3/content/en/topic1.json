@@ -1,0 +1,848 @@
+{
+    "course": {
+        "title": "Create Service Purchase Requisitions",
+        "section": "Cargill Indirect Procurement Overview",
+        "description": "In this section, we will define some of the course description.",
+        "duration": "Duration 20 minutes",
+        "start_btn": "start the course",
+        "audio": "media\/silence.mp3",
+        "button": {
+            "next": "Next",
+            "prev": "Previous",
+            "try": "Try Again",
+            "submit": "Submit"
+        },
+        "lable": {
+            "transcript": "Transcript",
+            "resource": "Resources"
+        },
+        "resource": [{
+            "label": "Sample link to cargill.com for more information",
+            "link": "http://www.cargill.com"
+        }, {
+            "label": "Sample link to google.com for more information",
+            "link": "http://www.google.com"
+        }]
+    },
+
+    "menu": {
+        "topic": [{
+                "title": "Module 1 - Key Concepts for Service Purchase Requisitions",
+                "pages": [{
+                        "file": "common\/course_intro.html",
+                        "style": "common\/style\/course_intro.css",
+                        "audio": "media\/3a.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Create Service Purchase Requisitions",
+                                "time": "1"
+                            },
+                            {
+                                "text": "",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Level 2 Course 3",
+                                "time": "1"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/course_intro.png",
+                        "transcript": [{
+                                "text": "Transcript 1",
+                                "sec": "0.01"
+                            },
+                            {
+                                "text": "Transcript 2",
+                                "sec": "0.02"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "welcome",
+                        "title": "",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/3b.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "Welcome",
+                        "block": [{
+                                "text": "Describe the key concepts to create service purchase requisition types.",
+                                "time": "16"
+                            },
+                            {
+                                "text": "Describe and demonstrate how to create different service purchase requisition types in SAP.",
+                                "time": "22"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Objectives",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/4_edited.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Describe the key concepts of a Service Purchase Requisition (PR).",
+                                "time": "9"
+                            },
+                            {
+                                "text": "Define the steps of the Service Request process flow.",
+                                "time": "14.3"
+                            },
+                            {
+                                "text": "Describe the purpose of Service Masters.",
+                                "time": "18.7"
+                            },
+                            {
+                                "text": "Identify the relationship between Ariba Integrated Suppliers and the Service Master.",
+                                "time": "21.4"
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_4.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "Introduction",
+                        "title": "What is a Purchase Requistion",
+                        "file": "common\/leftListWithRightImage.html",
+                        "style": "common\/style\/leftListWithRightImage.css",
+                        "audio": "media\/6.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "<b>What is a Service Purchase Requisition?</b>",
+                                "time": "1"
+                            },
+                            {
+                                "text": "<p>A service is a task or activity that needs to be performed at the site. It is not a physical material or object. A service requires a purchase requisition and purchase order be created before it can be performed by the supplier.</p>",
+                                "time": "4.3"
+                            },
+                            {
+                                "text": "<p>Here are some types of services:</p>",
+                                "time": "23.1"
+                            },
+                            {
+                                "list": [
+                                    "Repairs (painting, welding, electrical)"
+                                ],
+                                "time": "26.1"
+                            },
+                            {
+                                "list": [
+                                    "Repetitive Services (lawn care, pest control)"
+                                ],
+                                "time": "30.5"
+                            },
+                            {
+                                "list": [
+                                    "Professional Services (engineering, consulting, training)"
+                                ],
+                                "time": "35.7"
+                            },
+                            {
+                                "list": [
+                                    "Contract Labor (project labor, temporary labor)"
+                                ],
+                                "time": "40.5"
+                            },
+                            {
+                                "list": [
+                                    "Freight"
+                                ],
+                                "time": "45.4"
+                            }
+                        ],
+                        "image": "image/topic1/handshake.jpg"
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Service PR Process Flow",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page1.css",
+                        "audio": "media\/7.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "42.5",
+                        "ins_left": "-1024px", "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text":"<b>How does the service process work ?</b>",
+                                "image":"",
+                                "class":"",
+                                "imgClass":"Circle_mid_img",
+                                "time":"1", "left": "486px", "top": "144px" ,
+                                "audio": ""
+                            },
+                            {
+                                "text":"<p>The Requisitioner creates a service Purchase Requisition in SAP using a Service Master. Upon approval of the PR, the Purchase Order is created either manually or automatically in SAP. The service is completed at the site. Then the supplier invoice is received and the payment is issued to the supplier.</p>",
+                                "image":"",
+                                "class":"",
+                                "imgClass":"Circle_mid_img",
+                                "time":"2", "left": "10px", "top": "174px" ,
+                                "audio": ""
+                            },
+                            {
+                                "text":"Requisitioner",
+                                "image":"image/topic1/page1/1.png",
+                                "class":"Circle_1",
+                                "imgClass":"Circle_mid_img",
+                                "time":"3.6", "left": "112px", "top": "294px" ,
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Selects an SAP service master and creates the PR in SAP.",
+                                "image":"image/topic1/page1/2.png",
+                                "class":"Circle_2",
+                                "imgClass":"Circle_1_img",
+                                "time":"8.9", "left": "275px", "top": "242px",
+                                "audio": "media/page1_2.mp3"
+                            },
+                            {
+                                "text":"Upon approval the PR is converted to a PO.",
+                                "image":"image/topic1/page1/3.png",
+                                "class":"Circle_3",
+                                "imgClass":"Circle_2_img",
+                                "time":"12.6", "left": "481px", "top": "242px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"The services is completed.",
+                                "image":"image/topic1/page1/4.png",
+                                "class":"Circle_4",
+                                "imgClass":"Circle_3_img",
+                                "time":"19.6", "left": "675px", "top": "242px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"The supplier invoice is received and the payment is issued to the supplier.",
+                                "image":"image/topic1/page1/5.png",
+                                "class":"Circle_5",
+                                "imgClass":"shaddow_img",
+                                "time":"22.7", "left": "870px", "top": "242px",
+                                "audio": "media/.mp3"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }] 
+                    },
+                    {
+                        "type": "Introduction",
+                        "title": "Service Master Overview",
+                        "file": "common\/leftListWithRightImage.html",
+                        "style": "common\/style\/leftListWithRightImage.css",
+                        "audio": "media\/8.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "<p>The SAP Service Master is a repository of specific services with their own descriptions. </p>",
+                                "time": "1"
+                            },
+                            {
+                                "list": [
+                                    "There are multiple SAP Service Masters (SMs) available to the Requisitioner."
+                                ],
+                                "time": "7.9"
+                            },
+                            {
+                                "list": [
+                                    "When Requisitioners create a services purchase they should refer to the list of all the service items that are used by their business."
+                                ],
+                                "time": "14.8"
+                            },
+                            {
+                                "list": [
+                                    "This list of commonly used SMs is available for each business. You should obtain this information from your local site."
+                                ],
+                                "time": "23.9"
+                            },
+                            {
+                                "list": [
+                                    "The Requisitioner can also use the SAP transaction AC06 to display the list of current SMs for their site."
+                                ],
+                                "time": "33.6"
+                            },
+                            {
+                                "list": [
+                                    "If the Requisitioner cannot find a suitable existing Service Master then a new service master must be created."
+                                ],
+                                "time": "44.6"
+                            }
+                        ],
+                        "image": "image/topic1/mobile.png"
+                    },
+                    {
+                        "type": "Introduction",
+                        "title": "Ariba Integrated Suppliers and Service Masters",
+                        "file": "common\/leftListWithRightImage_2.html",
+                        "style": "common\/style\/leftListWithRightImage_2.css",
+                        "audio": "media\/9.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "<p>Ariba Integrated Suppliers do not use Service Masters to create service purchase requisitions.</p>",
+                                "time": "1"
+                            },
+                            {
+                                "list": [
+                                    "Service PR's for Ariba Integrated Suppliers are created just like free text material purchases."
+                                ],
+                                "time": "8.3"
+                            },
+                            {
+                                "list": [
+                                    "Service purchase requisition volume is minimal for integrated suppliers."
+                                ],
+                                "time": "16.2"
+                            },
+                            {
+                                "text": "<br/><br/>You can determine if a supplier is an Ariba Integrated Supplier using the SAP transaction code XK03.",
+                                "time": "21.4"
+                            },
+                            {
+                                "image": "image/topic1/page2/ariba.png",
+                                "time": "33.8",
+                                "class": "ariba img_clk"
+                            },
+                            {
+                                "image": "image/topic1/page2/non_ariba.png",
+                                "time": "34.8",
+                                "class": "non_ariba img_clk"
+                            },
+                            {
+                                "image": "image/topic1/page2/ariba_integrated.png",
+                                "time": "35.8",
+                                "class": "ariba_integrated img_clk"
+                            },
+                            {
+                                "image": "image/topic1/page2/ins_button.png",
+                                "time": "31",
+                                "class": "ins_button"
+                            }
+                        ],
+                        "image": "image/topic1/page2/bg.png"
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Key Things to Remember",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page2.css",
+                        "audio": "media\/13.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "42.5",
+                        "ins_left": "-1024px", "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text":"Key Things to Remember",
+                                "image":"image/topic1/page2/KeyThings.png",
+                                "class":"Circle__1",
+                                "imgClass":"Circle_mid_img",
+                                "time":"1", "left": "474px", "top": "214px" ,
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"The unit of measure must always be activity unit “AU”.",
+                                "image":"",
+                                "class":"Circle__2",
+                                "imgClass":"Circle_1_img",
+                                "time":"58.4", "left": "494px", "top": "198px",
+                                "audio": "media/page1_2.mp3"
+                            },
+                            {
+                                "text":"Material and Service lines can be added to the same purchase requisition but a separate PO will be created for the Materials and a separate PO will be created for the Services.",
+                                "image":"",
+                                "class":"Circle__3",
+                                "imgClass":"Circle_2_img",
+                                "time":"5.5", "left": "811px", "top": "287px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"The short text field should be used to provide an accurate description of the service that is required.",
+                                "image":"",
+                                "class":"Circle__4",
+                                "imgClass":"Circle_3_img",
+                                "time":"18.3", "left": "811px", "top": "464px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Selection of the correct SAP Service Master using item category D is required for each service line on the PR.",
+                                "image":"",
+                                "class":"Circle__5",
+                                "imgClass":"",
+                                "time":"25.5", "left": "486px", "top": "585px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"An estimated (or not to exceed) amount should be obtained and entered on the PR. Attach all quotes and add an Item Note informing  the PO Processor the quote is attached.",
+                                "image":"",
+                                 "class":"Circle__5",
+                                "imgClass":"",
+                                "time":"36", "left": "153px", "top": "468px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"The gross price and quantity in the services tab should be inverted for each line.",
+                                "image":"",
+                                 "class":"Circle__5",
+                                "imgClass":"",
+                                "time":"50", "left": "142px", "top": "303px",
+                                "audio": "media/.mp3"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }] 
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/14.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>Which of the following statements are true?</p>",
+                        "choices": [{
+                                "text": "Ariba Integrated Suppliers do not use Service Masters to create service purchase requisitions:",
+                                "correct": true
+                            },
+                            {
+                                "text": "Ariba Full Enablement Suppliers are notated as “ARIBA INTEGRATED” in the SAP transaction XK03.",
+                                "correct": false
+                            },
+                            {
+                                "text": "The gross price and quantity in the services tab should be inverted for each line.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Selection of the correct SAP Service Master using item category D is required for each service line on the PR.",
+                                "correct": true
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p>",
+                            "correct": "<p>That’s Correct! </p>"
+                        },
+                        "image": "image\/topic1\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Knowledge Check",
+                        "file": "common\/dragNdrop.html",
+                        "style": "common\/style\/dragNdrop.css",
+                        "audio": "media\/15_edited.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Arrange the service PR process flow in the correct order. <br/> <br/>Drag and Drop the options in the correct order and click <b>NEXT</b>.",
+                        "image": "",
+                        "drop_placeholder": "image\/topic1\/drop.png",
+                        "drop": [{
+                                "image": "image/topic1/page7_icon1.png",
+                                "ans_id": "1"
+                            },
+                            {
+                                "image": "image/topic1/page7_icon2.png",
+                                "ans_id": "2"
+                            },
+                            {
+                                "image": "image/topic1/page7_icon3.png",
+                                "ans_id": "3"
+                            },
+                            {
+                                "image": "image/topic1/page7_icon4.png",
+                                "ans_id": "4"
+                            }
+
+                        ],
+                        "drag": [{
+                                "text": "The supplier invoice is received and the payment is issued to the supplier.",
+                                "drag_id": "4"
+                            },
+                            {
+                                "text": "The Requisitioner selects an SAP service master and creates the PR in SAP.",
+                                "drag_id": "1"
+                            },
+                            {
+                                "text": "The services is completed.",
+                                "drag_id": "3"
+                            },
+                            {
+                                "text": "Upon approval the PR is converted to a PO.",
+                                "drag_id": "2"
+                            }
+
+                        ],
+                        "transcript": [{
+                            "text": "<p></p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            },
+            {
+                "title": "Module 2 - Create Service Purchase Requisitions",
+                "pages": [
+                    {
+                        "type": "objective",
+                        "title": "Objectives",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/17_new.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Define key concepts associated with the creation of different Service PRs.",
+                                "time": "9"
+                            },
+                            {
+                                "text": "Demonstrate how to create Free Text Service PR.",
+                                "time": "15.4"
+                            },
+                            {
+                                "text": "Demonstrate how to create Blanket or Repetitive Service PR.",
+                                "time": "19.9"
+                            },
+                            {
+                                "text": "Demonstrate how to create External Catalog Service PR.",
+                                "time": "25.7"
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_4.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Create Free Text Service Purchase Requisition",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/keyNote.css",
+                        "audio": "media\/18.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "42.5",
+                        "ins_left": "-1024px", "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text":"<b>Key Concepts</b><br/><br/>Key information to remember before creating a free text Service PR.",
+                                "image":"image/topic1/page3/key.png",
+                                "class":"key",
+                                "imgClass":"keyBg",
+                                "time":"1", "left": "5px", "top": "135px" ,
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Labor should be expensed separately from materials, regardless of the service being quoted or estimated.",
+                                "image":"image/topic1/page3/1.png",
+                                "class":"note_1",
+                                "imgClass":"note_1_img",
+                                "time":"6.3", "left": "15px", "top": "232px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Item category will always be “D” to denote Service. Remember, Item category D is not used for integrated suppliers.",
+                                "image":"image/topic1/page3/2.png",
+                                "class":"note_2",
+                                "imgClass":"note_2_img",
+                                "time":"14.6", "left": "251px", "top": "246px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"A Service Master number is required for all services.",
+                                "image":"image/topic1/page3/3.png",
+                                "class":"note_3",
+                                "imgClass":"note_3_img",
+                                "time":"25.7", "left": "494px", "top": "248px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Short text description should be descriptive enough for the PO Processor and Supplier to understand the service needs. Additional text can be expanded in the Item Text field.",
+                                "image":"image/topic1/page3/4.png",
+                                "class":"note_4",
+                                "imgClass":"note_4_img",
+                                "time":"31.2", "left": "726px", "top": "246px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Service transaction processing requires either a 3-way match (PO/GR/IR) or a 2-way (PO/IR) match.",
+                                "image":"image/topic1/page3/5.png",
+                                "class":"note_5",
+                                "imgClass":"note_5_img",
+                                "time":"45.3", "left": "963px", "top": "227px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.121922\",\"mywindow\");'>here</span> to learn how to create a Free Text Service PR.",
+                                "image":"image/topic1/page3/clickNote.png",
+                                "class":"clickNote",
+                                "imgClass":"clickNote_img",
+                                "time":"62.8", "left": "88px", "top": "602px",
+                                "audio": "media/.mp3",
+                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.121922"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }] 
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Create Blanket or Repetitive Purchase Requisition",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/keyNote_2.css",
+                        "audio": "media\/19.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "42.5",
+                        "ins_left": "-1024px", "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text":"<b>Key Concepts</b><br/><br/>A Blanket PR is also called as Repetitive PR. Key information to remember before creating a Blanket or Repetitive PR.",
+                                "image":"image/topic1/page3/key.png",
+                                "class":"key",
+                                "imgClass":"keyBg",
+                                "time":"1", "left": "5px", "top": "135px" ,
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Blanket PRs are used for repetitive services that meet the criteria for blanket purchases.",
+                                "image":"image/topic1/page4/1.png",
+                                "class":"note_1",
+                                "imgClass":"note_1_img",
+                                "time":"12.7", "left": "157px", "top": "291px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Short text for blanket PRs should always begin with the letters “BPO” as an indicator of a repetitive service.",
+                                "image":"image/topic1/page4/2.png",
+                                "class":"note_2",
+                                "imgClass":"note_2_img",
+                                "time":"19.6", "left": "157px", "top": "361px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"The PO's created from a Blanket PR can either be 2-way or 3-way match. If converted to a 3-way match, a Service Entry Sheet (SES) is required to post the invoice.",
+                                "image":"image/topic1/page4/3.png",
+                                "class":"note_3",
+                                "imgClass":"note_3_img",
+                                "time":"29.6", "left": "157px", "top": "430px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Your business may have specific guidelines regarding the requirements and creation of a Blanket PR.",
+                                "image":"image/topic1/page4/4.png",
+                                "class":"note_4",
+                                "imgClass":"note_4_img",
+                                "time":"46.1", "left": "157px", "top": "497px",
+                                "audio": "media/.mp3"
+                            },
+                            {
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://team.cargill.com/sites/NAP/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/NAP/Shared%20Documents/Blanket%20Purchase%20Order.docx&action=default&DefaultItemOpen=1\",\"mywindow\");'>here</span> to view the Blanket PO guidelines criteria for creating a blanket PR.",
+                                "image":"image/topic1/page4/clickNote1.png",
+                                "class":"clickNote",
+                                "imgClass":"clickNote_img",
+                                "time":"54.6", "left": "88px", "top": "591px",
+                                "audio": "media/.mp3",
+                                "linkName":"https://team.cargill.com/sites/NAP/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/NAP/Shared%20Documents/Blanket%20Purchase%20Order.docx&action=default&DefaultItemOpen=1"
+
+                            },
+                            {
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.121919\",\"mywindow\");'>here</span> to learn how to create a Blanket or Repetitive PR.",
+                                "image":"image/topic1/page4/clickNote2.png",
+                                "class":"clickNote",
+                                "imgClass":"clickNote_img",
+                                "time":"62.5", "left": "88px", "top": "636px",
+                                "audio": "media/.mp3",
+                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.121919"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }] 
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Create External Catalog Purchase Requisition",
+                        "file": "common\/page4.html",
+                        "style": "common\/style\/keyNote_3.css",
+                        "audio": "media\/20.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "42.5",
+                        "ins_left": "-1024px", "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text":"<b>Key Concepts</b><br/><br/>Key information to remember before creating an External Catalog PR.",
+                                "image":"image/topic1/page3/key.png",
+                                "class":"key",
+                                "imgClass":"keyBg",
+                                "time":"1", "left": "5px", "top": "135px" ,
+                                "audio": "media/.mp3",
+                                "video": false
+                            },
+                            {
+                                "text":"",
+                                "image":"video/Book_Flip_video_whiteBG_slide20.mp4",
+                                "class":"note_1",
+                                "imgClass":"note_1_img",
+                                "time":"1", "left": "157px", "top": "291px",
+                                "audio": "media/.mp3",
+                                "video": true
+                            },
+                            {
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.121916\",\"mywindow\");'>here</span> to learn how to create an External Catatog PR.",
+                                "image":"image/topic1/page4/clickNote2.png",
+                                "class":"clickNote",
+                                "imgClass":"clickNote_img",
+                                "time":"38", "left": "88px", "top": "636px",
+                                "audio": "media/.mp3",
+                                "video": false,
+                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.121916"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }] 
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary_1.css",
+                        "audio": "media\/22.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "A Service PR is a task or activity that needs to be performed at the site. It is not a physical material or object. Examples include: Repairs, Repetitive, Professional, Contract Labor and Freight.",
+                                "time": "4"
+                            },
+                            {
+                                "text": "Ariba Integrated Suppliers do not use Service Masters to create Service PRs.",
+                                "time": "20.3"
+                            },
+                            {
+                                "text": "Ariba Integrated Suppliers don’t use Service Masters to create PR’s. Service PR's for Ariba Integrated Suppliers are created just like free text material purchases.",
+                                "time": "27.9"
+                            },
+                            {
+                                "text": "You can determine if a supplier is an Ariba Integrated Supplier using the SAP transaction code XK03.",
+                                "time": "39.9"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/summary.jpg",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary_2.css",
+                        "audio": "media\/23.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Labor should be expensed separately from materials, regardless of the service being quoted or estimated.",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Item category will always be “D” to denote Service. Remember, Item category D is not used for integrated suppliers.",
+                                "time": "8.7"
+                            },
+                            {
+                                "text": "A Service Master number is required for all services.",
+                                "time": "19.9"
+                            },
+                            {
+                                "text": "Short text description should be descriptive enough for PO Processor and Supplier to understand the service needs. Additional text can be expanded in the Item Text field.",
+                                "time": "25.6"
+                            },
+                            {
+                                "text": "Services can be 3-way match (PO/GR/IR) or a 2-way (PO/IR) match.",
+                                "time": "39.3"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/summary.jpg",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary_3.css",
+                        "audio": "media\/24.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Short text for blanket PRs should always begin with the letters “BPO” as an indicator of a repetitive service.",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Blanket PRs can be either a 2-Way or 3-Way match. If the blanket PR is a 3-Way match an SES is required by the supplier.",
+                                "time": "9.3"
+                            },
+                            {
+                                "text": "External Catalogs are maintained by the supplier.",
+                                "time": "21.9"
+                            },
+                            {
+                                "text": "You must add the Service Master number once a service is pulled into the PR from the external catalog.",
+                                "time": "25.6"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/summary.jpg",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            }
+        ]
+    }
+}

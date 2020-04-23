@@ -1,0 +1,94 @@
+<section class="sec" data-current="{{curr_page}}" style="background-image: url('{{page.image}}')">
+	<div class="text_image">
+		<div class="full-height">
+			<div class="row center_screen">
+				<div class="col-6">
+					<div class="brand_bg text_content text_white">
+						<p class="animate question" ng-bind-html="page.question | to_trusted"></p>
+						<div id="choices">
+							<div class="ch animate" ng-repeat="b in page.choices">
+								<input type="checkbox" name="chy" id="{{$index}}" data-correct="{{b.correct}}">
+								<span class="opt_text" ng-bind-html="b.text | to_trusted"></span>
+							</div>
+						</div>
+						<br>
+						<div class="animate ">
+							<button id="submit" class="button cargill_button submit_btn">Submit</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="feedback" 
+					>
+					<div class="cPanel">
+						<div class="exit">x</div>
+						<div class="cBorder"></div>
+						<div class="title">
+							Feedback
+						</div>
+						<div class="content">
+							<div class="correct" ng-bind-html="page.feedback.correct | to_trusted">
+							</div>
+							<div class="incorrect" ng-bind-html="page.feedback.incorrect | to_trusted">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+	$().ready(function () {
+		//alert("I am here")
+		$("#submit").attr("disabled", true);
+
+		$(".ch input").change(function () {
+			if ($(".ch input").filter(':checked').length > 0) {
+				$("#submit").attr("disabled", false);
+			} else {
+				$("#submit").attr("disabled", true);
+			}
+			//console.log(correct);
+		})
+		$(".feedback").hide();
+		$("#submit").click(function () {
+			var correct = true;
+			$(".ch input").each(function () {
+				console.log($(this).prop("checked").toString()+" != "+$(this).attr("data-correct"));
+				if ($(this).prop("checked").toString() != $(this).attr("data-correct")) {
+					
+					correct = false;
+				}
+			});
+			$(".feedback").show();
+			if (correct == true) {
+				$(".feedback .content .correct").show();
+				$(".feedback .content .incorrect").hide();
+				$("#submit").attr("disabled", true);
+				$(".ch input").each(function(){
+					$(this).attr("disabled", true);
+				})
+				blinkNext();
+			} else {
+				$(".feedback .content .correct").hide();
+				$(".feedback .content .incorrect").show();
+			}
+		})
+		$(".exit").click(function () {
+            $(".feedback").hide();
+        })
+
+		anime({
+			targets: '.animate',
+			translateY: [50, 0],
+			opacity: [0, 1],
+			delay: function (el, i, l) {
+				//var time = getMilliSecond($(el).attr("data-time"));
+				//return time;
+				return i * 750;
+			},
+			duration: 1000
+		});
+	});
+</script>

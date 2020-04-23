@@ -1,0 +1,1781 @@
+{
+    "course": {
+        "title": "Purchase Request Certification Training Program",
+        "section": "Manage Material and Service Purchase Requisitions",
+        "description": "In this section, we will define some of the course description.",
+        "duration": "Duration 20 minutes",
+        "start_btn": "start the course",
+        "audio": "media\/topic3_welcome.mp3",
+        "button": {
+            "next": "Next",
+            "prev": "Previous",
+            "try": "Try Again",
+            "submit": "Submit"
+        },
+        "lable": {
+            "transcript": "Transcript",
+            "resource": "Resources"
+        },
+        "resource": [{
+            "label": "Sample link to cargill.com for more information",
+            "link": "http://www.cargill.com"
+        }, {
+            "label": "Sample link to google.com for more information",
+            "link": "http://www.google.com"
+        }]
+    },
+
+    "menu": {
+        "topic": [{
+                "title": "Module 1 - Roles and System Integration",
+                "titleMod": "Roles and System Integration",
+                "pages": [{
+                        "file": "common\/course_intro.html",
+                        "style": "common\/style\/course_intro.css",
+                        "audio": "media\/1.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Purchase Requisitioner Certification Training Program",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Manage Material and Service Purchase Requisitions",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Level 3",
+                                "time": "1"
+                            }
+
+                        ],
+                        "image": "image\/topic\/course_intro.png",
+                        "transcript": [{
+                                "text": "Transcript 1",
+                                "sec": "0.01"
+                            },
+                            {
+                                "text": "Transcript 2",
+                                "sec": "0.02"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "welcome",
+                        "title": "Indirect Procurement Process: Roles and System Integration ",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media/4.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "Welcome",
+                        "block": [{
+                                "text": "Roles responsible for managing the indirect procurement process ",
+                                "time": "1.5"
+                            },
+                            {
+                                "text": "The systems that support to manage the indirect procurement process",
+                                "time": "7.4"
+                            }
+                        ],
+                        "image": "image\/topic\/welcome.png",
+                        "transcript": [{
+                            "text": "In this module, we’ll discuss the roles responsible for managing the indirect procurement process and the systems that support these activities across each step in the process.",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/5.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Importance of effectively managing our indirect procurement process",
+                                "time": "4.8"
+                            },
+                            {
+                                "text": "Roles and responsibilities involved in managing the purchasing process",
+                                "time": "11.1"
+                            },
+                            {
+                                "text": "The systems that enable our purchasing activity",
+                                "time": "17.8"
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_3.png",
+                        "transcript": [{
+                            "text": "<p>The main objective of this module is to:</p><ul>    <li>Describe when a manual purchase requisition should be created</li>    <li>Identify the triggers to create a purchaserequisition</li>    <li>Define purchasing terminology, and</li>    <li>Discuss the relationship between the work order and the purchase requisition</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Effectively Managing Purtchasing Process",
+                        "file": "common\/page4.html",
+                        "style": "common\/style\/page4.css",
+                        "audio": "media\/7.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "timeArr":[13.2,17.4,22.8,32.3,43.3],
+                        "block": {
+                            "instruction": "The CSSP indirect procurement process enables Cargill businesses and functions to purchase the right product or services, from a qualified suppler at a fair price. ",
+                            "center_text": "To effectively manage the purchasing process it is important that…",
+                            "image": "image\/topic\/page_4.png",
+                            "items": [
+                                "Each person must understand the requirements of their role",
+                                "Each person must understand the requirements of other roles in the process",
+                                "You are ready to manage any changes, inquiries, or issues that arise during the processing of materials or services orders",
+                                "You know the best contact and method of contact for these situations It enables Cargill to provide the best level of service to our internal resources as well as our external partners"
+                            ]
+                        },
+                        "transcript": [{
+                            "text": "<p>Now, that we are aware of purchase requisition, let's find out the triggers required to create a purchase requisition.</p><p>A purchase requisition can be created manually or automatically.</p><p>Normally, a purchase request triggers the manual creation of purchase requisition. </p><p>Whereas, the Work Order in SAP triggers the automatic creation of a purchase requisition in SAP.</p><p>But how does this happen?</p><p>Click each section to learn more on the triggers to create a Purchase Requisition.</p><p>Displayed here is the PR Lifecycle from Manual Purchase Requisition Creation to Purchase Order.</p><p>Click each section to learn more.</p><p>Step 1: Manual Purchase Requisition Creation</p><ul>    <li>A purchase request triggers the manual creation of a purchase requisition.</li><li>A purchase request may require submission of a form or spreadsheet depending on processes for your business and if not on a work order. </li><li>Anyone at the site can initiate a purchase request. </li><li>The manual creation of a purchase requisition in SAP requires specific authorization.</li><li>Not only the PR processor, but anyone may enter the purchase requisition depending on processes for your business.</li></ul><p>Step 2: Purchase Requisition Approval</p><ul><li>All Purchase Requisitionscreated manually will require an approval from  the assigned cost object owner.</li></ul><p>Step 3: Purchase Requisition Conversion to Purchase Order</p><ul><li>Upon approval a purchase requisition is converted to purchase order by transferring mandatory information.</li><li>Purchase orders can be created manually by the PO Processor or automatically through SAP system batch jobs already in place.  An example of an auto created PO are those from manual purchase requisitions created via Catalog Punchout.</li></ul><p>Step 4: Purchase Order Approval</p><ul><li>A Purchase Order approval  will be required if the total POvalue exceeds $5,000.00.</li><li>Purchase Order approval workflow exists in SAP to automatically route the PO to the relevant Fiscal Approver maintained in the SAP Approver Table.</li></ul><p>Once a Purchase Order is approved, the system will automatically output it to the vendor.</p><p>The creation of a Work Order in SAP triggers the automatic creation of a purchase requisition in SAP.</p><ul><li>Work Orders contain purchase requests for materials or services required to support plant maintenance and reliability.</li><li>Once the Work Order is released (approved) the purchase requisition is automatically created and approved in SAP.</li><li>The PR is auto-released in SAP only when the Work Order is released by the Cost Object Owner.</li><li>If someone other than the cost object owner releases the WO, then all the PR lines have to be approved as they are created.</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Roles and Responsibilities",
+                        "file": "common\/page5.html",
+                        "style": "common\/style\/page5.css",
+                        "audio": "media\/9.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text": "Click each function to learn about roles and responsibilities.",
+                        "block": {
+                            "other": {
+                                "title": {
+                                    "text": "Other External Suppliers",
+                                    "time": 1
+                                },
+                                "content": {
+                                    "text": "<ul><li>Suppliers who do not have a legal contract in place with Cargill</li><li>These suppliers have done business with local or regional Cargill sites in the past.</li></ul>",
+                                    "time": 2,
+                                    "extra": "You can use the <b>Select Supplier Database</b> to determine if a supplier is contracted with Cargill."
+                                }
+                            },
+                            "icons": [
+                                {
+                                    "image": "image\/topic\/user1.png",
+                                    "title": "Business",
+                                    "description": "<ul><li> Work Order Processor / Maintenance Planner</li><li>Requisitioner</li><li>Cost Object Owner/ Needs Approver</li><li>Business Approver</li><li>Receiver</li></ul>",
+                                    "time": 1,
+                                    "audio": "media/10.mp3"
+
+                                }, {
+                                    "image": "image\/topic\/user2.png",
+                                    "title": "Procurement Operations (CSSP)",
+                                    "description": "<ul><li>PO Processor</li><li>Procurement Approver</li></ul>",
+                                    "time": 2,
+                                    "audio": "media/11.mp3"
+
+                                },
+                                {
+                                    "image": "image\/topic\/user3.png",
+                                    "title": "Invoice to Pay (I2P)",
+                                    "description": "<ul style='margin-left: 26px;list-style: none;'><li>Invoice Processor</li></ul>",
+                                    "time": 3,
+                                    "audio": "media/12.mp3"
+                                },
+                                {
+                                    "image": "image\/topic\/user4.png",
+                                    "title": "Suppliers (External)",
+                                    "description": "<ul><li>Cargill prefers to work with <strong>Select Suppliers</strong></li><li>Select Suppliers have a legal contract to supply specific materials or services to Cargill</li><li>Utilize select Suppliers to obtain these materials and services</li></ul>",
+                                    "time": 4,
+                                    "audio": "media/13.mp3"
+                                }
+                            ]
+                        }
+                    },
+                  
+                    {
+                        "type": "custom",
+                        "title": "System Integration Points",
+                        "file": "common\/page20.html",
+                        "style": "common\/style\/page20.css",
+                        "audio": "media\/15.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text": "The following systems enable our procurement activities along each step of the process: ",
+                        "note" : {
+                            "title" : "Note",
+                            "desc" : "<ul><li>Fiori applications are web browser based applications that send data directly to SAP. These “apps” are typically much more user-friendly to use and have the same result as processing the transaction directly in SAP. </li><li>The SAP steps highlight above are supported by Fiori apps.</li></ul>",
+                            "time" : 0,
+                            "instruction": "Click each step to learn more."
+                        },
+                        "block": [
+                            [{
+                                    "text": "&nbsp;&nbsp; Purchase &nbsp;&nbsp; Request",
+                                    "time": 1
+                                },
+                                {
+                                    "text": "Purchase Requisition",
+                                    "time": 1.25
+                                },
+                                {
+                                    "text": "&nbsp;&nbsp;  &nbsp;&nbsp; Purchase &nbsp;&nbsp;  &nbsp;&nbsp; Order",
+                                    "time": 1.5
+                                },
+                                {
+                                    "text": "Order Fulfillment (Supplier)",
+                                    "time": 1.75
+                                },
+                                {
+                                    "text": "Receipt of Materials/Services",
+                                    "time": 2
+                                },
+                                {
+                                    "text": "Invoice and Payment",
+                                    "time": 2.25
+                                }
+                            ],
+                            [{
+                                    "text": "Email, Phone, Form, Spreadsheet",
+                                    "time": 2.5,
+                                    "description": "<li>The Purchase Request triggers the procurement process. <li>The request can come in a variety of forms such as: email, phone, a document or form or a spreadsheet.",
+                                    "id": 3,
+                                    "audio": "media\/16.mp3"
+
+                                },
+                                {
+                                    "text": "SAP",
+                                    "time": 2.75,
+                                    "description": "<li>The purchase requisition is created and maintained in SAP.</li><li>SAP is the system of record for all procurement processing activity.</li>",
+                                    "id": 6,
+                                    "audio": "media\/17.mp3"
+                                },
+                                {
+                                    "text": "SAP",
+                                    "time": 3.25,
+                                    "description": "<li>The purchase requisition is reviewed and approved in SAP by the Cost Object Owner for the Needs approval.<li>If the total amount of the purchase exceeds $5,000, a Business Approval is required.</li><li>After approvals, the purchase order is created and maintained in SAP by the PO Processor.</li>",
+                                    "id": 7,
+                                    "audio": "media\/19.mp3"
+                                },
+
+                                {
+                                    "text": "Ariba Network & Non-Ariba",
+                                    "time": 3.5,
+                                    "description": "<li>The supplier receives the purchase order and typically provides a confirmation back to Cargill</li><li>Supplier begins the order fulfillment process using their internal systems to complete the order fulfillment activities</li>",
+                                    "id": 0,
+                                    "audio": "media\/22.mp3"
+
+                                },
+
+                                {
+                                    "text": "SAP (Materials)",
+                                    "time": 3.75,
+                                    "description": "<li>Once the ordered materials or services arrive at the Cargill site, the Receiver records the event in SAP.<li>The recording of a receipt of materials to the site is processed in SAP as a goods receipt.<li>The recording of the completion of a service at the site is processed in SAP using a service entry sheet.</li>",
+                                    "id": 4,
+                                    "audio": "media\/23.mp3"
+                                },
+                                {
+                                    "text": "Ariba Network or VIM",
+                                    "time": 4,
+                                    "description": "<li>The supplier submits the invoice to Cargill after shipping the ordered materials or completing the ordered services to Cargill<li>The invoice is transferred to SAP either using the Vendor Invoice Management (VIM) solution or through the Ariba Network,<li>The digitized invoices are then automatically routed for processing in SAP.",
+                                    "id": 9,
+                                    "audio": "media\/24.mp3"
+
+                                }
+                            ],
+                            [{
+                                    "text": "empty",
+                                    "time": 3.5
+                                },
+                                {
+                                    "text": "External Catalogs",
+                                    "time": 4.25,
+                                    "description": "<li>It is recommend to source as many items as possible from our select suppliers using the external catalogs in Ariba APC</li><li>These suppliers can also provide special item quotes and Vendor Managed Inventory quotes that can be pulled into the purchase requisition.</li>",
+                                    "id": 1,
+                                    "audio": "media\/18.mp3"
+
+
+                                },
+                                {
+                                    "text": "OneSource",
+                                    "time": 4.5,
+                                    "description": "<li>The OneSource system automatically performs the tax determination on the purchase order prior to it being sent to the supplier.</li>",
+                                    "id": 8,
+                                    "audio": "media\/20.mp3"
+                                },
+
+                                {
+                                    "text": "empty",
+                                    "time": 4.75
+                                },
+                                {
+                                    "text": "empty",
+                                    "time": 4.75
+                                },
+                                {
+                                    "text": "SAP ",
+                                    "time": 4.75,
+                                    "description": "<li>The Invoice Processor reviews the invoice and posts payment to the supplier per terms in SAP.</li>",
+                                    "id": 5,
+                                    "audio": "media\/25.mp3"
+                                }
+                            ],
+                            [{
+                                    "text": "empty",
+                                    "time": 5
+                                },
+                                {
+                                    "text": "empty",
+                                    "time": 5
+                                },
+                                {
+                                    "text": "Ariba Network or Email",
+                                    "time": 5,
+                                    "description": "<li>The purchase order is delivered to the supplier via the Ariba Network or an electronic output from SAP.</li>",
+                                    "id": 2,
+                                    "audio": "media\/21.mp3"
+
+                                }
+
+                            ]
+
+
+
+                        ]
+
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/27.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>What system is used to create and maintain both the purchase requisition and the purchase order?</p>",
+                        "choices": [{
+                                "text": "OneSource ",
+                                "correct": false
+                            },
+                            {
+                                "text": "SAP",
+                                "correct": true
+                            },
+                            {
+                                "text": "VIM",
+                                "correct": false
+                            },
+                            {
+                                "text": "Excel spreadsheet",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>SAP is used to create and maintain both the purchase requisition and the purchase order.</p>",
+                            "correct": "<p>That’s Correct! </p><p>SAP is used to create and maintain both the purchase requisition and the purchase order.</p>"
+                        },
+                        "image": "image\/topic\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/27.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>What system is used to make the tax determination on the purchase order after it is created? </p>",
+                        "choices": [{
+                                "text": "SAP",
+                                "correct": false
+                            },
+                            {
+                                "text": "TurboTax",
+                                "correct": true
+                            },
+                            {
+                                "text": "OneSource",
+                                "correct": false
+                            },
+                            {
+                                "text": "Ariba Network",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>This is not the right answer. </p><p>OneSourse is used to make the tax determination on the purchase order after it is created.</p>",
+                            "correct": "<p>That’s Correct! </p><p>OneSourse is used to make the tax determination on the purchase order after it is created.</p>"
+                        },
+                        "image": "image\/topic\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                     
+                    
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "audio": "media\/30.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Effectively Managing Purchasing Process",
+                                "time": "6"
+                            },
+                            {
+                                "text": "Roles and Responsibilities",
+                                "time": "9"
+                            },
+                            {
+                                "text": "System Integration Points",
+                                "time": "13.5"
+                            }
+
+                        ],
+                        "image": "image\/topic\/summary.png",
+                        "transcript": [{
+                            "text": "<p>We have now come to the end of this module.</p><p>You have been introduced to the purchase requisition document types, structure, key fields and process flow.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            },
+            {
+                "title": "Module 2 - Manage Purchasing Scenarios",
+                "titleMod": "Manage Purchasing Scenarios",
+                "pages": [{
+                        "type": "welcome",
+                        "title": "Welcome",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/32.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "Welcome",
+                        "block": [{
+                                "text": "Scenario 1: Internal Change Request",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Scenario 2: Delay in Receiving the Purchase Order",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Scenario 3: Questions about the Purchase Order",
+                                "time": "3"
+                            },
+                            {
+                                "text": "Scenario 4: Late or Incorrect Payment",
+                                "time": "4"
+                            },
+                            {
+                                "text": "Scenario 5: Issue with the Ariba Network ",
+                                "time": "5"
+                            }
+                        ],
+                        "image": "image\/topic\/welcome.png",
+                        "transcript": [{
+                            "text": "In this module, we’ll discuss the roles responsible for managing the indirect procurement process and the systems that support these activities across each step in the process.",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/33.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "The correct action to common purchasing exceptions scenarios",
+                                "time": "1"
+                            }
+
+                        ],
+                        "image": "image\/shell\/green\/objective_1.png",
+                        "transcript": [{
+                            "text": "<p>The main objective of this module is to:</p><ul>    <li>Describe when a manual purchase requisition should be created</li>    <li>Identify the triggers to create a purchaserequisition</li>    <li>Define purchasing terminology, and</li>    <li>Discuss the relationship between the work order and the purchase requisition</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    },
+
+                    {
+                        "type": "custom",
+                        "title": "Scenario 1 : Internal Change Request to an Existing Purchase",
+                        "file": "common\/flat_page.html",
+                        "style": "common\/style\/page7.css",
+                        "audio": "media\/34_new_1.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        
+                        "block":[
+                            {
+                                "appear_time":"1",
+                                "disappear_time":"32",
+                                "scene":[
+                                    {
+                                        "text": "Daniel, a Cargill employee, placed a purchase request for some new office suppliers a couple days ago. He later realizes he needs to make changes to the materials on the original request.",
+                                        "image": "image/topic/green_panel.png",
+                                        "class": "green_panel",
+                                        "time": "6.2",
+                                        "left": "103px",
+                                        "top": "18px"
+                                    },
+                                    {
+                                        "text": "At this point the purchase requisition has already been created by Sarah, a Cargill Requisitioner. What should Sarah do to help Daniel update his request?",
+                                        "image": "image/topic/red_panel.png",
+                                        "class": "red_panel",
+                                        "time": "19.9",
+                                        "left": "824px",
+                                        "top": "13px"
+                                    },
+                                    {
+                                        "image": "image/topic/user5.png",
+                                        "class": "user5",
+                                        "time": "6.9",
+                                        "left": "368px",
+                                        "top": "229px"
+                                    },
+                                    {
+                                        "image": "image/topic/user2.png",
+                                        "class": "user2",
+                                        "time": "20.6",
+                                        "left": "674px",
+                                        "top": "228px"
+                                    },
+                                    {
+                                        "text": "A change to a work order is required.",
+                                        "image": "image/topic/note_icon.png",
+                                        "class": "note",
+                                        "time": "23.6",
+                                        "left": "82px",
+                                        "top": "436px"
+                                    },
+                                    {
+                                        "text": "The change request is submitted from the original requester.",
+                                        "image": "image/topic/note_icon.png",
+                                        "class": "note",
+                                        "time": "24.6",
+                                        "left": "82px",
+                                        "top": "379px"
+                                    },
+                                    {
+                                        "text": "Trigger",
+                                        "image": "image/topic/trigger.png",
+                                        "class": "trigger",
+                                        "time": "23.6",
+                                        "left": "69px",
+                                        "top": "306px"
+                                    }
+                                ]
+                            },
+                            {
+                                "appear_time":"31.9",
+                                "disappear_time":"81.3",
+                                "scene":[
+                                {
+                                    "image": "image/topic/title.png",
+                                    "text" : "Action Required",
+                                    "class" : "title",
+                                    "time" : "31.9"
+                                },
+                                {
+                                    "image": "image/topic/side_circle.png",
+                                    "text" : "Not Approved",
+                                    "class" : "side_circle1",
+                                    "time" : "33"
+                                },
+                                {
+                                    "image": "image/topic/center_circle.png",
+                                    "text" : "<strong>PR</strong>",
+                                    "class" : "center_cirlce",
+                                    "time" : "33"
+                                },
+                                
+                                {
+                                    "image": "image/topic/side_circle.png",
+                                    "text" : "Approved/ Converted to Po",
+                                    "class" : "side_circle2",
+                                    "time" : "48"
+                                },
+                                {
+                                    "image": "image/topic/line.png",
+                                    "time" : "48",
+                                    "class":"line"
+                                },
+                                {
+                                    
+                                    "text" : "Make the needed changes to line items of the purchase requisition using the SAP transaction ME52N.",
+                                    "class" : "note",
+                                    "time" : "35.2"
+                                },
+                                {
+                                    
+                                    "text" : "<ul><li>Contact the CSSP PO Processor associated with the purchase</li><li>Submit a Remedyforce ticket for the change</li><li> Provide all the change details required to the PR or PO</li><li>The Remedyforce ticket will be managed by the PO Processor assigned to the purchase order</li><li>PO Processor completes all requested purchase changes and submits the purchase order to the supplier</li><ul>",
+                                    "class" : "note1",
+                                    "time" : "52.5"
+                                }
+                            ]},
+                            {
+                                "appear_time":"81.9",
+                                "disappear_time":"94",
+                                "scene":[
+                                {
+                                    "image": "image/topic/scene3_top.png",
+                                    "text" : "Examples of change requests to purchase orders",
+                                    "class" : "scene3_title",
+                                    "time" : "32"
+                                },
+                                {
+                                    "image": "image/topic/scene3_3.png",
+                                    "text" : "Material or service changes or corrections",
+                                    "class" : "scene3_3",
+                                    "time" : "87.1"
+                                },
+                                {
+                                    "image": "image/topic/scene3_2.png",
+                                    "text" : "Emergency requests",
+                                    "class" : "scene3_2",
+                                    "time" : "91.2"
+                                },
+                                
+                                {
+                                    "image": "image/topic/scene3_1.png",
+                                    "text" : "Vendor master data changes",
+                                    "class" : "scene3_1",
+                                    "time" : "92"
+                                }
+                                
+                            ]},{
+                                "appear_time":"94.5",
+                                "disappear_time":"",
+                                "scene":[
+                                {
+                                  "image":"image/topic/scene4_top.png",
+                                  "text" :"Do’s & Don’t’s"  ,
+                                  "class" :"scene4_top",
+                                  "time" : "42"
+                                },
+                                {
+                                    "image":"image/topic/correct.png",
+                                    "text":"<u>Do’s<u>",
+                                    "class":"correct",
+                                    "time": "95"
+                                },
+                                {
+                                    "image":"image/topic/wrong.png",
+                                    "text":"<u>Dont’s<u>",
+                                    "class": "wrong",
+                                    "time" :"108"
+                                },
+                                {
+                                   
+                                    "text" :"Determine the status of the request and make the proper decision based on its current status",
+                                    "class":"scene4_note1",
+                                    "time":"95"
+                                },
+                                {
+                                   
+                                    "text":"Do not attempt to change an approved requisition or purchase order yourself.",
+                                    "class":"scene4_note2",
+                                    "time":"108"
+                                }
+                            ]
+                        }
+                    ]
+                        ,
+                        "transcript": [{
+                            "text": "<p>Now, we are familiar with the purchase requisition and its creation process.</p><p>In addition, there are different terms involved in the purchase requisition process that can help understand and create the purchase requisition.</p><p>Let’s check our purchasing terminology by taking up this activity.</p><p>Drag and drop the given statements to match the purchasing terminology.</p><p>Purchase Request - Request to purchase a material (or service) to support the activities of a business or function</p><p><b>Pop-up text</b> - The Purchase Request document informs the purchasing department or manager exactly what items and services are requested, the quantity, source and associated costs.</p><p><b>Work Order</b> - Description of the job to perform which lists the materials and/or services required to complete</p><p><b>Pop-up text</b> - The costs and demand are captured for the Work Order in SAP. Not all work order PR’s require approvals. If the cost object owner approves the work order, then the PR lines release automatically. </p><p><b>Purchase Requisition</b> - Internal document created in SAP that contains the required information to purchase a material (or service) to fulfil the need.</p><p><b>Pop-up text</b> - This internal document records all approvals and changes to the purchase request are maintained within the PR. All businesses do not use an internal document to request.</p><p>PRs ensure the plants have visibility to authorize all purchase requests prior to the creation of a purchase order.</p><p><b>Purchase Order</b> - Legal document created in SAP that authorizes a supplier to deliver the material (or service) to Cargill. </p><p><b>Pop-up text</b> - A record of all approvals and changes to the purchase are maintained within the PO and the PR is linked to the PO. Specific terms are included in the PO that both the supplying party and Cargill must adhere to for the purchase. </p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type":"custom",
+                        "title":"Scenario 2 :Delay in Supplier Receipt of a Purchase Order",
+                        "file":"common\/flat_page.html",
+                        "style":"common\/style\/page8.css",
+                        "audio": "media\/39_new.mp3",
+                        "showMenu":true,
+                        "interaction":false,
+                        "block":[
+                        {
+                            "appear_time":"1",
+                            "disappear_time":"31",
+                            "scene":[
+                                {
+                                    "text": "<strong>Michael</strong><br>Requisitioner<br>",
+                                    "image": "image/topic/slide40_3.png",
+                                    "class": "user5",
+                                    "time": "5.8",
+                                    "left": "315px",
+                                    "top": "10px"
+                                },
+                                {
+                                    "text": "<strong>Lilla</strong><br>Plant Supervisor<br>",
+                                    "image": "image/topic/slide40_4.png",
+                                    "class": "user3",
+                                    "time": "18",
+                                    "left": "599px",
+                                    "top": "10px"
+                                },
+                                {
+                                    "text": "Trigger",
+                                    "image": "image/topic/trigger.png",
+                                    "class": "trigger",
+                                    "time": "20",
+                                    "left": "94px",
+                                    "top": "384px"
+                                },
+                                {
+                                    "text": "There is a delay in a purchase order reaching the supplier.",
+                                    "image": "image/topic/note_icon.png",
+                                    "class": "note",
+                                    "time": "21",
+                                    "left": "106px",
+                                    "top": "448px"
+                                },
+                                {
+                                    "text": "Lilla recently contacted Michael to inquire about the status of the purchase order, as the supplier has not yet received the PO. What should Michael do to help Lillia determine the status of her PO?",
+                                    "image": "image/topic/slide40_2.png",
+                                    "class": "note1 behind",
+                                    "time": "18",
+                                    "left": "736px",
+                                    "top": "151px"
+                                },
+                                {
+                                    "text": "Michael is a Cargill Requisitioner. Three days ago, he created a purchase requisition for a large purchase request submitted by Lillia, a Cargill plant supervisor. ",
+                                    "image": "image/topic/slide40_1.png",
+                                    "class": "note2 behind",
+                                    "time": "6",
+                                    "left": "172px",
+                                    "top": "152px"
+                                },
+                                {
+                                    "image": "image/topic/slide40_5.png",
+                                    "class": "arrow",
+                                    "time": "17.7",
+                                    "left": "496px",
+                                    "top": "249px"
+                                }
+                            ]
+                        },
+                        {
+                            "appear_time":"31.5",
+                            "disappear_time":"71",
+                            "scene":[
+                                
+                                {
+                                    "text":"Action Required",
+                                    "image":"image/topic/slide41_8.png",
+                                    "class":"title",
+                                    "time":"31.5"
+                                },{
+                                    "text":"<strong>Michael</strong><br>Requisitioner</br>",
+                                    "image":"image/topic/slide41_1.png",
+                                    "class":"user1",
+                                    "time":"32"
+                                },
+                                {
+                                    
+                                    "image":"image/topic/slide41_2.png",
+                                    "class":"arrow",
+                                    "time":"33"
+                                },
+                                {
+                                    
+                                    "image":"image/topic/slide41_4.png",
+                                    "text":"SAP Document Workflow",
+                                    "class":"SAP",
+                                    "time":"33.5"
+                                },
+                                {
+                                    "text":"Check to see if the Cost Object Owner has completed the Needs Approval on the purchase requisition",
+                                    "image":"image/topic/slide41_7.png",
+                                    "class":"S2_note1",
+                                    "time":"34.5"
+                                },
+                                {
+                                    "text":"Since the purchase is over $5,000, he should confirm if the Business Approval is completed",
+                                    "image":"image/topic/slide41_7.png",
+                                    "class":"S2_note2",
+                                    "time":"44.5"
+                                },
+                               {
+                                   "text":"Not Completed",
+                                   "class":"empty",
+                                   "time":"55"
+                               },
+                               {
+                                "text":"Not Completed",
+                                "class":"empty",
+                                    "time":"55"
+                                },
+                               {
+                                "image":"image/topic/slide41_5.png",
+                                "class":"line" ,
+                                "time":"55"
+                                },
+                                {
+                                    "image":"image/topic/slide41_6.png",
+                                    "class":"line" ,
+                                    "time":"55"
+                                    },
+                                {
+                                    "image":"image/topic/slide41_3.png",
+                                    "class":"line behind",
+                                    "time":"33.5"
+                                },
+                                {
+                                    "text":"Contact the approver and request they review the requisition for approval",
+                                    "class":"rectangular rounded_box",
+                                    "time":"56"
+                                }
+                            ]
+                        },
+                        {
+                                "appear_time":"71.5",
+                                "disappear_time":"118",
+                                "scene":[
+                                
+                                {
+                                    "text":"Action Required",
+                                    "image":"image/topic/slide42_1.png",
+                                    "class":"title",
+                                    "time":"30.5"
+                                },
+                                {
+                                    "text": "Procurement Class Type",
+                                    "image": "image/topic/slide42_3.png",
+                                    "class": "s3_3",
+                                    "time": "72.2"
+                                },
+                                {
+                                    "image": "image/topic/slide42_8.png",
+                                    "class": "s3_8",
+                                    "time": "73"
+                                },
+                                {
+                                    "text": "PP",
+                                    "image": "image/topic/slide42_2.png",
+                                    "class": "s3_2_1",
+                                    "time": "73.5"
+                                },
+                                {
+                                    "text": "NCS/DPL/DPS",
+                                    "image": "image/topic/slide42_2.png",
+                                    "class": "s3_2",
+                                    "time": "92"
+                                },
+                                {
+                                    "image": "image/topic/slide42_5.png",
+                                    "class": "s3_5",
+                                    "time": "74"
+                                },
+                                {
+                                    "text": " Approvals are complete ",
+                                    "class": "s3_t1",
+                                    "time": "74"
+                                },
+                                {
+                                    "text": "log a ticket with Global IT ",
+                                    "image": "image/topic/slide42_4.png",
+                                    "class": "s3_4",
+                                    "time": "81.5"
+                                },
+                                {
+                                    "image": "image/topic/slide42_7.png",
+                                    "class": "s3_7",
+                                    "time": "84"
+                                },
+                                {
+                                    "text": "PO Processor",
+                                    "image": "image/topic/slide42_6.png",
+                                    "class": "s3_6",
+                                    "time": "84.5"
+                                },
+                                {
+                                    "image": "image/topic/slide42_7.png",
+                                    "class": "s3_7",
+                                    "time": "99.5"
+                                },
+                                {
+                                    "text": "Create PO and investigate the issue",
+                                    "class": "s3_t2 rounded_box",
+                                    "time": "86.5"
+                                },
+                                {
+                                    "image": "image/topic/slide42_7.png",
+                                    "class": "s3_7",
+                                    "time": "98.6"
+                                },
+                                {
+                                    "text": "log a ticket with Global IT ",
+                                    "image": "image/topic/slide42_4.png",
+                                    "class": "s3_4",
+                                    "time": "98.6"
+                                },
+                                {
+                                    "image": "image/topic/slide42_7.png",
+                                    "class": "s3_7",
+                                    "time": "86.5"
+                                },
+                                {
+                                    "text": "Determine if there was an error in the requisition that caused a failure in the automatic creation of the purchase order",
+                                    "class": "s3_t3 rounded_box",
+                                    "time": "100"
+                                }
+
+                            ]
+                        },
+                        {
+                                "appear_time":"118.5",
+                                "disappear_time":"",
+                                "scene":[
+                                
+                                {
+                                    "text":"Do’s & Dont’s ",
+                                    "image":"image/topic/slide43_1.png",
+                                    "class":"title",
+                                    "time":"118.5"
+                                },
+                               
+                                
+                                {
+                                    "text":"",
+                                    "image":"image/topic/slide43_2.png",
+                                    "class":"s4_2",
+                                    "time":"119.5"
+                                },
+                                
+                                {
+                                    "text":"",
+                                    "image":"image/topic/slide43_3.png",
+                                    "class":"s4_3",
+                                    "time":"127"
+                                },
+
+                                {
+                                    
+                                    "image":"image/topic/slide43_4.png",
+                                    "text":"Dont’s",
+                                    "class":"s4_4 behind",
+                                    "time":"119.5"
+                                },
+                               
+                                {
+                                    "text":"Do’s",
+                                    "image":"image/topic/slide43_5.png",
+                                    "class":"s4_5 behind",
+                                    "time":"127"
+                                },
+                                {       "text":"<li>Review the workflow of the requisition first to determine the appropriate action.</li><li>In the case of NCS, DPS and DPL purchases, the PO Processor is not involved in the PO creation as these purchase types automatically create the PO after the Needs approval.</li> ",
+                                         "class":"s4_t2",
+                                         "time":"127"
+                                },
+                                {
+                                    
+                                    "image":"image/topic/slide43_6.png",
+                                    "class":"s4_6",
+                                    "time":"56"
+                                },
+                                {
+                                    "text":"Do not immediately contact the PO Processor as the first step to determining the issue.",
+                                    "class":"s4_t1",
+                                    "time":"119.5"
+                                }
+                            ]
+                        }
+                   ]   
+                    },
+                    {
+                        "type":"custom",
+                        "title":"Scenario 3 : Questions Regarding the Purchase Order",
+                        "file":"common\/flat_page.html",
+                        "style":"common\/style\/page10.css",
+                        "audio": "media\/44_new.mp3",
+                        "showMenu":true,
+                        "interaction":false,
+                        "block":[
+                            {
+                                "appear_time":"1",
+                                "disappear_time":"27.5",
+                                "scene":[
+                                    {
+                                        "text": "<strong>Steve</strong>  <br>Supplier<br>",
+                                        "image": "image/topic/slide45_1.png",
+                                        "class": "s1_1",
+                                        "time": "4.5",
+                                        "left": "251px",
+                                        "top": "-28px"
+                                    },
+                                    {
+                                        "text": "Question regarding purchase order",
+                                        "image": "image/topic/slide45_4.png",
+                                        "class": "s1_4",
+                                        "time": "15",
+                                        "left": "536px",
+                                        "top": "75px"
+                                    },
+                                    {
+                                        "text": "<strong>Jerry</strong>  <br>Requisitioner<br>",
+                                        "image": "image/topic/slide45_2.png",
+                                        "class": "s1_2",
+                                        "time": "15.5",
+                                        "left": "741px",
+                                        "top": "-30px"
+                                    },
+                                    {
+                                        "text": "Steve works for a Cargill supplier. He recently received a purchase order but he needs to make a change to the existing order.  He knows the Cargill Requisitioner, Jerry, over at the plant. So, he contacts Jerry with some questions about the purchase order. How should Jerry handle the suppliers questions on the purchase order?",
+                                        "class": "s1_t1",
+                                        "time": "5",
+                                        "left": "207px",
+                                        "top": "231px"
+                                    },
+                                    {
+                                        "text": "The supplier requires additional information, or needs to change something about the purchase order.",
+                                        "image": "image/topic/note_icon.png",
+                                        "class": "s1_noteicon note",
+                                        "time": "18",
+                                        "left": "96px",
+                                        "top": "422px"
+                                    },
+                                    {
+                                        "text": "Trigger",
+                                        "image": "image/topic/slide45_3.png",
+                                        "class": "trigger",
+                                        "time": "17.5",
+                                        "left": "81px",
+                                        "top": "344px"
+                                    }
+                                ]
+                            },
+                            {
+                                "appear_time":"28",
+                                "disappear_time":"49",
+                                "scene":[
+                                    {
+                                        "text": "Action Required",
+                                        "image": "image/topic/slide46_1.png",
+                                        "class": "s2_1",
+                                        "time": "28"
+                                    },
+                                    {
+                                        "text": "<strong>Jerry</strong>  <br>Requisitioner<br>",
+                                        "image": "image/topic/slide45_2.png",
+                                        "class": "s1_2",
+                                        "time": "28.3"
+                                    },
+                                    {
+                                        "image": "image/topic/slide46_7.png",
+                                        "class": "s2_7",
+                                        "time": "29.5"
+                                    },
+                                    {
+                                        "text": "The best person to get the changes updated on the PO",
+                                        "image": "image/topic/slide46_3.png",
+                                        "class": "s2_3",
+                                        "time": "30"
+                                    },
+                                    {
+                                        "image": "image/topic/slide46_6.png",
+                                        "class": "s2_6",
+                                        "time": "38.3"
+                                    },
+                                    {
+                                        "text": "<strong>Steve</strong>  <br>Supplier<br>",
+                                        "image": "image/topic/slide45_1.png",
+                                        "class": "s1_1",
+                                        "time": "37.7"
+                                    },
+                                    {
+                                        "text": "PO Processor",
+                                        "image": "image/topic/slide46_2.png",
+                                        "class": "s2_2",
+                                        "time": "33.1"
+                                    },
+                                    {
+                                        "image": "image/topic/slide46_6.png",
+                                        "class": "s2_6",
+                                        "time": "37"
+                                    },
+                                    {
+                                        "text": "Find the name and contact information of the PO Processor on the purchase order",
+                                        "image": "image/topic/slide46_3.png",
+                                        "class": "s2_3_1",
+                                        "time": "38.8"
+                                    },
+                                    {
+                                        "image": "image/topic/slide46_6.png",
+                                        "class": "s2_6",
+                                        "time": "45"
+                                    },
+                                    {
+                                        "text": "PO Processor will help the suppler with all their change needs",
+                                        "class": "s2_t1",
+                                        "time": "45.3"
+                                    }
+                                ]
+                            },{
+                                "appear_time":"49.5",
+                                "disappear_time":"",
+                                "scene":[
+                                    {
+                                        "text": "Dont's",
+                                        "image": "image/topic/slide47_4.png",
+                                        "class": "s3_4",
+                                        "time": "30.5"
+                                    },
+                                    {
+                                        "text": "",
+                                        "image": "image/topic/slide47_2.png",
+                                        "class": "s3_2",
+                                        "time": "31"
+                                    },
+                                    {
+                                        "text": "<li>The Requisitioner should direct the supplier to PO Processor listed on the purchase order versus attempting to support the supplier need directly.</li><li>This ensures the supplier gets the help they need</li>",
+                                        "class": "s3_t2",
+                                        "time": "31.5"
+                                    },
+                                    {
+                                        "text": "Do's",
+                                        "image": "image/topic/slide47_5.png",
+                                        "class": "s3_5",
+                                        "time": "70"
+                                    },
+                                    {
+                                        "image": "image/topic/slide47_3.png",
+                                        "class": "s3_3",
+                                        "time": "70"
+                                    },
+                                    {
+                                        "text": "<li>The Requisitioner should not request the changes on behalf of the supplier.</li><li>This reduces unnecessary work for the Requisitioner.</li>",
+                                        "class": "s3_t1",
+                                        "time": "70"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type":"custom",
+                        "title":"Scenario 4 : Questions Regarding the Purchase Order",
+                        "file":"common\/flat_page.html",
+                        "style":"common\/style\/page11.css",
+                        "audio": "media\/48_new.mp3",
+                        "showMenu":true,
+                        "interaction":false,
+                        "block":[
+                            {
+                                "appear_time":"1",
+                                "disappear_time":"23",
+                                "scene":[
+                                    {
+                                        "text": "<strong>Lina</strong>  <br>Supplier<br>",
+                                        "image": "image/topic/slide49_1.png",
+                                        "class": "s1_1",
+                                        "time": "5.5",
+                                        "left": "306px",
+                                        "top": "6px"
+                                    },
+                                    {
+                                        "text": "<strong>Jennifer</strong>  <br>Requisitioner<br>",
+                                        "image": "image/topic/slide49_2.png",
+                                        "class": "s1_2",
+                                        "time": "9",
+                                        "left": "743px",
+                                        "top": "-3px"
+                                    },
+                                    {
+                                        "text": "Lina is a Cargill supplier. She attempts to contact Jennifer , a local Cargill requisitioner, about a payment discrepancy on a past purchase order. Lina wants Jennifer to help her correct the payment discrepancy. What should Jennifer do?",
+                                        "class": "s1_t1",
+                                        "time": "5.6",
+                                        "left": "286px",
+                                        "top": "271px"
+                                    },
+                                    {
+                                        "text": "A supplier contacts the Requisitioner about a late or incorrect payment.",
+                                        "image": "image/topic/note_icon.png",
+                                        "class": "s1_noteicon",
+                                        "time": "14.5",
+                                        "left": "125px",
+                                        "top": "408px"
+                                    },
+                                    {
+                                        "text": "Trigger",
+                                        "image": "image/topic/slide45_3.png",
+                                        "class": "trigger",
+                                        "time": "13",
+                                        "left": "903px",
+                                        "top": "418px"
+                                    },
+                                    {
+                                        "text": "Need help regarding payment discrepancy",
+                                        "image": "image/topic/slide49_3.png",
+                                        "class": "s1_3",
+                                        "time": "8.5",
+                                        "left": "566px",
+                                        "top": "102px"
+                                    }
+                                ]},
+                                {
+                                    "appear_time":"23.5",
+                                    "disappear_time":"62",
+                                    "scene":[
+                                        {
+                                            "text": "Action Required",
+                                            "image": "image/topic/slide50_1.png",
+                                            "class": "s2_1",
+                                            "time": "23.5",
+                                            "left": "-12px",
+                                            "top": "-9px"
+                                        },
+                                        {
+                                            "text": "<strong>Jennifer</strong>  <br>Requisitioner<br>",
+                                            "image": "image/topic/slide50_2.png",
+                                            "class": "s2_2",
+                                            "time": "24",
+                                            "left": "105px",
+                                            "top": "65px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_3.png",
+                                            "class": "s2_3",
+                                            "time": "24.5",
+                                            "left": "273px",
+                                            "top": "127px"
+                                        },
+                                        {
+                                            "text": "Understand that an invoice payment issue can occur at any point along the process",
+                                            "image": "image/topic/slide50_4.png",
+                                            "class": "s2_4",
+                                            "time": "25",
+                                            "left": "385px",
+                                            "top": "82px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_3.png",
+                                            "class": "s2_3",
+                                            "time": "31.5",
+                                            "left": "646px",
+                                            "top": "133px"
+                                        },
+                                        {
+                                            "text": "Direct the supplier to contact Supplier Relations regarding any payment issues from the supplier",
+                                            "class": "s2_t1",
+                                            "time": "32",
+                                            "left": "756px",
+                                            "top": "96px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_5.png",
+                                            "class": "s2_5",
+                                            "time": "38.5",
+                                            "left": "1062px",
+                                            "top": "44px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_6.png",
+                                            "class": "s2_6",
+                                            "time": "39",
+                                            "left": "847px",
+                                            "top": "164px"
+                                        },
+                                        {
+                                            "text": "Research the Issue",
+                                            "class": "s2_t2",
+                                            "time": "39.5",
+                                            "left": "924px",
+                                            "top": "356px"
+                                        },
+                                        {
+                                            "text": "<strong>Lina</strong>  <br>Supplier<br>",
+                                            "image": "image/topic/slide50_7.png",
+                                            "class": "s2_7",
+                                            "time": "43",
+                                            "left": "683px",
+                                            "top": "300px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_12.png",
+                                            "class": "s2_12",
+                                            "time": "53.5",
+                                            "left": "353px",
+                                            "top": "359px"
+                                        },
+                                        {
+                                            "text": "Select Supplier that experiences frequent invoice payment issues",
+                                            "image": "image/topic/slide50_9.png",
+                                            "class": "s2_9",
+                                            "time": "46",
+                                            "left": "419px",
+                                            "top": "309px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_8.png",
+                                            "class": "s2_8",
+                                            "time": "46",
+                                            "left": "650px",
+                                            "top": "367px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_11.png",
+                                            "class": "s2_11",
+                                            "time": "54",
+                                            "left": "187px",
+                                            "top": "294px"
+                                        },
+                                        {
+                                            "image": "image/topic/slide50_12.png",
+                                            "class": "s2_12",
+                                            "time": "59",
+                                            "left": "153px",
+                                            "top": "361px"
+                                        },
+                                        {
+                                            "text": "Discuss recurring issues",
+                                            "class": "s2_t3",
+                                            "time": "59.5",
+                                            "left": "45px",
+                                            "top": "327px"
+                                        }
+                                    ]},
+                                {
+                                    "appear_time":"62.5",
+                                    "disappear_time":"",
+                                    "scene":[
+                                        {
+                                            "text": "Do’s &amp; Dont’s",
+                                            "image": "image/topic/slide51_5.png",
+                                            "class": "s3_5",
+                                            "time": "30.5",
+                                            "left": "-9px",
+                                            "top": "-10px"
+                                        },
+                                        {
+                                            "text": "",
+                                            "image": "image/topic/slide51_1.png",
+                                            "class": "s3_1",
+                                            "time": "31.5",
+                                            "left": "268px",
+                                            "top": "50px"
+                                        },
+                                        {
+                                            "text": "Do’s",
+                                            "image": "image/topic/slide51_4.png",
+                                            "class": "s3_4 behind",
+                                            "time": "31",
+                                            "left": "263px",
+                                            "top": "88px"
+                                        },
+                                        {
+                                            "text": "<li>The Requisitioner should always direct the supplier to Supplier Relations versus attempting to support the supplier need directly.</li><li>This ensures the supplier gets the help they need</li><li>This reduces unnecessary work for the Requisitioner.</li>",
+                                            "class": "s3_t1",
+                                            "time": "32",
+                                            "left": "303px",
+                                            "top": "182px"
+                                        },
+                                        {
+                                            "text": "",
+                                            "image": "image/topic/slide51_2.png",
+                                            "class": "s3_2 ",
+                                            "time": "80",
+                                            "left": "835px",
+                                            "top": "43px"
+                                        },
+                                        {
+                                            "text": "Dont’s",
+                                            "image": "image/topic/slide51_3.png",
+                                            "class": "s3_3 behind",
+                                            "time": "80",
+                                            "left": "622px",
+                                            "top": "85px"
+                                        },
+                                        {
+                                            "text": "The supplier should not contact CSSP directly with an issue regarding invoice payments.",
+                                            "class": "s3_t2",
+                                            "time": "80",
+                                            "left": "718px",
+                                            "top": "200px"
+                                        }
+                                    ]
+                            }
+                        ]
+                    },
+                    {
+                        "type":"custom",
+                        "title":"Scenario 5 : Supplier Questions on the Ariba Network",
+                        "file":"common\/flat_page.html",
+                        "style":"common\/style\/page12.css",
+                        "audio": "media\/52_new.mp3",
+                        "showMenu":true,
+                        "interaction":false,
+                        "block":[
+                            {
+                                "appear_time":"1",
+                                "disappear_time":"31",
+                                "scene":[
+                                    {
+                                        "text": "Martin is a Cargill supplier. He is trying to log into the Cargill Ariba Network but he is not sure of his password. After a few attempts, his account is locked due to multiple incorrect attempts.",
+                                        "image": "image/topic/slide53_4.png",
+                                        "class": "s1_4",
+                                        "time": "5.5",
+                                        "left": "88px",
+                                        "top": "2px"
+                                    },
+                                    {
+                                        "image": "image/topic/slide53_1.png",
+                                        "class": "s1_1",
+                                        "time": "5",
+                                        "left": "338px",
+                                        "top": "104px"
+                                    },
+                                    {
+                                        "text": "<br>",
+                                        "image": "image/topic/slide53_2.png",
+                                        "class": "s1_2",
+                                        "time": "19.5",
+                                        "left": "669px",
+                                        "top": "78px"
+                                    },
+                                    {
+                                        "text": "He contacts Sima at the local Cargill plant to get his account unlocked. Let’s see what action Sima should take in this situation.",
+                                        "image": "image/topic/slide53_3.png",
+                                        "class": "s1_3",
+                                        "time": "20",
+                                        "left": "882px",
+                                        "top": "-12px"
+                                    },
+                                    {
+                                        "text": "The supplier contacts to the Requisitioner for support on the Ariba Network for the following technical or functional issues:",
+                                        "image": "image/topic/note_icon.png",
+                                        "class": "s1_noteicon",
+                                        "time": "24",
+                                        "left": "134px",
+                                        "top": "331px"
+                                    },
+                                    {
+                                        "text": "Locked account",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "25",
+                                        "left": "119px",
+                                        "top": "359px"
+                                    },
+                                    {
+                                        "text": "Account configuration",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "25.5",
+                                        "left": "271px",
+                                        "top": "360px"
+                                    },
+                                    {
+                                        "text": "New user set up",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "26",
+                                        "left": "449px",
+                                        "top": "360px"
+                                    },
+                                    {
+                                        "text": "Fee payment or changes",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "26.5",
+                                        "left": "642px",
+                                        "top": "360px"
+                                    },
+                                    {
+                                        "text": "Create a credit memo",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "30",
+                                        "left": "803px",
+                                        "top": "419px"
+                                    },
+                                    {
+                                        "text": "Create an order confirmation",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "27.5",
+                                        "left": "115px",
+                                        "top": "411px"
+                                    },
+                                    {
+                                        "text": "Create a service entry sheet",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "28.5",
+                                        "left": "271px",
+                                        "top": "411px"
+                                    },
+                                    {
+                                        "text": "Create an invoice",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "29",
+                                        "left": "448px",
+                                        "top": "420px"
+                                    },
+                                    {
+                                        "text": "Add tax or freight to an invoice",
+                                        "image": "image/topic/slide53_5.png",
+                                        "class": "s1_5",
+                                        "time": "29.5",
+                                        "left": "639px",
+                                        "top": "420px"
+                                    },
+                                    {
+                                        "text": "Trigger",
+                                        "image": "image/topic/slide45_3.png",
+                                        "class": "trigger",
+                                        "time": "24",
+                                        "left": "944px",
+                                        "top": "352px"
+                                    }
+                                ]},
+                            {
+                                "appear_time":"31.5",
+                                "disappear_time":"47",
+                                "scene":[
+                                    {
+                                        "text": "<strong>Sima</strong>  <br>Requisitioner<br>",
+                                        "image": "image/topic/slide54_1.png",
+                                        "class": "s2_1",
+                                        "time": "15.5",
+                                        "left": "24px",
+                                        "top": "116px"
+                                    },
+                                    {
+                                        "text": "<strong>Martin</strong>  <br>Supplier<br>",
+                                        "image": "image/topic/slide54_2.png",
+                                        "class": "s2_2",
+                                        "time": "16.5",
+                                        "left": "279px",
+                                        "top": "120px"
+                                    },
+                                    {
+                                        "text": "Contact the Ariba Support team for all technical or functional issues or questions regarding the Ariba Network",
+                                        "image": "image/topic/slide54_3.png",
+                                        "class": "s2_3",
+                                        "time": "34",
+                                        "left": "557px",
+                                        "top": "143px"
+                                    },
+                                    {
+                                        "image": "image/topic/slide54_4.png",
+                                        "class": "s2_4",
+                                        "time": "41",
+                                        "left": "785px",
+                                        "top": "183px"
+                                    },
+                                    {
+                                        "image": "image/topic/slide54_4.png",
+                                        "class": "s2_4",
+                                        "time": "33.5",
+                                        "left": "463px",
+                                        "top": "184px"
+                                    },
+                                    {
+                                        "image": "image/topic/slide54_4.png",
+                                        "class": "s2_4",
+                                        "time": "16",
+                                        "left": "211px",
+                                        "top": "184px"
+                                    },
+                                    {
+                                        "text": "The Ariba Support team is prepared to support these supplier questions",
+                                        "class": "s2_t1",
+                                        "time": "41.5",
+                                        "left": "883px",
+                                        "top": "148px"
+                                    }
+                                ]
+                        },
+                        {
+                            "appear_time":"47.5",
+                            "disappear_time":"",
+                            "scene":[
+                                {
+                                    "text": "Do’s &amp; Dont’s",
+                                    "image": "image/topic/slide51_5.png",
+                                    "class": "s3_5",
+                                    "time": "30.5",
+                                    "left": "-4px",
+                                    "top": "-9px"
+                                },
+                                {
+                                    "text": "",
+                                    "image": "image/topic/slide55_1.png",
+                                    "class": "s3_1",
+                                    "time": "31",
+                                    "left": "254px",
+                                    "top": "52px"
+                                },
+                                {
+                                    "text": "",
+                                    "image": "image/topic/slide55_2.png",
+                                    "class": "s3_2",
+                                    "time": "55.5",
+                                    "left": "860px",
+                                    "top": "47px"
+                                },
+                                {
+                                    "text": "Dont’s",
+                                    "image": "image/topic/slide55_3.png",
+                                    "class": "s3_3 behind",
+                                    "time": "55.5",
+                                    "left": "647px",
+                                    "top": "84px"
+                                },
+                                {
+                                    "text": "Do’s",
+                                    "image": "image/topic/slide55_4.png",
+                                    "class": "s3_4 behind",
+                                    "time": "31.5",
+                                    "left": "255px",
+                                    "top": "86px"
+                                },
+                                {
+                                    "text": "Requisitioners should direct the supplier to either the Ariba Sipport team or to Cargill’s Supplier Central website.",
+                                    "class": "s3_t1",
+                                    "time": "32",
+                                    "left": "297px",
+                                    "top": "183px"
+                                },
+                                {
+                                    "text": "Requisitioners should not attempt to provide technical or functional support for Cargill suppliers. These issues must be managed by the supplier and Ariba Support.",
+                                    "class": "s3_t2",
+                                    "time": "55.5",
+                                    "left": "717px",
+                                    "top": "167px"
+                                }
+                            ]
+                        }
+                      ]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/56.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>When a supplier contacts a Requisitioner regarding an issue with a purchase order, the Requisitioner should attempt to find out more information about the supplier issue in order to expedite support for the supplier.</p>",
+                        "choices": [{
+                                "text": "True",
+                                "correct": false
+                            },
+                            {
+                                "text": "False",
+                                "correct": true
+                            }
+
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>The Requisitioner should instruct the supplier to contact Supplier Relations.</p>",
+                            "correct": "<p>That’s Correct! </p><p>The Requisitioner should instruct the supplier to contact Supplier Relations.</p>"
+                        },
+                        "image": "image\/topic\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/56.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>Which entity should a Requisitioner recommend to a supplier if the supplier is facing a technical or functional issue on the Ariba Network?</p>",
+                        "choices": [{
+                                "text": "Requisitioner",
+                                "correct": false
+                            },
+                            {
+                                "text": "PO Processor",
+                                "correct": true
+                            },
+                            {
+                                "text": "Supplier Account Manager",
+                                "correct": false
+                            },
+                            {
+                                "text": "Ariba Support",
+                                "correct": true
+                            }
+
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>A Requisitioner should recommend Ariba Support to a supplier if the supplier is facing a technical or functional issue on the Ariba Network.</p>",
+                            "correct": "<p>That’s Correct! </p><p>A Requisitioner should recommend Ariba Support to a supplier if the supplier is facing a technical or functional issue on the Ariba Network.</p>"
+                        },
+                        "image": "image\/topic\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "audio": "media\/59.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Common purchasing exception scenarios",
+                                "time": "5"
+                            },
+                            {
+                                "text": "Appropriate Requisitioner steps for resolution",
+                                "time": "10"
+                            }
+
+                        ],
+                        "image": "image\/topic\/summary.png",
+                        "transcript": [{
+                            "text": "<p>We have now come to the end of this module.</p><p>You have been introduced to the purchase requisition document types, structure, key fields and process flow.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Course Wrap-up",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "audio": "media\/59.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Common purchasing exception scenarios",
+                                "time": "5.5"
+                            },
+                            {
+                                "text": "Appropriate PR Processor steps for resolution",
+                                "time": "11"
+                            }
+
+                        ],
+                        "image": "image\/topic\/summary.png",
+                        "transcript": [{
+                            "text": "<p>We have now come to the end of this module.</p><p>You have been introduced to the purchase requisition document types, structure, key fields and process flow.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            }
+        ]
+    }
+}

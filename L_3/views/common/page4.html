@@ -1,0 +1,36 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page4">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12">
+                    <div class="instr m-3 animate" data-time="1">{{page.block.instruction}}</div>
+                    <div class="dg text-center animate" data-time="{{page.timeArr[0]}}">
+                        <img ng-src="{{page.block.image}}" alt="">
+                    </div>
+                    <div class="dg text-center animate" data-time="{{page.timeArr[0]}}">
+                        <p>{{page.block.center_text}}</p>
+                    </div>
+                    <div class="dg item animate" ng-repeat="item in page.block.items" data-time="{{page.timeArr[$index+1]}}">
+                        <div class="body" ng-bind-html="item | to_trusted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //alert("I am here")
+        //$(".dg").draggable();
+        anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });
+    });
+</script>

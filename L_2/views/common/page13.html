@@ -1,0 +1,68 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page13">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-8">
+                    <div class="animate item" ng-repeat="item in page.block" data-time="0" style="background-image:url('{{item.image}}')">
+                        <!-- <div class="text{{$index}} animate" data-time="{{item.time}}">
+                            {{item.text}}
+                        </div> -->
+                        <div ng-repeat="i in item.grp" class="text_{{$parent.$index}}_{{$index}} animate" 
+                        data-time="{{i.time}}" data-disappear="{{i.disappear}}">
+                            <div ng-bind-html="i.text | to_trusted"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="full-height lightblue_bg fitHeader">
+                        <div id="page13_right">
+                            <div class="row animate" data-time="96" >
+                                <div class="col-sm-6 text-right">
+                                    <img src="image/topic1/internal.png" alt="Internal">
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="page13_space orange_bg">
+                                        Internal Number Range
+                                    </div>
+                                    <div class="page13_space">
+                                        Automatically incremented by the system
+                                    </div>
+                                </div >
+                            </div>
+                            <br>
+                            <div class="row  animate" data-time="97">
+                                <div class="col-sm-6">
+                                    <div class="page13_space green_bg">
+                                        External Number Range
+                                    </div>
+                                    <div class="page13_space">
+                                        Manually assigned by requester
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="image/topic1/external.png" alt="External">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+        syncAudio($(".animate"), "bottomToTop");
+    });
+</script>

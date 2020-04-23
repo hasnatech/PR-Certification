@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cargill</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900" rel="stylesheet">
+    <link id="pageStyle" rel="stylesheet" type="text/css" />
+    <link id="deviceStyle" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body ng-app="myApp" ng-cloak ng-controller="PlayerController">
+
+    <div class="container1 center_screen">
+        <div id="shell" class="shell {{controller}}">
+
+            <div id="audio">
+                <audio controls preload="auto" id="player" src="" ontimeupdate='updateTrackTime(this);'></audio>
+                <button onclick="console.log(trackTime())">Track</button>
+            </div>
+            <div class="loading {{loading}}">
+                <img src="image/shell/green/loading.gif" alt="">
+            </div>
+            <homepage></homepage>
+
+
+            <div class="bookmark" ng-show="bookmark">
+                <div class="middle_window">
+                    <div class="cPanel">
+                        <div class="exit" ng-click="bookmark = false;">x</div>
+                        <div class="cBorder"></div>
+                        <div class="title">
+                            <h3>Bookmark</h3>
+                        </div>
+                        <div class="content">
+                            Do you want to continue from where you left off last time?
+                            <br><br>
+                            <div class="btn cargill_button cargill_button-outline" ng-click="gotoBookMark();">Yes</div>
+                            <div class="btn cargill_button cargill_button-outline" ng-click="bookmark = false;">No</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="header">
+                <div class="absolute">
+                    <div class="title brand_bg">
+                        <div class="divider"></div>
+                        <h1>{{content.course.title}}</h1>
+                        <h2>{{page.title}}</h2>
+                        <div id="pageNo">
+                            Page {{("00"+(curr_page + 1)).slice(-2)}} / {{("00"+total_page).slice(-2)}}
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img class="menu_btn button" src="image/shell/green/slide_panel_btn.png" alt="">
+                        <ul>
+                            <li class="button" ng-click="home('show')">
+                                <img src="image/shell/green/menu_btn_normal.png" data-img="menu_btn" alt="">
+                                <p class="text-center menu_text">Home</p>
+                            </li>
+                            <li class="button">
+                                <img src="image/shell/green/help_btn_normal.png" data-img="help_btn" alt="">
+                                <p class="text-center menu_text">Help</p>
+                            </li>
+                            <li class="button" ng-click="resource_click()">
+                                <img src="image/shell/green/resources_btn_normal.png" data-img="resources_btn" alt="">
+                                <p class="text-center menu_text">Resource</p>
+                            </li>
+                            <li class="button" ng-click="transcript_click()">
+                                <img src="image/shell/green/transcript_btn_normal.png" data-img="transcript_btn" alt="">
+                                <p class="text-center menu_text">Transcript</p>
+                            </li>
+                            <li class="button">
+                                <img id="audio_img" src="image/shell/green/audio_on_btn_normal.png" ng-click="audio_click()" data-img="{{audio_src}}" alt="">
+                                <p class="text-center menu_text">{{audio_text}}</p>
+                            </li>
+                            <li class="button" ng-click="gotoPage(current_topic, current_page)">
+                                <img src="image/shell/green/reaply_btn_normal.png" data-img="reaply_btn" alt="">
+                                <p class="text-center menu_text">Replay</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page">
+                <div class="content" ng-include="pageURL" onload="pageLoaded(pageURL)"></div>
+            </div>
+
+            <div class="common_window {{getWindowStatus()}}">
+                <div class="white_panel">
+                    <div class="transcript {{transcript_status}}">
+                        <div class="cPanel">
+                            <div class="exit" ng-click="transcript_close()">x</div>
+                            <div class="cBorder"></div>
+                            <div class="title">
+                                {{content.course.lable.transcript}}
+                            </div>
+                            <div class="content">
+                                <p ng-repeat="item in page.transcript" data-sec="{{item.sec}}" ng-bind-html="item.text | to_trusted ">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="white_panel">
+                    <div class="resource {{resource_status}}">
+                        <div class="cPanel">
+                            <div class="exit" ng-click="resource_close()">x</div>
+                            <div class="cBorder"></div>
+                            <div class="title">
+                                {{content.course.lable.resource}}
+                            </div>
+                            <div class="content">
+                                <p ng-repeat="item in content.course.resource" data-sec="{{item.sec}}">
+                                    <a href="{{item.link}}" target="_blank"> {{item.label}}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="absolute">
+                    <div class="back button brand_bg" ng-class="{disable : curr_page == 0}" ng-click="prev()">
+                        <img class="next_arr first_arr" src="image/shell/green/prev.png" alt="">
+                        <img class="next_arr" src="image/shell/green/prev.png" alt="">
+                        <div class="thick_line brand_bg"></div>
+                        <div class="text">Back</div>
+                    </div>
+                    <div class="next button brand_bg" ng-class="{disable : curr_page == total_page - 1 || nextEnable != true}" ng-click="next()">
+                        <img class="next_arr first_arr" src="image/shell/green/next.png" alt="">
+                        <img class="next_arr" src="image/shell/green/next.png" alt="">
+                        <div class="thick_line brand_bg"></div>
+                        <div class="text">Next</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/anime.min.js"></script>
+
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="scorm/scorm_api_wrapper.js"></script>
+    <script type="text/javascript" src="scorm/scorm_broker.js"></script>
+    <script type="text/javascript" src="scorm/scorm.js"></script>
+
+    <script type="text/javascript">
+        var file = "topic1.json";
+        var language = "en";
+        var startPage = 0;
+        var startAudio = "media/topic1_welcome.mp3";
+    </script>
+
+    <script type="text/javascript" src="controller/shell.js"></script>
+    <script type="text/javascript" src="controller/shell_animate.js"></script>
+
+</body>
+
+</html>

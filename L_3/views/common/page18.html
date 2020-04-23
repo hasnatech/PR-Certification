@@ -1,0 +1,29 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page18">
+        <div class="full-height p-10">
+            <div class="row align_top">
+                <div class="col-12">
+                    <div class="animate img" ng-repeat="item in page.block" data-time="{{item.time}}">
+                        <img ng-src="{{item.image}}" alt="">
+                        <div class="txt" ng-bind-html="item.text | to_trusted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //$(".img").draggable();
+        anime({
+            targets: '.animate',
+            translateX: [-20, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });
+    });
+</script>

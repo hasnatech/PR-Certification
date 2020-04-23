@@ -1,0 +1,23 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page18">
+        <div class="full-height p-10">
+            <div class="center_screen animate" data-time="{{page.text.time}}" data-disappear="{{page.text.disappear}}" >
+                <div class="middle_text" ng-bind-html="page.text.t | to_trusted"></div>
+            </div>
+            <div class="row top_50">
+                <div class="col-12">
+                    <div class="animate img" ng-repeat="item in page.block" data-time="{{item.time}}">
+                        <img ng-src="{{item.image}}" alt="">
+                        <div class="txt" ng-bind-html="item.text | to_trusted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //$(".img").draggable();
+        syncAudio($(".animate"));
+    });
+</script>

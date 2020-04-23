@@ -1,0 +1,81 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page9">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12">
+
+                    <br>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="flow">
+                                        <div ng-repeat="item in page.images" class="animate img" data-anim="{{$index >0 ? 'zoom' : ''}}" data-time={{item.time}}
+                                            id="img{{$index}}">
+                                            <img ng-src="{{item.image}}" alt="{{item.text}}">
+                                            <div class="txt">{{item.text}}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="group">
+                                        <div ng-repeat="item in page.group1" class="animate grp" data-time={{item.time}}>
+                                            <div class="title uppercase">{{item.title}}</div>
+                                            <hr align="left">
+                                            <ul class="circle clearfix">
+                                                <li ng-repeat="i in item.list" class="animate" data-time="{{i.time}}">{{i.text}}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="full-height lightblue_bg fitHeader">
+                                    <div class="col-sm-12">
+                                            <div class="flow2">
+                                                <div ng-repeat="item in page.right_img" class="animate img"  data-anim="zoom"  data-time={{item.time}}
+                                                    id="img5">
+                                                    <img ng-src="{{item.image}}" alt="{{item.text}}">
+                                                    <div class="txt">{{item.text}}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="group2">
+                                                <div ng-repeat="item in page.group2" class="animate grp" data-time={{item.time}}>
+                                                    <div class="title uppercase">{{item.title}}</div>
+                                                    <hr align="left">
+                                                    <ul class="circle clearfix">
+                                                        <li ng-repeat="i in item.list" class="animate" data-time="{{i.time}}">{{i.text}}</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+
+         syncAudio($(".animate"), "bottomToTop");
+    });
+</script>

@@ -1,0 +1,47 @@
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin even() {
+    &:nth-child(even) {
+        @content
+    }
+}
+
+@mixin breakpoint($width) {
+    @media (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin background($image, $pos:center, $size:cover ) {
+    background-image: url($image); 
+    background-position: $pos;
+    background-repeat: no-repeat; 
+    background-size: $size;
+}
+
+@mixin space($s: 0) {
+    height: $s+px;
+}
+
+
+@mixin color($s, $col) {
+    .bg-#{$s} {
+        background-color: $col;
+        color: white;
+    }
+
+    .text-#{$s} {
+        color: $col;
+    }
+}
+
+@mixin bg-color($col) {
+    background-color: $col;
+    color: white;
+}

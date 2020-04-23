@@ -1,0 +1,80 @@
+<section class="sec" data-current="{{curr_page}}" style="background-image: url('{{page.image}}')">
+	<div class="text_image">
+		<div class="full-height">
+			<div class="row center_screen">
+				<div class="col-6">
+					<div class="white_bg text_content">
+						<div class="animate" ng-repeat="b in page.block" data-time="{{b.time}}">
+							<p ng-bind-html="b.text | to_trusted"></p>
+							<ul class="square_bullet">
+								<li ng-repeat="c in b.list" class="animate" data-time="{{b.time}}">
+									{{c}}
+								</li>
+							</ul>	
+						</div>
+					</div>
+					<div class="animate imgBlock" ng-repeat="b in page.block" data-time="{{b.time}}">
+						<img class="{{b.class}}" src="{{b.image}}"/>
+					</div>
+				</div>
+			</div>
+			<div id="pop_1" class="popContent">
+				<i class="close_icon">X</i>
+				<img src="image/topic1/page2/1.png"/>
+			</div>
+			<div id="pop_2" class="popContent">
+				<i class="close_icon">X</i>
+				<img src="image/topic1/page2/2.png"/>
+			</div>
+			<div id="pop_3" class="popContent">
+				<i class="close_icon">X</i>
+				<img src="image/topic1/page2/3.png"/>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+	$().ready(function () {
+		$(document).on('click','.ariba', function(){
+			$('.popContent').hide();
+			$('#pop_1').show();
+		});
+		$(document).on('click','.non_ariba', function(){
+			$('.popContent').hide();
+			$('#pop_2').show();
+		});
+		$(document).on('click','.ariba_integrated', function(){
+			$('.popContent').hide();
+			$('#pop_3').show();
+		});
+		$(document).on('click','.close_icon', function(){
+			$('.popContent').hide();
+		});
+		//alert("I am here")
+		anime({
+			targets: '.sec',
+			backgroundPosition: ['120% 0%', '100% 0%'],
+			opacity: [0, 1],
+			duration: 2000
+		});
+		anime({
+			targets: '.white_bg',
+			translateX: [-50, 0],
+			opacity: [0, 1],
+			delay: function (el, i, l) {
+				return (i * 1000) + 1000;
+			},
+			duration: 1000
+		});
+		anime({
+			targets: '.animate',
+			translateY: [50, 0],
+			opacity: [0, 1],
+			delay: function (el, i, l) {
+				var time = getMilliSecond($(el).attr("data-time"));
+				return time;
+			},
+			duration: 1000
+		});
+	});
+</script>

@@ -1,0 +1,108 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="righticon">
+        <div class="full-height">
+            <div class="row align_top">
+                <div class="col-12">
+                    <div class="center_screen text-center">
+                        <p>{{page.instruction}}</p>
+                        <div class="dummy_btn">
+                            <div id="btn1" class="btn btn1"></div>
+                            <div id="btn2" class="btn btn2"></div>
+                        </div>
+                        <img ng-src="{{page.image}}" class="animate" data-time="1" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup">
+                <div class="close"> x </div>
+                <div id="popup1">
+                    <div class="instr">{{page.popup[0].instr}}</div> 
+                    <div>
+                        <div class="item" ng-repeat="item in page.popup[0].items">
+                            <div class="title text_brand">{{item.title}}</div>
+                            <div class="body" ng-bind-html="item.body | to_trusted"></div>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img class="img_clk button" data-audio="media\/12a.mp3" src="image/topic1/page6_icon1.png" alt="">
+                        <img class="img_clk button" data-audio="media\/13.mp3" src="image/topic1/page6_icon2.png" alt="">
+                        <img class="img_clk button" data-audio="media\/14.mp3" src="image/topic1/page6_icon3.png" alt="">
+                        <img class="img_clk button" data-audio="media\/15.mp3" src="image/topic1/page6_icon4.png" alt="">
+                        <img ng-src="{{page.popup[0].image}}" alt="">
+                    </div>
+                    <div class="info text-center">
+                        <p>{{page.popup[0].info}}</p>
+                    </div>
+                </div>
+
+                <div id="popup2">
+                    <div class="item" ng-repeat="item in page.popup[1].items">
+                        <div class="title text_brand">{{item.title}}</div>
+                        <div class="body" ng-bind-html="item.body | to_trusted"></div>
+                    </div>
+                    <div class="img">
+                        <img ng-src="{{page.popup[1].image}}" alt="">
+                    </div>
+                    <div class="info text-center">
+                        <p>{{page.popup[1].info}}</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        var track = [];
+        //alert("I am here")
+        $(".popup").hide();
+        //$("#popup1 .img_clk").draggable();
+        $("#popup1 .item").hide();
+        $(".img_clk").click(function () {
+            var index = $(this).index();
+            console.log(index);
+            $("#popup1 .item").eq(index).fadeIn(1000);
+            playAudio($(this).attr("data-audio"));
+        })
+
+        $(".close").click(function () {
+            $("#popup1").hide();
+            $("#popup2").hide();
+            $(".popup").hide();
+            pauseAudio();
+            trackInteractionCompletion(track, 2);
+            
+        })
+
+        $("#btn1").click(function () {
+            track[0] = true;
+            $("#popup1").show();
+            $("#popup2").hide();
+            $(".popup").fadeIn(500);
+            playAudio("media\/12.mp3");
+        });
+
+        $("#btn2").click(function () {
+            track[1] = true;
+            $("#popup1").hide();
+            $("#popup2").show();
+            $(".popup").fadeIn(500);
+            playAudio("media\/16.mp3");
+        });
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+        syncAudio($(".animate"), "bottomToTop");
+    });
+    
+</script>

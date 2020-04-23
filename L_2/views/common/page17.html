@@ -1,0 +1,31 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page14">
+        <div class="full-height p-10">
+            <div class="row align_top">
+                <div ng-repeat="item in page.block" class="col-6 " >
+                    <div class="panel {{item.class}}">
+                        <h3 class="animate center_origin" data-anim="zoom" data-time="{{item.time}}">{{item.title}}</h3>
+                        <div class="row">
+                            <div class="col-5 " >
+                                <img ng-src="{{item.image}}" class="animate" data-anim="zoom"  data-time="{{item.time}}" alt="">
+                                <img class="animate" data-time="{{item.time + 2}}" src="image/topic1/page17_1_1.png" alt="">
+                            </div>
+                            <div class="col-7 animate" data-time="{{item.time + 2.5}}">
+                                <div class="txt" ng-bind-html="item.text | to_trusted"></div>
+                            </div>
+                        </div>
+                        <p>{{item.note}}</p>
+                        <div>
+                            <img ng-src="{{item.screen}}" class="full_width " data-time="{{$index * 0.25 + 3.7}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        syncAudio($(".animate"));
+    });
+</script>
