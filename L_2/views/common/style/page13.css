@@ -1,0 +1,63 @@
+.page13 .item{
+    width: 816px;
+    height: 252px;
+    margin: 0px 10px;
+    background-repeat: no-repeat;
+}
+#page13_right{
+    margin: 50px 20px;
+}
+.page13_space{
+    padding: 0 5px;
+}
+.page13 .text_0_0 {
+    width: 325px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
+.page13 .text_1_0, .page13 .text_1_1, .page13 .text_1_2 {
+    width: 400px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+.page13 .text_1_1
+{
+    top: 90px;
+}
+.page13 .text_1_2 {
+    top: 100px;
+}
+.page13 .item:nth-child(2) {
+    background-position: right;
+    position: absolute;
+    right: -150px;
+    z-index: 100;
+    width: 900px;
+}
+
+.yellow, .feedback .cPanel .title{
+    background-color: #f7f5b7;
+}
+.feedback {
+    right: auto;
+    top: 0px;
+}
+.feedback .cPanel, .feedback{
+    background-color: initial;
+}
+.feedback .cPanel .cBorder{
+    border-color: #a8aa23;
+}
+.feedback .cPanel .content{
+    background-color: #a8aa23;
+}
+.feedback .cPanel .title{
+    color: #a8aa23;
+}
+
+.fitHeader{
+    margin-top: -140px;
+}

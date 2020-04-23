@@ -1,0 +1,49 @@
+.page4 .dg {
+    position: absolute;
+    width: 300px;
+}
+
+.page4 .dg:nth-child(1) {
+    left: 286px;
+    top: 41px;
+}
+
+.page4 .dg:nth-child(2) {
+    left: 318px;
+    top: 49px;
+}
+
+.page4 .dg:nth-child(3) {
+    left: 544px;
+    top: 253px;
+}
+
+.page4 .dg:nth-child(4) {
+    left: 194px;
+    top: 111px;
+}
+
+.page4 .dg:nth-child(5) {
+    left: 785px;
+    top: 111px;
+}
+
+.page4 .dg:nth-child(6) {
+    left: 785px;
+    top: 364px;
+}
+
+.page4 .dg:nth-child(7) {
+    left: 194px;
+    top: 377px;
+}
+
+.page4 .dg:nth-child(3) {
+    width: 150px;
+}
+
+.instr.m-3 {
+	background: #99999A;
+	padding: 1px 10px;
+	color: #fff;
+}

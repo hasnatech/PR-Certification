@@ -1,0 +1,43 @@
+.item {
+	position: absolute;
+	text-align: center;
+}
+.item img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	/* width: 90%; */
+	transform: scale(0.85);
+}
+.instruction {
+	position: absolute;
+}
+.inTxt {
+	position: relative;
+	width: 160px;
+	top: 90px;
+	left: 56px;
+	text-align: center;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.clk {
+    cursor: pointer;
+}
+
+.clickNote .inTxt {
+	top: 11px;
+	width: 360px;
+	left: 50px;
+	font-weight: bold;
+}
+
+.key .inTxt {
+	top: 42px;
+	left: 180px;
+	text-align: left;
+	width: 430px;
+	line-height: 13px;
+}

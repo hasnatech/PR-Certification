@@ -1,0 +1,53 @@
+.item {
+	position: absolute;
+	text-align: center;
+}
+.item img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	transform: scale(0.85);
+}
+.Note2 img {
+	transform: scale(0.65);
+}
+.item.Circle_mid {
+	padding: 80px 10px 0 50px;
+	font-size: 15px;
+	line-height: 22px;
+	border-radius: 50%;
+	word-wrap: break-word;
+	width: 270px;
+}
+.instruction {
+	position: absolute;
+}
+.item.Circle_1 {
+	width: 675px;
+	padding: 36px 60px 0 288px;
+	font-size: 14px;
+	line-height: 23px;
+	border-radius: 50%;
+	text-align: left;
+}
+.item.Circle_2 {
+	width: 675px;
+	padding: 58px 60px 0 288px;
+	font-size: 14px;
+	line-height: 23px;
+	border-radius: 50%;
+	text-align: left;
+}
+.item.Circle_3 {
+	width: 675px;
+	padding: 58px 60px 0 288px;
+	font-size: 14px;
+	line-height: 23px;
+	border-radius: 50%;
+	text-align: left;
+}
+
+.clk {
+    cursor: pointer;
+}

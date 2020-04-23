@@ -1,0 +1,142 @@
+.drag{
+    position: absolute;
+}
+.page12 .img {
+    position: absolute;
+}
+.trigger .text {
+    right: auto;
+    top: 20px;
+    left: 38px;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    text-align: center;
+}
+.trigger .img {
+    position: absolute;
+}
+.s1_noteicon .text {
+    left: 35px;
+    position: absolute;
+    width: 900px;
+}
+.s1_5 .text {
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    top: 9px;
+    width: 95px;
+}
+.s1_4 .text {
+    position: absolute;
+    width: 235px;
+    left: 10px;
+    top: 65px;
+}
+.s1_3 .text {
+    position: absolute;
+    left: 64px;
+    top: 85px;
+    width: 235px;
+}
+
+.hide{
+    display: none;
+}
+.s2_t1 .text {
+    position: absolute;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+    width: 242px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.s2_3 .text {
+    position: absolute;
+    position: absolute;
+    width: 190px;
+    left: 10px;
+    top: 7px;
+}
+.s2_2 .text {
+    position: absolute;
+    z-index: 1;
+    left: 75px;
+    top: 170px;
+}
+.s2_1 .text {
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    text-align: center;
+    top: 170px;
+}
+.behind{
+    z-index: -1;
+}
+
+.s3_1 .img {
+    z-index: 1;
+}
+.s3_2 .img {
+    z-index: 1;
+}
+.s3_t1 .text {
+    position: absolute;
+    width: 270px;
+    color:white;
+    font-size: 15px;
+}
+.s3_t2 .text {
+    position: absolute;
+    width: 220px;
+    color: white;
+    font-size: 15px;
+}
+.s3_4 .text {
+    position: absolute;
+    top: 25px;
+    left: 168px;
+    z-index: 1;
+    color: white;
+}
+.s3_3 .text {
+    position: absolute;
+    left: 145px;
+    z-index: 1;
+    top: 25px;
+    color: white;
+}
+.s3_2 .text {
+    position: absolute;
+    left: 115px;
+    top: 70px;
+}
+.s3_1 .text {
+    position: absolute;
+    z-index: 1;
+    left: -73px;
+    width: 10px;
+    text-align: center;
+    top: 70px;
+}
+.s3_5 .text {
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 20px;
+    width:150px;
+    color: white;
+}
+#scene3 .drag:nth-child(1){ left: -4px;top: -9px;}
+#scene3 .drag:nth-child(2){ left: 254px;top: 52px;}
+#scene3 .drag:nth-child(3){ left: 860px;top: 47px;}
+#scene3 .drag:nth-child(4){ left: 647px;top: 84px;}
+#scene3 .drag:nth-child(5){ left: 255px;top: 86px;}
+#scene3 .drag:nth-child(6){ left: 297px;top: 183px;}
+#scene3 .drag:nth-child(7){ left: 717px;top: 167px;}
+

@@ -1,0 +1,57 @@
+.drop, .drag{
+    position: absolute;
+    top: 0px;
+}
+.d_item{
+    border:2px solid red;
+    width: 953px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.d_item:nth-child(1){
+    height: 150px;
+}
+.d_item:nth-child(3){
+    height: 130px;
+}
+
+.drag{
+    right: 50px;
+    width: 200px;
+    z-index: 100;
+}
+
+.drag .item
+{
+    min-width: 160px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    cursor: grab;
+}
+
+.drag .item:active {
+    cursor: grabbing;
+}
+.d_panel{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    border: 1px solid #009f99;
+    padding: 0 20px;
+    
+}
+.d_title {
+    margin-top: -20px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.feedback {
+    top: auto;
+    width: 450px;
+    left: calc(50% - 300px);
+    bottom: 10px;
+}

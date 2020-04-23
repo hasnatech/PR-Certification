@@ -1,0 +1,991 @@
+{
+    "course": {
+        "title": "Purchase Request Certification Training Program",
+        "section": "Cargill Indirect Procurement Overview",
+        "description": "In this section, we will define some of the course description.",
+        "duration": "Duration 20 minutes",
+        "start_btn": "start the course",
+        "audio": "media\/topic3_welcome.mp3",
+        "button": {
+            "next": "Next",
+            "prev": "Previous",
+            "try": "Try Again",
+            "submit": "Submit"
+        },
+        "lable": {
+            "transcript": "Transcript",
+            "resource": "Resources"
+        },
+        "resource": [{
+            "label": "Sample link to cargill.com for more information",
+            "link": "http://www.cargill.com"
+        }, {
+            "label": "Sample link to google.com for more information",
+            "link": "http://www.google.com"
+        }]
+    },
+
+    "menu": {
+        "topic": [{
+                "title": "Module 1 - Purchase Requisition Overview",
+                "pages": [{
+                        "file": "common\/course_intro.html",
+                        "style": "common\/style\/course_intro.css",
+                        "audio": "media\/3.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Purchase Requisitioner Certification Training Program",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Purchase Requisition Overview",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Level 2",
+                                "time": "1"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/course_intro.png",
+                        "transcript": [{
+                                "text": "Transcript 1",
+                                "sec": "0.01"
+                            },
+                            {
+                                "text": "Transcript 2",
+                                "sec": "0.02"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "welcome",
+                        "title": "Overview ",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/4.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "Welcome",
+                        "block": [{
+                                "text": "Introduction to a purchase requisition",
+                                "time": "2.2"
+                            },
+                            {
+                                "text": "Triggers to create a purchase requisition",
+                                "time": "5.3"
+                            },
+                            {
+                                "text": "Purchasing terminology",
+                                "time": "8"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [{
+                            "text": "In this module, you will be introduced to a purchase requisition, triggers to create a purchase requisition and purchasing terminology.",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/5.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Describe when a manual purchase requisition should be created",
+                                "time": "4.6"
+                            },
+                            {
+                                "text": "Identify the triggers to create a purchase requisition",
+                                "time": "9.4"
+                            },
+                            {
+                                "text": "Define purchasing terminology",
+                                "time": "14"
+                            }, {
+                                "text": "Discuss the relationship between the work order and the purchase requisition",
+                                "time": "16.9"
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_4.png",
+                        "transcript": [{
+                            "text": "<p>The main objective of this module is to:</p><ul>    <li>Describe when a manual purchase requisition should be created</li>    <li>Identify the triggers to create a purchase requisition</li>    <li>Define purchasing terminology, and</li>    <li>Discuss the relationship between the work order and the purchase requisition</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "Introduction",
+                        "title": "Introduction",
+                        "file": "common\/introduction.html",
+                        "style": "common\/style\/introduction.css",
+                        "audio": "media\/7.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "What is a Purchase Requisition?",
+                        "block": [{
+                                "text": "<p><span class='brand_text'>Notification for indirect materials</span> and/or <span class='brand_text'>services</span> that needs to be procured. </p>",
+                                "time": "5.2"
+                            },
+                            {
+                                "text": "Contains the <span class='brand_text'>relevant information</span> about the required materials and services.",
+                                "time": "13.1"
+                            },
+                            {
+                                "text": "Serves as a <span class='brand_text'>record for approvals and changes</span> that are made.",
+                                "time": "22.4"
+                            },
+                            {
+                                "text": "Documented <span class='brand_text'>manually into SAP (ECC)</span> by the Requestor. ",
+                                "time": "26.4"
+                            },
+                            {
+                                "text": "Ensures <span class='brand_text'>visibility to plant needs, accuracy and quality.</span>",
+                                "time": "32.8"
+                            },
+                            {
+                                "text": "Refers to a <span class='brand_text'>single plant,</span> but can combine <span class='brand_text'>multiple suppliers on a single PR.</span>",
+                                "time": "39.6"
+                            }
+                        ],
+                        "image": "image\/topic1\/text_image_right.png",
+                        "transcript": [{
+                            "text": "<p>What is a Purchase Requisition?</p><p>Well, purchase requisition is an internal document or a notification for indirect material or services that needs to be procured. </p><p>A PR document contains all the relevant information about the required materials and services. </p><p>It serves as a record for approvals and changes that are made and is documented manually into SAP (ECC) by the Requestor. </p><p>This sort of documentation ensures visibility to plant needs, accuracy and quality.</p><p>Generally, a PR refers to a single plant, but can combine multiple suppliers on a single PR. </p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "leftimage_righticon",
+                        "title": "Introduction",
+                        "file": "common\/leftimage_righticon.html",
+                        "style": "common\/style\/leftimage_righticon.css",
+                        "audio": "media\/8.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "A purchase requisition is created manually based on need. ",
+                        "block": [{
+                                "title": "Site Employees",
+                                "icon": "image/topic1/page5_icon3.png",
+                                "text": "Requests a need for  indirect purchase<br>External Catalog Buys / Services / Capital Purchases / Text Buys",
+                                "time": "9"
+                            },
+                            {
+                                "title": "Purchasing Requisitioner",
+                                "icon": "image/topic1/page5_icon2.png",
+                                "text": "Creates a purchase request for supply<br>Requestor manually enters a PR into SAP (ECC)",
+                                "time": "27"
+                            },
+                            {
+                                "title": "Cost Object Approver",
+                                "icon": "image/topic1/page5_icon1.png",
+                                "text": "Approves or rejects the purchase request<br>All Purchase Requisitions require approval by cost object owner or WBS Owner.",
+                                "time": "36"
+                            }
+                        ],
+                        "image": "image\/topic1\/page_5.png",
+                        "transcript": [{
+                            "text": "<p>A purchase requisition is a mere document, but plays an important role in authorizing and centralizing purchases at Cargill.</p><p>Typically, a PR is initiated when an employee requests a need for purchase.</p><p>Such a purchase request may require submission of a form or spreadsheet depending on business processes and if not a work order.  </p><p>This purchase request leads to the creation of a purchase requisition in SAP by a PR processor for the site.</p><p>As a standard, the manual creation of a purchase requisition in SAP requires specific authorization and approval.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Triggers to create a PR",
+                        "file": "common\/page6.html",
+                        "style": "common\/style\/page6.css",
+                        "audio": "media\/11.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click each section to learn more on the triggers to create a PR.",
+                        "image": "image\/topic1\/page6.png",
+                        "popup": [{
+                                "items": [{
+                                        "title": "Manual Purchase Requisition Creation",
+                                        "body": "<ul class='square_bullet'>    <li>A purchase request  triggers the manual creation of a purchase requisition.</li>    <li>A purchase request may require submission of a form or spreadsheet depending on processes for your business and if not on a work order. </li>    <li>Anyone at the site can initiate a purchase request. </li>    <li>The manual creation of a purchase requisition in SAP requires specific authorization.</li>    <li>Not only the PR processor, but anyone may enter the purchase requisition depending on processes for your business.</li></ul>"
+                                    },
+                                    {
+                                        "title": "Purchase Requisition Approval",
+                                        "body": "<ul class='square_bullet'>    <li>All manually created Purchase Requisitions will require an approval by the assigned cost object owner.</li> </ul>"
+                                    },
+                                    {
+                                        "title": "Purchase Requisition Conversion to Purchase Order",
+                                        "body": "<ul class='square_bullet'>    <li>Upon approval a purchase requisition is converted to purchase order by transferring mandatory information.</li></ul>"
+                                    },
+                                    {
+                                        "title": "Purchase Order Approval",
+                                        "body": "<ul class='square_bullet'>    <li>A Purchase Order approval  will be required if the total PO value exceeds $5,000.00.</li></ul>"
+                                    }
+                                ],
+                                "instr": "Click each section to learn more on the creation of a PR.",
+
+                                "info": " A purchase request triggers the manual creation of PR.",
+                                "image": "image\/topic1\/page6_1.png"
+                            },
+                            {
+                                "items": [{
+                                    "title": "Automatic Purchase Requisition Creation",
+                                    "body": "<ul class='square_bullet'>   <li>The creation of a Work Order in SAP triggers the automatic creation of a purchase requisition in SAP.</li>    <li>Work Orders contain purchase requests for materials or services required to support plant maintenance and reliability.</li>    <li>Once the Work Order is released (approved) the purchase requisition is automatically created and approved in SAP.</li>    <li>The PR is auto-released in SAP only when the Work Order is released by the Cost Object Owner. If someone other than the cost object owner releases the WO, then all the PR lines have to be approved as they are created.</li></ul>"
+                                }],
+                                "info": "A work order triggers the automatic creation of PR.",
+                                "image": "image\/topic1\/page6_2.png"
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "<p>Now, that we are aware of purchase requisition, let's find out the triggers required to create a purchase requisition.</p><p>A purchase requisition can be created manually or automatically.</p><p>Normally, a purchase request triggers the manual creation of purchase requisition. </p><p>Whereas, the Work Order in SAP triggers the automatic creation of a purchase requisition in SAP.</p><p>But how does this happen?</p><p>Click each section to learn more on the triggers to create a Purchase Requisition.</p><p>Displayed here is the PR Lifecycle from Manual Purchase Requisition Creation to Purchase Order.</p><p>Click each section to learn more.</p><p>Step 1: Manual Purchase Requisition Creation</p><ul>    <li>A purchase request triggers the manual creation of a purchase requisition.</li><li>A purchase request may require submission of a form or spreadsheet depending on processes for your business and if not on a work order. </li><li>Anyone at the site can initiate a purchase request. </li><li>The manual creation of a purchase requisition in SAP requires specific authorization.</li><li>Not only the PR processor, but anyone may enter the purchase requisition depending on processes for your business.</li></ul><p>Step 2: Purchase Requisition Approval</p><ul><li>All Purchase Requisitionscreated manually will require an approval from  the assigned cost object owner.</li></ul><p>Step 3: Purchase Requisition Conversion to Purchase Order</p><ul><li>Upon approval a purchase requisition is converted to purchase order by transferring mandatory information.</li><li>Purchase orders can be created manually by the PO Processor or automatically through SAP system batch jobs already in place.  An example of an auto created PO are those from manual purchase requisitions created via Catalog Punchout.</li></ul><p>Step 4: Purchase Order Approval</p><ul><li>A Purchase Order approval  will be required if the total POvalue exceeds $5,000.00.</li><li>Purchase Order approval workflow exists in SAP to automatically route the PO to the relevant Fiscal Approver maintained in the SAP Approver Table.</li></ul><p>Once a Purchase Order is approved, the system will automatically output it to the vendor.</p><p>The creation of a Work Order in SAP triggers the automatic creation of a purchase requisition in SAP.</p><ul><li>Work Orders contain purchase requests for materials or services required to support plant maintenance and reliability.</li><li>Once the Work Order is released (approved) the purchase requisition is automatically created and approved in SAP.</li><li>The PR is auto-released in SAP only when the Work Order is released by the Cost Object Owner.</li><li>If someone other than the cost object owner releases the WO, then all the PR lines have to be approved as they are created.</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Purchasing Terminology",
+                        "file": "common\/page7.html",
+                        "style": "common\/style\/page7.css",
+                        "audio": "media\/18.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Drag and drop the given statements to match the purchasing terminology.",
+                        "image": "image\/topic1\/page6.png",
+                        "drop_placeholder": "image\/topic1\/drop.png",
+                        "drop": [{
+                                "image": "image\/topic1\/page7_icon1.png",
+                                "ans_id": "1"
+                            },
+                            {
+                                "image": "image\/topic1\/page7_icon2.png",
+                                "ans_id": "2"
+                            },
+                            {
+                                "image": "image\/topic1\/page7_icon3.png",
+                                "ans_id": "3"
+                            },
+                            {
+                                "image": "image\/topic1\/page7_icon4.png",
+                                "ans_id": "4"
+                            }
+
+                        ],
+                        "drag": [{
+                                "text": "Description of the job to perform which lists the materials and/or services required to complete",
+                                "drag_id": "2",
+                                "feedback": "<p><b>Work Order</b></p><p>The costs and demand are captured for the Work Order in SAP. Not all work order PR’s require approvals. If the cost object owner approves the work order, then the PR lines release automatically.</p>",
+                                "audio": "media/18b1.mp3"
+                            },
+                            {
+                                "text": "Request to purchase a material (or service) to support the activities of a business or function",
+                                "drag_id": "1",
+                                "feedback": "<p><b>Purchase Request</b></p><p>The Purchase Request document informs the purchasing department or manager exactly what items and services are requested, the quantity, source and associated costs.</p>",
+                                "audio": "media/18a1.mp3"
+                            },
+                            {
+                                "text": "Legal document created in SAP that authorizes a supplier to deliver the material (or service) to Cargill",
+                                "drag_id": "4",
+                                "feedback": "<p><b>Purchase Order</b></p><p>A record of all approvals and changes to the purchase are maintained within the PO and the PR is linked to the PO. Specific terms are included in the PO that both the supplying party and Cargill must adhere to for the purchase. </p>",
+                                "audio": "media/18d1.mp3"
+                            },
+                            {
+                                "text": "Internal document created in SAP that contains the required information to purchase a material (or service) to fulfil the need",
+                                "drag_id": "3",
+                                "feedback": "<p><b>Purchase Requisition</b></p><p>This internal document records all approvals and changes to the purchase request are maintained within the PR. All businesses do not use an internal document to request.</p><p>PRs ensure the plants have visibility to authorize all purchase requests prior to the creation of a purchase order.</p>",
+                                "audio": "media/18c1.mp3"
+                            }
+
+                        ],
+                        "transcript": [{
+                            "text": "<p>Now, we are familiar with the purchase requisition and its creation process.</p><p>In addition, there are different terms involved in the purchase requisition process that can help understand and create the purchase requisition.</p><p>Let’s check our purchasing terminology by taking up this activity.</p><p>Drag and drop the given statements to match the purchasing terminology.</p><p>Purchase Request - Request to purchase a material (or service) to support the activities of a business or function</p><p><b>Pop-up text</b> - The Purchase Request document informs the purchasing department or manager exactly what items and services are requested, the quantity, source and associated costs.</p><p><b>Work Order</b> - Description of the job to perform which lists the materials and/or services required to complete</p><p><b>Pop-up text</b> - The costs and demand are captured for the Work Order in SAP. Not all work order PR’s require approvals. If the cost object owner approves the work order, then the PR lines release automatically. </p><p><b>Purchase Requisition</b> - Internal document created in SAP that contains the required information to purchase a material (or service) to fulfil the need.</p><p><b>Pop-up text</b> - This internal document records all approvals and changes to the purchase request are maintained within the PR. All businesses do not use an internal document to request.</p><p>PRs ensure the plants have visibility to authorize all purchase requests prior to the creation of a purchase order.</p><p><b>Purchase Order</b> - Legal document created in SAP that authorizes a supplier to deliver the material (or service) to Cargill. </p><p><b>Pop-up text</b> - A record of all approvals and changes to the purchase are maintained within the PO and the PR is linked to the PO. Specific terms are included in the PO that both the supplying party and Cargill must adhere to for the purchase. </p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/19.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "question": "<p>Specific terms are included in this document  that both the supplying party and Cargill must adhere to for the purchase.</p><p class='inst'>Select the correct option defined by the given statement.</p>",
+                        "choices": [{
+                                "text": "Purchase Request",
+                                "correct": false
+                            },
+                            {
+                                "text": "Work Order",
+                                "correct": false
+                            },
+                            {
+                                "text": "Purchasing Requisition",
+                                "correct": false
+                            },
+                            {
+                                "text": "Purchase Order",
+                                "correct": true
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>The answer is 'Purchase Order'</p> <p>Purchase Order is a legal document created in SAP that authorizes a supplier to deliver the material (or service) to Cargill.</p>",
+                            "correct": "<p>That’s correct!</p><p>The answer is 'Purchase Order'</p> <p>Purchase Order is a legal document created in SAP that authorizes a supplier to deliver the material (or service) to Cargill.</p>"
+                        },
+                        "image": "image\/topic1\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "<p>Now, it’s time to check your knowledge.</p><p>Select the correct option defined by the given statement.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Work Order and PR Relationship",
+                        "file": "common\/page9.html",
+                        "style": "common\/style\/page9.css",
+                        "audio": "media\/21.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "images": [{
+                                "image": "image/topic1/center_cicle.png",
+                                "text": "Work Order",
+                                "time": "0"
+                            },
+                            {
+                                "image": "image/topic1/rec_1.png",
+                                "text": "Due Date",
+                                "time": "29"
+                            },
+                            {
+                                "image": "image/topic1/rec_2.png",
+                                "text": "Descriptions",
+                                "time": "30"
+                            },
+                            {
+                                "image": "image/topic1/rec_3.png",
+                                "text": "Service Master Description",
+                                "time": "31"
+                            },
+                            {
+                                "image": "image/topic1/rec_4.png",
+                                "text": "Location",
+                                "time": "33"
+                            }
+                        ],
+                        "right_img": [{
+                            "image": "image/topic1/pr.png",
+                            "text": "",
+                            "time": "53"
+                        }],
+                        "group1": [{
+                                "title": "Work order services ",
+                                "list": [{
+                                        "text": "Painting",
+                                        "time": "38"
+                                    },
+                                    {
+                                        "text": "Welding and mechanical",
+                                        "time": "40"
+                                    },
+                                    {
+                                        "text": "Plumbing",
+                                        "time": "42"
+                                    },
+                                    {
+                                        "text": "Asset repairs",
+                                        "time": "43"
+                                    }
+                                ],
+                                "time": 36
+                            },
+                            {
+                                "title": "Work order materials",
+                                "list": [{
+                                        "text": "Repair parts",
+                                        "time": "49"
+                                    },
+                                    {
+                                        "text": "Tools",
+                                        "time": "50"
+                                    },
+                                    {
+                                        "text": "Equipment",
+                                        "time": "51"
+                                    }
+                                ],
+                                "time": 46
+                            }
+                        ],
+                        "group2": [{
+                                "title": "PR Processor ",
+                                "list": [{
+                                        "text": "Viewing work order attachments",
+                                        "time": "68"
+                                    },
+                                    {
+                                        "text": "Dates",
+                                        "time": "70"
+                                    },
+                                    {
+                                        "text": "Long text",
+                                        "time": "71"
+                                    }
+                                ],
+                                "time": 66
+                            }
+
+                        ],
+                        "transcript": [{
+                            "text": "<p>Most indirect purchase requisitions originate from the creation of a work order. </p><p>Therefore, it is critical that each work order is created accurately and completely to ensure the accuracy and completeness of the subsequent purchase requisition and purchase order.</p><p>Work Orders are typically more complex to complete than a purchase requisition.</p><p>The key components of the work order are: due dates, descriptions, service master descriptions and location.</p><p>Examples of work order services include Painting, welding and mechanical, plumbing and asset repairs.</p><p>Examples of work order materials include repair parts, tools, equipment</p><p>A PR Processor must understand the purpose and structure of the work order to effectively manage any changes that might be required to the purchase requisition after it is created. </p><p>For example: Viewing work order attachments, dates and long text.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "audio": "media\/22.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Introduction to purchase requisition",
+                                "time": "3.5"
+                            },
+                            {
+                                "text": "Triggers to create a purchase requisition",
+                                "time": "6.7"
+                            },
+                            {
+                                "text": "Purchasing terminology",
+                                "time": "9.7"
+                            }
+                        ],
+                        "image": "image\/topic1\/summary.jpg",
+                        "transcript": [{
+                            "text": "<p>We have now come to the end of this module. </p><p>You have been introduced to the purchase requisition, triggers to create a purchase requisition and purchasing terminology.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            },
+            {
+                "title": "Module 2 - Purchase Requisition Components",
+                "pages": [{
+                        "type": "welcome",
+                        "title": "Welcome ",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/25.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Introduction to PR document types",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Purchase requisition structure",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Item overview key fields",
+                                "time": "3"
+                            },
+                            {
+                                "text": "Item detail key tab",
+                                "time": "4"
+                            },
+                            {
+                                "text": "Item detail Text and Notes",
+                                "time": "5"
+                            },
+                            {
+                                "text": "Indirect purchasing process flow",
+                                "time": "6"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [{
+                            "text": "<p>In this module, you will be introduced to Purchase Requisition document types, it’s general structure with key fields, and indirect purchasing process flow.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective2.css",
+                        "audio": "media\/26.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Describe the general structure, document types and key fields of the purchase requisition",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Review the Indirect Procurement process flow at Cargill",
+                                "time": "10"
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_2.png",
+                        "transcript": [{
+                            "text": "<p>The main objective of this module is to:</p><ul><li>Describe the general structure, document types and key fields of the purchase requisition</li><li>Review the Indirect Procurement process flow at Cargill</li></ul>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Document Types",
+                        "file": "common\/page13.html",
+                        "style": "common\/style\/page13.css",
+                        "audio": "media\/28_E.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "image": "image/topic1/page13_1.png",
+                                "grp": [{
+                                    "text": "Standard PRs can be both manual or automated. They are used in all cases where a Framework (Blanket) PO or Stock Transport Order (STO) is not required.",
+                                    "time": "32"
+                                }]
+                            },
+                            {
+                                "image": "image/topic1/page13_2.png",
+                                "grp": [{
+                                        "text": "Framework is used for creating a Framework PO, which enables a validity date and upper limit to be defined.",
+                                        "time": "46"
+                                        
+                                    },
+                                    {
+                                        "text": "<p>These PRs can only be charged to a Cost Center, Internal Order or project. Only Standard, Limit and Service item categories are available for this type of PR.</p>",
+                                        "time": "46.5",
+                                        "disappear": "80"
+                                    },
+                                    {
+                                        "text": "<p>Two-way match is used for invoice verification. It compares the price information on the invoice to the price information on the purchase order.</p>",
+                                        "time": "80.5"
+                                    }
+                                ]
+                            }
+                        ],
+                        "note": "<p>Each document type is assigned two types of number ranges, one internal and the other external.</p><p>Internal number ranges are automatically incremented by the system, and external are assigned manually.</p>",
+                        "transcript": [{
+                            "text": "<p>Purchase Requisitions are internal documents maintained for the requested purchase.</p><p>These Purchase requisition documents can be specified and grouped into a number of document types, depending on the controlling functions and reporting purpose. </p><p>The PR document types that can be created in ECC are:</p><ul><li>Standard PR</li><li>Work Order</li><li>Framework PR</li><li>2 Way Match PR </li></ul><p><strong>Standard PR: </strong>Standard PRs can be both manual or automated. They are used in all cases where a Framework (Blanket) PO or Stock Transport Order (STO) is not required.</p><p><strong>Framework:</strong>is used for creating a Framework PO, which enables a validity date and upper limit to be defined. This type of order can be used when the actual receipt quantity is unknown, but the amount not to be exceeded can be defined. These PRs can only be charged to a Cost Center, Internal Order or project. Only Standard, Limit and Service item categories are available for this type of PR.</p><p><strong>Two-way match</strong> is used for invoice verification. It compares the price information on the invoice to the price information on the purchase order.Each document type is assigned two types of number ranges, one internal and the other external.Internal number ranges are automatically incremented by the system, and external are assigned manually. In general, an external number range is generated by a requestor for manually created PR, and an internal number range is generated by a system for automatically created PR.</p>",
+                            "sec": "0.01"
+                        }]
+                    }, {
+                        "type": "custom",
+                        "title": "Purchase Requisition Structure",
+                        "file": "common\/page14.html",
+                        "style": "common\/style\/page14.css",
+                        "audio": "media\/30.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "text": {
+                            "instr": "Drag and drop the section names in appropriate sections.",
+                            "image": "image/topic1/page14.png",
+                            "d_title": "Section Name"
+                        },
+                        "drag": [{
+                                "title": "Item Overview",
+                                "feedback": "<p>Item overview section creates a line for each material or service that is requested.</p><ul><li>It provides a status icon for each line item, indicating if the information in the line item is correct.</li></ul>",
+                                "id": "2",
+                                "audio": "media\/30b.mp3"
+
+                            }, {
+                                "title": "Header",
+                                "feedback": "Header section provides an option for the PR Processor ECC to change the requisition document type. The default type is Purchase Requisition (ZNB). Header text is used for internal communication to a PR Approver.",
+                                "id": "1",
+                                "audio": "media\/30a.mp3"
+                            },
+
+                            {
+                                "title": "Item Details",
+                                "feedback": "Item detail section provides multiple tabs to detail each item data, such as material information, quantities and dates, delivery address, contacts, fixed or potential sources of supply, estimated price and status of approval. The text tab here allows the requestor to enter text for internal or external. For example, later it is used to pull notes and item text for the PO. ",
+                                "id": "3",
+                                "audio": "media\/30c.mp3"
+
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "<p>Let us now get familiar with the structure of a purchase requisition document. </p><p>A Purchase Requisition main screen consists of three sections.</p><p>Take a trial to identify the sections in Purchase Requisition structure. </p><p>Drag and drop the section names in appropriate sections.</p><p>The Header section provides an option for the PR Processor ECC to change the requisition document type. The default type is Purchase Requisition (ZNB).</p><p>Header text is used for internal communication to a PR Approver.</p><p>The Item overview section creates a line for each material or service that is requested.</p><ul><li>It provides a status icon for each line item, indicating if the information in the line item is correct.</li></ul><p>The Item detail section provides multiple tabs to detail each item data, such as material information, quantities and dates, delivery address, contacts, fixed or potential sources of supply, estimated price and status of approval. </p><p>The text tab here allows the requestor to enter text for internal or external. For example, later it is used to pull notes and item text for the Purchase Order. </p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Item Overview Key Fields",
+                        "file": "common\/page15.html",
+                        "style": "common\/style\/page15.css",
+                        "audio": "media\/32.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text": {
+                            "instr": "Click the markers to view these fields.",
+                            "image": "image/topic1/page15.png"
+                        },
+                        "pointer": [{
+                                "title": "Account Assignment",
+                                "content": "This field determines how the costs for the purchase will be assigned. K= Cost Center P= WBS Element  This field is required.",
+                                "audio": "media\/32a.mp3",
+                                "time" : "11",
+                                "position": {
+                                    "x": 110,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Item Category",
+                                "content": "This field determines the purchase type. D= Service, blank= material.",
+                                "audio": "media\/32b.mp3",
+                                "time" : "11.5",
+                                "position": {
+                                    "x": 143,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Material",
+                                "content": "This field is for SAP material numbers only.  If the item is not set up in SAP, this field must be left blank. ",
+                                "audio": "media\/32c.mp3",
+                                "time" : "12",
+                                "position": {
+                                    "x": 200,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Short Text",
+                                "content": "This field will default if you use an SAP material number. For everything else, this field must be filled manually with a clear description of the item/service being procured.",
+                                "audio": "media\/32d.mp3",
+                                "time" : "12.5",
+                                "position": {
+                                    "x": 280,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Quantity",
+                                "content": "This field allows you to specify the quantity to be purchased.",
+                                "audio": "media\/32e.mp3",
+                                "time" : "13",
+                                "position": {
+                                    "x": 480,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Unit of Measure (UoM)",
+                                "content": "You must include a valid UoM for what is being purchased. AU is the UoM for services only.",
+                                "audio": "media\/32f.mp3",
+                                "time" : "13.5",
+                                "position": {
+                                    "x": 520,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Delivery Date",
+                                "content": "This field should be populated with an achievable delivery date that includes time for approval processes and conversion to a PO.",
+                                "audio": "media\/32g.mp3",
+                                "time" : "14",
+                                "position": {
+                                    "x": 580,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Material Group",
+                                "content": "This field presents key information for determining spend visibility. Material Group will default for Catalog & stock items but must be manually filled in for everything else.",
+                                "audio": "media\/32h.mp3",
+                                "time" : "14.5",
+                                "position": {
+                                    "x": 680,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Plant",
+                                "content": "You must provide the plant code for all PR lines. Each PR should only be for a single plant.",
+                                "audio": "media\/32i.mp3",
+                                "time" : "15",
+                                "position": {
+                                    "x": 770,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Storage Location",
+                                "content": "This is the SAP storage location set up for the plant where the items will be received into. Only needed for materials.",
+                                "audio": "media\/32k.mp3",
+                                "time" : "15.5",
+                                "position": {
+                                    "x": 900,
+                                    "y": 35
+                                }
+                            },
+
+                            {
+                                "title": "Purchasing Group",
+                                "content": "This required field helps determine the processing path for the PR upon approval. Ensure you are selecting a group from the correct geography.  A= Asia, E= Europe, L= Latin America, N= North America.",
+                                "audio": "media\/32j.mp3",
+                                "time" : "16",
+                                "position": {
+                                    "x": 940,
+                                    "y": 35
+                                }
+                            },
+                            {
+                                "title": "Requisitioner",
+                                "content": "This is the person who will either complete the GR, or who will confirm that services are completed. This is very important for receiving and invoice processing.",
+                                "audio": "media\/32L.mp3",
+                                "time" : "16.5",
+                                "position": {
+                                    "x": 980,
+                                    "y": 35
+                                }
+                            }
+                        ],
+                        "transcript": [{
+                            "text": "<p>You just had a look at the main sections of Purchase Requisition structure</p><p>Let’s now get familiar with the Item Overview section in detail.</p><p>Each line item that a PR Processor adds to a PR has mandatory fields that the PR Processor must complete.</p><p>There are also optional fields that the PR Processor ECC can choose to fill.</p><p>Click the markers to view thesefields.</p><p><strong> Account Assignment:</strong> This field determines how the costs for the purchase will be assigned.  K= Cost Center P= WBS Element  This field is required.</p><p><strong>Item Category:</strong> This field determines the purchase type.  D= Service, blank= material</p><p><strong> Material: </strong> This field is for SAP material numbers only.  If the item is not set up in SAP, this field must be left blank.  </p><p><strong> Short Text:</strong> This field will default if you use an SAP material number.  For everything else, this field must be filled manually with a clear description of the item/service being procured.</p><p><strong>Quantity:</strong> This field allows you to specify the quantity to be purchased.</p><p><strong> Unit of Measure (UoM): </strong>You must include a valid UoM for what is being purchased.  AU is the UoM for services only.</p><p><strong> Delivery Date:</strong> This field should be populated with an achievable delivery date that includes time for approval processes and conversion to a PO.</p><p><strong> Material Group:</strong> This field presents key information for determining spend visibility. Material Group will default for Catalog & stock items but must be manually filled in for everything else.</p><p><strong> Plant:</strong> You must provide the plant code for all PR lines.  Each PR should only be for a single plant.</p><p><strong> Purchasing Group:</strong> This required field helps determine the processing path for the PR upon approval.  Ensure you are selecting a group from the correct geography.  A= Asia, E= Europe, L= Latin America, N= North America</p><p><strong> Storage Location:</strong> This is the SAP storage location set up for the plant where the items will be received into.  Only needed for materials.</p><p><strong> Requisitioner:</strong> This is the person who will either complete the GR, or who will confirm that services are completed.  This is very important for receiving and invoice processing.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Item Detail Key Tabs",
+                        "file": "common\/page16.html",
+                        "style": "common\/style\/page16.css",
+                        "audio": "media\/34.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text": {
+                            "panel_text": {
+                                "text": "<h3>Ensure to:</h3><ul>    <li>Fill the mandatory purchasing group fields related to purchasing group. </li>    <li>Include a valid DSID in this field on the Contact Person tab.</li></ul><div id='icon'>Any missing information will cause a failure in the automatic PO creation.</div>",
+                                "time": 34
+                            },
+                            "image": "image/topic1/page16.png",
+                            "instr": "<p>Item detail section allows the Purchase Requisitioner to navigate through each line item of the PR and add or change data. </p><p>The key tabs of item detail section are:</p>",
+                            "pointers": [{
+                                "text": "Service",
+                                "time": 15
+                            }, {
+                                "text": "Material Data",
+                                "time": 16
+                            }, {
+                                "text": "Quantities/Dates",
+                                "time": 18.5
+                            }, {
+                                "text": "Valuation",
+                                "time": 21.5
+                            }, {
+                                "text": "Source of Supply",
+                                "time": 23.5
+                            }, {
+                                "text": "Status",
+                                "time": 25
+                            }, {
+                                "text": "Contact Person",
+                                "time": 26.5
+                            },  {
+                                "text": "Texts",
+                                "time": 28.5
+                            }, {
+                                "text": "Delivery Address",
+                                "time": 30
+                            },{
+                                "text": "Release Strategy",
+                                "time": 31.5
+                            }],
+                            "alert" : {
+                                "text": "",
+                                "time": 36
+                            }
+                        },
+
+                        "transcript": [{
+                            "text": "<p>Item detail allows the Purchase Requisitioner to navigate through each line item of the Purchase Requisition and add or change data.</p> <p>The key tabs of item detail section are: </p><ul>    <li>Services</li>    <li>Material Data</li>    <li>Quantities</li>    <li>Dates</li>    <li>Valuation</li>    <li>Source of Supply</li>    <li>Status</li>    <li>Contact Person</li>    <li>Texts</li>    <li>Delivery Address</li>    <li>Release Strategy </li></ul><p>Ensure to fill the mandatory purchasing group fields related to purchasing group. </p><p>You must complete the Fixed Vendor, Valuation Price and Quantity for all NCS, DPS and DPL PR types.</p><p>Although SAP does not require that the Requisitioner field be populated, please ensure you include a valid DSID in this field on the Contact Person tab. This will be key to ensuring timely processing of the invoice and provides a contact for any questions regarding the purchase.</p><p>Any missing information will cause a failure in the automatic Purchase Order creation.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Item Detail - Text and Notes",
+                        "file": "common\/page17.html",
+                        "style": "common\/style\/page17.css",
+                        "audio": "media\/35_E.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                            "class": "brand_bg",
+                            "title": "Item Text",
+                            "image": "image/topic1/page17_1.png",
+                            "screen": "image/topic1/page17_3.png",
+                            "text": "<p>Appears on the individual line item.</p><p>Used for: Additional item information, delivery information, quote information.</p><p>Note: Item text will not be visible for Ariba Integrated Suppliers.</p>",
+                            "note": " ",
+                            "time": 5
+                        }, {
+                            "class": "hover_bg",
+                            "title": "Item Notes",
+                            "image": "image/topic1/page17_2.png",
+                            "screen": "image/topic1/page17_4.png",
+                            "text": "<p>Visible to only Cargill SAP users. </p><p>Used for: Communication with PO Processor on Incoterms, Payment terms, down payment information, text that should be added to the PO Header, and quote information.</p>",
+                            "note": "",
+                            "time": 32
+                        }],
+
+                        "transcript": [{
+                            "text": "<p>Purchase Requisition</p> <p>Item Detail - Text and Notes</p><p><strong> Item Text</strong> is external text that will appear on the purchase order sent to the vendor.  It will appear on the individual line item.</p><p>It is used for: additional item information, delivery information, quote information.Note: Item text will not be visible for Ariba Integrated Suppliers. </p><p><strong>Item Note</strong> is internal text that will only be visible to Cargill SAP users.</p><p>It is used for: Communication with PO Processor on Incoterms, Payment terms, down payment information, text that should be added to the PO Header, and quote information.</p> ",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Indirect Purchasing Process Flow",
+                        "file": "common\/page18.html",
+                        "style": "common\/style\/page18.css",
+                        "audio": "media\/38.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text" : {
+                            "t":"<p>A Purchase requisition is generally triggered by a purchase request.</p><p>Purchase Requisitioner will create the Purchase Requisition within SAP based on the purchase request.</p>",
+                            "time" : 1,
+                            "disappear" : 15
+                        },
+                        "block": [{
+                            "image": "image/topic1/page_18_1.png",
+                            "text": "<h3>Request</h3><p>This is done either by creating a Work Order or through direct PR entry. The Procurement class and CCSC code are selected here. </p>",
+                            "time": 16
+                        }, {
+                            "image": "image/topic1/page_18_2.png",
+                            "text": "",
+                            "time": 22.5
+                        }, {
+                            "image": "image/topic1/page_18_3.png",
+                            "text": "<h3>work order to pr</h3>",
+                            "time": 23
+                        }, {
+                            "image": "image/topic1/page_18_3.png",
+                            "text": "<h3>Direct Entry to PR</h3>",
+                            "time": 23.5
+                        }, {
+                            "image": "image/topic1/page_18_4.png",
+                            "text": "",
+                            "time": 46
+                        }, {
+                            "image": "image/topic1/page_18_5.png",
+                            "text": "<h3>PO create</h3><p>Automatic PO created for Contract and Catalog PRs. PO is manually created by CSSP PO Processor for all other PRs</p>",
+                            "time": 46.5
+                        }, {
+                            "image": "image/topic1/page_18_6.png",
+                            "text": "<h3>PO Approval</h3><p>PO approval is required if the PO is greater than $5,000. The PO Processor or SAP may bundle PRs of the same day, plant and vendor into one PO. </p>",
+                            "time": 60
+                        }, {
+                            "image": "image/topic1/page_18_7.png",
+                            "text": "",
+                            "time": 99
+                        }, {
+                            "image": "image/topic1/page_18_8.png",
+                            "text": "<h3>Receipt</h3><p>Inbound receipt and Post goods receipt for materials. Receipt received via SES for services.</p>",
+                            "time": 100
+                        }, {
+                            "image": "image/topic1/page_18_9.png",
+                            "text": "",
+                            "time": 114
+                        }, {
+                            "image": "image/topic1/page_18_10.png",
+                            "text": "<h3>Invoice processing</h3><p>Supplier invoice received and posted.</p>",
+                            "time": 115
+                        }, {
+                            "image": "image/topic1/page_18_11.png",
+                            "text": "",
+                            "time": 119
+                        }, {
+                            "image": "image/topic1/page_18_12.png",
+                            "text": "<h3>Issue of Payment</h3><p>Payment issued via ACH or Check</p>",
+                            "time": 120
+                        }, {
+                            "image": "image/topic1/page_18_6.png",
+                            "text": "<h3>PR Approval</h3><p>PR is approved by Cost Object Owner for all PRs.</p><p>Business approval is needed if cost is $5000 or higher.</p>",
+                            "time": 33
+                        }],
+
+                        "transcript": [{
+                            "text": "<p>A Purchase requisition is generally triggered by a purchase request.</p><p>Subsequently, a Purchase Requisitioner will create the Purchase Requisition within SAP based on the purchase request.</p><p>Take a look at the process flow.</p><p>The process begins with Creating Requisition: This is done either by creatinga Work Order or through direct PR entry. The Procurement class and CCSC code are selected here.</p><p>The PR is approved by the Cost Object Owner for all PRs.</p><p>Business approval is needed if cost is $5000 or higher.Then the PO is created automatically for Contract and Catalog PR’s.</p><p>Otherwise, PO is manually created by CSSP PO Processor.</p><p>PO approvalis required if the PO is greater than $5,000.</p><p>In the next step the PO Processor or the SAP batch process may bundle PRs of the same day, plant and vendor into one PO. </p><p>The combination of the total price of the bundle could exceed $5,000 and require a Business approval.</p><p>SomePR’smay require a second a Business approval, if PO price is greater than PR price.</p><p>Finally, when material is received the Inbound receipt and Post goods receipt on materials is entered in SAP.  For services, receipt is done via an SES</p><p>Invoice processing begins and supplier invoice is received, then payment is posted to the supplier based on terms.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/39.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>Identify the statement that is applicable to the Processing Purchase Requisitions sub-process.</p>",
+                        "choices": [{
+                                "text": "Used for locating and selecting the source of supply within the existing supplier base",
+                                "correct": false
+                            },
+                            {
+                                "text": "Used for notifying a procurement need for materials and/or services",
+                                "correct": true
+                            },
+                            {
+                                "text": "Used for procuring materials for direct consumption or for stock, as well as for procuring services",
+                                "correct": false
+                            },
+                            {
+                                "text": "Used for managing the internal and external catalogs",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>Processing Purchase Requisitions sub-process is used for notifying a procurement need for materials and/or services.</p>",
+                            "correct": "<p>That’s Correct! </p><p>Processing Purchase Requisitions sub-process is used for notifying a procurement need for materials and/or services.</p>"
+                        },
+                        "image": "image\/topic1\/knowledgecheck.png",
+                        "transcript": [{
+                            "text": "<p>Now, it’s time to check your knowledge.</p><p>Select the correct option defined by the given statement.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "audio": "media\/40.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                                "text": "Introduction to PR document types ",
+                                "time": "5"
+                            },
+                            {
+                                "text": "Purchase requisition structure",
+                                "time": "7"
+                            },
+                            {
+                                "text": "Item overview key fields",
+                                "time": "7.5"
+                            },
+                            {
+                                "text": "Item detail key tab",
+                                "time": "8"
+                            },
+                            {
+                                "text": "Item detail Text and Notes",
+                                "time": "8.5"
+                            },
+                            {
+                                "text": "Indirect purchasing process flow",
+                                "time": "9"
+                            }
+
+                        ],
+                        "image": "image\/topic1\/summary.jpg",
+                        "transcript": [{
+                            "text": "<p>We have now come to the end of this module.</p><p>You have been introduced to the purchase requisition document types, structure, key fields and process flow.</p>",
+                            "sec": "0.01"
+                        }]
+                    }
+                ]
+            }
+        ]
+    }
+}

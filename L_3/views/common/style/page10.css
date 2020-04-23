@@ -1,0 +1,227 @@
+.drag{
+    position: absolute;
+}
+.s1_1 .img {
+    position: absolute;
+}
+.s1_2 .img {
+    position: absolute;
+}
+
+.trigger .text {
+    right: auto;
+    top: 20px;
+    left: 38px;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    text-align: center;
+}
+.trigger .img {
+    position: absolute;
+}
+.s1_noteicon .text {
+    left: 35px;
+    position: absolute;
+}
+.s1_4 .img {
+    position: absolute;
+}
+
+.s1_1 .text {
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 100px;
+    text-align: center;
+ 
+}
+.s1_2 .text {
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 80px;
+    text-align: center;
+}
+.s1_t1 .text {
+    position: absolute;
+    width: 850px;
+    text-align: center;
+}
+.s1_t1 .text {
+    position: absolute;
+    width: 850px;
+    border: 5px solid skyblue;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;    
+    text-align: center;
+}
+.s1_4 .text {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+}
+.s1_4 .text {
+    position: absolute;
+    width: 200px;
+    top: -70px;
+    left: -20px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+
+
+.s2_3 .img {
+    position: absolute;
+}
+
+.s2_1 .img {
+    position: absolute;
+
+}
+.s2_6 .img {
+    position: absolute;
+}
+.s2_7 .img {
+    position: absolute;
+}
+.s2_3 .img {
+    position: absolute;
+}
+
+
+
+.s2_2 .img {
+    position: absolute;
+}
+.s2_3 .text {
+    position: absolute;
+    width: 150px;
+    left: 50px;
+    top: 25px;
+}
+.s2_3_1 .text {
+    position: absolute;
+    width: 170px;
+    left: 50px;
+    top: 20px;
+}
+.s2_t1 .text {
+    position: absolute;
+    width: 250px;
+    border: 5px solid skyblue;
+    padding: 0px 15px opx 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.s2_2 .text {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+.s2_1 .text {
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 20px;
+    min-width: 200px;
+    color: white;
+}
+.note .text {
+    position: absolute;
+    left: 30px;
+    width: 655px;
+}
+
+.s3_1 .img {
+    position: absolute;
+}
+.s3_2 .img {
+    position: absolute;
+    z-index: 1;
+}
+.s3_3 .img {
+    position: absolute;
+}
+.s3_4 .img {
+    position: absolute;
+}
+.s3_5 .img {
+    position: absolute;
+}
+.s3_2 .text {
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    width: 10px;
+    text-align: right;
+    left: -75px;
+}
+.s3_3 .text {
+    position: absolute;
+    left: -35px;
+    top: 60px;
+}
+.s3_t3 .text {
+    position: absolute;
+}
+.s3_t1 .text {
+    position: absolute;
+    width: 250px;
+    color: white;
+}
+.s3_t2 .text {
+    position: absolute;
+    width: 250px;
+    color: white;
+}
+.s3_5 .text {
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+    top: 50px;
+    color: white;
+}
+.s3_4 .text {
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+    top: 50px;
+    color: white;
+}
+.s3_1 .text {
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    color: white;
+    top: 20px;
+}
+
+
+#scene1 .drag:nth-child(1){ left: 251px;top: -28px;}
+#scene1 .drag:nth-child(2){ left: 536px;top: 75px;}
+#scene1 .drag:nth-child(3){ left: 741px;top: -30px;}
+#scene1 .drag:nth-child(4){ left: 176px;top: 249px;}
+#scene1 .drag:nth-child(5){ left: 96px;top: 422px;}
+#scene1 .drag:nth-child(6){ left: 896px;top: 423px;}
+
+#scene2 .drag:nth-child(1){ left: -10px;top: -9px;}
+#scene2 .drag:nth-child(2){ left: 7px;top: 247px;}
+#scene2 .drag:nth-child(3){ left: 136px;top: 117px;}
+#scene2 .drag:nth-child(4){ left: 208px;top: 65px;}
+#scene2 .drag:nth-child(5){ left: 514px;top: 313px;}
+#scene2 .drag:nth-child(6){ left: 293px;top: 236px;}
+#scene2 .drag:nth-child(7){ left: 585px;top: 36px;}
+#scene2 .drag:nth-child(8){ left: 228px;top: 319px;}
+#scene2 .drag:nth-child(9){ left: 615px;top: 277px;}
+#scene2 .drag:nth-child(10){ left: 875px;top: 317px;}
+#scene2 .drag:nth-child(11){ left: 965px;top: 299px;}
+
+#scene3 .drag:nth-child(1){ left: 287px;top: 40px;}
+#scene3 .drag:nth-child(2){ left: 264px;top: 13px;}
+#scene3 .drag:nth-child(3){ left: 338px;top: 144px;}
+#scene3 .drag:nth-child(4){ left: 641px;top: 39px;}
+#scene3 .drag:nth-child(5){ left: 884px;top: 8px;}
+#scene3 .drag:nth-child(6){ left: 711px;top: 150px;}

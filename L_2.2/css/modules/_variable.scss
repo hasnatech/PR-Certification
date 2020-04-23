@@ -1,0 +1,54 @@
+$brand-color: #009f99;
+$hover-color: #115f81;
+$border-color: #dddddd;
+$grey-color: #cac8c9;
+$white-color:#ffffff;
+
+$colours: "brand" $brand-color,
+"hover" $hover-color,
+"yellow"#ffcf00;
+
+@each $i in $colours {
+    .bg-#{nth($i, 1)} {
+        background-color: nth($i, 2);
+        color: white;
+    }
+
+    .text-#{nth($i, 1)} {
+        color: nth($i, 2);
+    }
+}
+
+@for $item from 1 through 5 {
+    .max-#{$item} {
+        max-width: ($item * 100) + px;
+    }
+
+   
+    .space-#{$item*10} {
+        @include space($item * 10);
+    }
+}
+
+.space-100 {
+    @include space(100);
+}
+$bgs : 
+contain rb,
+contain c,
+cover rb,
+cover c;
+
+@each $i in $bgs {
+    .bg-#{nth($i, 1)}-#{nth($i, 2)} {
+        @if (nth($i, 2) == rb)
+        {
+            background-position: right bottom;
+        }@else if (nth($i, 2) == c)
+        {
+            background-position: center;
+        }
+        background-size: nth($i, 1);
+        background-repeat: no-repeat;
+    }
+}

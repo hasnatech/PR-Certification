@@ -1,0 +1,79 @@
+.p_text {
+    background-image: url('../../../image/topic1/page_16.png');
+    width: 874px;
+    height: 201px;
+    margin: 10px auto;
+}
+
+.p_text .txt {
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.point {
+    position: absolute;
+    cursor: pointer;
+}
+
+.point:nth-child(1) {
+    left: 80px;
+    top: 120px;
+}
+
+.point:nth-child(2) {
+    left: 184px;
+    top: 120px;
+}
+
+.point:nth-child(3) {
+    left: 287px;
+    top: 120px;
+}
+
+.point:nth-child(4) {
+    left: 406px;
+    top: 120px;
+}
+
+.point:nth-child(5) {
+    left: 617px;
+    top: 120px;
+}
+
+.point:nth-child(6) {
+    left: 737px;
+    top: 120px;
+}
+
+.point:nth-child(7) {
+    left: 807px;
+    top: 120px;
+}
+
+.point:nth-child(8) {
+    left: 914px;
+    top: 120px;
+}
+
+.point:nth-child(9) {
+    left: 1026px;
+    top: 120px;
+}
+
+.point:nth-child(10) {
+    left: 1082px;
+    top: 120px;
+}
+
+.point .point_txt {
+    background-image: url('../../../image/topic1/page_16_panel.png');
+    width: 153px;
+    height: 119px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: -70px;
+}

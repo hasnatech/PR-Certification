@@ -1,0 +1,84 @@
+.item {
+	position: absolute;
+	text-align: center;
+}
+.item img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	/* width: 90%; */
+	transform: scale(0.85);
+}
+.item.Circle_mid {
+	width: 280px;
+	padding: 90px 120px 0 120px;
+	font-size: 17px;
+	line-height: 22px;
+	border-radius: 50%;
+	word-wrap: break-word;
+	width: 320px;
+}
+.instruction {
+	position: absolute;
+}
+.item.Circle_1 {
+	width: 460px;
+	padding: 43px 70px 0 164px;
+	font-size: 15px;
+	line-height: 23px;
+	border-radius: 50%;
+	text-align: left;
+	color: #fff;
+}
+.item.Circle_2 {
+	width: 160px;
+	padding: 101px 29px;
+	font-size: 15px;
+	line-height: 23px;
+	border-radius: 50%;
+	word-wrap: break-word;
+}
+.item.Circle_2 {
+	width: 460px;
+	padding: 41px 10px 0 214px;
+	font-size: 15px;
+	line-height: 23px;
+	border-radius: 50%;
+	text-align: left;
+	color: #fff;
+}
+.item.Circle_3 {
+	width: 460px;
+	padding: 73px 40px 0 167px;
+	font-size: 15px;
+	line-height: 20px;
+	border-radius: 50%;
+	text-align: left;
+	color: #fff;
+}
+img.shaddow_img {
+	position: relative;
+	bottom: 10px !important;
+}
+.shaddow_txt_1 {
+    width: 860px;
+}
+
+.bg_txt_2, .bg_txt_1 {
+	padding: 22px 80px 0 60px;
+}
+
+.clk {
+    cursor: pointer;
+}
+
+.listTxt::before {
+	content: "";
+	background: url("../../../image/topic1/page3/listBullet.png") no-repeat;
+	width: 51px;
+	height: 44px;
+	position: absolute;
+	left: -24px;
+	top: 3px;
+}

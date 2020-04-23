@@ -1,0 +1,67 @@
+.page20{
+    padding: 10px;
+}.square {
+    background-image: url('../../../image/topic/slide15_2.png');
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #279989;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 1px 0 2px 2px #e6e6e6;
+    font-weight: bold;
+}
+.clickable{
+    background-image: url('../../../image/topic/slide15_1.png');
+    background-repeat: repeat-x;
+    color:#000;
+    
+}
+
+.description {
+    padding: 20px;
+    background-color: #89dcd9;
+    margin-top: 20px;
+    background-image: url('../../../image/topic/slide15_3.png');
+    background-repeat: repeat-x;
+}
+.point{
+    position: absolute;
+}
+.point:nth-child(1){ left: 697px;top: 306px;}
+.point:nth-child(2){ left: 307px;top: 365px;}
+.point:nth-child(3){ left: 503px;top: 444px;}
+.point:nth-child(4){ left: 125px;top: 301px;}
+.point:nth-child(5){ left: 885px;top: 304px;}
+.point:nth-child(6){ left: 1077px;top: 366px;}
+.point:nth-child(7){ left: 233px;top: 264px;}
+.point:nth-child(8){ left: 421px;top: 265px;}
+.point:nth-child(9){ left: 420px;top: 334px;}
+.point:nth-child(10){ left: 997px;top: 265px;}
+
+.note_highlight{
+    border: 5px solid #daaa00;
+}
+
+.note{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #89dcd9;
+    position: absolute;
+    left: 1127px;
+    top: 441px;;
+}
+
+.instruction {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	background: #115f81;
+	color: #fff;
+	padding: 3px 10px;
+}

@@ -1,0 +1,37 @@
+.drag_drop{
+    padding: 10px;
+}
+
+.drag_drop .drag{
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    width: 187px;
+    height: 127px;
+    font-size: 13px;
+    cursor: grab;
+}
+
+.drag_drop .drag:active {
+    cursor: grabbing;
+}
+
+.drag_drop .item {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.d_panel{
+    position: absolute;
+    width: 220px;
+    height: calc(100% - 50px);
+    border: 1px solid #009f99;
+    padding: 0 20px;
+    top: -10px;
+    left: 0px;
+}
+.d_title {
+    margin-top: -15px;
+    background-color: #fff;
+    padding: 0 10px;
+}

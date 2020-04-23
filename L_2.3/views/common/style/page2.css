@@ -1,0 +1,40 @@
+.item {
+	position: absolute;
+	text-align: center;
+}
+.item img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	/* width: 90%; */
+	transform: scale(0.85);
+}
+.instruction {
+	position: absolute;
+}
+
+.item.Circle_5 {
+	z-index: -1;
+}
+
+.clk {
+    cursor: pointer;
+}
+
+.item span {
+	width: 340px;
+	text-align: left;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.Circle__1 .inTxt {
+	left: 106px;
+	position: relative;
+	top: 145px;
+	width: 130px;
+	text-align: center;
+	font-size: 22px;
+	transform: scale(0.85);
+}

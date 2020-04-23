@@ -1,0 +1,324 @@
+.drag{
+    position: absolute;
+}
+.trigger .img {
+    position: absolute;
+}
+.trigger .text {
+    right: auto;
+    top: 20px;
+    left: 18px;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    text-align: center;
+}
+.note .text {
+    width: 647px;
+ 
+    left: 30px;
+    position: absolute;
+ 
+}
+.user5 .text {
+    position: absolute;
+    left: -100px;
+    top: 15px;
+}
+.user3 .text {
+    position: absolute;
+    left: 240px;
+    z-index: 1;
+    width: 120px;
+    top: 15px;
+}
+.note1 img {
+    position: absolute;
+    z-index: -1;
+}
+.note1 img {
+    position: absolute;
+    z-index: -1;
+    top: 10opx
+}
+.note1 .text {
+    top: 80px;
+    position: absolute;
+    left:22px;
+    width: 190px;
+    font-size: 13px;
+}
+.note2 .text {
+    position: absolute;
+    left: 22px;
+    width: 190px;
+  
+    top: 80px;
+    font-size: 13px;
+}
+.note2 .img {
+    position: absolute;
+    z-index: -1;
+}
+
+.hide{
+    display: none;
+}
+.user1 .text {
+    position: absolute;
+    left: 85px;
+    top: 220px;
+}
+.SAP .img {
+    position: absolute;
+}
+.SAP .text {
+    position: absolute;
+    width: 100px;
+    left: 20px;
+    z-index: 1;
+    top: 45px;
+}
+
+.S2_note2 .text {
+    position: absolute;
+    width: 170px;
+    left: 25px;
+    top: 15px;
+    text-align: center
+}
+.S2_note1 .text {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    top: 21px;
+    left: -2px;
+}
+.title .text {
+    position: absolute;
+    left: 62px;
+    color: white;
+    top: 17px;
+    /* right: 0; */
+    min-width: 200px;
+}
+.S2_note1 .img {
+    position: absolute;
+}
+.S2_note2 .img {
+    position: absolute;
+}
+.line .img {
+    position: absolute;
+    z-index: -1;
+}
+.user1 .img {
+    position: absolute;
+}
+.arrow .img {
+    position: absolute;
+}
+.title .img {
+    position: absolute;
+    z-index: -1;;
+}
+
+.rectangular .text {
+    width: 256px;
+}
+.behind{
+    z-index: -1;
+}
+/*#scene1 .drag:nth-child(1){ left: 320px;top: -9px;}
+#scene1 .drag:nth-child(2){ left: 590px;top: -250px;}
+#scene1 .drag:nth-child(3){ left: 903px;top: -57px;}
+#scene1 .drag:nth-child(4){ left: 106px;top: -28px;}
+#scene1 .drag:nth-child(5){ left: 680px;top: -385px;}
+#scene1 .drag:nth-child(6){ left: 195px;top: -405px;}
+#scene1 .drag:nth-child(7){ left: 473px;top: -291px;}*/
+
+#scene1 .drag:nth-child(1){ left: 315px;top: 10px;}
+#scene1 .drag:nth-child(2){ left: 598px;top: 10px;}
+#scene1 .drag:nth-child(3){ left: 918px;top: 437px;}
+#scene1 .drag:nth-child(4){ left: 106px;top: 448px;}
+#scene1 .drag:nth-child(5){ left: 735px;top: 152px;}
+#scene1 .drag:nth-child(6){ left: 172px;top: 152px;}
+#scene1 .drag:nth-child(7){ left: 472px;top: 250px;}
+
+#scene2 .drag:nth-child(1){ left: -3px;top: -8px;}
+#scene2 .drag:nth-child(2){ left: 53px;top: 164px;}
+#scene2 .drag:nth-child(3){ left: 288px;top: 247px;}
+#scene2 .drag:nth-child(4){ left: 398px;top: 183px;}
+#scene2 .drag:nth-child(5){ left: 567px;top: 24px;}
+#scene2 .drag:nth-child(6){ left: 564px;top: 302px;}
+#scene2 .drag:nth-child(7){ left: 909px;top: 354px;}
+#scene2 .drag:nth-child(8){ left: 919px;top: 75px;}
+#scene2 .drag:nth-child(9){ left: 832px;top: 84px;}
+#scene2 .drag:nth-child(10){ left: 823px;top: 296px;}
+#scene2 .drag:nth-child(11){ left: 424px;top: 62px;}
+#scene2 .drag:nth-child(12){ left: 927px;top: 171px;}
+
+
+
+.s3_6 .img {
+    position: absolute;
+}
+.s3_8 .img {
+    position: absolute;
+}
+.s3_4 .img {
+    position: absolute;
+}
+.s3_2 .img {
+    position: absolute;
+}
+s3_1 .img {
+    position: absolute;
+}
+.s3_7 .img {
+    position: absolute;
+}
+.s3_3 .img {
+    position: absolute;
+}
+.s3_5 .img {
+    position: absolute;
+}
+.s3_6 .text {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 40px;
+}
+.s3_4 .text {
+    left: 22px;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 29px;
+}
+.s3_3 .text {
+    position: absolute;
+    z-index: 1;
+    width: 77px;
+    text-align: center;
+    left: 7px;
+    top: 44px;
+    color: white;
+}
+
+.s3_2 .text {
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 28px;
+}
+
+.s3_2_1 .text {
+    position: absolute;
+    left: 65px;
+    top: 25px;
+}
+
+.s3_1 .text {
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    color: white;
+}
+.s3_t1 .text {
+    width: 100px;
+    text-align: center;
+}
+.rounded_box {
+    border: 3px solid #005f86;
+    border-radius: 10px;
+    padding: 20px 5px;
+    text-align: center;
+}
+.s3_t2 .text {
+    width: 200px;
+}
+.s3_t3 .text {
+    width: 263px;
+}
+#scene3 .drag:nth-child(1){ left: -5px;top: -10px;}
+#scene3 .drag:nth-child(2){ left: 36px;top: 190px;}
+#scene3 .drag:nth-child(3){ left: 89px;top: 116px;}
+#scene3 .drag:nth-child(4){ left: 232px;top: 88px;}
+#scene3 .drag:nth-child(5){ left: 233px;top: 337px;}
+#scene3 .drag:nth-child(6){ left: 390px;top: 114px;}
+#scene3 .drag:nth-child(7){ left: 430px;top: 103px;}
+#scene3 .drag:nth-child(8){ left: 583px;top: 67px;}
+#scene3 .drag:nth-child(9){ left: 720px;top: 106px;}
+#scene3 .drag:nth-child(10){ left: 758px;top: 62px;}
+#scene3 .drag:nth-child(11){ left: 601px;top: 365px;}
+#scene3 .drag:nth-child(12){ left: 977px;top: 76px;}
+#scene3 .drag:nth-child(13){ left: 399px;top: 365px;}
+#scene3 .drag:nth-child(14){ left: 448px;top: 329px;}
+#scene3 .drag:nth-child(15){ left: 897px;top: 106px;}
+#scene3 .drag:nth-child(16){ left: 681px;top: 301px;}
+
+.s4_4 .img {
+    position: absolute;
+    z-index: -1;
+}
+.s4_3 .img {
+    position: absolute;
+}
+.s4_5 .img {
+    position: absolute;
+    z-index: -1;
+}
+.s4_t2 .text {
+    position: absolute;
+    width: 255px;
+    top: 30px;
+    left: -23px;
+    color: white;
+}
+.s4_5 .text {
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+    color: white;
+    top: 25px;
+}
+.s4_t1 .text {
+    position: absolute;
+    width: 200px;
+    color: white;
+}
+.s4_4 .text {
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+    color: white;
+    top: 25px;
+}
+.s4_1 .text {
+    position: absolute;
+    left: 100px;
+    color: white;
+    top: 20px;
+}
+.s4_3 .text {
+    position: absolute;
+    z-index: 1;
+    left: 120px;
+    top: 30px;
+    width: 10px;
+}
+
+.s4_2 .img {
+    position: absolute;
+}
+#scene4 .drag:nth-child(1){ left: -3px;top: -10px;}
+#scene4 .drag:nth-child(2){ left: 247px;top: 45px;}
+#scene4 .drag:nth-child(3){ left: 848px;top: 26px;}
+#scene4 .drag:nth-child(4){ left: 256px;top: 71px;}
+#scene4 .drag:nth-child(5){ left: 621px;top: 71px;}
+#scene4 .drag:nth-child(6){ left: 711px;top: 110px;}
+#scene4 .drag:nth-child(7){ left: 0px;top: 0px;}
+#scene4 .drag:nth-child(8){ left: 339px;top: 197px;}

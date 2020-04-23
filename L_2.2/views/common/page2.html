@@ -1,0 +1,95 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="righticon">
+        <div class="full-height">
+            <div class="row align_top">
+                <div data-audio="{{item.audio}}" data-time="{{item.time}}" style="left: {{item.left}}; top: {{item.top}};" class="animate drag item {{item.class}}" ng-repeat="item in page.block">
+                    <span class="inTxt" ng-bind-html="item.text | to_trusted"></span>
+                    <img class="{{item.imgClass}}" src="{{item.image}}"/>
+                </div>
+            </div>
+            <div class="instruction noBefore animate drag" style="left: {{page.ins_left}}; top: {{page.ins_top}};" data-time="{{page.insTime}}" ng-bind-html="page.instruction | to_trusted"></div>
+            <div class="instruction_1 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.121910','mywindow');" style="left: {{page.ins_1_left}}; top: {{page.ins_1_top}};" data-time="{{page.insTime_1}}" ng-bind-html="page.instruction_1 | to_trusted"></div>
+            <div class="instruction_2 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.121865','mywindow');" style="left: {{page.ins_2_left}}; top: {{page.ins_2_top}};" data-time="{{page.insTime_2}}" ng-bind-html="page.instruction_2 | to_trusted"></div>
+            <div class="instruction_3 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.121868','mywindow');" style="left: {{page.ins_3_left}}; top: {{page.ins_3_top}};" data-time="{{page.insTime_3}}" ng-bind-html="page.instruction_3 | to_trusted"></div>
+            <div class="feedback">
+                <div class="cPanel">
+                    <div class="exit">x</div>
+                    <div class="cBorder"></div>
+                    <div class="title">
+                        Feedback
+                    </div>
+                    <div class="content">
+                        <div class="correct" ng-bind-html="page.feedback.left | to_trusted">
+                        </div>
+                        <div class="incorrect" ng-bind-html="page.feedback.right | to_trusted">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+		$(".feedback, .exIns").hide();
+        var track = [];
+        $(".popup").hide();
+        $(".img_clk").click(function () {
+            playAudio($(this).attr("data-audio"));
+        })
+
+        //$(".drag").draggable();
+
+        $(".drag").each(function(){
+            var left = $(this).attr("data-left");
+            var top = $(this).attr("data-top");
+
+            if(left)
+                $(this).css("left", left);
+            
+            if(top)
+                $(this).css("top", top);
+
+        });
+
+        $(document).on('click', ".clk", function () {
+            $(".feedback").show();
+			if ($(this).hasClass('left')) {
+				$(".feedback .content .correct").show();
+                $(".feedback .content .incorrect").hide();
+                $('.feedback .title').text('User Parameters');
+			} else {
+				$(".feedback .content .correct").hide();
+				$(".feedback .content .incorrect, .exIns").show();
+                $('.feedback .title').text('Personal Settings of any transaction');
+			}
+        });
+
+        $(".exit").click(function () {
+            $(".feedback, .exIns").hide();
+        })
+
+        $(".btnAudio").click(function () {
+            var audFilename = $(this).attr('data-audio')
+            playAudio(audFilename);
+            if(audFilename == 'media/9.mp3'){
+                audio.get(0).onended = function () {
+                    blinkNext();
+                };
+            }
+        });
+        
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+        syncAudio($(".animate"), "bottomToTop");
+    });
+    
+</script>

@@ -1,0 +1,27 @@
+.text_image {
+    
+    margin-left: 120px;
+    margin-right: 50px;
+}
+.text_content{
+    padding: 20px;
+    margin-right: 130px;
+}
+.numbers{
+    float: right;
+}
+.numbers li {
+	list-style-type: none;
+	margin-right: -80px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.text{
+    padding:0px; 
+}
+.text li {
+	list-style-type: none;
+}
+.text li {
+	margin-bottom: 41px;
+}

@@ -1,0 +1,13 @@
+.panel {
+    padding: 20px;
+    margin: 20px;
+    min-height: 400px;
+}
+
+.full_width {
+    width: 100%
+}
+
+.center_origin{
+    transform-origin: 10px;
+}

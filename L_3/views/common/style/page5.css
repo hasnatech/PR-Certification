@@ -1,0 +1,60 @@
+.page21 {
+    width: 100%;
+}
+
+.page21 .img,
+.page21 .title {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.page21 .desc {
+    background-color: rgb(224, 224, 224);
+    padding:10px;
+    border-radius: 15px;
+    padding-top: 150px;
+    margin-top: -150px;
+    min-height: 350px;
+    font-size: 14px;
+    box-shadow: 0 4px 3px 0px #b4b4b4;
+    display: none;
+}
+
+.others {
+    display: none;
+    padding: 25px 0px 15px;
+    border-radius: 15px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    bottom: 88px;
+    left: 240px;
+
+}
+
+.others .title {
+    background-image: url(../../../image/topic/panel.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 55px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+
+}
+
+.others .title .txt{
+    padding: 10px;
+}
+
+.others.new {
+	bottom: 220px;
+	background: none;
+	color: darkcyan;
+	font-size: 13px;
+	left: 283px;
+}
+
+.clk_img {
+    cursor: pointer;
+}

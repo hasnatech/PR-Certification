@@ -1,0 +1,40 @@
+.pointers{
+    position: absolute;
+}
+.point .title, .point .content{
+    display: none;
+}
+.pointers {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.point_img{
+    cursor:pointer;
+}
+.point {
+    position: absolute;
+}
+.pointers .title{
+    border: 4px solid #006c8d;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pointers .arr {
+    position: absolute;
+    top: 18px;
+}
+.point{
+    width: 175px;
+}
+.point .content {
+    height: 385px;
+    background-image: url('../../../image/topic1/pointer_panel.png');
+}
+
+.point .txt {
+    padding: 109px 10px 5px 10px;
+}
