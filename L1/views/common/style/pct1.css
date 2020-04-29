@@ -77,11 +77,14 @@ ul {
 	top: 76px;
 	font-size: 15px;
 }
-.inner4_1 p, .inner4_3 p {
+.inner4_1 .right_content {
+	position: relative;	
+}
+.inner4_3 p, .inner4_1 .right_content {
 	left: 171px;
 	text-align: left;
 	padding: 0 20px;
-	top: 76px;
+	top: 26px;
 	font-size: 15px;
 }
 

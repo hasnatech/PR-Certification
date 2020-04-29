@@ -55,10 +55,10 @@ myApp.directive("homepage", function () {
 });
 
 
-function getXY(selector){
+function getXY(selector) {
 	var index = 1;
-	$(selector).each(function (){
-		console.log(selector + ":nth-child("+index+"){ left: "+$(this).css('left')+";top: "+$(this).css('top')+";}");
+	$(selector).each(function () {
+		console.log(selector + ":nth-child(" + index + "){ left: " + $(this).css('left') + ";top: " + $(this).css('top') + ";}");
 		index++;
 	});
 }
@@ -71,6 +71,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 	$scope.total_topic = 0;
 	$scope.total_page = 0;
 	$scope.home_status = "show";
+	
 	$scope.audio_src = audio_img;
 	$scope.audio_text = "Audio";
 	$scope.visited_page = 0;
@@ -89,7 +90,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 			$scope.bookmark = false;
 			$scope.visited_page = getBookmark();
 			if (!($scope.visited_page == "" || $scope.visited_page == "null" ||
-			$scope.visited_page == null || $scope.visited_page == undefined)) {
+				$scope.visited_page == null || $scope.visited_page == undefined)) {
 				$("#bookmark").show();
 				$scope.bookmark = true;
 			}
@@ -100,7 +101,8 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 	$scope.transcript_status = "hide";
 	$scope.resource_status = "hide";
-
+	$scope.help_status = "hide";
+	
 	$scope.nextEnable = true;
 	$scope.alphabetArr = ["a", "b", "c", "d", "e", "f"];
 	$scope.startBtn = function () {
@@ -117,7 +119,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		}
 
 	}
-	$scope.gotoBookMark = function (){
+	$scope.gotoBookMark = function () {
 		$scope.setTopicPage($scope.visited_page);
 		$scope.bookmark = false;
 	}
@@ -151,9 +153,9 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 	$scope.gotoPage = function (current_topic, current_page) {
 		//console.log(current_topic, current_page);
-		if(current_topic == 0 && current_page == 0){
+		if (current_topic == 0 && current_page == 0) {
 			$scope.hide_controls();
-		}else{
+		} else {
 			$scope.show_controls();
 		}
 		$scope.current_topic = current_topic;
@@ -167,7 +169,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		$scope.loading = "show";
 		$scope.pageURL = "views/common/blank.html";
 		$scope.LoadURL = "views/" + $scope.page.file;
-		
+
 		console.log($scope.page.file);
 		$("#page").scrollTop(0);
 
@@ -179,8 +181,8 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		playAudio($scope.page.audio);
 
 	}
-	$scope.audio_click = function(){
-		if($scope.audio_text == "Audio"){
+	$scope.audio_click = function () {
+		if ($scope.audio_text == "Audio") {
 			$scope.audio_src = audio_mute_img;
 			$scope.audio_text = "Mute";
 			$("#audio_img").attr("src", "image/shell/green/" + audio_mute_img + "_selected.png");
@@ -247,8 +249,22 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		$scope.resource_status = "hide";
 	}
 
+
+	$scope.help_click = function () {
+		console.log($scope.help_status );
+		if ($scope.help_status == "hide") {
+			$scope.help_status = "show";
+		} else {
+			$scope.help_status = "hide";
+		}
+		$(".menu ul").hide();
+	}
+	$scope.help_close = function () {
+		$scope.help_status = "hide";
+	}
+
 	$scope.getWindowStatus = function () {
-		if ($scope.resource_status == "show" || $scope.transcript_status == "show") {
+		if ($scope.resource_status == "show" || $scope.transcript_status == "show" || $scope.help_status == "show") {
 			return "show";
 		} else {
 			return "hide";
@@ -283,7 +299,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 						return;
 					}
 					$scope.topic[i].pages[j].visited = true;
-					console.log("$scope.topic["+i+"].pages["+j+"]  = " + $scope.topic[i].pages[j].visited)
+					console.log("$scope.topic[" + i + "].pages[" + j + "]  = " + $scope.topic[i].pages[j].visited)
 				}
 			}
 		}
@@ -312,17 +328,16 @@ function checkComplete() {
 	console.log(scope.topic.length, scope.topic[0].pages.length);
 	var total = 0;
 	var visited = 0;
-	for(var i=0;i<scope.topic.length;i++){
-		for(var j=0;j<scope.topic[i].pages.length;j++){
+	for (var i = 0; i < scope.topic.length; i++) {
+		for (var j = 0; j < scope.topic[i].pages.length; j++) {
 			total++;
-			if(scope.topic[i].pages[j].visited == true)
-			{
+			if (scope.topic[i].pages[j].visited == true) {
 				visited++;
 			}
 		}
 	}
-	console.log(total+" == "+visited);
-	if(total == visited){
+	console.log(total + " == " + visited);
+	if (total == visited) {
 		//alert("completed");
 		scormBroker.Complete('passed');
 		on_unload();
@@ -340,14 +355,14 @@ function playAudio(filename) {
 	audio.trigger("pause");
 	audio.attr("src", filename);
 	console.log(new Date().toLocaleTimeString() + " audio - " + filename);
-	audio.get(0).onloadeddata = function() {
+	audio.get(0).onloadeddata = function () {
 		console.log(new Date().toLocaleTimeString() + " audio loaded")
 		if (audio_mute == true) {
 			$("#player").prop("muted", true);
 		} else {
 			$("#player").prop("muted", false);
 		}
-		audio.trigger("play");	
+		audio.trigger("play");
 	};
 	anime.remove(".next .next_arr")
 	$(".next .next_arr").css("transform", "translateX(0)");
@@ -358,35 +373,34 @@ function playAudio(filename) {
 			blinkNext();
 		}
 		blinkNext()
-};
+	};
 }
-function blinkNext(){
+function blinkNext() {
 	console.log(" blinkNext " + $(".next.button").hasClass("disable"));
-	if($(".next.button").hasClass("disable") != true){
+	if ($(".next.button").hasClass("disable") != true) {
 		anime({
 			targets: ".next .next_arr",
 			duration: 1000,
 			translateX: [-39, 39],
 			loop: true,
-			delay: function(el, i, l) {
+			delay: function (el, i, l) {
 				return i * 200;
-			  },
+			},
 			easing: 'easeInOutSine'
 		});
 	}
 	checkComplete();
 }
-function trackInteractionCompletion(arr, len){
+function trackInteractionCompletion(arr, len) {
 	console.log("track", arr);
 	var cnt = 0;
-	for(var i=0;i<arr.length;i++){
-		if(arr[i] == true)
-		{
+	for (var i = 0; i < arr.length; i++) {
+		if (arr[i] == true) {
 			cnt++;
 		}
 	}
-	console.log(cnt+" == " + len);
-	if(cnt == len){
+	console.log(cnt + " == " + len);
+	if (cnt == len) {
 		blinkNext();
 	}
 }
@@ -396,37 +410,37 @@ function getMilliSecond(s) {
 	}
 	return 0;
 }
-function updateTrackTime(track){
+function updateTrackTime(track) {
 	var currTime = Math.round(track.currentTime * 10) / 10;
 	var duration = Math.floor(track.duration).toString();
 }
 
-function trackTime(){
+function trackTime() {
 	var currTime = Math.round(document.getElementById("player").currentTime * 10) / 10;
 	return (currTime);
 }
-function durationTime(){
+function durationTime() {
 	var duration = Math.round(document.getElementById("player").duration * 10) / 10;
 	return (duration);
 }
 var interval;
-function syncAudio(elem, anim_type){
-	if(anim_type == undefined){
+function syncAudio(elem, anim_type) {
+	if (anim_type == undefined) {
 		anim_type = "leftToRight"
 	}
 	console.log(elem.length);
-	elem.each(function(){
-		if($(this).attr("data-anim") != "zoom")
-		$(this).css("opacity", 0);
+	elem.each(function () {
+		if ($(this).attr("data-anim") != "zoom")
+			$(this).css("opacity", 0);
 	});
 	clearInterval(interval);
-	interval = setInterval(function(){
-		elem.each(function(){
-			if($(this).attr("data-time")){
-				if(trackTime() > ($(this).attr("data-time")-0.2) && $(this).attr("is-animated") != "true"){
-					console.log(trackTime()+" == " + durationTime())
+	interval = setInterval(function () {
+		elem.each(function () {
+			if ($(this).attr("data-time")) {
+				if (trackTime() > ($(this).attr("data-time") - 0.2) && $(this).attr("is-animated") != "true") {
+					console.log(trackTime() + " == " + durationTime())
 					$(this).attr("is-animated", "true");
-					if($(this).attr("data-anim") == "zoom"){
+					if ($(this).attr("data-anim") == "zoom") {
 						anime({
 							targets: $(this).get(0),
 							scale: 1.1,
@@ -435,29 +449,28 @@ function syncAudio(elem, anim_type){
 							duration: 500,
 							easing: 'easeInOutSine'
 						});
-					}else{
-					if(anim_type == "bottomToTop"){
-						anime({
-							targets: $(this).get(0),
-							translateY: [50, 0],
-							opacity:[0, 1],
-							duration: 1000
-						});
-					}else{
-						anime({
-							targets: $(this).get(0),
-							translateX: [50, 0],
-							opacity:[0, 1],
-							duration: 1000
-						});
+					} else {
+						if (anim_type == "bottomToTop") {
+							anime({
+								targets: $(this).get(0),
+								translateY: [50, 0],
+								opacity: [0, 1],
+								duration: 1000
+							});
+						} else {
+							anime({
+								targets: $(this).get(0),
+								translateX: [50, 0],
+								opacity: [0, 1],
+								duration: 1000
+							});
+						}
 					}
-				}
-				}else if(trackTime() > ($(this).attr("data-disappear") - 0.2) && $(this).attr("is-animated") == "true" 
-							&& $(this).attr("is-disappear") != "true"
-							&& $(this).attr("data-disappear")
-						)
-				{
-					console.log(trackTime()+" > " + ($(this).attr("data-disappear") - 0.2))
+				} else if (trackTime() > ($(this).attr("data-disappear") - 0.2) && $(this).attr("is-animated") == "true"
+					&& $(this).attr("is-disappear") != "true"
+					&& $(this).attr("data-disappear")
+				) {
+					console.log(trackTime() + " > " + ($(this).attr("data-disappear") - 0.2))
 					$(this).attr("is-disappear", "true");
 					anime({
 						targets: $(this).get(0),
@@ -468,7 +481,7 @@ function syncAudio(elem, anim_type){
 				}
 			}
 		})
-		if(trackTime() > 0 &&  trackTime() == durationTime()){
+		if (trackTime() > 0 && trackTime() == durationTime()) {
 			clearInterval(interval);
 		}
 	}, 500);

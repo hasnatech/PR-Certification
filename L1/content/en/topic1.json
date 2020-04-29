@@ -22,7 +22,11 @@
         }, {
             "label": "Sample link to google.com for more information",
             "link": "http://www.google.com"
-        }]
+        }],
+        "help":{
+            "title" : "Help",
+            "content" : "<p>Please contact the <a href='myglobalit.cargill.com' target='_blank'>Cargill Help Desk</a> to report issues with the training content for this program.</p>"
+        }
     },
 
     "menu": {
@@ -227,10 +231,11 @@
                         "audio": "media\/12_set01.mp3",
                         "showMenu": true,
                         "interaction": false,
+                        "instr":"Click each procurment type to learn more.",
                         "images": [{
                                 "image": "image/topic1/procurement/DI.png",
                                 "class": "di",
-                                "tabText": "Direct & Indirect spend",
+                                "tabText": "Direct & Indirect Spend",
                                 "showCon":"TabC_1",
                                 "enable":"enable",
                                 "playAudio":"media\/12_set02.mp3",
@@ -258,7 +263,7 @@
                             {
                                 "image": "image/topic1/procurement/GIT.png",
                                 "class": "git",
-                                "tabText": "Global IT purchases",
+                                "tabText": "Global IT Purchases",
                                 "showCon":"TabC_4",
                                 "playAudio":"media\/12c.mp3",
                                 "color":"#005E80",
@@ -306,11 +311,11 @@
                                 "class":"rightTextLi TabC_2",
                                 "time": 8
                             },{
-                                "title": "Purchasing-Card, or P-Card, is a company or Business Unit charge card, which is used for accounts payable processing. It works in compliance to the P-card policy to purchase materials and services without the traditional purchase process.",
+                                "title": "Purchasing-Card, or P-Card, is a company or Business Unit charge card, which is used for accounts payable processing. It works in compliance to the P-card policy to purchase materials and services without the traditional purchase process. <br><br><p>Click the <a href='https://cargill.policytech.com' target='_blank'>Cargill P-Card Policy</a> link to view the P-Card limit for your region.</p>",
                                 "class":"rightTextLi TabC_3",
                                 "time": 8
                             },{
-                                "title": "Global IT Purchases: These are purchases that are made through the Global IT function have a separate procurement process. Examples of these purchases are: software, computers, servers and other computer and networking hardware and software.",
+                                "title": "Global IT Purchases: These are purchases that are made through the Global IT function and have a separate procurement process. Examples of these purchases are: software, computers, servers and other computer and networking hardware and software.",
                                 "class":"rightTextLi TabC_4",
                                 "time": 8
                             }
@@ -612,7 +617,7 @@
                                 "margin_right":"margin_right_64px"
                             },
                             {
-                                "name":"Project Material & Services (PM&S)",
+                                "name":"Plant Material & Services (PM&S)",
                                 "time": 24.1,
                                 "margin_right":"margin_right_30px"
                             },
@@ -717,6 +722,43 @@
                        
                         "transcript": [{
                             "text": "<p>The Indirect Procurement Process involves four main stages:<ul><li>Ordering</li><li>Approving</li><li>Receiving, and</li><li>Invoicing</li></ul><p>Let’s take a look at the process in detail.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "mainTitle": "Indirect Procurement Overview",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/17.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>Cargill aligns indirection procurement across distinct _________; which are a group of materials or services with a common supply and demand and set of suppliers.</p>",
+                        "choices": [{
+                                "text": "Corporate materials and services",
+                                "correct": true
+                            },
+                            {
+                                "text": "Categories",
+                                "correct": false
+                            },
+                            {
+                                "text": "Divisions",
+                                "correct": false
+                            },
+                            {
+                                "text": "Entities",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "That’s not quite correct. <br/>",
+                            "correct": "That’s Correct! <br/>"
+                        },
+                        "image": "image\/topic1\/summary.png",
+                        "transcript": [{
+                            "text": "<p>Now, it’s time to check your knowledge. </p><p>Select an appropriate answer to the question given.</p>",
                             "sec": "0.01"
                         }]
                     },
@@ -893,7 +935,8 @@
                                     "PO"
                                 ],
                                 "time":"8.4",
-                                "para":"Purchases delegated by Procurement to authorized users and mainly to remote locations to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy."
+                                "para":"Purchases delegated by Procurement to authorized users to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy."
+      
                             },
                             {
                                 "heading":
@@ -1017,7 +1060,7 @@
                                 "Automatic",
                                 "PO"
                             ],
-                            "para":"Purchases delegated by Procurement to authorized users and mainly to remote locations to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy."
+                            "para":"Purchases delegated by Procurement to authorized users to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy.<br><br><p>Click the <a href='https://cargill.ancileuperform.com/#/content/1.11.181522' target='_blank'>Regional DPL Limits</a> link to view the DPL limit for your region.</p>"
                         }
                         ],
                         "transcript": [{

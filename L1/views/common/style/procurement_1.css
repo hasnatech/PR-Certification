@@ -1,27 +1,32 @@
-
-.group .grp{
-    margin-top: 10px;
-    /*! margin-bottom: 40px; */
-    /*! float: left; */
-    /*! width: 287px; */
-}
-.group hr, .group2 hr{
-    width: 300px;
-    margin-top:0px;
+.group .grp {
+	margin-top: 10px;
+	/*! margin-bottom: 40px; */
+	/*! float: left; */
+	/*! width: 287px; */
 }
 
-.group ul li, .group2 ul li {
+.group hr,
+.group2 hr {
+	width: 300px;
+	margin-top: 0px;
+}
+
+.group ul li,
+.group2 ul li {
 	list-style: square;
 	float: left;
 	font-size: small;
 	margin-bottom: -5px;
 }
-.group .title, .group2 .title {
+
+.group .title,
+.group2 .title {
 	font-weight: normal;
 	color: #fff;
 	font-size: 14px;
 	line-height: 18px;
 }
+
 ul {
 	padding-left: 13px;
 	font-size: 14px;
@@ -44,7 +49,10 @@ ul {
 	top: 30px;
 }
 
-.di, .npf, .pc, .git {
+.di,
+.npf,
+.pc,
+.git {
 	width: 170px;
 }
 
@@ -89,6 +97,7 @@ ul {
 	top: 20px;
 	color: #1E1E1E;
 }
+
 .tabPart div {
 	background: #009E92;
 	color: #fff;
@@ -108,6 +117,7 @@ ul {
 	bottom: -20px;
 	left: 0;
 }
+
 .activeBottom.enable {
 	display: block;
 }
@@ -115,12 +125,15 @@ ul {
 .di {
 	background: #009E92 !important;
 }
+
 .npf {
 	background: #008C86 !important;
 }
+
 .pc {
 	background: #007C80 !important;
 }
+
 .git {
 	background: #005E80 !important;
 }
@@ -128,12 +141,15 @@ ul {
 .di .activeBottom {
 	border-top-color: #009E92;
 }
+
 .npf .activeBottom {
 	border-top-color: #008C86;
 }
+
 .pc .activeBottom {
 	border-top-color: #007C80;
 }
+
 .git .activeBottom {
 	border-top-color: #005E80;
 }
@@ -169,6 +185,12 @@ ul {
 .rightTextLi {
 	display: none
 }
+
 /* .TabC_2,.TabC_3,.TabC_4 {
 	display: none;
 } */
+
+.page9 a {
+	color: #a6a820;
+	text-decoration: underline;
+}

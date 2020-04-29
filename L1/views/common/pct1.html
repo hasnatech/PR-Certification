@@ -5,7 +5,7 @@
                 <div class="col-12">
                     <div class="cBorder animate {{block.heading.color}}" ng-repeat="block in page.block" data-time="1"></div>
                     <img class="animate centerBg {{page.imgCss}}" data-time="1" ng-src="{{page.image}}"/>
-                    <div style="left: 380px;top: 135px;" class="animate inner4 inner4_{{$index}}" ng-repeat="block in page.block" data-time="2">
+                    <di style="left: 380px;top: 135px;" class="animate inner4 inner4_{{$index}}" ng-repeat="block in page.block" data-time="2">
                         <div class="header">
                             <span class="mainHead {{block.heading.color}}">{{block.heading.main}}</span>
                             <span>{{block.heading.sub}}</span>
@@ -20,7 +20,7 @@
                                 <li ng-repeat="list_2 in block.list_2">{{list_2}}</li>
                             </ul>
                         </div>
-                        <p>{{block.para}}</p>
+                        <div class="right_content" ng-bind-html="block.para | to_trusted"></div>
                     </div>
                 </div>
             </div>

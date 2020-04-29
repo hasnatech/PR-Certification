@@ -9618,7 +9618,7 @@ html {
 }
 
 #audio {
-  display: none;
+  /*display: none;*/
   position: absolute;
   bottom: 0px;
   z-index: 102;
@@ -9645,7 +9645,7 @@ html {
 
 .header {
   position: relative;
-  z-index: 100;
+  z-index: 101;
   top: 20px;
   /*@include bg-color($brand-color);*/
 }
@@ -9695,24 +9695,119 @@ html {
   margin-left: auto;
 }
 
+.middle_window {
+  width: 500px;
+  position: relative;
+  margin: 20% auto;
+}
+
+.bookmark {
+  position: fixed;
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.bookmark .title {
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  color: #115f81;
+  font-weight: bold;
+}
+
+.bookmark .content {
+  background-color: #115f81;
+  color: #ffffff;
+  height: 130px;
+  margin: 10px 25px 0px 15px;
+  padding: 20px;
+  position: relative;
+  z-index: 103;
+  overflow: auto;
+}
+
+.bookmark .content a {
+  color: #ffffff;
+}
+
+.bookmark .cBorder {
+  border: 1px solid #115f81;
+  position: absolute;
+  height: 100px;
+  top: 10px;
+  width: calc(100% - 40px);
+}
+
+.bookmark .exit {
+  background-color: #dddddd;
+  position: absolute;
+  padding: 3px 10px;
+  font-weight: bold;
+  top: 15px;
+  right: 5px;
+  cursor: pointer;
+  z-index: 104;
+}
+
 .footer {
   position: relative;
   top: -120px;
   z-index: 101;
 }
 
+.footer .next,
 .footer .back {
   position: absolute;
-  left: 0px; padding: 3px 6px;
+  right: 0px;
+  padding: 10px 10px 5px 10px;
+  text-align: center;
+  font-size: 13px;
 }
 
-.footer .next {
+.footer .next:hover,
+.footer .back:hover {
+  background-color: #009f99;
+}
+
+.footer .next:hover .thick_line,
+.footer .back:hover .thick_line {
+  background-color: #009f99;
+}
+
+.footer .next .thick_line,
+.footer .back .thick_line {
   position: absolute;
-  right: 0px; padding: 3px 6px;
+  width: 10px;
+  top: 0px;
+  left: -20px;
+  bottom: 0px;
 }
 
-.footer .next, .footer .back {
-	overflow: hidden;
+.footer .next .first_arr,
+.footer .back .first_arr {
+  margin-right: -5px;
+  margin-left: 5px;
+}
+
+.footer .back {
+  position: absolute;
+  left: 0px;
+  right: auto;
+}
+
+.footer .back .thick_line {
+  left: auto;
+  right: -20px;
+}
+
+.footer .back .next {
+  position: absolute;
+  right: 0px;
 }
 
 .absolute {
@@ -9771,6 +9866,12 @@ html {
 
 .cargill_button:hover {
   background-color: #009f99;
+}
+
+.cargill_button-outline {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  min-width: 50px;
 }
 
 .menu {
@@ -9833,6 +9934,16 @@ html {
   background-color: #e8f2f2;
 }
 
+.orange_bg {
+  background-color: #cf7f00;
+  color: #fff;
+}
+
+.green_bg {
+  background-color: #a8aa23;
+  color: #fff;
+}
+
 .center_screen {
   position: relative;
   z-index: 1;
@@ -9881,7 +9992,7 @@ h2 {
   width: 100%;
   height: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 .common_window.hide {
@@ -9906,7 +10017,7 @@ h2 {
           transform: translate(0px, 0px);
 }
 
-.common_window .resource {
+.common_window .resource, .common_window .help {
   width: 400px;
   position: absolute;
   left: calc(50% - 200px);
@@ -9915,13 +10026,13 @@ h2 {
   padding: 20px 10px 10px 20px;
   background-color: white;
   /*padding: 20px;
-    box-shadow: 0 0 4px 3px #cccccc;*/
+        box-shadow: 0 0 4px 3px #cccccc;*/
   display: none;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.common_window .resource.show {
+.common_window .resource.show, .common_window .help.show {
   display: block;
 }
 
@@ -10013,19 +10124,19 @@ ul.square_bullet {
 }
 
 .fitHeader {
-  margin-top: -58px;
+  margin-top: -164px;
+  padding-top: 80px;
 }
 
 .feedback {
   width: 400px;
   position: absolute;
-  left: calc(50% - 200px);
-  top: calc(50% - 200px);
+  right: 50px;
+  top: calc(50% - 190px);
   z-index: 102;
   padding: 20px 10px 10px 20px;
   background-color: white;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  /*transition: all 0.5s ease;*/
 }
 
 .feedback.show {
