@@ -737,11 +737,11 @@
                         "question": "<p>Cargill aligns indirection procurement across distinct _________; which are a group of materials or services with a common supply and demand and set of suppliers.</p>",
                         "choices": [{
                                 "text": "Corporate materials and services",
-                                "correct": true
+                                "correct": false
                             },
                             {
                                 "text": "Categories",
-                                "correct": false
+                                "correct": true
                             },
                             {
                                 "text": "Divisions",
