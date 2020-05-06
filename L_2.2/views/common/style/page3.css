@@ -86,3 +86,6 @@ img.shaddow_img {
 	left: -24px;
 	top: 3px;
 }
+.instruction::before{
+	display: none;
+}

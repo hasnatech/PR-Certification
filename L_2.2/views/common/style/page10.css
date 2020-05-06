@@ -5,7 +5,7 @@
 .item img {
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: -50px;
 	z-index: -1;
 	transform: scale(0.85);
 }
@@ -22,6 +22,38 @@
 }
 .instruction {
 	position: absolute;
+}
+
+
+.instruction_1::before {
+    content: "";
+    background: url(../../../image/topic1/insIcon.png) no-repeat;
+    width: 51px;
+    height: 44px;
+    position: absolute;
+    left: -47px;
+    top: -10px;
+	transform: scale(0.6);
+}
+	.instruction_2::before {
+    content: "";
+    background: url(../../../image/topic1/insIcon.png) no-repeat;
+    width: 51px;
+    height: 44px;
+    position: absolute;
+    left: -47px;
+    top: -10px;
+	transform: scale(0.6);
+}
+
+.instruction_1{
+	position: absolute;
+	cursor: pointer;
+	
+}
+.instruction_2{
+	position: absolute;
+	cursor: pointer;
 }
 .item.Circle_1 {
 	width: 675px;
@@ -54,7 +86,7 @@
 .inTxt {
 	position: absolute;
 	left: 60px;
-	top: 163px;
+	top: 113px;
 	width: 190px;
 	text-align: left;
 	font-size: 14px;
@@ -64,6 +96,7 @@
 	width: 540px;
 	text-align: center;
 	left: 140px;
-	top: 104px;
+	top: 54px;
 	color: #fff;
 }
+

@@ -74,7 +74,7 @@
                                 "time": "1.5"
                             },
                             {
-                                "text": "The systems that support to manage the indirect procurement process",
+                                "text": "The systems that support the indirect procurement process.",
                                 "time": "7.4"
                             }
                         ],
@@ -113,7 +113,7 @@
                     },
                     {
                         "type": "custom",
-                        "title": "Effectively Managing Purtchasing Process",
+                        "title": "Effectively Managing Purchasing Process",
                         "file": "common\/page4.html",
                         "style": "common\/style\/page4.css",
                         "audio": "media\/7.mp3",
@@ -265,7 +265,7 @@
                                 },
 
                                 {
-                                    "text": "SAP (Materials)",
+                                    "text": "SAP",
                                     "time": 3.75,
                                     "description": "<li>Once the ordered materials or services arrive at the Cargill site, the Receiver records the event in SAP.<li>The recording of a receipt of materials to the site is processed in SAP as a goods receipt.<li>The recording of the completion of a service at the site is processed in SAP using a service entry sheet.</li>",
                                     "id": 4,
@@ -392,11 +392,11 @@
                             },
                             {
                                 "text": "TurboTax",
-                                "correct": true
+                                "correct": false
                             },
                             {
                                 "text": "OneSource",
-                                "correct": false
+                                "correct": true
                             },
                             {
                                 "text": "Ariba Network",
@@ -617,7 +617,7 @@
                                 },
                                 {
                                     
-                                    "text" : "<ul><li>Contact the CSSP PO Processor associated with the purchase</li><li>Submit a Remedyforce ticket for the change</li><li> Provide all the change details required to the PR or PO</li><li>The Remedyforce ticket will be managed by the PO Processor assigned to the purchase order</li><li>PO Processor completes all requested purchase changes and submits the purchase order to the supplier</li><ul>",
+                                    "text" : "<ul><li>Contact the CSSP PO Processor associated with the purchase.</li> <li>Provide all the change details required to the PR or PO to the PO Processor.</li><li>The PO Processor will manage the requested changes in SAP on the PO and resend the PO to the supplier.</li><ul>",
                                     "class" : "note1",
                                     "time" : "52.5"
                                 }
@@ -741,7 +741,7 @@
                                     "top": "448px"
                                 },
                                 {
-                                    "text": "Lilla recently contacted Michael to inquire about the status of the purchase order, as the supplier has not yet received the PO. What should Michael do to help Lillia determine the status of her PO?",
+                                    "text": "Lilla recently contacted Michael to inquire about the status of the purchase order, as the supplier has not yet received the PO. What should Michael do to help Lilla determine the status of her PO?",
                                     "image": "image/topic/slide40_2.png",
                                     "class": "note1 behind",
                                     "time": "18",
@@ -749,7 +749,7 @@
                                     "top": "151px"
                                 },
                                 {
-                                    "text": "Michael is a Cargill Requisitioner. Three days ago, he created a purchase requisition for a large purchase request submitted by Lillia, a Cargill plant supervisor. ",
+                                    "text": "Michael is a Cargill Requisitioner. Three days ago, he created a purchase requisition for a large purchase request submitted by Lilla, a Cargill plant supervisor. ",
                                     "image": "image/topic/slide40_1.png",
                                     "class": "note2 behind",
                                     "time": "6",
@@ -882,17 +882,8 @@
                                     "class": "s3_t1",
                                     "time": "74"
                                 },
-                                {
-                                    "text": "log a ticket with Global IT ",
-                                    "image": "image/topic/slide42_4.png",
-                                    "class": "s3_4",
-                                    "time": "81.5"
-                                },
-                                {
-                                    "image": "image/topic/slide42_7.png",
-                                    "class": "s3_7",
-                                    "time": "84"
-                                },
+                               
+                               
                                 {
                                     "text": "PO Processor",
                                     "image": "image/topic/slide42_6.png",
@@ -902,33 +893,24 @@
                                 {
                                     "image": "image/topic/slide42_7.png",
                                     "class": "s3_7",
-                                    "time": "99.5"
+                                    "time": "86.5"
                                 },
                                 {
                                     "text": "Create PO and investigate the issue",
                                     "class": "s3_t2 rounded_box",
-                                    "time": "86.5"
+                                    "time": "88"
                                 },
+                                
+                                
                                 {
                                     "image": "image/topic/slide42_7.png",
                                     "class": "s3_7",
-                                    "time": "98.6"
-                                },
-                                {
-                                    "text": "log a ticket with Global IT ",
-                                    "image": "image/topic/slide42_4.png",
-                                    "class": "s3_4",
-                                    "time": "98.6"
-                                },
-                                {
-                                    "image": "image/topic/slide42_7.png",
-                                    "class": "s3_7",
-                                    "time": "86.5"
+                                    "time": "93.5"
                                 },
                                 {
                                     "text": "Determine if there was an error in the requisition that caused a failure in the automatic creation of the purchase order",
                                     "class": "s3_t3 rounded_box",
-                                    "time": "100"
+                                    "time": "96"
                                 }
 
                             ]
@@ -1164,7 +1146,7 @@
                     },
                     {
                         "type":"custom",
-                        "title":"Scenario 4 : Questions Regarding the Purchase Order",
+                        "title":"Scenario 4: Questions Regarding A Payment Issue",
                         "file":"common\/flat_page.html",
                         "style":"common\/style\/page11.css",
                         "audio": "media\/48_new.mp3",
@@ -1643,7 +1625,7 @@
                                     "top": "86px"
                                 },
                                 {
-                                    "text": "Requisitioners should direct the supplier to either the Ariba Sipport team or to Cargill’s Supplier Central website.",
+                                    "text": "Requisitioners should direct the supplier to either the Ariba Support team or to Cargill’s Supplier Central website.",
                                     "class": "s3_t1",
                                     "time": "32",
                                     "left": "297px",
@@ -1680,8 +1662,8 @@
 
                         ],
                         "feedback": {
-                            "incorrect": "<p>That’s not quite correct.</p><p>The Requisitioner should instruct the supplier to contact Supplier Relations.</p>",
-                            "correct": "<p>That’s Correct! </p><p>The Requisitioner should instruct the supplier to contact Supplier Relations.</p>"
+                            "incorrect": "<p>That’s not quite correct.</p><p>The Requisitioner should instruct the supplier to contact the PO Processor listed on the purchase order.</p>",
+                            "correct": "<p>That’s Correct! </p><p>The Requisitioner should instruct the supplier to contact the PO Processor listed on the purchase order.</p>"
                         },
                         "image": "image\/topic\/knowledgecheck.png",
                         "transcript": [{
@@ -1704,7 +1686,7 @@
                             },
                             {
                                 "text": "PO Processor",
-                                "correct": true
+                                "correct": false
                             },
                             {
                                 "text": "Supplier Account Manager",
@@ -1749,31 +1731,8 @@
                             "text": "<p>We have now come to the end of this module.</p><p>You have been introduced to the purchase requisition document types, structure, key fields and process flow.</p>",
                             "sec": "0.01"
                         }]
-                    },
-                    {
-                        "type": "summary",
-                        "title": "Course Wrap-up",
-                        "file": "common\/summary.html",
-                        "style": "common\/style\/summary.css",
-                        "audio": "media\/59.mp3",
-                        "showMenu": true,
-                        "interaction": false,
-                        "block": [{
-                                "text": "Common purchasing exception scenarios",
-                                "time": "5.5"
-                            },
-                            {
-                                "text": "Appropriate PR Processor steps for resolution",
-                                "time": "11"
-                            }
-
-                        ],
-                        "image": "image\/topic\/summary.png",
-                        "transcript": [{
-                            "text": "<p>We have now come to the end of this module.</p><p>You have been introduced to the purchase requisition document types, structure, key fields and process flow.</p>",
-                            "sec": "0.01"
-                        }]
                     }
+                    
                 ]
             }
         ]

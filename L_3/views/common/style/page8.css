@@ -188,7 +188,8 @@ s3_1 .img {
     position: absolute;
     z-index: 1;
     top: 120px;
-    left: 40px;
+    left: 48px;
+    text-align: center;
 }
 .s3_4 .text {
     left: 22px;
@@ -251,10 +252,10 @@ s3_1 .img {
 #scene3 .drag:nth-child(6){ left: 390px;top: 114px;}
 #scene3 .drag:nth-child(7){ left: 430px;top: 103px;}
 #scene3 .drag:nth-child(8){ left: 583px;top: 67px;}
-#scene3 .drag:nth-child(9){ left: 720px;top: 106px;}
-#scene3 .drag:nth-child(10){ left: 758px;top: 62px;}
-#scene3 .drag:nth-child(11){ left: 601px;top: 365px;}
-#scene3 .drag:nth-child(12){ left: 977px;top: 76px;}
+#scene3 .drag:nth-child(9){ left: 730px;top: 113px;}
+#scene3 .drag:nth-child(10){ left: 798px;top: 82px;}
+#scene3 .drag:nth-child(11){ left: 400px;top: 365px;}
+#scene3 .drag:nth-child(12){ left: 461px;top: 301px;}
 #scene3 .drag:nth-child(13){ left: 399px;top: 365px;}
 #scene3 .drag:nth-child(14){ left: 448px;top: 329px;}
 #scene3 .drag:nth-child(15){ left: 897px;top: 106px;}

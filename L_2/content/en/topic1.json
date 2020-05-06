@@ -139,7 +139,7 @@
                                 "time": "22.4"
                             },
                             {
-                                "text": "Documented <span class='brand_text'>manually into SAP (ECC)</span> by the Requestor. ",
+                                "text": "Documented <span class='brand_text'>manually into SAP (ECC)</span> by the Requisitioner. ",
                                 "time": "26.4"
                             },
                             {
@@ -175,17 +175,17 @@
                             {
                                 "title": "Purchasing Requisitioner",
                                 "icon": "image/topic1/page5_icon2.png",
-                                "text": "Creates a purchase request for supply<br>Requestor manually enters a PR into SAP (ECC)",
+                                "text": "<p>Recieves for initiates the purchase request.<br>Manually enters a purchase request into SAP</p>",
                                 "time": "27"
                             },
                             {
-                                "title": "Cost Object Approver",
+                                "title": "PR Approver",
                                 "icon": "image/topic1/page5_icon1.png",
-                                "text": "Approves or rejects the purchase request<br>All Purchase Requisitions require approval by cost object owner or WBS Owner.",
+                                "text": "<p>Approves or rejects the purchase requisition<br>All PRs require approval by the Cost Object Owner or WBS Owner</p>",
                                 "time": "36"
                             }
                         ],
-                        "image": "image\/topic1\/page_5.png",
+                        "image": "image\/topic1\/page_5_edit.png",
                         "transcript": [{
                             "text": "<p>A purchase requisition is a mere document, but plays an important role in authorizing and centralizing purchases at Cargill.</p><p>Typically, a PR is initiated when an employee requests a need for purchase.</p><p>Such a purchase request may require submission of a form or spreadsheet depending on business processes and if not a work order.  </p><p>This purchase request leads to the creation of a purchase requisition in SAP by a PR processor for the site.</p><p>As a standard, the manual creation of a purchase requisition in SAP requires specific authorization and approval.</p>",
                             "sec": "0.01"
@@ -204,19 +204,21 @@
                         "popup": [{
                                 "items": [{
                                         "title": "Manual Purchase Requisition Creation",
-                                        "body": "<ul class='square_bullet'>    <li>A purchase request  triggers the manual creation of a purchase requisition.</li>    <li>A purchase request may require submission of a form or spreadsheet depending on processes for your business and if not on a work order. </li>    <li>Anyone at the site can initiate a purchase request. </li>    <li>The manual creation of a purchase requisition in SAP requires specific authorization.</li>    <li>Not only the PR processor, but anyone may enter the purchase requisition depending on processes for your business.</li></ul>"
+                                        "body": "<ul class='square_bullet'>    <li>A purchase request  triggers the manual creation of a purchase requisition.</li>    <li>A purchase request may require submission of a form or spreadsheet depending on processes for your business and if not on a work order. </li>    <li>Anyone at the site can initiate a purchase request. </li>    <li>The manual creation of a purchase requisition in SAP requires specific authorization.</li></ul>"
+                                    },
+                                    {
+                                        "title": "Purchase Order Approval",
+                                        "body": "<ul class='square_bullet'>    <li>A purchase order approval is required if the total PO purchase amount exceeds a specific limit.</li> <li>Click this link to view the PO approval limits by region.</li></ul>"
                                     },
                                     {
                                         "title": "Purchase Requisition Approval",
                                         "body": "<ul class='square_bullet'>    <li>All manually created Purchase Requisitions will require an approval by the assigned cost object owner.</li> </ul>"
                                     },
+                                    
+                                    
                                     {
                                         "title": "Purchase Requisition Conversion to Purchase Order",
                                         "body": "<ul class='square_bullet'>    <li>Upon approval a purchase requisition is converted to purchase order by transferring mandatory information.</li></ul>"
-                                    },
-                                    {
-                                        "title": "Purchase Order Approval",
-                                        "body": "<ul class='square_bullet'>    <li>A Purchase Order approval  will be required if the total PO value exceeds $5,000.00.</li></ul>"
                                     }
                                 ],
                                 "instr": "Click each section to learn more on the creation of a PR.",
@@ -354,7 +356,7 @@
                             },
                             {
                                 "image": "image/topic1/rec_2.png",
-                                "text": "Descriptions",
+                                "text": "Material Descriptions",
                                 "time": "30"
                             },
                             {
@@ -465,7 +467,7 @@
                     }
                 ]
             },
-            {
+            {   "type":"module2",
                 "title": "Module 2 - Purchase Requisition Components",
                 "pages": [{
                         "type": "welcome",
@@ -492,7 +494,7 @@
                                 "time": "4"
                             },
                             {
-                                "text": "Item detail Text and Notes",
+                                "text": "Item detail text and notes",
                                 "time": "5"
                             },
                             {
@@ -532,7 +534,7 @@
                         "title": "Document Types",
                         "file": "common\/page13.html",
                         "style": "common\/style\/page13.css",
-                        "audio": "media\/28_E.mp3",
+                        "audio": "media\/28_E-edit.mp3",
                         "showMenu": true,
                         "interaction": false,
                         "block": [{
@@ -587,7 +589,7 @@
 
                             }, {
                                 "title": "Header",
-                                "feedback": "Header section provides an option for the PR Processor ECC to change the requisition document type. The default type is Purchase Requisition (ZNB). Header text is used for internal communication to a PR Approver.",
+                                "feedback": "Header section provides an option for the Requisitioner to change the requisition document type. The default type is Purchase Requisition (ZNB). Header text is used for internal communication to a PR Approver.",
                                 "id": "1",
                                 "audio": "media\/30a.mp3"
                             },
@@ -771,24 +773,28 @@
                             }, {
                                 "text": "Valuation",
                                 "time": 21.5
-                            }, {
-                                "text": "Source of Supply",
+                            },{
+                                "text": "Account Assignment",
                                 "time": 23.5
-                            }, {
-                                "text": "Status",
+                            }, 
+                            {
+                                "text": "Source of Supply",
                                 "time": 25
                             }, {
-                                "text": "Contact Person",
+                                "text": "Status",
                                 "time": 26.5
+                            }, {
+                                "text": "Contact Person",
+                                "time": 28.5
                             },  {
                                 "text": "Texts",
-                                "time": 28.5
+                                "time": 30
                             }, {
                                 "text": "Delivery Address",
-                                "time": 30
+                                "time": 31.5
                             },{
                                 "text": "Release Strategy",
-                                "time": 31.5
+                                "time": 33
                             }],
                             "alert" : {
                                 "text": "",
@@ -867,7 +873,7 @@
                             "time": 46
                         }, {
                             "image": "image/topic1/page_18_5.png",
-                            "text": "<h3>PO create</h3><p>Automatic PO created for Contract and Catalog PRs. PO is manually created by CSSP PO Processor for all other PRs</p>",
+                            "text": "<h3>PO Create</h3><p>Automatic PO created for Contract and Catalog PRs. PO is manually created by CSSP PO Processor for all other PRs</p>",
                             "time": 46.5
                         }, {
                             "image": "image/topic1/page_18_6.png",
@@ -969,7 +975,7 @@
                                 "time": "8"
                             },
                             {
-                                "text": "Item detail Text and Notes",
+                                "text": "Item detail text and notes",
                                 "time": "8.5"
                             },
                             {

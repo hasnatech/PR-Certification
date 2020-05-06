@@ -8,6 +8,12 @@
                 </div>
             </div><i style="display: none">{{page.link}}</i>
             <div class="instruction animate drag clk" style="left: {{page.ins_left}}; top: {{page.ins_top}};" data-time="{{page.insTime}}" ng-bind-html="page.instruction | to_trusted"></div>
+                <a href="{{page.link1}}" target="_blank" style="color: #000000e3;"> <div class="instruction_1 animate drag clk"
+                style="left: {{page.ins_1_left}}; top: {{page.ins_1_top}};" data-time="{{page.insTime_1}}"
+                ng-bind-html="page.instruction_1 | to_trusted"></div></a>
+                <a href="{{page.link2}}" target="_blank" style="color: #000000e3;"><div class="instruction_2 animate drag clk" 
+                style="left: {{page.ins_2_left}}; top: {{page.ins_2_top}};" data-time="{{page.insTime_2}}"
+                ng-bind-html="page.instruction_2 | to_trusted"></div></a>
         </div>
     </div>
 </section>
@@ -22,6 +28,8 @@
         setTimeout(function(){
             $('.instruction').attr("onclick","window.open('"+$('i').text()+"','mywindow');")
         },1000)
+
+            
 
         //$(".drag").draggable();
 

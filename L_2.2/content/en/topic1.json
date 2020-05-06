@@ -269,8 +269,7 @@
                         "audio": "media\/11.mp3",
                         "showMenu": true,
                         "interaction": true,
-                        "instruction": "Click on the tab to learn how to create the External Catalog PR in SAP.",
-                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121898",
+                        
                         "insTime": "33",
                         "ins_left": "124px", "ins_top": "657px",
                         "image": "image\/topic1\/page1.png",
@@ -397,7 +396,7 @@
                                 "time":"13", "left": "490px", "top": "328px"
                             },
                             {
-                                "text":"When a purchase of a non-stock material is made against a cost center via a manual purchase requisition",
+                                "text":"When a purchase of a non-stock material is made against a cost object via a manual purchase requisition",
                                 "image":"image/topic1/page4/3.png",
                                 "class":"Circle_3",
                                 "imgClass":"Circle_3_img",
@@ -482,14 +481,14 @@
                                 "time":"1", "left": "165px", "top": "254px"
                             },
                             {
-                                "text":"1 PO and 1 PO line per price period. (Monthly, quarterly, Annual*) Not to be valid more than 12 months.",
+                                "text":"One PO and one PO line per price period (monthly, quarterly, annually). The blanket PO should not be valid for more than 12 months.",
                                 "image":"image/topic1/page6/1.png",
                                 "class":"Circle_1",
                                 "imgClass":"Circle_1_img",
                                 "time":"12.8", "left": "403px", "top": "149px"
                             },
                             {
-                                "text":"Goods Receipt does take place for each delivery.",
+                                "text":"A goods receipt is required for each delivery.",
                                 "image":"image/topic1/page6/2.png",
                                 "class":"Circle_2",
                                 "imgClass":"Circle_2_img",
@@ -876,7 +875,18 @@
                         "instruction": "Click on the tab to learn how to create Free Text PR in SAP.",
                         "link": "https://cargill.ancileuperform.com/#/content/1.11.121904",
                         "insTime": "56.4",
-                        "ins_left": "124px", "ins_top": "657px",
+                        "ins_left": "140px", "ins_top": "570px",
+                        "instruction_1": "Click on the tab to view the Data Definition Documents (MRO and Service Material Group).​",
+                        "link1": "no link",
+                        "ins_1_left": "140px",
+                        "ins_1_top": "600px",
+                        "insTime_1": "57",
+                        "instruction_2": "Click on the tab to view information on the impact of choosing the right (or wrong) Material Group.​",
+                        "link2": "no link",
+                        "ins_2_left": "140px",
+                        "ins_2_top": "630px",
+                        
+                        "insTime_2": "57.5",
                         "image": "image\/topic1\/page1.png",
                         "block": [
                             {
@@ -884,35 +894,35 @@
                                 "image":"image/topic1/page9/blue.png",
                                 "class":"blue",
                                 "imgClass":"Circle_mid_img",
-                                "time":"1", "left": "84px", "top": "112px"
+                                "time":"1", "left": "84px", "top": "102px"
                             },
                             {
                                 "text":"The Requisitioner provides a description of the type of material needed",
                                 "image":"image/topic1/page9/orange.png",
                                 "class":"orange",
                                 "imgClass":"Circle_mid_img",
-                                "time":"9", "left": "347px", "top": "112px"
+                                "time":"9", "left": "347px", "top": "102px"
                             },
                             {
                                 "text":"The Requisitioner provides an estimate on the price they expect to pay",
                                 "image":"image/topic1/page9/yellow.png",
                                 "class":"yellow",
                                 "imgClass":"Circle_mid_img",
-                                "time":"16.6", "left": "626px", "top": "112px"
+                                "time":"16.6", "left": "626px", "top": "102px"
                             },
                             {
                                 "text":"Offers flexibility in the purchasing process when the business requires something that is not available through our catalogs or contracts with select suppliers",
                                 "image":"image/topic1/page9/green.png",
                                 "class":"green",
                                 "imgClass":"Circle_mid_img",
-                                "time":"31.3", "left": "904px", "top": "112px"
+                                "time":"31.3", "left": "904px", "top": "102px"
                             },
                             {
                                 "text":"A free text purchase should only be created after the Requisitioner has determined the material is not available through a catalog or material master",
                                 "image":"image/topic1/page9/bottom.png",
                                 "class":"bottom",
                                 "imgClass":"Circle_mid_img",
-                                "time":"44.5", "left": "221px", "top": "475px"
+                                "time":"44.5", "left": "221px", "top": "440px"
                             }
                         ],
                         "transcript": [{
@@ -983,7 +993,7 @@
                         "showMenu": true,
                         "interaction": true,
                         "instruction": "Click on the tab to see the list of suppliers who support VMI.",
-                        "link": "nolink",
+                        "link": "https://cargill15--bmcservicedesk.na104.visual.force.com/apex/KM_ArticleView?name=KBA8456",
                         "insTime": "12",
                         "ins_left": "124px", "ins_top": "657px",
                         "image": "image\/topic1\/page1.png",
@@ -1019,7 +1029,12 @@
                         "instruction": "Click on the tab to learn how to create VMI PR in SAP.",
                         "link": "https://cargill.ancileuperform.com/#/content/1.11.121901",
                         "insTime": "84",
-                        "ins_left": "124px", "ins_top": "657px",
+                        "ins_left": "124px", "ins_top": "633px",
+                        "instruction_1": "Click on the tab to view the Data Definition Documents (MRO and Service Material Group).​",
+                        "link1": "https://sites.cargill.com/sites/Finance/maestro/North%20America/Pages/AribaSustainTraining.aspx ",
+                        "ins_1_left": "124px",
+                        "ins_1_top": "668px",
+                        "insTime_1": "84.5",
                         "image": "image\/topic1\/page1.png",
                         "block": [
                             {
@@ -1183,20 +1198,20 @@
                         "interaction": false,
                         "question": "<p>Which of the following purchase types is the preferred method to create a materials purchase?</p>",
                         "choices": [{
-                                "text": "External Catalog",
+                                "text": "Free Text",
                                 "correct": false
                             },
                             {
-                                "text": "Free Text",
-                                "correct": true
+                                "text": "Blanket Purchase Order",
+                                "correct": false
                             },
                             {
                                 "text": "Vendor Managed Inventory (VMI)",
                                 "correct": false
                             },
                             {
-                                "text": "Material Masters",
-                                "correct": false
+                                "text": "Free Text and Material Masters",
+                                "correct": true
                             }
                         ],
                         "feedback": {
@@ -1224,15 +1239,15 @@
                             },
                             {
                                 "text": "Personal settings",
-                                "correct": false
+                                "correct": true
                             },
                             {
                                 "text": "Free text purchases",
                                 "correct": false
                             },
                             {
-                                "text": "Material Masters",
-                                "correct": true
+                                "text": "Material Groups",
+                                "correct": false
                             }
                         ],
                         "feedback": {

@@ -1,3 +1,4 @@
+
 {
     "course": {
         "title": "Create Service Purchase Requisitions",
@@ -190,13 +191,24 @@
                                 "audio": ""
                             },
                             {
-                                "text":"<p>The Requisitioner creates a service Purchase Requisition in SAP using a Service Master. Upon approval of the PR, the Purchase Order is created either manually or automatically in SAP. The service is completed at the site. Then the supplier invoice is received and the payment is issued to the supplier.</p>",
+                                "text":"<p>The Requisitioner creates a service Purchase Requisition in SAP using a Service Master. Upon approval of the PR, the Purchase Order is created either manually or automatically in SAP.The service is completed at the site. Then the supplier invoice is received and the payment is issued to the supplier.Services are also added to work orders. For the purpose of this training we will focus on services added to a purchase requisition.</p>",
                                 "image":"",
                                 "class":"",
                                 "imgClass":"Circle_mid_img",
                                 "time":"2", "left": "10px", "top": "174px" ,
                                 "audio": ""
                             },
+                            {
+                                "text": "<p>Services are also added to work orders. For the purpose of this training we will focus on services added to a purchase requisition.</p>",
+                                "image": "",
+                                "class": "",
+                                "imgClass": "Circle_mid_img",
+                                "time": "3",
+                                "left": "165px",
+                                "top": "540px",
+                                "audio": ""
+                            },
+                            
                             {
                                 "text":"Requisitioner",
                                 "image":"image/topic1/page1/1.png",
@@ -285,6 +297,12 @@
                                     "If the Requisitioner cannot find a suitable existing Service Master then a new service master must be created."
                                 ],
                                 "time": "44.6"
+                            },
+                            {
+                                "list":[
+                                   "A new Service Master is created by submitting a request to the Master Data team."
+                                ],
+                                "time":"52.9"
                             }
                         ],
                         "image": "image/topic1/mobile.png"
@@ -460,7 +478,7 @@
                         "audio": "media\/15_edited.mp3",
                         "showMenu": true,
                         "interaction": true,
-                        "instruction": "Arrange the service PR process flow in the correct order. <br/> <br/>Drag and Drop the options in the correct order and click <b>NEXT</b>.",
+                        "instruction": "Arrange the service PR process flow in the correct order. <br/> <br/>Drag and Drop the options in the correct order.",
                         "image": "",
                         "drop_placeholder": "image\/topic1\/drop.png",
                         "drop": [{

@@ -36,34 +36,40 @@
     left: 406px;
     top: 120px;
 }
-
 .point:nth-child(5) {
+    left: 478px;
+    top: 120px;
+    font-size: 15px;
+}
+
+
+.point:nth-child(6) {
     left: 617px;
     top: 120px;
 }
 
-.point:nth-child(6) {
+.point:nth-child(7) {
     left: 737px;
     top: 120px;
 }
 
-.point:nth-child(7) {
+.point:nth-child(8) {
     left: 807px;
     top: 120px;
 }
 
-.point:nth-child(8) {
+.point:nth-child(9) {
     
     left: 1026px;
     top: 120px;
 }
 
-.point:nth-child(9) {
+.point:nth-child(10) {
     left: 1082px;
     top: 120px;
 }
 
-.point:nth-child(10) {
+.point:nth-child(11) {
     left: 914px;
     top: 120px;
 }

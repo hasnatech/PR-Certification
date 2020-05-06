@@ -9622,7 +9622,7 @@ body {
 }
 
 #audio {
-  display: none;
+ /* display: none;*/
   position: absolute;
   bottom: 0px;
   z-index: 102;
