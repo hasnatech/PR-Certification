@@ -17,11 +17,18 @@
             "resource": "Resources"
         },
         "resource": [{
-            "label": "Sample link to cargill.com for more information",
-            "link": "http://www.cargill.com"
+            "label": "GPO policy",
+            "link": "https://cargill.policytech.com/"
         }, {
-            "label": "Sample link to google.com for more information",
-            "link": "http://www.google.com"
+            "label": "Cargill P-Card Policy ",
+            "link": "https://cargill.policytech.com/"
+        }, {
+            "label": "Regional DPL Limits",
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.181522"
+        }, {
+            "label": "Your region Procurement Class Workflows",
+            "link" :"https://cargill-admin.ancileuperform.com/gm/Present?object=1.11.182723"
+
         }],
         "help":{
             "title" : "Help",
@@ -1164,8 +1171,10 @@
                             {"source":"image/topic1/mod3/flowChart/12.png","time":111.2},
                             {"source":"image/topic1/mod3/flowChart/13.png","time":118.5}
                         ],
+                        "instr" : "This example is for North America only",
                         "para_1" : "* The PO Business Approval is only required if the price on the PO differs from the price approved on the PR.",
                         "para_2" : "* **This approval ensures the sourcing of the goods or services followed the correct procurement process.                        ",
+                        "para_3" : "<a href='https://cargill-admin.ancileuperform.com/gm/Present?object=1.11.182723' target='_blank'>Click here</a> to view the Procurement Class Workflows specific to your region.",
                         "transcript": [{
                             "text": "<p>The Procurement class is selected during the creation of a purchase requisition or work order using the SAP Purchasing Group field. The selected class determines the PR to PO approval workflow for the purchase. </p><p>You’ll notice that all purchases, regardless of the Procurement Class, require a Needs approval by the cost object owner. In the case of the NCS, DPS, DPL and PP contract and catalog classes, once the Needs approval is complete, the PR is ready for automatic PO creation. If the total PO amount exceeds $5,000 a Business approval will be required before the PO is sent to the supplier.</p><p>In the case of the NCS purchase, an email is sent a designated resource of the Business providing them with awareness to the non-compliant spend once the PO is created.</p><p>The remaining purchase type, the PP Spot Buy, also called unsourced or free text, is routed to the CSSP procurement team for supplier selection and purchase order creation. If the PR amount is greater than $5,000, a Business Approval is required on the PR before CSSP begins the sourcing process. Once the PO is created, it is sent to the supplier for order fulfillment.</p><p>It is important to note that if the PP spot buy purchase order price changes during the CSSP sourcing process, a second Business approval will be required on the PO if it’s over $5,000. </p><p>Finally, if the PP spot buy purchase order price is above $10,000, then CSSP will review and approve the purchase to ensure it complies with the procurement procedures designated for the purchase, before sending the PO to the supplier. </p>",
                             "sec": "0.01"
@@ -1298,6 +1307,30 @@
                         "image": "image\/topic1\/summary.png",
                         "transcript": [{
                             "text": "<p>Now, it’s time to check your knowledge. </p><p>Select an appropriate answer to the question given.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "supplemental",
+                        "title": "Supplemental Information",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/supplemental.html",
+                        "style": "common\/style\/supplemental.css",
+                        "audio": "",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                            "text": "<a href='#'>First Link</a>",
+                                "time": "5.8"
+                            },
+                            {
+                                "text": "<a href='#'>Second Link</a>",
+                                "time": "6.5"
+                            }
+                        ],
+                        "image": "image\/shell/green/supplemental.png",
+                        "transcript": [{
+                            "text": "<p></p>",
                             "sec": "0.01"
                         }]
                     },

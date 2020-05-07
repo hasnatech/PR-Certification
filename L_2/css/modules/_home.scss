@@ -375,8 +375,8 @@ h2 {
         }
     }
 
-    .resource {
-        width: 400px;
+    .resource , .help {
+        width: 600px;
         position: absolute;
         left: calc(50% - 200px);
         top: calc(50% - 200px);

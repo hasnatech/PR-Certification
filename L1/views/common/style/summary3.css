@@ -11,8 +11,8 @@
 	right: -130px;
 }
 
-.text {
-	line-height: 64px;
+.text_content .text {
+	line-height: 64px; 
 }
 .image{
     float:right;

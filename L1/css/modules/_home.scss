@@ -395,9 +395,9 @@ h2 {
     }
 
     .resource, .help {
-        width: 400px;
+        width: 600px;
         position: absolute;
-        left: calc(50% - 200px);
+        left: calc(50% - 300px);
         top: calc(50% - 200px);
         z-index: 102;
         padding: 20px 10px 10px 20px;
@@ -409,6 +409,9 @@ h2 {
 
         &.show {
             display: block;
+        }
+        .cPanel .content{
+            height: 160px;
         }
     }
 

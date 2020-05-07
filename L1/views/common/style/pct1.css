@@ -80,12 +80,18 @@ ul {
 .inner4_1 .right_content {
 	position: relative;	
 }
-.inner4_3 p, .inner4_1 .right_content {
+.right_content {
+	width: 260px;
+    margin-top: 25px;
+}
+.inner4_3 p, .inner4_1 .right_content, .inner4_3 .right_content{
 	left: 171px;
 	text-align: left;
 	padding: 0 20px;
-	top: 26px;
+	margin-top: 0px;
+	top: 66px;
 	font-size: 15px;
+	position: absolute;
 }
 
 .ulHolder img {

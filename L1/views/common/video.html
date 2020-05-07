@@ -1,9 +1,9 @@
 <section class="white_bg">
     <div data-current="{{curr_page}}">
         <div class="row">
-            <video autoplay>
-                <source src="{{page.video}}"
-                        type="video/mp4">
+            <input type="hidden" name="player_muted" id="player_muted" value="{{page.audio_text}}">
+            <video id="video_player" autoplay>
+                <source src="{{page.video}}" type="video/mp4">
                 Sorry, your browser doesn't support embedded videos.
             </video>
             <img src="{{page.image}}">
@@ -15,15 +15,25 @@
 
 <script>
     $().ready(function () {
-		anime({
+        setInterval(function () {
+
+            if ($("#player_muted").val() == "Mute") {
+                console.log($("#player_muted").val());
+                $("#video_player").prop('muted', true);
+            } else {
+                $("#video_player").prop('muted', false);
+            }
+        }, 1000)
+
+        anime({
             targets: '.animate',
             translateX: [50, 0],
-            opacity:[0, 1],
-            delay: function(el, i, l) {
+            opacity: [0, 1],
+            delay: function (el, i, l) {
                 var time = getMilliSecond($(el).attr("data-time"));
                 return time;
             },
             duration: 1000
         });
-	});
+    });
 </script>

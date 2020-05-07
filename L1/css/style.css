@@ -10018,9 +10018,9 @@ h2 {
 }
 
 .common_window .resource, .common_window .help {
-  width: 400px;
+  width: 600px;
   position: absolute;
-  left: calc(50% - 200px);
+  left: calc(50% - 300px);
   top: calc(50% - 200px);
   z-index: 102;
   padding: 20px 10px 10px 20px;
@@ -10034,6 +10034,10 @@ h2 {
 
 .common_window .resource.show, .common_window .help.show {
   display: block;
+}
+
+.common_window .resource .cPanel .content, .common_window .help .cPanel .content {
+  height: 160px;
 }
 
 .common_window .cPanel {

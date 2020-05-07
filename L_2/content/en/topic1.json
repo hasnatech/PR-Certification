@@ -6,6 +6,7 @@
         "duration": "Duration 20 minutes",
         "start_btn": "start the course",
         "audio": "media\/topic3_welcome.mp3",
+        "module":"Module ",
         "button": {
             "next": "Next",
             "prev": "Previous",
@@ -22,12 +23,16 @@
         }, {
             "label": "Sample link to google.com for more information",
             "link": "http://www.google.com"
-        }]
+        }],
+        "help":{
+            "title" : "Help",
+            "content" : "<p>Please contact the <a href='myglobalit.cargill.com' target='_blank'>Cargill Help Desk</a> to report issues with the training content for this program.</p>"
+        }
     },
 
     "menu": {
         "topic": [{
-                "title": "Module 1 - Purchase Requisition Overview",
+                "title": "Purchase Requisition Overview",
                 "pages": [{
                         "file": "common\/course_intro.html",
                         "style": "common\/style\/course_intro.css",
@@ -288,7 +293,7 @@
                                 "audio": "media/18d1.mp3"
                             },
                             {
-                                "text": "Internal document created in SAP that contains the required information to purchase a material (or service) to fulfil the need",
+                                "text": "Internal document created in SAP that contains the required information to purchase a material (or service) to fulfill the need",
                                 "drag_id": "3",
                                 "feedback": "<p><b>Purchase Requisition</b></p><p>This internal document records all approvals and changes to the purchase request are maintained within the PR. All businesses do not use an internal document to request.</p><p>PRs ensure the plants have visibility to authorize all purchase requests prior to the creation of a purchase order.</p>",
                                 "audio": "media/18c1.mp3"
@@ -468,7 +473,7 @@
                 ]
             },
             {   "type":"module2",
-                "title": "Module 2 - Purchase Requisition Components",
+                "title": "Purchase Requisition Components",
                 "pages": [{
                         "type": "welcome",
                         "title": "Welcome ",
@@ -947,6 +952,30 @@
                         "image": "image\/topic1\/knowledgecheck.png",
                         "transcript": [{
                             "text": "<p>Now, it’s time to check your knowledge.</p><p>Select the correct option defined by the given statement.</p>",
+                            "sec": "0.01"
+                        }]
+                    },
+                    {
+                        "type": "supplemental",
+                        "title": "Supplemental Information",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/supplemental.html",
+                        "style": "common\/style\/supplemental.css",
+                        "audio": "",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [{
+                            "text": "<a href='#'>First Link</a>",
+                                "time": "5.8"
+                            },
+                            {
+                                "text": "<a href='#'>Second Link</a>",
+                                "time": "6.5"
+                            }
+                        ],
+                        "image": "image\/shell/green/supplemental.png",
+                        "transcript": [{
+                            "text": "<p></p>",
                             "sec": "0.01"
                         }]
                     },

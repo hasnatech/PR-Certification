@@ -1,0 +1,39 @@
+.ab.img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 100;
+}
+
+.text_content {
+    padding-left: 40px;
+
+}
+
+.text_content h1{
+    margin-bottom: 50px;
+}
+.text_content p{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+.text_content .normal{
+    font-size: 1rem;
+    margin-top: 0px;
+}
+
+.text_content hr {
+    margin: 5px 0;
+    border: 0.5px solid #fff;
+}
+
+.start{
+    position: absolute;
+    bottom: 40px;
+    right:50px;
+}
+.sec{
+    background-position: right bottom;
+    background-size: inherit;
+}

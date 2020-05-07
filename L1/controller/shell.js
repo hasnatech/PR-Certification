@@ -71,7 +71,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 	$scope.total_topic = 0;
 	$scope.total_page = 0;
 	$scope.home_status = "show";
-	
+
 	$scope.audio_src = audio_img;
 	$scope.audio_text = "Audio";
 	$scope.visited_page = 0;
@@ -87,6 +87,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 			console.log($scope.total_topic);
 			console.log($scope.total_page);
 			$scope.gotoPage(0, 0);
+			//$scope.gotoPage(2, 12);
 			$scope.bookmark = false;
 			$scope.visited_page = getBookmark();
 			if (!($scope.visited_page == "" || $scope.visited_page == "null" ||
@@ -102,7 +103,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 	$scope.transcript_status = "hide";
 	$scope.resource_status = "hide";
 	$scope.help_status = "hide";
-	
+
 	$scope.nextEnable = true;
 	$scope.alphabetArr = ["a", "b", "c", "d", "e", "f"];
 	$scope.startBtn = function () {
@@ -152,7 +153,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 
 	$scope.gotoPage = function (current_topic, current_page) {
-		//console.log(current_topic, current_page);
+		console.log("gotoPage =" ,current_topic, current_page);
 		if (current_topic == 0 && current_page == 0) {
 			$scope.hide_controls();
 		} else {
@@ -195,6 +196,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 			$("#player").prop("muted", false);
 			audio_mute = false;
 		}
+		$scope.page.audio_text = $scope.audio_text;
 	}
 	$scope.home = function (status) {
 		$scope.home_status = status;
@@ -238,6 +240,8 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 	$scope.resource_click = function () {
 		//console.log($scope.resource_status );
+		$scope.resource_status = "hide";
+		$scope.help_status = "hide";
 		if ($scope.resource_status == "hide") {
 			$scope.resource_status = "show";
 		} else {
@@ -251,7 +255,9 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 
 	$scope.help_click = function () {
-		console.log($scope.help_status );
+		console.log($scope.help_status);
+		$scope.resource_status = "hide";
+		$scope.help_status = "hide";
 		if ($scope.help_status == "hide") {
 			$scope.help_status = "show";
 		} else {
@@ -299,7 +305,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 						return;
 					}
 					$scope.topic[i].pages[j].visited = true;
-					console.log("$scope.topic[" + i + "].pages[" + j + "]  = " + $scope.topic[i].pages[j].visited)
+					//console.log("$scope.topic[" + i + "].pages[" + j + "]  = " + $scope.topic[i].pages[j].visited)
 				}
 			}
 		}

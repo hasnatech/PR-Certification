@@ -9622,7 +9622,7 @@ body {
 }
 
 #audio {
-  /*display: none;*/
+  display: none;
   position: absolute;
   bottom: 0px;
   z-index: 102;
@@ -10293,8 +10293,3 @@ ul.square_bullet {
   background-color: #009f99;
 }
 /*# sourceMappingURL=style.css.map */
-
-.hereTxt.clk {
-	color: #299889;
-	text-decoration: underline;
-}

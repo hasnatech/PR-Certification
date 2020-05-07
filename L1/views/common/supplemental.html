@@ -1,0 +1,24 @@
+<section class="sec" data-current="{{curr_page}}" style="background-image: url('{{page.image}}')">
+	<div class="text_image">
+		<div class="full-height">
+			<div class="row align_top">
+				<div class="col-12">
+					<div class="text_content">
+						<h2 class="animate">{{page.title}}</h2>
+						<ul class="text">
+							<li class="animate" ng-repeat="b in page.block" data-time="{{b.time}}">
+								<p ng-bind-html="b.text | to_trusted"></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<script>
+	$().ready(function () {
+		//syncAudio($(".animate"));
+	});
+</script>

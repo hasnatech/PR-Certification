@@ -6,13 +6,16 @@
 }
 .rightSec {
 	text-align: left;
-	padding-top: 80px;
+	padding-top: 0px;
 }
 .rightSec p {
 	font-size: 13px;
-	width: 197px;
+	width: 310px;
 	padding-left: 14px;
-	text-align: justify;
+	/*text-align: justify;*/
+}
+.m-20{
+	margin-top: -20px;
 }
 .reveals {
 	position: absolute;
