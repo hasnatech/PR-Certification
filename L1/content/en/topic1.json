@@ -24,7 +24,7 @@
             "link": "https://cargill.policytech.com/"
         }, {
             "label": "Regional DPL Limits",
-            "link": "https://cargill.ancileuperform.com/#/content/1.11.181522"
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.181522?contextId=1.11.184576"
         }, {
             "label": "Your region Procurement Class Workflows",
             "link" :"https://cargill-admin.ancileuperform.com/gm/Present?object=1.11.182723"
@@ -1067,7 +1067,7 @@
                                 "Automatic",
                                 "PO"
                             ],
-                            "para":"Purchases delegated by Procurement to authorized users to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy.<br><br><p>Click the <a href='https://cargill.ancileuperform.com/#/content/1.11.181522' target='_blank'>Regional DPL Limits</a> link to view the DPL limit for your region.</p>"
+                            "para":"Purchases delegated by Procurement to authorized users to conduct purchases up to a regionally defined threshold, according to CSSP/Procurement policy.<br><br><p>Click the <a href='https://cargill.ancileuperform.com/#/content/1.11.181522?contextId=1.11.184576' target='_blank'>Regional DPL Limits</a> link to view the DPL limit for your region.</p>"
                         }
                         ],
                         "transcript": [{
