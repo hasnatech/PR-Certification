@@ -246,6 +246,8 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 	$scope.resource_click = function () {
 		//console.log($scope.resource_status );
+		$scope.resource_status = "hide";
+		$scope.help_status = "hide";
 		if ($scope.resource_status == "hide") {
 			$scope.resource_status = "show";
 		} else {
@@ -257,8 +259,22 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		$scope.resource_status = "hide";
 	}
 
+	$scope.help_click = function () {
+		console.log($scope.help_status);
+		$scope.resource_status = "hide";
+		$scope.help_status = "hide";
+		if ($scope.help_status == "hide") {
+			$scope.help_status = "show";
+		} else {
+			$scope.help_status = "hide";
+		}
+		$(".menu ul").hide();
+	}
+	$scope.help_close = function () {
+		$scope.help_status = "hide";
+	}
 	$scope.getWindowStatus = function () {
-		if ($scope.resource_status == "show" || $scope.transcript_status == "show") {
+		if ($scope.resource_status == "show" || $scope.transcript_status == "show" || $scope.help_status == "show") {
 			return "show";
 		} else {
 			return "hide";

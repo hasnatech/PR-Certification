@@ -7,16 +7,17 @@ html {
     overflow: hidden;
 }
 
-body{
+body {
     display: none;
 }
 
-#audio{
+#audio {
     display: none;
     position: absolute;
     bottom: 0px;
     z-index: 102;
 }
+
 .shell {
     /*border: 1px solid $border-color;*/
     box-shadow: 0 0 10px 5px $border-color;
@@ -46,6 +47,7 @@ body{
         width: 942px;
         height: 86px;
         position: relative;
+
         .divider {
             height: 102%;
             width: 30px;
@@ -54,6 +56,7 @@ body{
             top: -1px;
             background-color: #fff;
         }
+
         h1,
         h2 {
             color: #ffffff;
@@ -84,11 +87,13 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+
 .middle_window {
     width: 500px;
     position: relative;
     margin: 20% auto;
 }
+
 .bookmark {
     position: fixed;
     z-index: 1001;
@@ -97,68 +102,74 @@ body{
     right: 0px;
     top: 0px;
     bottom: 0px;
- 
 
-        .title {
-            background-color: #ffffff;
-            position: absolute;
-            top: 0;
-            left: 30px;
-            color: $brand-color;
-            font-weight: bold;
-        }
 
-        .content {
-            background-color: $brand-color;
+    .title {
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: 30px;
+        color: $brand-color;
+        font-weight: bold;
+    }
+
+    .content {
+        background-color: $brand-color;
+        color: #ffffff;
+        height: 130px;
+        margin: 10px 25px 0px 15px;
+        padding: 20px;
+
+        position: relative;
+        z-index: 103;
+        overflow: auto;
+
+        a {
             color: #ffffff;
-            height: 130px;
-            margin: 10px 25px 0px 15px;
-            padding: 20px;
-        
-            position: relative;
-            z-index: 103;
-            overflow: auto;
-            a {
-                color: #ffffff;
-            }
         }
+    }
 
-        .cBorder {
-            border: 1px solid $brand-color;
-            position: absolute;
-            height: 100px;
-            top: 10px;
-            width: calc(100% - 40px);
-        }
+    .cBorder {
+        border: 1px solid $brand-color;
+        position: absolute;
+        height: 100px;
+        top: 10px;
+        width: calc(100% - 40px);
+    }
 
-        .exit {
-            background-color: $border-color;
-            position: absolute;
-            padding: 3px 10px;
-            font-weight: bold;
-            top: 15px;
-            right: 5px;
-            cursor: pointer;
-            z-index: 104;
-        }
+    .exit {
+        background-color: $border-color;
+        position: absolute;
+        padding: 3px 10px;
+        font-weight: bold;
+        top: 15px;
+        right: 5px;
+        cursor: pointer;
+        z-index: 104;
+    }
 }
 
 .footer {
     position: relative;
     top: -120px;
     z-index: 101;
-    .next, .back {
+
+    .next,
+    .back {
         position: absolute;
         right: 0px;
         padding: 10px 10px 5px 10px;
         text-align: center;
         font-size: 13px;
-        &:hover{
+
+        &:hover {
             background-color: $hover-color;
+
             .thick_line {
                 background-color: $hover-color;
             }
         }
+
         .thick_line {
             position: absolute;
             width: 10px;
@@ -166,6 +177,7 @@ body{
             left: -20px;
             bottom: 0px;
         }
+
         .first_arr {
             margin-right: -5px;
             margin-left: 5px;
@@ -176,8 +188,9 @@ body{
         position: absolute;
         left: 0px;
         right: auto;
+
         .thick_line {
-            left   : auto;
+            left: auto;
             right: -20px;
         }
     }
@@ -238,8 +251,8 @@ body{
     }
 }
 
-.cargill_button-outline{
-    border:1px solid #ffffff;
+.cargill_button-outline {
+    border: 1px solid #ffffff;
     padding: 5px;
     min-width: 50px;
 }
@@ -300,19 +313,20 @@ body{
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.lightblue_bg{
+.lightblue_bg {
     background-color: #e8f2f2;
 }
 
-.orange_bg{
+.orange_bg {
     background-color: #cf7f00;
-    color:#fff;
+    color: #fff;
 }
 
-.green_bg{
+.green_bg {
     background-color: #a8aa23;
-    color:#fff;
+    color: #fff;
 }
+
 .center_screen {
     position: relative;
     z-index: 1;
@@ -336,10 +350,12 @@ h2 {
     background-color: $brand-color;
     color: #fff;
 }
-.brand_text{
+
+.brand_text {
     color: $brand-color;
 }
-.hover_bg{
+
+.hover_bg {
     background-color: $hover-color;
     color: #fff;
 }
@@ -347,9 +363,11 @@ h2 {
 .align_top {
     padding-top: 140px;
 }
-.p-10{
+
+.p-10 {
     padding: 10px;
 }
+
 .common_window {
     position: absolute;
     overflow: hidden;
@@ -357,9 +375,11 @@ h2 {
     height: 100%;
     top: 0;
     z-index: 100;
-    &.hide{
+
+    &.hide {
         display: none;
     }
+
     .transcript {
         position: absolute;
         bottom: 0px;
@@ -375,8 +395,9 @@ h2 {
         }
     }
 
-    .resource {
-        width: 400px;
+    .resource,
+    .help {
+        width: 600px;
         position: absolute;
         left: calc(50% - 200px);
         top: calc(50% - 200px);
@@ -408,13 +429,15 @@ h2 {
         .content {
             background-color: $brand-color;
             color: #ffffff;
-            height: 130px;
+            min-height: 130px;
+            max-height: 410px;
             margin: 10px 25px 0px 15px;
             padding: 10px;
             font-size: 80%;
             position: relative;
             z-index: 103;
             overflow: auto;
+
             a {
                 color: #ffffff;
             }
@@ -454,6 +477,7 @@ h2 {
     padding: 1rem;
     box-shadow: 0 0 3px 3px #eee;
 }
+
 .loading {
     position: absolute;
     top: 130px;
@@ -463,21 +487,26 @@ h2 {
     background-color: #fff;
     z-index: 1001;
 }
-.loading.hide{
+
+.loading.hide {
     display: none;
 }
+
 .loading img {
     position: absolute;
     top: calc(50% - 80px);
     left: 50%;
 }
+
 ul.square_bullet {
     list-style-image: url('../image/shell/green/bullet.png');
 }
-.fitHeader{
+
+.fitHeader {
     margin-top: -164px;
     padding-top: 80px;
 }
+
 .feedback {
     width: 400px;
     position: absolute;
