@@ -48,11 +48,11 @@
                         "showMenu": true,
                         "interaction": false,
                         "block": [{
-                                "text": "Create Service Purchase Requisitions",
+                                "text": "PURCHASE REQUISITIONER CERTIFICATION TRAINING PROGRAM",
                                 "time": "1"
                             },
                             {
-                                "text": "",
+                                "text": "Create Service Purchase Requisitions",
                                 "time": "2"
                             },
                             {
