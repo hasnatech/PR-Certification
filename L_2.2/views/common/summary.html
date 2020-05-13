@@ -6,7 +6,7 @@
                     <div class="white_bg text_content">
                         <h2 class="animate" data-time="0">{{page.title}}</h2>
                         <div class="numbers">
-                            <li ng-repeat="b in page.block"> <img src="image/shell/green/summary{{$index+1}}.png" alt=""></li>
+                            <li ng-repeat="b in page.block"><img src="image/shell/green/summary{{page.start_num + $index +1}}.png" alt=""></li>
                         </div>
                         <ul class="text">
                             <li class="animate" ng-repeat="b in page.block" data-time="{{b.time}}">

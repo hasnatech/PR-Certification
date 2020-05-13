@@ -86,7 +86,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 			console.log($scope.total_topic);
 			console.log($scope.total_page);
 			$scope.gotoPage(0, 0);
-
+			//$scope.gotoPage(1, 6);
 			$scope.bookmark = false;
 			$scope.visited_page = getBookmark();
 			//$scope.visited_page = 5;
@@ -154,7 +154,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 
 	$scope.gotoPage = function (current_topic, current_page) {
-		//console.log(current_topic == 0 && current_page == 0);
+		console.log(current_topic , current_page);
 		if (current_topic == 0 && current_page == 0) {
 			$scope.hide_controls();
 		} else {
@@ -165,6 +165,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		$scope.curr_page = getPageNumber(current_topic, current_page);
 		//showPreloader();
 		$scope.page = $scope.topic[current_topic].pages[current_page];
+		$scope.moduleTitle = $scope.topic[current_topic].title;
 		$scope.page.visited = true;
 
 		interaction = $scope.page.interaction;
@@ -240,6 +241,8 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 	$scope.resource_click = function () {
 		//console.log($scope.resource_status );
+		$scope.resource_status = "hide";
+		$scope.help_status = "hide";
 		if ($scope.resource_status == "hide") {
 			$scope.resource_status = "show";
 		} else {
@@ -251,8 +254,23 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		$scope.resource_status = "hide";
 	}
 
+	$scope.help_click = function () {
+		console.log($scope.help_status);
+		$scope.resource_status = "hide";
+		$scope.help_status = "hide";
+		if ($scope.help_status == "hide") {
+			$scope.help_status = "show";
+		} else {
+			$scope.help_status = "hide";
+		}
+		$(".menu ul").hide();
+	}
+	$scope.help_close = function () {
+		$scope.help_status = "hide";
+	}
+
 	$scope.getWindowStatus = function () {
-		if ($scope.resource_status == "show" || $scope.transcript_status == "show") {
+		if ($scope.resource_status == "show" || $scope.transcript_status == "show" || $scope.help_status == "show") {
 			return "show";
 		} else {
 			return "hide";

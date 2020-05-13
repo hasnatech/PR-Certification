@@ -51,7 +51,7 @@
                 <div class="absolute">
                     <div class="title brand_bg">
                         <div class="divider"></div>
-                        <h1 class="mb_cust">{{content.course.title}}</h1>
+                        <h1 class="mb_cust">{{moduleTitle}}</h1>
                         <h2>{{page.title}}</h2>
                         <div id="pageNo">
                             Page {{("00"+(curr_page + 1)).slice(-2)}} / {{("00"+total_page).slice(-2)}}
@@ -64,7 +64,7 @@
                                 <img src="image/shell/green/menu_btn_normal.png" data-img="menu_btn" alt="">
                                 <p class="text-center menu_text">Home</p>
                             </li>
-                            <li class="button">
+                            <li class="button" ng-click="help_click()">
                                 <img src="image/shell/green/help_btn_normal.png" data-img="help_btn" alt="">
                                 <p class="text-center menu_text">Help</p>
                             </li>
@@ -122,6 +122,21 @@
                                 <p ng-repeat="item in content.course.resource" data-sec="{{item.sec}}">
                                     <a href="{{item.link}}" target="_blank"> {{item.label}}</a>
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="white_panel">
+                    <div class="help {{help_status}}">
+                        <div class="cPanel">
+                            <div class="exit" ng-click="help_close()">x</div>
+                            <div class="cBorder"></div>
+                            <div class="title">
+                                {{content.course.help.title}}
+                            </div>
+                            <div class="content">
+                                <div ng-bind-html="content.course.help.content | to_trusted"></div>
                             </div>
                         </div>
                     </div>

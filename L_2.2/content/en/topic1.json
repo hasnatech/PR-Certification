@@ -18,17 +18,29 @@
             "resource": "Resources"
         },
         "resource": [{
-            "label": "Sample link to cargill.com for more information",
-            "link": "http://www.cargill.com"
+            "label": "How to create a Free Text Service PR",
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.121922"
         }, {
-            "label": "Sample link to google.com for more information",
-            "link": "http://www.google.com"
-        }]
+            "label": "Blanket PO guidelines criteria for creating a blanket PR.",
+            "link": "https://team.cargill.com/sites/NAP/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/NAP/Shared%20Documents/Blanket%20Purchase%20Order.docx&action=default&DefaultItemOpen=1"
+        }, {
+            "label": "How to create a Blanket or Repetitive PR",
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.121919"
+        }, {
+            "label": "How to create an External Catatog PR",
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.121916"
+        }
+        
+    ],
+        "help": {
+            "title": "Help",
+            "content": "<p>Please contact the <a href='myglobalit.cargill.com' target='_blank'>Cargill Help Desk</a> to report issues with the training content for this program.</p>"
+        }
     },
 
     "menu": {
         "topic": [{
-                "title": "Module 1 - Key Concepts for Service Purchase Requisitions",
+                "title": "Key Concepts for Service Purchase Requisitions",
                 "pages": [{
                         "file": "common\/course_intro.html",
                         "style": "common\/style\/course_intro.css",
@@ -62,7 +74,7 @@
                     },
                     {
                         "type": "welcome",
-                        "title": "",
+                        "title": "Welcome",
                         "file": "common\/welcome.html",
                         "style": "common\/style\/welcome.css",
                         "audio": "media\/3b.mp3",
@@ -525,7 +537,7 @@
                 ]
             },
             {
-                "title": "Module 2 - Create Service Purchase Requisitions",
+                "title": "Create Service Purchase Requisitions",
                 "pages": [
                     {
                         "type": "objective",
@@ -760,6 +772,33 @@
                         }] 
                     },
                     {
+                        "type": "supplemental",
+                        "title": "Supplemental Information",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/supplemental.html",
+                        "style": "common\/style\/supplemental.css",
+                        "audio": "",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "<a href='#'>First Link</a>",
+                                "time": "5.8"
+                            },
+                            {
+                                "text": "<a href='#'>Second Link</a>",
+                                "time": "6.5"
+                            }
+                        ],
+                        "image": "image\/shell/green/supplemental.png",
+                        "transcript": [
+                            {
+                                "text": "<p></p>",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
                         "type": "summary",
                         "title": "Summary",
                         "file": "common\/summary.html",
@@ -767,6 +806,7 @@
                         "audio": "media\/22.mp3",
                         "showMenu": true,
                         "interaction": false,
+                        "start_num":0,
                         "block": [{
                                 "text": "A Service PR is a task or activity that needs to be performed at the site. It is not a physical material or object. Examples include: Repairs, Repetitive, Professional, Contract Labor and Freight.",
                                 "time": "4"
@@ -799,6 +839,7 @@
                         "audio": "media\/23.mp3",
                         "showMenu": true,
                         "interaction": false,
+                        "start_num":4,
                         "block": [{
                                 "text": "Labor should be expensed separately from materials, regardless of the service being quoted or estimated.",
                                 "time": "1"
@@ -835,6 +876,7 @@
                         "audio": "media\/24.mp3",
                         "showMenu": true,
                         "interaction": false,
+                        "start_num":9,
                         "block": [{
                                 "text": "Short text for blanket PRs should always begin with the letters “BPO” as an indicator of a repetitive service.",
                                 "time": "1"

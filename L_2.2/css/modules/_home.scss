@@ -375,8 +375,9 @@ h2 {
         }
     }
 
-    .resource {
-        width: 400px;
+    .resource,
+    .help {
+        width: 600px;
         position: absolute;
         left: calc(50% - 200px);
         top: calc(50% - 200px);
@@ -408,7 +409,8 @@ h2 {
         .content {
             background-color: $brand-color;
             color: #ffffff;
-            height: 130px;
+            min-height: 130px;
+            max-height: 230px;
             margin: 10px 25px 0px 15px;
             padding: 10px;
             font-size: 80%;

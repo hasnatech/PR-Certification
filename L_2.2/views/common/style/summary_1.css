@@ -22,3 +22,19 @@
 .text li {
 	list-style-type: none;
 }
+
+
+.list li {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.list .info{
+    flex: 1;
+}
+.list li .number {
+    background-color: #009f99;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
