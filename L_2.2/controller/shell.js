@@ -198,15 +198,9 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 			audio_mute = false;
 		}
 	}
-	$scope.audio_pause = function () {
-			$scope.audio_src = audio_img;
-			$scope.audio_text = "Audio";
-			$("#player").prop("pause", true);
-	}
 	$scope.home = function (status) {
 		$scope.home_status = status;
 		$(".menu ul").hide();
-		$scope.audio_click();
 	}
 	$scope.getTopicStatus = function (i) {
 		var total_pages = $scope.topic[i].pages.length;
@@ -246,8 +240,6 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 
 	$scope.resource_click = function () {
 		//console.log($scope.resource_status );
-		$scope.resource_status = "hide";
-		$scope.help_status = "hide";
 		if ($scope.resource_status == "hide") {
 			$scope.resource_status = "show";
 		} else {
@@ -259,22 +251,8 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 		$scope.resource_status = "hide";
 	}
 
-	$scope.help_click = function () {
-		console.log($scope.help_status);
-		$scope.resource_status = "hide";
-		$scope.help_status = "hide";
-		if ($scope.help_status == "hide") {
-			$scope.help_status = "show";
-		} else {
-			$scope.help_status = "hide";
-		}
-		$(".menu ul").hide();
-	}
-	$scope.help_close = function () {
-		$scope.help_status = "hide";
-	}
 	$scope.getWindowStatus = function () {
-		if ($scope.resource_status == "show" || $scope.transcript_status == "show" || $scope.help_status == "show") {
+		if ($scope.resource_status == "show" || $scope.transcript_status == "show") {
 			return "show";
 		} else {
 			return "hide";
@@ -389,7 +367,6 @@ function playAudio(filename) {
 			console.log("audio ended interaction = " + interaction);
 			blinkNext();
 		}
-		blinkNext()
 	};
 	//blinkNext();
 }
@@ -451,9 +428,7 @@ function durationTime() {
 var interval;
 
 function syncAudio(elem,anim_type) {
-	if(anim_type == undefined){
-		anim_type = "leftToRight"
-	}
+	if(anim_type==undefined) {anim_type = "leftToRight"}
 	console.log(elem.length);
 	elem.each(function () {
 		if($(this).attr("data-anim") != "zoom")

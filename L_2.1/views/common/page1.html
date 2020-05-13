@@ -1,0 +1,82 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="righticon">
+        <div class="full-height">
+            <div class="row align_top">
+                <div data-audio="{{item.audio}}" data-time="{{item.time}}"
+                    style="left: {{item.left}}; top: {{item.top}};" class="animate drag item {{item.class}}"
+                    ng-repeat="item in page.block">
+                    <span class="inTxt" ng-bind-html="item.text | to_trusted"></span>
+                    <img class="{{item.imgClass}}" src="{{item.image}}" />
+                </div>
+            </div><i style="display: none">{{page.link}}</i>
+            <div class="instruction instruction_1 animate drag clk" style="left: {{page.ins_left}}; top: {{page.ins_top}};"
+                data-time="{{page.insTime}}" ng-bind-html="page.instruction | to_trusted"></div>
+            <a href="{{page.link1}}" target="_blank" style="color: #000000e3;">
+                <div class="instruction_1 animate drag clk" style="left: {{page.ins_1_left}}; top: {{page.ins_1_top}};"
+                    data-time="{{page.insTime_1}}" ng-bind-html="page.instruction_1 | to_trusted"></div>
+            </a>
+            <a href="{{page.link2}}" target="_blank" style="color: #000000e3;">
+                <div class="instruction_2 animate drag clk" style="left: {{page.ins_2_left}}; top: {{page.ins_2_top}};"
+                    data-time="{{page.insTime_2}}" ng-bind-html="page.instruction_2 | to_trusted"></div>
+            </a>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        var track = [];
+        $(".popup").hide();
+        $(".img_clk").click(function () {
+            playAudio($(this).attr("data-audio"));
+        })
+
+        setTimeout(function () {
+            $('.instruction').attr("onclick", "window.open('" + $('i').text() + "','mywindow');")
+        }, 1000)
+
+
+
+        //$(".drag").draggable();
+
+        $(".drag").each(function () {
+            var left = $(this).attr("data-left");
+            var top = $(this).attr("data-top");
+
+            if (left)
+                $(this).css("left", left);
+
+            if (top)
+                $(this).css("top", top);
+
+        });
+
+        /*$(".close").click(function () {
+            $("#popup1").hide();
+            $("#popup2").hide();
+            $(".popup").hide();
+            pauseAudio();
+            trackInteractionCompletion(track, 2);
+            
+        })*/
+
+        $("#btn1").click(function () {
+            track[0] = true;
+            $("#popup1").show();
+            $("#popup2").hide();
+            $(".popup").fadeIn(500);
+            playAudio("media\/12.mp3");
+        });
+
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+        syncAudio($(".animate"), "bottomToTop");
+    });
+</script>

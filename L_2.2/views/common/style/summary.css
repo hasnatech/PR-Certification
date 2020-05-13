@@ -21,8 +21,8 @@
 .text{
     padding:0px; 
 }
-.text li{
-    list-style-type: none;
-    padding-bottom: 10px;
-    padding-top: 15px;
+.text li {
+	list-style-type: none;
+	padding-bottom: 30px;
+	padding-top: 22px;
 }

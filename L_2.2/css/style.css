@@ -9764,8 +9764,7 @@ body {
   z-index: 101;
 }
 
-.footer .next,
-.footer .back {
+.footer .next, .footer .back {
   position: absolute;
   right: 0px;
   padding: 10px 10px 5px 10px;
@@ -9773,18 +9772,15 @@ body {
   font-size: 13px;
 }
 
-.footer .next:hover,
-.footer .back:hover {
+.footer .next:hover, .footer .back:hover {
   background-color: #115f81;
 }
 
-.footer .next:hover .thick_line,
-.footer .back:hover .thick_line {
+.footer .next:hover .thick_line, .footer .back:hover .thick_line {
   background-color: #115f81;
 }
 
-.footer .next .thick_line,
-.footer .back .thick_line {
+.footer .next .thick_line, .footer .back .thick_line {
   position: absolute;
   width: 10px;
   top: 0px;
@@ -9792,8 +9788,7 @@ body {
   bottom: 0px;
 }
 
-.footer .next .first_arr,
-.footer .back .first_arr {
+.footer .next .first_arr, .footer .back .first_arr {
   margin-right: -5px;
   margin-left: 5px;
 }
@@ -10016,9 +10011,8 @@ h2 {
           transform: translate(0px, 0px);
 }
 
-.common_window .resource,
-.common_window .help {
-  width: 600px;
+.common_window .resource {
+  width: 400px;
   position: absolute;
   left: calc(50% - 200px);
   top: calc(50% - 200px);
@@ -10032,8 +10026,7 @@ h2 {
   transition: all 0.5s ease;
 }
 
-.common_window .resource.show,
-.common_window .help.show {
+.common_window .resource.show {
   display: block;
 }
 
@@ -10053,8 +10046,7 @@ h2 {
 .common_window .cPanel .content {
   background-color: #009f99;
   color: #ffffff;
-  min-height: 130px;
-  max-height: 410px;
+  height: 130px;
   margin: 10px 25px 0px 15px;
   padding: 10px;
   font-size: 80%;

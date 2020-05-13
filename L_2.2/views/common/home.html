@@ -5,7 +5,7 @@
     </div>
     <div class="half">
         <div class="topic_panel">
-            <div class="topic hand_cursor" ng-repeat="item in topic" ng-click="gotoPage($index, 0); audio_click()">
+            <div class="topic hand_cursor" ng-repeat="item in topic" ng-click="gotoPage($index, 0)">
                 <div class="num">{{("00"+($index + 1)).slice(-2)}}</div>
                 <div class="title">{{item.title}}</div>
                 <div class="status">

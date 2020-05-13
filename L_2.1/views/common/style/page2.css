@@ -1,0 +1,120 @@
+.item {
+	position: absolute;
+	text-align: center;
+}
+.item img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	/* width: 90%; */
+	transform: scale(0.85);
+}
+.item.Circle_mid {
+	top: 150px;
+	left: 500px;
+	width: 220px;
+	padding: 70px 44px;
+	font-size: 15px;
+	line-height: 17px;
+	border-radius: 50%;
+	word-wrap: break-word;
+}
+.instruction, .instruction_1, .instruction_2, .instruction_3 {
+	position: absolute;
+}
+.instruction_1, .instruction_2, .instruction_3 {
+	cursor: pointer;
+}
+.item.Circle_1 .inTxt {
+	position: relative;
+	top: 86px;
+	left: 30px;
+}
+.item.Circle_2 .inTxt {
+	position: relative;
+	top: 79px;
+	left: 30px;
+}
+.item.Circle_3 .inTxt {
+	position: relative;
+	top: 86px;
+	left: 135px;
+}
+img.shaddow_img {
+	position: relative;
+	bottom: 10px !important;
+}
+.shaddow_txt_1 {
+    width: 860px;
+}
+
+.bg_txt_2, .bg_txt_1 {
+	padding: 22px 80px 0 60px;
+	width: 460px;
+}
+
+.clk {
+    cursor: pointer;
+}
+
+.feedback .cPanel .content {
+	min-height: 290px !important;
+	background-color: #005E80;
+}
+
+.feedback .cPanel .title {
+	color: #005E80;
+}
+
+.feedback {
+	width: 1020px !important;
+	right: 110px !important;
+	top: calc(50% - 160px) !important;
+}
+
+.feedback .cPanel .cBorder {
+	border: 1px solid #005E80;
+}
+
+.instruction_1::before {
+	content: "";
+	background: url("../../../image/topic1/insIcon.png") no-repeat;
+	width: 51px;
+	height: 44px;
+	position: absolute;
+	left: -47px;
+	top: -10px;
+	transform: scale(0.8);
+}
+
+.instruction_2::before {
+	content: "";
+	background: url("../../../image/topic1/page2/ins2.png") no-repeat;
+	width: 51px;
+	height: 44px;
+	position: absolute;
+	left: -47px;
+	top: -10px;
+	transform: scale(0.8);
+}
+
+.instruction_3::before {
+	content: "";
+	background: url("../../../image/topic1/page2/ins3.png") no-repeat;
+	width: 51px;
+	height: 44px;
+	position: absolute;
+	left: -47px;
+	top: -10px;
+	transform: scale(0.8);
+}
+
+.noBefore::before {
+	display: none
+}
+
+.content p {
+	padding: 10px 20px;
+	line-height: 35px;
+}

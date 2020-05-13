@@ -7,7 +7,7 @@
 						<p class="animate question" ng-bind-html="page.question | to_trusted"></p>
 						<div id="choices">
 							<div class="ch animate" ng-repeat="b in page.choices">
-								<input type="radio" name="chy" id="{{$index}}" data-correct="{{b.correct}}">
+								<input type="checkbox" name="chy" id="{{$index}}" data-correct="{{b.correct}}">
 								<span class="opt_text" ng-bind-html="b.text | to_trusted"></span>
 							</div>
 						</div>

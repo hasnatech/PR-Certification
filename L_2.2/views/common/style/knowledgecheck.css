@@ -38,3 +38,7 @@
     cursor: not-allowed;
     opacity: 0.5;
 }
+
+#choices {
+	padding-right: 50px;
+}

@@ -19,8 +19,7 @@
         <div id="shell" class="shell {{controller}}">
 
             <div id="audio">
-                <audio controls autoplay preload="auto" id="player" src=""
-                    ontimeupdate='updateTrackTime(this);'></audio>
+                <audio controls preload="auto" id="player" src="" ontimeupdate='updateTrackTime(this);'></audio>
                 <button onclick="console.log(trackTime())">Track</button>
             </div>
             <div class="loading {{loading}}">
@@ -52,7 +51,7 @@
                 <div class="absolute">
                     <div class="title brand_bg">
                         <div class="divider"></div>
-                        <h1>{{content.course.title}}</h1>
+                        <h1 class="mb_cust">{{content.course.title}}</h1>
                         <h2>{{page.title}}</h2>
                         <div id="pageNo">
                             Page {{("00"+(curr_page + 1)).slice(-2)}} / {{("00"+total_page).slice(-2)}}
@@ -65,7 +64,7 @@
                                 <img src="image/shell/green/menu_btn_normal.png" data-img="menu_btn" alt="">
                                 <p class="text-center menu_text">Home</p>
                             </li>
-                            <li class="button" ng-click="help_click()">
+                            <li class="button">
                                 <img src="image/shell/green/help_btn_normal.png" data-img="help_btn" alt="">
                                 <p class="text-center menu_text">Help</p>
                             </li>
@@ -78,8 +77,7 @@
                                 <p class="text-center menu_text">Transcript</p>
                             </li>
                             <li class="button">
-                                <img id="audio_img" src="image/shell/green/audio_on_btn_normal.png"
-                                    ng-click="audio_click()" data-img="{{audio_src}}" alt="">
+                                <img id="audio_img" src="image/shell/green/audio_on_btn_normal.png" ng-click="audio_click()" data-img="{{audio_src}}" alt="">
                                 <p class="text-center menu_text">{{audio_text}}</p>
                             </li>
                             <li class="button" ng-click="gotoPage(current_topic, current_page)">
@@ -105,8 +103,7 @@
                                 {{content.course.lable.transcript}}
                             </div>
                             <div class="content">
-                                <p ng-repeat="item in page.transcript" data-sec="{{item.sec}}"
-                                    ng-bind-html="item.text | to_trusted ">
+                                <p ng-repeat="item in page.transcript" data-sec="{{item.sec}}" ng-bind-html="item.text | to_trusted ">
 
                                 </p>
                             </div>
@@ -130,21 +127,6 @@
                     </div>
                 </div>
 
-                <div class="white_panel">
-                    <div class="help {{help_status}}">
-                        <div class="cPanel">
-                            <div class="exit" ng-click="help_close()">x</div>
-                            <div class="cBorder"></div>
-                            <div class="title">
-                                {{content.course.help.title}}
-                            </div>
-                            <div class="content">
-                                <div ng-bind-html="content.course.help.content | to_trusted"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             <div class="footer">
@@ -155,8 +137,7 @@
                         <div class="thick_line brand_bg"></div>
                         <div class="text">Back</div>
                     </div>
-                    <div class="next button brand_bg"
-                        ng-class="{disable : curr_page == total_page - 1 || nextEnable != true}" ng-click="next()">
+                    <div class="next button brand_bg" ng-class="{disable : curr_page == total_page - 1 || nextEnable != true}" ng-click="next()">
                         <img class="next_arr first_arr" src="image/shell/green/next.png" alt="">
                         <img class="next_arr" src="image/shell/green/next.png" alt="">
                         <div class="thick_line brand_bg"></div>

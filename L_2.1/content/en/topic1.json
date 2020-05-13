@@ -1,0 +1,1627 @@
+{
+    "course": {
+        "title": "Create Material Purchase Requisitions in SAP",
+        "section": "Cargill Indirect Procurement Overview",
+        "description": "In this section, we will define some of the course description.",
+        "duration": "Duration 20 minutes",
+        "start_btn": "start the course",
+        "audio": "media\/1.mp3",
+        "button": {
+            "next": "Next",
+            "prev": "Previous",
+            "try": "Try Again",
+            "submit": "Submit"
+        },
+        "lable": {
+            "transcript": "Transcript",
+            "resource": "Resources"
+        },
+        "resource": [
+            {
+                "label": "How to create the External Catalog PR in SAP",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121898"
+            },
+            {
+                "label": "How to setup the Personal Setting for ME51N Material PR in SAP",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121910"
+            },
+            {
+                "label": "How to Change Order of Columns in SAP",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121865"
+            },
+            {
+                "label": "How to create a Favorite List and Repeat On Function in SAP",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121868"
+            },
+            {
+                "label": "How to Create Material Master PR in SAP to Cost Center",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121907"
+            },
+            {
+                "label": "How to create Chemical Blanket PR in SAP",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121895"
+            },
+            {
+                "label": "How to create Free Text PR in SAP.",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.121904"
+            },
+            {
+                "label": "Data Definition Documents (MRO and Service Material Group).",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.182745?contextId=1.11.182735"
+            },
+            {
+                "label": "Information on the impact of choosing the right (or wrong) Material Group.",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.182748?contextId=1.11.182735"
+            },
+            {
+                "label": "List of suppliers who support VMI",
+                "link": "https://cargill15--bmcservicedesk.na104.visual.force.com/apex/KM_ArticleView?name=KBA8456"
+            },
+            {
+                "label": "Information about the VMI process",
+                "link": "https://sites.cargill.com/sites/Finance/maestro/North%20America/Pages/AribaSustainTraining.aspx"
+            }
+        ],
+        "help": {
+            "title": "Help",
+            "content": "<p>Please contact the <a href='myglobalit.cargill.com' target='_blank'>Cargill Help Desk</a> to report issues with the training content for this program.</p>"
+        }
+    },
+    "menu": {
+        "topic": [
+            {
+                "title": "Module 1 - Create Material Purchase Requisitions in SAP",
+                "pages": [
+                    {
+                        "file": "common\/course_intro.html",
+                        "style": "common\/style\/course_intro.css",
+                        "audio": "media\/1.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "Purchase Requisitioner Certification Training Program",
+                                "time": "1"
+                            },
+                            {
+                                "text": "Create Material Purchase Requisitions in SAP",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Level 2 Course 2",
+                                "time": "1"
+                            }
+                        ],
+                        "image": "image\/topic1\/course_intro.png",
+                        "transcript": [
+                            {
+                                "text": "Transcript 1",
+                                "sec": "0.01"
+                            },
+                            {
+                                "text": "Transcript 2",
+                                "sec": "0.02"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "welcome",
+                        "title": "Overview ",
+                        "file": "common\/welcome.html",
+                        "style": "common\/style\/welcome.css",
+                        "audio": "media\/2.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "heading": "Welcome",
+                        "block": [
+                            {
+                                "text": "Create Material Purchase Requisitions in SAP",
+                                "time": "2.6"
+                            },
+                            {
+                                "text": "Personalize Your SAP User Setting",
+                                "time": "8"
+                            }
+                        ],
+                        "image": "image\/topic1\/welcome.png",
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "objective",
+                        "title": "Objective ",
+                        "file": "common\/objective.html",
+                        "style": "common\/style\/objective.css",
+                        "audio": "media\/3.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "Create six different variations of a <br/>material purchase requisition",
+                                "time": "4"
+                            },
+                            {
+                                "text": "",
+                                "time": "2"
+                            },
+                            {
+                                "text": "Personalize your SAP user settings to gain efficiencies in purchase requisition processing",
+                                "time": "9.7"
+                            }
+                        ],
+                        "image": "image\/shell\/green\/objective_2.png",
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "External Catalogs",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page1.css",
+                        "audio": "media\/5.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click on the tab to learn how to create the External Catalog PR in SAP.",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121898",
+                        "insTime": "51.5",
+                        "ins_left": "124px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "Catalog purchases are the preferred method for creating a material purchase requisition.",
+                                "image": "image/topic1/page1/Circle_mid.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "501px",
+                                "top": "96px",
+                                "audio": "media/page1_1.mp3"
+                            },
+                            {
+                                "text": "Grainger",
+                                "image": "image/topic1/page1/Circle_1.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_1_img",
+                                "time": "12",
+                                "left": "375px",
+                                "top": "275px",
+                                "audio": "media/page1_2.mp3"
+                            },
+                            {
+                                "text": "Motion",
+                                "image": "image/topic1/page1/Circle_2.png",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_2_img",
+                                "time": "13",
+                                "left": "555px",
+                                "top": "281px",
+                                "audio": "media/page1_3.mp3"
+                            },
+                            {
+                                "text": "Fastenal",
+                                "image": "image/topic1/page1/Circle_3.png",
+                                "class": "Circle_3",
+                                "imgClass": "Circle_3_img",
+                                "time": "13.5",
+                                "left": "620px",
+                                "top": "275px",
+                                "audio": "media/page1_4.mp3"
+                            },
+                            {
+                                "text": "The pricing on the materials available in these catalogs has already been negotiated with the supplier by CSSP.",
+                                "image": "image/topic1/page1/shaddow.png",
+                                "class": "shaddow_txt_1",
+                                "imgClass": "shaddow_img",
+                                "time": "16",
+                                "left": "188px",
+                                "top": "438px",
+                                "audio": "media/page1_5.mp3"
+                            },
+                            {
+                                "text": "When you add a catalog material to a purchase requisition it automatically updates the PR line item with much of the data required for the purchase.",
+                                "image": "image/topic1/page1/shaddow.png",
+                                "class": "shaddow_txt_2",
+                                "imgClass": "shaddow_img",
+                                "time": "25",
+                                "left": "-10px",
+                                "top": "490px",
+                                "audio": "media/page1_6.mp3"
+                            },
+                            {
+                                "text": "External catalog materials can be included as an NCS purchase",
+                                "image": "image/topic1/page1/txt_bg.png",
+                                "class": "bg_txt_2",
+                                "imgClass": "bg_txt_img",
+                                "time": "37.3",
+                                "left": "154px",
+                                "top": "537px",
+                                "audio": "media/page1_7.mp3"
+                            },
+                            {
+                                "text": "External catalog materials can not be included as a DPL or DPS purchase",
+                                "image": "image/topic1/page1/txt_bg.png",
+                                "class": "bg_txt_1",
+                                "imgClass": "bg_txt_img",
+                                "time": "43.7",
+                                "left": "643px",
+                                "top": "537px",
+                                "audio": "media/page1_8.mp3"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Personalize SAP Purchasing Parameters",
+                        "file": "common\/page2.html",
+                        "style": "common\/style\/page2.css",
+                        "audio": "media\/7.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click each type to learn more.",
+                        "insTime": "16.5 ",
+                        "insTime_1": "17",
+                        "insTime_2": "17.5",
+                        "insTime_3": "18",
+                        "instruction_1": "Click here to learn how to setup the Personal Setting for ME51N Material PR in SAP.​",
+                        "instruction_2": "Click here to learn how to Change Order of Columns in SAP.​",
+                        "instruction_3": "Click here to learn how to create a Favorite List and Repeat On Function in SAP.​",
+                        "link1": "https://cargill.ancileuperform.com/#/content/1.11.121910",
+                        "link2": "https://cargill.ancileuperform.com/#/content/1.11.121865",
+                        "link3": "https://cargill.ancileuperform.com/#/content/1.11.121868",
+                        "ins_left": "527px",
+                        "ins_top": "497px",
+                        "ins_1_left": "140px",
+                        "ins_1_top": "567px",
+                        "ins_2_left": "140px",
+                        "ins_2_top": "613px",
+                        "ins_3_left": "140px",
+                        "ins_3_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "",
+                                "image": "image/topic1/page2/1.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "234px",
+                                "top": "185px",
+                                "audio": ""
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page2/2.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_1_img",
+                                "time": "8.1",
+                                "left": "528px",
+                                "top": "300px",
+                                "audio": ""
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page2/3.png",
+                                "class": "Circle_2 btnAudio",
+                                "imgClass": "clk left",
+                                "time": "12.6",
+                                "left": "324px",
+                                "top": "359px",
+                                "audio": "media/8.mp3"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page2/4.png",
+                                "class": "Circle_3 btnAudio",
+                                "imgClass": "clk",
+                                "time": "14.4",
+                                "left": "704px",
+                                "top": "358px",
+                                "audio": "media/9.mp3"
+                            }
+                        ],
+                        "feedback": {
+                            "left": "<p>The user parameters should already be set for you by Global IT in your SAP. You can always make changes to your personal User Parameters as well as Defaults and Address information in SAP by clicking System > User Profile > Own Data.</p>",
+                            "right": "<p>The personal setting of a transaction helps you to customize the Item details section. Through the personal settings, you can specify:</p><ul><li>Which fields should be visible or hidden</li><li>Default codes for Item Category, Account Assignment Category, Plant etc.</li><li>The arrangement of columns from left to right</li></ul>"
+                        },
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Material Masters",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page3.css",
+                        "audio": "media\/11.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "insTime": "33",
+                        "ins_left": "124px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "A material master is the collection of all data for a material into a single record.",
+                                "image": "image/topic1/page3/1.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "465px",
+                                "top": "96px"
+                            },
+                            {
+                                "text": "Item Description",
+                                "image": "image/topic1/page3/2.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_1_img",
+                                "time": "11.5",
+                                "left": "135px",
+                                "top": "305px"
+                            },
+                            {
+                                "text": "Unit of Measure",
+                                "image": "image/topic1/page3/3.png",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_2_img",
+                                "time": "13.1",
+                                "left": "338px",
+                                "top": "327px"
+                            },
+                            {
+                                "text": "Purchasing Group",
+                                "image": "image/topic1/page3/4.png",
+                                "class": "Circle_3",
+                                "imgClass": "Circle_3_img",
+                                "time": "14.5",
+                                "left": "532px",
+                                "top": "335px"
+                            },
+                            {
+                                "text": "Price Valuation",
+                                "image": "image/topic1/page3/5.png",
+                                "class": "Circle_4",
+                                "imgClass": "Circle_3_img",
+                                "time": "15.9",
+                                "left": "622px",
+                                "top": "327px"
+                            },
+                            {
+                                "text": "Plant Data",
+                                "image": "image/topic1/page3/6.png",
+                                "class": "Circle_5",
+                                "imgClass": "Circle_3_img",
+                                "time": "17.4",
+                                "left": "644px",
+                                "top": "305px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page1/shaddow.png",
+                                "class": "Circle_3",
+                                "imgClass": "Circle_3_img",
+                                "time": "18",
+                                "left": "459px",
+                                "top": "532px"
+                            },
+                            {
+                                "text": "This information is housed in SAP and important to many functions including:",
+                                "image": "",
+                                "class": "bg_txt_1",
+                                "imgClass": "bg_txt_img",
+                                "time": "19.2",
+                                "left": "108px",
+                                "top": "536px"
+                            },
+                            {
+                                "text": "Purchasing and invoice posting",
+                                "image": "",
+                                "class": "listTxt",
+                                "imgClass": "bg_txt_img",
+                                "time": "25.8",
+                                "left": "191px",
+                                "top": "594px"
+                            },
+                            {
+                                "text": "Inventory management",
+                                "image": "",
+                                "class": "listTxt",
+                                "imgClass": "bg_txt_img",
+                                "time": "28.2",
+                                "left": "741px",
+                                "top": "593px"
+                            },
+                            {
+                                "text": "Sales order processing",
+                                "image": "",
+                                "class": "listTxt",
+                                "imgClass": "bg_txt_img",
+                                "time": "30.1",
+                                "left": "191px",
+                                "top": "627px"
+                            },
+                            {
+                                "text": "Production planning",
+                                "image": "",
+                                "class": "listTxt",
+                                "imgClass": "bg_txt_img",
+                                "time": "32",
+                                "left": "741px",
+                                "top": "626px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Material Masters",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page4.css",
+                        "audio": "media\/12.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "Purchase Request for Material Masters",
+                                "image": "image/topic1/page4/left.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "259px",
+                                "top": "235px"
+                            },
+                            {
+                                "text": "A stock material purchase which is set up to run through MRP",
+                                "image": "image/topic1/page4/1.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_1_img",
+                                "time": "7",
+                                "left": "442px",
+                                "top": "145px"
+                            },
+                            {
+                                "text": "A stock material purchase is created outside of MRP",
+                                "image": "image/topic1/page4/2.png",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_2_img",
+                                "time": "13",
+                                "left": "490px",
+                                "top": "328px"
+                            },
+                            {
+                                "text": "When a purchase of a non-stock material is made against a cost object via a manual purchase requisition",
+                                "image": "image/topic1/page4/3.png",
+                                "class": "Circle_3",
+                                "imgClass": "Circle_3_img",
+                                "time": "19",
+                                "left": "441px",
+                                "top": "464px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Material Masters",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page5.css",
+                        "audio": "media/13_0.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click on the tab to learn how to Create Material Master PR in SAP to Cost Center",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121907",
+                        "insTime": "35",
+                        "ins_left": "124px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "Manual creation of Material Master purchase requisition to a cost object",
+                                "image": "image/topic1/page5/left.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "286px",
+                                "top": "238px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page5/right.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_1_img",
+                                "time": "5",
+                                "left": "506px",
+                                "top": "85px"
+                            },
+                            {
+                                "text": "Several MRP materials are not MRP relevant so, they must be manually purchased.",
+                                "image": "",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_2_img",
+                                "time": "7.5",
+                                "left": "500px",
+                                "top": "120px"
+                            },
+                            {
+                                "text": "Examples: Manually purchased ingredients, chemicals and packaging materials required for manual purchase requisitions.",
+                                "image": "",
+                                "class": "Circle_3",
+                                "imgClass": "",
+                                "time": "14.3",
+                                "left": "635px",
+                                "top": "259px"
+                            },
+                            {
+                                "text": "Create the purchase using the material master versus creating a free text PR.",
+                                "image": "",
+                                "class": "Circle_4",
+                                "imgClass": "",
+                                "time": "28.5",
+                                "left": "550px",
+                                "top": "452px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Blanket Purchase order",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page9.css",
+                        "audio": "media\/15_0.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "A Blanket Purchase Order refers to an agreement between an organization and a supplier to deliver goods at a predetermined price for a specific period of time.",
+                                "image": "image/topic1/page6/left.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "165px",
+                                "top": "254px"
+                            },
+                            {
+                                "text": "One PO and one PO line per price period (monthly, quarterly, annually). The blanket PO should not be valid for more than 12 months.",
+                                "image": "image/topic1/page6/1.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_1_img",
+                                "time": "12.8",
+                                "left": "403px",
+                                "top": "149px"
+                            },
+                            {
+                                "text": "A goods receipt is required for each delivery.",
+                                "image": "image/topic1/page6/2.png",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_2_img",
+                                "time": "32.3",
+                                "left": "464px",
+                                "top": "333px"
+                            },
+                            {
+                                "text": "Payment of an order is triggered by Invoice.",
+                                "image": "image/topic1/page6/3.png",
+                                "class": "Circle_3",
+                                "imgClass": "Circle_3_img",
+                                "time": "36.8",
+                                "left": "406px",
+                                "top": "507px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Blanket Purchase order",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page7.css",
+                        "audio": "media\/16.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "2.5",
+                                "left": "441px",
+                                "top": "353px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "3.5",
+                                "left": "321px",
+                                "top": "353px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "4",
+                                "left": "209px",
+                                "top": "352px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "4.5",
+                                "left": "94px",
+                                "top": "345px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "5",
+                                "left": "436px",
+                                "top": "212px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "5.5",
+                                "left": "317px",
+                                "top": "208px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "6",
+                                "left": "204px",
+                                "top": "211px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note2.png",
+                                "class": "Note2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "6.5",
+                                "left": "89px",
+                                "top": "213px"
+                            },
+                            {
+                                "text": "Instead of issuing 96 smaller Purchase Orders",
+                                "image": "image/topic1/page7/arrow.png",
+                                "class": "Circle_1",
+                                "imgClass": "Circle_mid_img",
+                                "time": "10.3",
+                                "left": "583px",
+                                "top": "313px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page7/Note1.png",
+                                "class": "Circle_mid",
+                                "imgClass": "Circle_mid_img",
+                                "time": "15.8",
+                                "left": "1005px",
+                                "top": "269px"
+                            },
+                            {
+                                "text": "An organization wants to submit 8 Orders per month to a particular supplier",
+                                "image": "image/topic1/page7/downBg.png",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "0.5",
+                                "left": "103px",
+                                "top": "528px"
+                            },
+                            {
+                                "text": "Single Blanket Purchase Order & One PO for the determined pricing period",
+                                "image": "image/topic1/page7/downBg.png",
+                                "class": "Circle_2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "16.8",
+                                "left": "630px",
+                                "top": "531px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Rules for Successful Chemical BPOs",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page8.css",
+                        "audio": "media\/17.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "MRP is the best option to use for planning purchases and is preferred whenever possible.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "351px",
+                                "top": "136px"
+                            },
+                            {
+                                "text": "BPOs should be reserved for POs with more than 5 separate deliveries per PO per month.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "13.1",
+                                "left": "345px",
+                                "top": "214px"
+                            },
+                            {
+                                "text": "One PO and one PO line per price period (monthly, quarterly, annual*). Not to be valid more than 12 months.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "30.7",
+                                "left": "349px",
+                                "top": "293px"
+                            },
+                            {
+                                "text": "3 way match POs should be utilized.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "42.3",
+                                "left": "344px",
+                                "top": "371px"
+                            },
+                            {
+                                "text": "Outline agreement, PR creation, PO creation and communication must occur prior to price effective date.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "47",
+                                "left": "350px",
+                                "top": "449px"
+                            },
+                            {
+                                "text": "Must utilize outline agreement in order to drive the appropriate contracted pricing, pay terms, and vendor partnering.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "71.2",
+                                "left": "345px",
+                                "top": "529px"
+                            },
+                            {
+                                "text": "PR Short text should include: “BPO [time period] – [Product]”",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "88.9",
+                                "left": "349px",
+                                "top": "604px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Rules for Successful Chemical BPOs",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page8.css",
+                        "audio": "media\/18.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "PR Quantity should be the average volume you typically procure per PO “timeframe”.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "353px",
+                                "top": "114px"
+                            },
+                            {
+                                "text": "Always issue your PR quantity in the BASE unit of measure on the material master.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "22",
+                                "left": "355px",
+                                "top": "186px"
+                            },
+                            {
+                                "text": "Delivery Date should be the last day of the PO “timeframe”.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "33.5",
+                                "left": "353px",
+                                "top": "261px"
+                            },
+                            {
+                                "text": "Pricing on an outline agreement and supplier invoice should roll up to a single net, per-unit price.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "48.6",
+                                "left": "357px",
+                                "top": "339px"
+                            },
+                            {
+                                "text": "No separate Fuel, delivery, or miscellaneous charges.",
+                                "image": "image/topic1/page8/green_withArrow.png",
+                                "class": "green_withArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "57.4",
+                                "left": "367px",
+                                "top": "384px"
+                            },
+                            {
+                                "text": "Pricing should be no more than 2 decimal points.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "62.7",
+                                "left": "355px",
+                                "top": "488px"
+                            },
+                            {
+                                "text": "You may scale up the UOM to a larger unit or use price per 100, 1000, etc",
+                                "image": "image/topic1/page8/yellow_withArrow.png",
+                                "class": "yellow_withArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "67",
+                                "left": "379px",
+                                "top": "533px"
+                            },
+                            {
+                                "text": "Header text should include specific notes to the supplier regarding the BPO and how orders will be placed.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "76.3",
+                                "left": "354px",
+                                "top": "628px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Rules for Successful Chemical BPOs",
+                        "file": "common\/page3.html",
+                        "style": "common\/style\/page8.css",
+                        "audio": "media\/19.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "If demurrage or other fees are accumulated, process is as follows:",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "350px",
+                                "top": "161px"
+                            },
+                            {
+                                "text": "Supplier should inform the PO processor of the need to add on demurrage fees.",
+                                "image": "image/topic1/page8/yellow_withArrow.png",
+                                "class": "yellow_withArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "6.4",
+                                "left": "374px",
+                                "top": "206px"
+                            },
+                            {
+                                "text": "PO processor confirms with site that demurrage should be added.",
+                                "image": "image/topic1/page8/yellow_withOutArrow.png",
+                                "class": "yellow_withOutArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "13.4",
+                                "left": "398px",
+                                "top": "306px"
+                            },
+                            {
+                                "text": "If demurrage is approved, the site will create a PR to account for the added fee.",
+                                "image": "image/topic1/page8/yellow_withOutArrow.png",
+                                "class": "yellow_withOutArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "19.3",
+                                "left": "398px",
+                                "top": "380px"
+                            },
+                            {
+                                "text": "PO Processer adds the PR to the existing PO as a new line.",
+                                "image": "image/topic1/page8/yellow_withOutArrow.png",
+                                "class": "yellow_withOutArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "26.7",
+                                "left": "397px",
+                                "top": "456px"
+                            },
+                            {
+                                "text": "Supplier may then invoice against that line in Ariba.",
+                                "image": "image/topic1/page8/yellow_withOutArrow.png",
+                                "class": "yellow_withOutArrow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "32.7",
+                                "left": "396px",
+                                "top": "536px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Rules for Successful Chemical BPOs",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page8.css",
+                        "audio": "media\/20.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click on the tab to learn how to create Chemical Blanket PR in SAP.",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121895",
+                        "insTime": "55.7",
+                        "ins_left": "124px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "PO, GR, BOL/Packing slip, and Invoicing should be related to the price period in which the product shipped.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "351px",
+                                "top": "136px"
+                            },
+                            {
+                                "text": "Good receipts (GR) must use the BOL/Packing slip info in the reference field.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "12",
+                                "left": "345px",
+                                "top": "214px"
+                            },
+                            {
+                                "text": "Good receipts should be entered within 24 hours of receipt using the PO on the packing slip.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "19.9",
+                                "left": "349px",
+                                "top": "293px"
+                            },
+                            {
+                                "text": "Suppliers are suggested to upload any documentation (invoice) during Ariba Network invoice creation.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "28.5",
+                                "left": "344px",
+                                "top": "371px"
+                            },
+                            {
+                                "text": "Communication between the planner and receiver is necessary to ensure accuracy and close out completed POs.",
+                                "image": "image/topic1/page8/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "37.1",
+                                "left": "350px",
+                                "top": "449px"
+                            },
+                            {
+                                "text": "Planner should manage the balance of the PO to confirm GRs are matching up to IRs.",
+                                "image": "image/topic1/page8/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "46.9",
+                                "left": "345px",
+                                "top": "529px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Free Text (Spot Buy)",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page10.css",
+                        "audio": "media\/22.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click on the tab to learn how to create Free Text PR in SAP.",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121904",
+                        "insTime": "56.4",
+                        "ins_left": "140px",
+                        "ins_top": "570px",
+                        "instruction_1": "Click on the tab to view the Data Definition Documents (MRO and Service Material Group).​",
+                        "link1": "https://cargill.ancileuperform.com/#/content/1.11.182745?contextId=1.11.182735",
+                        "ins_1_left": "140px",
+                        "ins_1_top": "600px",
+                        "insTime_1": "57",
+                        "instruction_2": "Click on the tab to view information on the impact of choosing the right (or wrong) Material Group.​",
+                        "link2": "https://cargill.ancileuperform.com/#/content/1.11.182748?contextId=1.11.182735",
+                        "ins_2_left": "140px",
+                        "ins_2_top": "630px",
+                        "insTime_2": "57.5",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "A free text purchase is one where the Requisitioner is not purchasing a material from a catalog or material master",
+                                "image": "image/topic1/page9/blue.png",
+                                "class": "blue",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "84px",
+                                "top": "102px"
+                            },
+                            {
+                                "text": "The Requisitioner provides a description of the type of material needed",
+                                "image": "image/topic1/page9/orange.png",
+                                "class": "orange",
+                                "imgClass": "Circle_mid_img",
+                                "time": "9",
+                                "left": "347px",
+                                "top": "102px"
+                            },
+                            {
+                                "text": "The Requisitioner provides an estimate on the price they expect to pay",
+                                "image": "image/topic1/page9/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "16.6",
+                                "left": "626px",
+                                "top": "102px"
+                            },
+                            {
+                                "text": "Offers flexibility in the purchasing process when the business requires something that is not available through our catalogs or contracts with select suppliers",
+                                "image": "image/topic1/page9/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "31.3",
+                                "left": "904px",
+                                "top": "102px"
+                            },
+                            {
+                                "text": "A free text purchase should only be created after the Requisitioner has determined the material is not available through a catalog or material master",
+                                "image": "image/topic1/page9/bottom.png",
+                                "class": "bottom",
+                                "imgClass": "Circle_mid_img",
+                                "time": "44.5",
+                                "left": "221px",
+                                "top": "440px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Vendor Managed Inventory (VMI)",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page11.css",
+                        "audio": "media\/24.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "6",
+                        "ins_left": "-1000px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "Vendor Managed Inventory or VMI is a streamlined approach to inventory management and order fulfillment.",
+                                "image": "image/topic1/page11/yellow.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "242px",
+                                "top": "182px"
+                            },
+                            {
+                                "text": "VMI is a service provided by approved suppliers to monitor and maintain specific inventory levels at Cargill sites. ",
+                                "image": "image/topic1/page11/green.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "9.4",
+                                "left": "457px",
+                                "top": "281px"
+                            },
+                            {
+                                "text": "Janitorial supplies",
+                                "image": "image/topic1/page11/1.png",
+                                "class": "orange1",
+                                "imgClass": "Circle_mid_img",
+                                "time": "21.8",
+                                "left": "85px",
+                                "top": "400px"
+                            },
+                            {
+                                "text": "Bolts or other hardware",
+                                "image": "image/topic1/page11/2.png",
+                                "class": "orange2",
+                                "imgClass": "Circle_mid_img",
+                                "time": "23.6",
+                                "left": "432px",
+                                "top": "412px"
+                            },
+                            {
+                                "text": "Safety equipment",
+                                "image": "image/topic1/page11/3.png",
+                                "class": "orange3",
+                                "imgClass": "Circle_mid_img",
+                                "time": "26.7",
+                                "left": "778px",
+                                "top": "410px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Vendor Managed Inventory (VMI)",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page11.css",
+                        "audio": "media\/25.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click on the tab to see the list of suppliers who support VMI.",
+                        "link": "https://cargill15--bmcservicedesk.na104.visual.force.com/apex/KM_ArticleView?name=KBA8456",
+                        "insTime": "12",
+                        "ins_left": "124px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "Managed by Ariba Integrated Suppliers",
+                                "image": "image/topic1/page12/1.png",
+                                "class": "circleBig",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "222px",
+                                "top": "182px"
+                            },
+                            {
+                                "text": "Non-Integrated Suppliers use blanket purchase orders",
+                                "image": "image/topic1/page12/2.png",
+                                "class": "circleBig",
+                                "imgClass": "Circle_mid_img",
+                                "time": "2",
+                                "left": "627px",
+                                "top": "182px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Vendor Managed Inventory (VMI)",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page13.css",
+                        "audio": "media\/26.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "Click the tab to view more information about the VMI process.",
+                        "link": "https://sites.cargill.com/sites/Finance/maestro/North%20America/Pages/AribaSustainTraining.aspx",
+                        "insTime": "84",
+                        "ins_left": "124px",
+                        "ins_top": "653px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "<p>Integrated Supplier:</p><ul><li>Provides a proposed list of materials for replenishment</li><li>Enters a quote in the external catalog</li></ul>",
+                                "image": "image/topic1/page13/topBG.png",
+                                "class": "topBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "34px",
+                                "top": "132px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page13/right.png",
+                                "class": "right",
+                                "imgClass": "Circle_mid_img",
+                                "time": "9.4",
+                                "left": "493px",
+                                "top": "218px"
+                            },
+                            {
+                                "text": "<p>Requisitioner:</p><ul><li>Uses the external catalog to pull the e-quote items into the SAP purchase requisition</li><li>Requires a specific role in SAP to process this Z2WM material PR type</li></ul>",
+                                "image": "image/topic1/page13/topBG.png",
+                                "class": "topBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "10.4",
+                                "left": "596px",
+                                "top": "126px"
+                            },
+                            {
+                                "text": "Approval",
+                                "image": "image/topic1/page13/large.png",
+                                "class": "large",
+                                "imgClass": "Circle_mid_img",
+                                "time": "28.9",
+                                "left": "1074px",
+                                "top": "218px"
+                            },
+                            {
+                                "text": "<ul>PR gets auto-converted to a Z2WM PO</ul>",
+                                "image": "image/topic1/page13/topBG.png",
+                                "class": "topBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "30",
+                                "left": "599px",
+                                "top": "328px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page13/left.png",
+                                "class": "left",
+                                "imgClass": "Circle_mid_img",
+                                "time": "37.9",
+                                "left": "493px",
+                                "top": "419px"
+                            },
+                            {
+                                "text": "<p>Supplier:</p><ul><li>Confirms the PO</li><li>Creates an invoice in Ariba</li></ul>",
+                                "image": "image/topic1/page13/topBG.png",
+                                "class": "topBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "38.3",
+                                "left": "35px",
+                                "top": "328px"
+                            },
+                            {
+                                "text": "Never add non-VMI materials to this type of purchase",
+                                "image": "image/topic1/page13/bottomBG.png",
+                                "class": "bottomBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "47.7",
+                                "left": "73px",
+                                "top": "540px"
+                            },
+                            {
+                                "text": "Do not mix VMI purchases with other purchase types",
+                                "image": "image/topic1/page13/bottomBG.png",
+                                "class": "bottomBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "60",
+                                "left": "341px",
+                                "top": "540px"
+                            },
+                            {
+                                "text": "No goods receipt is required for the VMI order",
+                                "image": "image/topic1/page13/bottomBG.png",
+                                "class": "bottomBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "65.6",
+                                "left": "607px",
+                                "top": "540px"
+                            },
+                            {
+                                "text": "Other items on the PO should required a goods receipt before payment should be processed",
+                                "image": "image/topic1/page13/bottomBG.png",
+                                "class": "bottomBG",
+                                "imgClass": "Circle_mid_img",
+                                "time": "70.1",
+                                "left": "875px",
+                                "top": "540px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Freight Charges",
+                        "file": "common\/page1.html",
+                        "style": "common\/style\/page14.css",
+                        "audio": "media\/28.mp3",
+                        "showMenu": true,
+                        "interaction": true,
+                        "instruction": "",
+                        "insTime": "12",
+                        "ins_left": "-1024px",
+                        "ins_top": "657px",
+                        "image": "image\/topic1\/page1.png",
+                        "block": [
+                            {
+                                "text": "Freight charges are primarily on Service Purchase Requisitions",
+                                "image": "image/topic1/page14/1.png",
+                                "class": "first",
+                                "imgClass": "Circle_mid_img",
+                                "time": "1",
+                                "left": "261px",
+                                "top": "132px"
+                            },
+                            {
+                                "text": "",
+                                "image": "image/topic1/page14/2.png",
+                                "class": "line",
+                                "imgClass": "Circle_mid_img",
+                                "time": "16",
+                                "left": "343px",
+                                "top": "253px"
+                            },
+                            {
+                                "text": "Four common ways that material freight charges are managed",
+                                "image": "image/topic1/page14/3.png",
+                                "class": "circleBg",
+                                "imgClass": "Circle_mid_img",
+                                "time": "11.4",
+                                "left": "183px",
+                                "top": "290px"
+                            },
+                            {
+                                "text": "We can request that the vendor ship freight to collect on the Cargill account with select carriers.",
+                                "image": "image/topic1/page14/4.png",
+                                "class": "blue",
+                                "imgClass": "Circle_mid_img",
+                                "time": "16.7",
+                                "left": "471px",
+                                "top": "248px"
+                            },
+                            {
+                                "text": "The Requisitioner can add a line with estimated freight charges.",
+                                "image": "image/topic1/page14/5.png",
+                                "class": "orange",
+                                "imgClass": "Circle_mid_img",
+                                "time": "23.6",
+                                "left": "471px",
+                                "top": "354px"
+                            },
+                            {
+                                "text": "The PO Processor can add the freight as a condition at the time of vendor confirmation.",
+                                "image": "image/topic1/page14/6.png",
+                                "class": "yellow",
+                                "imgClass": "Circle_mid_img",
+                                "time": "28.9",
+                                "left": "471px",
+                                "top": "465px"
+                            },
+                            {
+                                "text": "The Requisitioners may be asked to enter freight charges into the PR once the materials have been invoiced.",
+                                "image": "image/topic1/page14/7.png",
+                                "class": "green",
+                                "imgClass": "Circle_mid_img",
+                                "time": "36.4",
+                                "left": "470px",
+                                "top": "571px"
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/29.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>Which of the following purchase types is the preferred method to create a materials purchase?</p>",
+                        "choices": [
+                            {
+                                "text": "Free Text",
+                                "correct": false
+                            },
+                            {
+                                "text": "Blanket Purchase Order",
+                                "correct": false
+                            },
+                            {
+                                "text": "Vendor Managed Inventory (VMI)",
+                                "correct": false
+                            },
+                            {
+                                "text": "Free Text and Material Masters",
+                                "correct": true
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>To create a materials purchase \"Free Text and Material Masters\" is the preferred method.</p><p>Try again!</p>",
+                            "correct": "<p>That’s Correct! </p>"
+                        },
+                        "image": "image\/topic1\/knowledgecheck.png",
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "knowledgecheck",
+                        "title": "Knowledge Check ",
+                        "file": "common\/knowledgecheck.html",
+                        "style": "common\/style\/knowledgecheck.css",
+                        "audio": "media\/silence.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "question": "<p>_______________ help reduce redundant data entry and increase efficiency when creating material purchase requisitions.</p>",
+                        "choices": [
+                            {
+                                "text": "Account assignments",
+                                "correct": false
+                            },
+                            {
+                                "text": "Personal settings",
+                                "correct": true
+                            },
+                            {
+                                "text": "Free text purchases",
+                                "correct": false
+                            },
+                            {
+                                "text": "Material Groups",
+                                "correct": false
+                            }
+                        ],
+                        "feedback": {
+                            "incorrect": "<p>That’s not quite correct.</p><p>Personal settings help reduce redundant data entry and increase efficiency when creating material purchase requisitions.</p><p>Try again!</p>",
+                            "correct": "<p>That’s Correct! </p>"
+                        },
+                        "image": "image\/topic1\/knowledgecheck.png",
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "supplemental",
+                        "title": "Supplemental Information",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/supplemental.html",
+                        "style": "common\/style\/supplemental.css",
+                        "audio": "",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "<a href='#'>First Link</a>",
+                                "time": "5.8"
+                            },
+                            {
+                                "text": "<a href='#'>Second Link</a>",
+                                "time": "6.5"
+                            }
+                        ],
+                        "image": "image\/shell/green/supplemental.png",
+                        "transcript": [
+                            {
+                                "text": "<p></p>",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "summary",
+                        "title": "Summary",
+                        "file": "common\/summary.html",
+                        "style": "common\/style\/summary.css",
+                        "audio": "media\/30.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "Perform the creation of multiple material purchase requisition types in SAP",
+                                "time": "5"
+                            },
+                            {
+                                "text": "Personalize your SAP user settings to gain efficiencies in purchase requisition processing",
+                                "time": "13"
+                            }
+                        ],
+                        "image": "image\/topic1\/summary.jpg",
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
