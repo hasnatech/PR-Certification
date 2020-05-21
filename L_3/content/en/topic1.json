@@ -22,12 +22,17 @@
         }, {
             "label": "Sample link to google.com for more information",
             "link": "http://www.google.com"
-        }]
+        }],
+        "help": {
+            "title": "Help",
+            "content": "<p>Please contact the <a href='myglobalit.cargill.com' target='_blank'>Cargill Help Desk</a> to report issues with the training content for this program.</p>"
+        }
     },
 
     "menu": {
-        "topic": [{
-                "title": "Module 1 - Roles and System Integration",
+        "topic": [
+            {
+                "title": "Roles and System Integration",
                 "titleMod": "Roles and System Integration",
                 "pages": [{
                         "file": "common\/course_intro.html",
@@ -446,7 +451,7 @@
                 ]
             },
             {
-                "title": "Module 2 - Manage Purchasing Scenarios",
+                "title": "Manage Purchasing Scenarios",
                 "titleMod": "Manage Purchasing Scenarios",
                 "pages": [{
                         "type": "welcome",
@@ -717,7 +722,7 @@
                                     "top": "10px"
                                 },
                                 {
-                                    "text": "<strong>Lilla</strong><br>Plant Supervisor<br>",
+                                    "text": "<strong>Lillia</strong><br>Plant Supervisor<br>",
                                     "image": "image/topic/slide40_4.png",
                                     "class": "user3",
                                     "time": "18",
@@ -741,7 +746,7 @@
                                     "top": "448px"
                                 },
                                 {
-                                    "text": "Lilla recently contacted Michael to inquire about the status of the purchase order, as the supplier has not yet received the PO. What should Michael do to help Lilla determine the status of her PO?",
+                                    "text": "Lillia recently contacted Michael to inquire about the status of the purchase order, as the supplier has not yet received the PO. What should Michael do to help Lillia determine the status of her PO?",
                                     "image": "image/topic/slide40_2.png",
                                     "class": "note1 behind",
                                     "time": "18",
@@ -749,7 +754,7 @@
                                     "top": "151px"
                                 },
                                 {
-                                    "text": "Michael is a Cargill Requisitioner. Three days ago, he created a purchase requisition for a large purchase request submitted by Lilla, a Cargill plant supervisor. ",
+                                    "text": "Michael is a Cargill Requisitioner. Three days ago, he created a purchase requisition for a large purchase request submitted by Lillia, a Cargill plant supervisor. ",
                                     "image": "image/topic/slide40_1.png",
                                     "class": "note2 behind",
                                     "time": "6",
@@ -1707,6 +1712,33 @@
                             "text": "",
                             "sec": "0.01"
                         }]
+                    },
+                    {
+                        "type": "supplemental",
+                        "title": "Supplemental Information",
+                        "mainTitle": "Indirect Procurement Process at Cargill",
+                        "file": "common\/supplemental.html",
+                        "style": "common\/style\/supplemental.css",
+                        "audio": "",
+                        "showMenu": true,
+                        "interaction": false,
+                        "block": [
+                            {
+                                "text": "<a href='#'>First Link</a>",
+                                "time": "5.8"
+                            },
+                            {
+                                "text": "<a href='#'>Second Link</a>",
+                                "time": "6.5"
+                            }
+                        ],
+                        "image": "image\/shell/green/supplemental.png",
+                        "transcript": [
+                            {
+                                "text": "<p></p>",
+                                "sec": "0.01"
+                            }
+                        ]
                     },
                     {
                         "type": "summary",

@@ -10011,8 +10011,9 @@ h2 {
           transform: translate(0px, 0px);
 }
 
-.common_window .resource {
-  width: 400px;
+.common_window .resource,
+.common_window .help {
+  width: 600px;
   position: absolute;
   left: calc(50% - 200px);
   top: calc(50% - 200px);
@@ -10026,7 +10027,8 @@ h2 {
   transition: all 0.5s ease;
 }
 
-.common_window .resource.show {
+.common_window .resource.show,
+.common_window .help.show {
   display: block;
 }
 
