@@ -17,11 +17,8 @@
             "resource": "Resources"
         },
         "resource": [{
-            "label": "Sample link to cargill.com for more information",
-            "link": "http://www.cargill.com"
-        }, {
-            "label": "Sample link to google.com for more information",
-            "link": "http://www.google.com"
+            "label": "Select Supplier Database",
+            "link": "#"
         }],
         "help": {
             "title": "Help",
