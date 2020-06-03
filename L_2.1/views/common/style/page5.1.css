@@ -1,0 +1,35 @@
+.image_panel{
+	padding: 4rem;
+}
+
+.flex{
+	display: flex;
+}
+.flex .img{
+	padding-right:2rem;
+}
+.flex-text{
+	padding-top:2rem; 
+}
+
+.instruction {
+	position: absolute;
+    margin-left: 42px;
+    max-width: 800px;
+    margin-top: 40px;
+}
+.instruction a {
+	text-decoration: none;
+	color: #212529;
+
+}
+.instruction::before {
+	content: " ";
+	background: url("../../../image/topic1/insIcon.png") no-repeat;
+	width: 51px;
+	height: 44px;
+	position: absolute;
+	left: -47px;
+	top: -10px;
+	transform: scale(0.8);
+}

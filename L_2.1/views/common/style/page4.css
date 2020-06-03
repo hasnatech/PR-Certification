@@ -24,7 +24,7 @@
 }
 .item.Circle_1 {
 	width: 460px;
-	padding: 43px 70px 0 164px;
+	padding: 32px 70px 0 164px;
 	font-size: 15px;
 	line-height: 23px;
 	border-radius: 50%;
@@ -81,4 +81,17 @@ img.shaddow_img {
 	position: absolute;
 	left: -24px;
 	top: 3px;
+}
+
+.link{
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+
+.hangout{
+	width: 300px;
+    height: auto;
+    right: 10px;
+    top: 250px;
 }

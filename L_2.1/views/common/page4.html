@@ -1,0 +1,30 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="righticon">
+        <div class="full-height">
+            <div class="row align_top">
+                <div data-time="{{page.block[0].time}}" class="animate drag {{page.block[0].class}}">
+                    <div class="flex">
+                        <div class="img">
+                            <img ng-src="{{page.block[0].image}}" alt="page.block[0].text">
+                        </div>
+                        <div class="text">
+                            <h2>{{page.block[0].text}}</h2>
+                            <div ng-bind-html="page.block[0].p | to_trusted"></div>
+
+                            <div data-time="{{page.block[1].time}}" class="animate drag {{page.block[1].class}}">
+                                <a target="_blank" href="{{page.block[1].href}}">{{page.block[1].text}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //syncAudio($(".animate"), "rightToLeft");
+    });
+</script>

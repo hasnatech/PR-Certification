@@ -23,6 +23,16 @@
 .instruction {
 	position: absolute;
 }
+.instruction::before {
+	content: " ";
+	background: url("../../../image/topic1/insIcon.png") no-repeat;
+	width: 51px;
+	height: 44px;
+	position: absolute;
+	left: -47px;
+	top: -10px;
+	transform: scale(0.8);
+}
 .item.Circle_1 {
 	width: 675px;
 	padding: 36px 60px 0 288px;

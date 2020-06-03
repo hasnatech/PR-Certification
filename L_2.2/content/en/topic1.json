@@ -19,16 +19,16 @@
         },
         "resource": [{
             "label": "How to create a Free Text Service PR",
-            "link": "https://cargill.ancileuperform.com/#/content/1.11.121922"
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.191418"
         }, {
             "label": "Blanket PO guidelines criteria for creating a blanket PR.",
-            "link": "https://team.cargill.com/sites/NAP/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/NAP/Shared%20Documents/Blanket%20Purchase%20Order.docx&action=default&DefaultItemOpen=1"
+            "link": "https://cargill.ancileuperform.com/#/folder/1.11.191334"
         }, {
             "label": "How to create a Blanket or Repetitive PR",
-            "link": "https://cargill.ancileuperform.com/#/content/1.11.121919"
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.191415"
         }, {
             "label": "How to create an External Catatog PR",
-            "link": "https://cargill.ancileuperform.com/#/content/1.11.121916"
+            "link": "https://cargill.ancileuperform.com/#/content/1.11.191412"
         }
         
     ],
@@ -632,7 +632,7 @@
                                 "audio": "media/.mp3"
                             },
                             {
-                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.121922\",\"mywindow\");'>here</span> to learn how to create a Free Text Service PR.",
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.191418\",\"mywindow\");'><u>here</u></span> to learn how to create a Free Text Service PR.",
                                 "image":"image/topic1/page3/clickNote.png",
                                 "class":"clickNote",
                                 "imgClass":"clickNote_img",
@@ -700,23 +700,23 @@
                                 "audio": "media/.mp3"
                             },
                             {
-                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://team.cargill.com/sites/NAP/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/NAP/Shared%20Documents/Blanket%20Purchase%20Order.docx&action=default&DefaultItemOpen=1\",\"mywindow\");'>here</span> to view the Blanket PO guidelines criteria for creating a blanket PR.",
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/folder/1.11.191334\",\"mywindow\");'><u>here</u></span> to view the Blanket PO guidelines criteria for creating a blanket PR.",
                                 "image":"image/topic1/page4/clickNote1.png",
                                 "class":"clickNote",
                                 "imgClass":"clickNote_img",
                                 "time":"54.6", "left": "88px", "top": "591px",
                                 "audio": "media/.mp3",
-                                "linkName":"https://team.cargill.com/sites/NAP/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/NAP/Shared%20Documents/Blanket%20Purchase%20Order.docx&action=default&DefaultItemOpen=1"
+                                "linkName":"https://cargill.ancileuperform.com/#/folder/1.11.191334"
 
                             },
                             {
-                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.121919\",\"mywindow\");'>here</span> to learn how to create a Blanket or Repetitive PR.",
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.191415\",\"mywindow\");'><u>here</u></span> to learn how to create a Blanket or Repetitive PR.",
                                 "image":"image/topic1/page4/clickNote2.png",
                                 "class":"clickNote",
                                 "imgClass":"clickNote_img",
                                 "time":"62.5", "left": "88px", "top": "636px",
                                 "audio": "media/.mp3",
-                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.121919"
+                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.191415"
                             }
                         ],
                         "transcript": [{
@@ -756,47 +756,20 @@
                                 "video": true
                             },
                             {
-                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.121916\",\"mywindow\");'>here</span> to learn how to create an External Catatog PR.",
+                                "text":"Click <span class='hereTxt clk' onclick='window.open(\"https://cargill.ancileuperform.com/#/content/1.11.191412\",\"mywindow\");'><u>here</u></span> to learn how to create an External Catatog PR.",
                                 "image":"image/topic1/page4/clickNote2.png",
                                 "class":"clickNote",
                                 "imgClass":"clickNote_img",
                                 "time":"38", "left": "88px", "top": "636px",
                                 "audio": "media/.mp3",
                                 "video": false,
-                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.121916"
+                                "linkName":"https://cargill.ancileuperform.com/#/content/1.11.191412"
                             }
                         ],
                         "transcript": [{
                             "text": "",
                             "sec": "0.01"
                         }] 
-                    },
-                    {
-                        "type": "supplemental",
-                        "title": "Supplemental Information",
-                        "mainTitle": "Indirect Procurement Process at Cargill",
-                        "file": "common\/supplemental.html",
-                        "style": "common\/style\/supplemental.css",
-                        "audio": "",
-                        "showMenu": true,
-                        "interaction": false,
-                        "block": [
-                            {
-                                "text": "<a href='#'>First Link</a>",
-                                "time": "5.8"
-                            },
-                            {
-                                "text": "<a href='#'>Second Link</a>",
-                                "time": "6.5"
-                            }
-                        ],
-                        "image": "image\/shell/green/supplemental.png",
-                        "transcript": [
-                            {
-                                "text": "<p></p>",
-                                "sec": "0.01"
-                            }
-                        ]
                     },
                     {
                         "type": "summary",

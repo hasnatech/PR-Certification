@@ -753,6 +753,37 @@
                     },
                     {
                         "type": "custom",
+                        "title": "Emergency Purchase Requisitions",
+                        "file": "common\/page20.html",
+                        "style": "common\/style\/page20.css",
+                        "audio": "media\/20-1.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text": {
+                            "p1" : "An Emergency is a situation that poses an <u><i>immediate risk</i></u> to Cargill’s operations, in these situations time to mitigate this risk is more critical than financial impact. Immediate is defined as something happening right away, instantly, with no delay.",
+                            "table_header1": "An Emergency buy is…",
+                            "table_header2": "An Emergency buy is not…",
+                            "table_content1": "<p>Defined as a purchase of a good or service that is required to mitigate the risks. </p><p>The good or services are required to arrive/start within 24 hours of order placement and must be consumed/complete within 24 hours of good/services physical receipt.</p>",
+                            "table_content2": "<ul><li>Orders needed immediately due to lack of planning, parts or services unidentified during the planning process.</li><li>An expedite order</li><li>Normal business activities</li><li>People using the emergency process to circumvent the normal buying process</li><li>Planned plant shutdowns</li><li>Partial plant shutdowns that allow the plant to run on reduced rate and still service the customer.</li></ul>",
+                            "p2":"Requisitioners are given authorization to verbal order the goods or services, utilizing the PR number, in an emergency situation or using a delegate PR (if applicable).  All communication with the vendor in either instance must be captured in notes to the PO Processor."
+                        }
+                    },
+                    {
+                        "type": "custom",
+                        "title": "Expedite Purchase Requisitions",
+                        "file": "common\/page21.html",
+                        "style": "common\/style\/page20.css",
+                        "audio": "media\/21-1.mp3",
+                        "showMenu": true,
+                        "interaction": false,
+                        "text": {
+                            "p1": "<p>An Expedite PR is an urgent request to the PO Processor to process the PR within 30 minutes of approval.  </p><ul><li>A expedite is not an emergency but may require overnight or faster shipping services to meet the operation's needs.</li><li>Expedites require all approvals and Procurement will process the transaction. </li></ul>",
+                            "p2": "<h3>Expedites are:</h3><ul><li>Orders needed immediately due to lack of planning, parts or services unidentified during the planning process.</li><li>Partial plant shutdowns that allow the plant to run on reduced rate and still service the customer.</li><li>Goods/Services needed due to rejections.</li><li>Other business needs that require goods or services to arrive quicker than the standard delivery time.</li></ul>",
+                            "p3": "Expedites may not be verbal ordered by the PR initiator – only the PO Processor may process expedited orders."
+                        }
+                    },
+                    {
+                        "type": "custom",
                         "title": "Item Detail Key Tabs",
                         "file": "common\/page16.html",
                         "style": "common\/style\/page16.css",
@@ -761,8 +792,12 @@
                         "interaction": false,
                         "text": {
                             "panel_text": {
-                                "text": "<h3>Ensure to:</h3><ul>    <li>Fill the mandatory purchasing group fields related to purchasing group. </li>    <li>Include a valid DSID in this field on the Contact Person tab.</li></ul><div id='icon'>Any missing information will cause a failure in the automatic PO creation.</div>",
+                                "text": "<h3>Ensure to:</h3><ul><li>Fill the mandatory purchasing group fields related to purchasing group. </li>    <li>Include a valid DSID in this field on the Contact Person tab.</li></ul><div id='icon'>Any missing information will cause a failure in the automatic PO creation.</div>",
                                 "time": 34
+                            },
+                            "click_text": {
+                                "text": "<p class='instruction'><a href='https://cargill.ancileuperform.com/#/folder/1.11.191334'>Click the tab to view descriptions of each of the Item Detail tabs.</a></p>",
+                                "time": 35
                             },
                             "image": "image/topic1/page16.png",
                             "instr": "<p>Item detail section allows the Purchase Requisitioner to navigate through each line item of the PR and add or change data. </p><p>The key tabs of item detail section are:</p>",

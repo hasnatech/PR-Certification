@@ -92,3 +92,23 @@ div#icon {
     background-size: contain;
     padding-left: 35px;
 }
+.instruction {
+	/*position: absolute;
+    margin-left: 42px;
+    max-width: 800px;*/
+    text-align: center;
+}
+.instruction a {
+	text-decoration: none;
+	color: #212529;
+}
+.instruction::before {
+	content: " ";
+	background: url("../../../image/topic1/insIcon.png") no-repeat;
+	width: 51px;
+    height: 44px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -10px;
+    transform: scale(0.8);
+}

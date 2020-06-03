@@ -8,9 +8,10 @@
                 </div>
             </div>
             <div class="instruction noBefore animate drag" style="left: {{page.ins_left}}; top: {{page.ins_top}};" data-time="{{page.insTime}}" ng-bind-html="page.instruction | to_trusted"></div>
-            <div class="instruction_1 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.121910','mywindow');" style="left: {{page.ins_1_left}}; top: {{page.ins_1_top}};" data-time="{{page.insTime_1}}" ng-bind-html="page.instruction_1 | to_trusted"></div>
-            <div class="instruction_2 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.121865','mywindow');" style="left: {{page.ins_2_left}}; top: {{page.ins_2_top}};" data-time="{{page.insTime_2}}" ng-bind-html="page.instruction_2 | to_trusted"></div>
-            <div class="instruction_3 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.121868','mywindow');" style="left: {{page.ins_3_left}}; top: {{page.ins_3_top}};" data-time="{{page.insTime_3}}" ng-bind-html="page.instruction_3 | to_trusted"></div>
+            <div class="instruction_1 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.191409','mywindow');" style="left: {{page.ins_1_left}}; top: {{page.ins_1_top}};" data-time="{{page.insTime_1}}" ng-bind-html="page.instruction_1 | to_trusted"></div>
+            <div class="instruction_2 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.191382','mywindow');" style="left: {{page.ins_2_left}}; top: {{page.ins_2_top}};" data-time="{{page.insTime_2}}" ng-bind-html="page.instruction_2 | to_trusted"></div>
+            <div class="instruction_3 exIns drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.191385','mywindow');" style="left: {{page.ins_3_left}}; top: {{page.ins_3_top}};" data-time="{{page.insTime_3}}" ng-bind-html="page.instruction_3 | to_trusted"></div>
+            <div class="instruction_1 exIns1 drag" onclick="window.open('https://cargill.ancileuperform.com/#/content/1.11.191388','mywindow');" style="left: {{page.ins_1_left}}; top: {{page.ins_1_top}};" data-time="{{page.insTime_1}}" ng-bind-html="page.instruction_4 | to_trusted"></div>
             <div class="feedback">
                 <div class="cPanel">
                     <div class="exit">x</div>
@@ -31,7 +32,7 @@
 </section>
 <script>
     $().ready(function () {
-		$(".feedback, .exIns").hide();
+		$(".feedback, .exIns, .exIns1").hide();
         var track = [];
         $(".popup").hide();
         $(".img_clk").click(function () {
@@ -55,7 +56,7 @@
         $(document).on('click', ".clk", function () {
             $(".feedback").show();
 			if ($(this).hasClass('left')) {
-				$(".feedback .content .correct").show();
+				$(".feedback .content .correct, .exIns1").show();
                 $(".feedback .content .incorrect").hide();
                 $('.feedback .title').text('User Parameters');
 			} else {
@@ -66,7 +67,7 @@
         });
 
         $(".exit").click(function () {
-            $(".feedback, .exIns").hide();
+            $(".feedback, .exIns, .exIns1").hide();
         })
 
         $(".btnAudio").click(function () {

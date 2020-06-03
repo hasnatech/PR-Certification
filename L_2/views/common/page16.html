@@ -7,19 +7,23 @@
                     <div class="animate item" data-time="2">
                         <img ng-src="{{page.text.image}}" alt="">
                     </div>
-                    <div class=" pointers" >
+                    <div class=" pointers">
                         <div class="animate point" ng-repeat="item in page.text.pointers" data-time="{{item.time}}">
                             <img src="image/topic1/page_16_dot.png" alt="">
-                            <div class="point_txt animate"  data-time="{{item.time}}" data-disappear="{{$index+1 < page.text.pointers.length ? page.text.pointers[$index+1].time - 0.25 : item.time+2}}">
+                            <div class="point_txt animate" data-time="{{item.time}}"
+                                data-disappear="{{$index+1 < page.text.pointers.length ? page.text.pointers[$index+1].time - 0.25 : item.time+2}}">
                                 {{item.text}}
                             </div>
                         </div>
                     </div>
                     <div class="animate" data-time="{{page.text.panel_text.time}}">
                         <div class="p_text">
-                            <div class="txt"  ng-bind-html="page.text.panel_text.text | to_trusted"></div>
+                            <div class="txt" ng-bind-html="page.text.panel_text.text | to_trusted"></div>
                         </div>
-                        
+
+                    </div>
+                    <div class="animate" data-time="{{page.text.click_text.time}}">
+                        <div ng-bind-html="page.text.click_text.text | to_trusted"></div>
                     </div>
                 </div>
             </div>
@@ -30,11 +34,11 @@
     $().ready(function () {
         //$(".point").draggable();
         //$(".point .point_txt").fadeOut(100);
-        $(".point").hover(function(){
+        $(".point").hover(function () {
             $(this).find(".point_txt").css("opacity", 1);
             $(this).find(".point_txt").css("transform", "translateY(0px)");
             $(this).find(".point_txt").fadeIn(100);
-        }, function(){
+        }, function () {
             $(this).find(".point_txt").fadeOut(100);
         })
         syncAudio($(".animate"), "bottomToTop");

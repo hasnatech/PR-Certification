@@ -19,8 +19,10 @@
 	word-wrap: break-word;
 }
 .instruction {
-	position: absolute;
+	position: absolute; 
 }
+
+
 .item.Circle_1 {
 	width: 190px;
 	padding: 121px 54px;

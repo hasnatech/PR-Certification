@@ -150,7 +150,7 @@ playerControllers.controller('PlayerController', ['$scope', '$http', '$routePara
 	$scope.start_course = function () {
 		$scope.show_controls();
 		//change the number to go directly to the page.
-		$scope.setTopicPage(1);
+		$scope.setTopicPage(startPage);
 	}
 
 

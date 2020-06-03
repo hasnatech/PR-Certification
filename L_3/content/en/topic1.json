@@ -296,9 +296,9 @@
 
                                 },
                                 {
-                                    "text": "OneSource",
+                                    "text": "Tax Determination",
                                     "time": 4.5,
-                                    "description": "<li>The OneSource system automatically performs the tax determination on the purchase order prior to it being sent to the supplier.</li>",
+                                    "description": "<li>Tax determination is completed on the purchase order prior to it being sent to the supplier. Each region uses its own system to perform tax determination.</li>",
                                     "id": 8,
                                     "audio": "media\/20.mp3"
                                 },

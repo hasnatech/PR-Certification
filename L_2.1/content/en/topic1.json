@@ -19,47 +19,55 @@
         "resource": [
             {
                 "label": "How to create the External Catalog PR in SAP",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121898"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191394"
+            },
+            {
+                "label": "How to create External Catalog PR using a Marketplace Supplier in SAP.",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191406"
+            },
+            {
+                "label": "How to manage User Parameters in SAP.",
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191388"
             },
             {
                 "label": "How to setup the Personal Setting for ME51N Material PR in SAP",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121910"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191409"
             },
             {
                 "label": "How to Change Order of Columns in SAP",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121865"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191382"
             },
             {
                 "label": "How to create a Favorite List and Repeat On Function in SAP",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121868"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191385"
             },
             {
                 "label": "How to Create Material Master PR in SAP to Cost Center",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121907"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191403"
             },
             {
                 "label": "How to create Chemical Blanket PR in SAP",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121895"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191391"
             },
             {
                 "label": "How to create Free Text PR in SAP.",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.121904"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191400"
             },
             {
                 "label": "Data Definition Documents (MRO and Service Material Group).",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.182745?contextId=1.11.182735"
+                "link": "https://cargill.ancileuperform.com/#/folder/1.11.191334"
             },
             {
                 "label": "Information on the impact of choosing the right (or wrong) Material Group.",
-                "link": "https://cargill.ancileuperform.com/#/content/1.11.182748?contextId=1.11.182735"
+                "link": "https://cargill.ancileuperform.com/#/folder/1.11.191334"
             },
             {
                 "label": "List of suppliers who support VMI",
-                "link": "https://cargill15--bmcservicedesk.na104.visual.force.com/apex/KM_ArticleView?name=KBA8456"
+                "link": "https://cargill.ancileuperform.com/#/folder/1.11.191334"
             },
             {
                 "label": "Information about the VMI process",
-                "link": "https://sites.cargill.com/sites/Finance/maestro/North%20America/Pages/AribaSustainTraining.aspx"
+                "link": "https://cargill.ancileuperform.com/#/content/1.11.191397"
             }
         ],
         "help": {
@@ -170,9 +178,9 @@
                         "showMenu": true,
                         "interaction": true,
                         "instruction": "Click on the tab to learn how to create the External Catalog PR in SAP.",
-                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121898",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.191394",
                         "insTime": "51.5",
-                        "ins_left": "124px",
+                        "ins_left": "154px",
                         "ins_top": "657px",
                         "image": "image\/topic1\/page1.png",
                         "block": [
@@ -264,6 +272,43 @@
                             }
                         ]
                     },
+                    
+                    {
+                        "type": "custom",
+                        "title": "MARKETPLACES",
+                        "file": "common\/page4.html",
+                        "style": "common\/style\/page5.1.css",
+                        "audio": "",
+                        "showMenu": true,
+                        "interaction": true,
+                        "block": [
+                            {
+                                "text": "MARKETPLACES",
+                                "image": "image/topic1/shopping.png",
+                                "class": "image_panel",
+                                "time": "1",
+                                "p": "A marketplace catalog is a self-service buying channel that focuses on providing requesters access to procure materials in categories that are identified by CSSP as non-strategic or low risk through suppliers like Amazon Business, Mercateo, Mercado Libre, and Alibaba.",
+                                "brand_icon" : [
+                                    "image/topic1/amazon.png",
+                                    "image/topic1/mercateo.png",
+                                    "image/topic1/alibaba.png",
+                                    "image/topic1/mercado.png"
+                                ]
+                            },
+                            {
+                                "text": "Click on the tab for additional marketplace resources, including regional availability and simulations on how to create External Catalog PR using a Marketplace Supplier in SAP. ",
+                                "href":"https://cargill.ancileuperform.com/#/content/1.11.191406",
+                                "class": "instruction",
+                                "time" : 2
+                            }
+                        ],
+                        "transcript": [
+                            {
+                                "text": "",
+                                "sec": "0.01"
+                            }
+                        ]
+                    },
                     {
                         "type": "custom",
                         "title": "Personalize SAP Purchasing Parameters",
@@ -280,6 +325,7 @@
                         "instruction_1": "Click here to learn how to setup the Personal Setting for ME51N Material PR in SAP.​",
                         "instruction_2": "Click here to learn how to Change Order of Columns in SAP.​",
                         "instruction_3": "Click here to learn how to create a Favorite List and Repeat On Function in SAP.​",
+                        "instruction_4": "Click here to learn how to manage User Parameters in SAP.​",
                         "link1": "https://cargill.ancileuperform.com/#/content/1.11.121910",
                         "link2": "https://cargill.ancileuperform.com/#/content/1.11.121865",
                         "link3": "https://cargill.ancileuperform.com/#/content/1.11.121868",
@@ -477,12 +523,13 @@
                     {
                         "type": "custom",
                         "title": "Material Masters",
-                        "file": "common\/page3.html",
+                        "file": "common\/page5.html",
                         "style": "common\/style\/page4.css",
                         "audio": "media\/12.mp3",
                         "showMenu": true,
                         "interaction": true,
                         "image": "image\/topic1\/page1.png",
+                        "mrp_link": "Material requirements planning (MRP) is a computer based inventory management system designed to improve productivity for businesses and assist production managers in scheduling and placing orders for items of dependent demand. Material requirements planning systems are used to estimate quantities of materials and schedule their deliveries.",
                         "block": [
                             {
                                 "text": "Purchase Request for Material Masters",
@@ -494,7 +541,7 @@
                                 "top": "235px"
                             },
                             {
-                                "text": "A stock material purchase which is set up to run through MRP",
+                                "text": "A stock material purchase which is set up to run through Material requirements planning (<span class='link mrp mrp_1'>MRP</span>)",
                                 "image": "image/topic1/page4/1.png",
                                 "class": "Circle_1",
                                 "imgClass": "Circle_1_img",
@@ -503,7 +550,7 @@
                                 "top": "145px"
                             },
                             {
-                                "text": "A stock material purchase is created outside of MRP",
+                                "text": "A stock material purchase is created outside of <span class='link mrp mrp_2'>MRP</span>",
                                 "image": "image/topic1/page4/2.png",
                                 "class": "Circle_2",
                                 "imgClass": "Circle_2_img",
@@ -537,7 +584,7 @@
                         "showMenu": true,
                         "interaction": true,
                         "instruction": "Click on the tab to learn how to Create Material Master PR in SAP to Cost Center",
-                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121907",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.191403",
                         "insTime": "35",
                         "ins_left": "124px",
                         "ins_top": "657px",
@@ -1028,7 +1075,7 @@
                         "showMenu": true,
                         "interaction": true,
                         "instruction": "Click on the tab to learn how to create Chemical Blanket PR in SAP.",
-                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121895",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.191391",
                         "insTime": "55.7",
                         "ins_left": "124px",
                         "ins_top": "657px",
@@ -1105,17 +1152,17 @@
                         "showMenu": true,
                         "interaction": true,
                         "instruction": "Click on the tab to learn how to create Free Text PR in SAP.",
-                        "link": "https://cargill.ancileuperform.com/#/content/1.11.121904",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.191400",
                         "insTime": "56.4",
                         "ins_left": "140px",
                         "ins_top": "570px",
                         "instruction_1": "Click on the tab to view the Data Definition Documents (MRO and Service Material Group).​",
-                        "link1": "https://cargill.ancileuperform.com/#/content/1.11.182745?contextId=1.11.182735",
+                        "link1": "https://cargill.ancileuperform.com/#/folder/1.11.191334",
                         "ins_1_left": "140px",
                         "ins_1_top": "600px",
                         "insTime_1": "57",
                         "instruction_2": "Click on the tab to view information on the impact of choosing the right (or wrong) Material Group.​",
-                        "link2": "https://cargill.ancileuperform.com/#/content/1.11.182748?contextId=1.11.182735",
+                        "link2": "https://cargill.ancileuperform.com/#/folder/1.11.191334",
                         "ins_2_left": "140px",
                         "ins_2_top": "630px",
                         "insTime_2": "57.5",
@@ -1291,7 +1338,7 @@
                         "showMenu": true,
                         "interaction": true,
                         "instruction": "Click the tab to view more information about the VMI process.",
-                        "link": "https://sites.cargill.com/sites/Finance/maestro/North%20America/Pages/AribaSustainTraining.aspx",
+                        "link": "https://cargill.ancileuperform.com/#/content/1.11.191397",
                         "insTime": "84",
                         "ins_left": "124px",
                         "ins_top": "653px",
@@ -1563,33 +1610,6 @@
                         "transcript": [
                             {
                                 "text": "",
-                                "sec": "0.01"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "supplemental",
-                        "title": "Supplemental Information",
-                        "mainTitle": "Indirect Procurement Process at Cargill",
-                        "file": "common\/supplemental.html",
-                        "style": "common\/style\/supplemental.css",
-                        "audio": "",
-                        "showMenu": true,
-                        "interaction": false,
-                        "block": [
-                            {
-                                "text": "<a href='#'>First Link</a>",
-                                "time": "5.8"
-                            },
-                            {
-                                "text": "<a href='#'>Second Link</a>",
-                                "time": "6.5"
-                            }
-                        ],
-                        "image": "image\/shell/green/supplemental.png",
-                        "transcript": [
-                            {
-                                "text": "<p></p>",
                                 "sec": "0.01"
                             }
                         ]

@@ -1,0 +1,31 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="page20">
+        <div class="top_space">
+            <div class="animate" data-time="{{page.text.time}}" data-disappear="{{page.text.disappear}}" >
+                <div class="" ng-bind-html="page.text.p1 | to_trusted"></div>
+            </div>
+            <div class="row ">
+                <div class="col-6">
+                    <img src="image/topic1/shopping_ex.png" alt="" />
+
+                        <span class="sub_head"  ng-bind-html="page.text.table_header1 | to_trusted"></span>
+                        <div  ng-bind-html="page.text.table_content1 | to_trusted"></div>
+                </div>
+                <div class="col-6">
+                        <div  class="sub_head" ng-bind-html="page.text.table_header2 | to_trusted"></div>
+                        <div  ng-bind-html="page.text.table_content2 | to_trusted"></div>
+                </div>
+            </div>
+            <div class="row">
+                    <div  ng-bind-html="page.text.p2 | to_trusted"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        //$(".img").draggable();
+        //syncAudio($(".animate"));
+    });
+</script>

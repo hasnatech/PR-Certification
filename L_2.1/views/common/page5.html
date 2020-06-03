@@ -1,0 +1,81 @@
+<section class="sec" data-current="{{curr_page}}">
+    <div class="righticon">
+        <div class="full-height">
+            <div class="row align_top">
+                <div data-audio="{{item.audio}}" data-time="{{item.time}}" style="left: {{item.left}}; top: {{item.top}};" class="animate drag item {{item.class}}" ng-repeat="item in page.block">
+                    <span class="inTxt" ng-bind-html="item.text | to_trusted"></span>
+                    <img class="{{item.imgClass}}" src="{{item.image}}"/>
+                </div>
+            </div>
+            <div class="popup hangout">
+                {{page.mrp_link}}
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $().ready(function () {
+        var track = [];
+        $(".popup").hide();
+        var pos = [{top:"150px", right:"80px"}, {top:"250px", right:"10px"}]
+        $(".link.mrp").hover(function () {
+            var index = 0;
+          
+            if($(this).hasClass('mrp_1')){
+                index = 0;
+            }else{
+                index = 1;
+            }
+            console.log(index);
+            $(".popup").css("right", pos[index].right);
+            $(".popup").css("top", pos[index].top);
+            $(".popup").fadeIn(500);
+        }, function(){
+            $(".popup").fadeOut(300);
+        })
+
+        //$(".drag").draggable();
+
+        $(".drag").each(function(){
+            var left = $(this).attr("data-left");
+            var top = $(this).attr("data-top");
+
+            if(left)
+                $(this).css("left", left);
+            
+            if(top)
+                $(this).css("top", top);
+
+        });
+
+        /*$(".close").click(function () {
+            $("#popup1").hide();
+            $("#popup2").hide();
+            $(".popup").hide();
+            pauseAudio();
+            trackInteractionCompletion(track, 2);
+            
+        })*/
+
+        $("#btn1").click(function () {
+            track[0] = true;
+            $("#popup1").show();
+            $("#popup2").hide();
+            $(".popup").fadeIn(500);
+            playAudio("media\/12.mp3");
+        });
+        
+        /*anime({
+            targets: '.animate',
+            translateY: [50, 0],
+            opacity: [0, 1],
+            delay: function (el, i, l) {
+                var time = getMilliSecond($(el).attr("data-time"));
+                return time;
+            },
+            duration: 1000
+        });*/
+        syncAudio($(".animate"), "rightToLeft");
+    });
+    
+</script>
