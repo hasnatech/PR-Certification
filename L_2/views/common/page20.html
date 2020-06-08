@@ -1,8 +1,9 @@
 <section class="sec" data-current="{{curr_page}}">
-    <div class="page20">
+    <div class="page20 font-90">
         <div class="top_space">
             <div class="animate" data-time="{{page.text.time}}" data-disappear="{{page.text.disappear}}" >
                 <div class="" ng-bind-html="page.text.p1 | to_trusted"></div>
+                <div  ng-bind-html="page.text.p2 | to_trusted"></div>
             </div>
             <div class="row ">
                 <div class="col-6">
@@ -16,8 +17,8 @@
                         <div  ng-bind-html="page.text.table_content2 | to_trusted"></div>
                 </div>
             </div>
-            <div class="row">
-                    <div  ng-bind-html="page.text.p2 | to_trusted"></div>
+            <div class="center">
+                    <img src="image/topic1/page20.jpg" alt="">
             </div>
 
         </div>

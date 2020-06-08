@@ -16,10 +16,7 @@
             "transcript": "Transcript",
             "resource": "Resources"
         },
-        "resource": [{
-            "label": "Select Supplier Database",
-            "link": "#"
-        }],
+        "resource": [],
         "help": {
             "title": "Help",
             "content": "<p>Please contact the <a href='myglobalit.cargill.com' target='_blank'>Cargill Help Desk</a> to report issues with the training content for this program.</p>"

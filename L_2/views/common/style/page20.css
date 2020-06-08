@@ -1,12 +1,19 @@
 .page20{
     padding: 4rem;
+    
+}
+.font-90{
+    font-size: 90%;
 }
 .top_space{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .sub_head{
     margin:1rem 0;
     font-weight:bold;
     font-size:120%;
+}
+.center{
+    text-align: center;
 }
