@@ -203,23 +203,14 @@
                                 "audio": ""
                             },
                             {
-                                "text":"<p>The Requisitioner creates a service Purchase Requisition in SAP using a Service Master. Upon approval of the PR, the Purchase Order is created either manually or automatically in SAP.The service is completed at the site. Then the supplier invoice is received and the payment is issued to the supplier.Services are also added to work orders. For the purpose of this training we will focus on services added to a purchase requisition.</p>",
+                                "text":"<p>The Requisitioner creates a service Purchase Requisition in SAP using a Service Master. Upon approval of the PR, the Purchase Order is created either manually or automatically in SAP. The service is completed at the site. Then the supplier invoice is received and the payment is issued to the supplier. Services are also added to work orders. For the purpose of this training we will focus on services added to a purchase requisition.</p>",
                                 "image":"",
                                 "class":"",
                                 "imgClass":"Circle_mid_img",
                                 "time":"2", "left": "10px", "top": "174px" ,
                                 "audio": ""
                             },
-                            {
-                                "text": "<p>Services are also added to work orders. For the purpose of this training we will focus on services added to a purchase requisition.</p>",
-                                "image": "",
-                                "class": "",
-                                "imgClass": "Circle_mid_img",
-                                "time": "3",
-                                "left": "165px",
-                                "top": "540px",
-                                "audio": ""
-                            },
+                            
                             
                             {
                                 "text":"Requisitioner",
