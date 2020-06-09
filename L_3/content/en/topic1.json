@@ -384,27 +384,27 @@
                         "audio": "media\/27.mp3",
                         "showMenu": true,
                         "interaction": false,
-                        "question": "<p>What system is used to make the tax determination on the purchase order after it is created? </p>",
+                        "question": "<p>What document is used to perform the tax determination for the purchase? </p>",
                         "choices": [{
-                                "text": "SAP",
+                                "text": "Purchase Requisition",
                                 "correct": false
                             },
                             {
-                                "text": "TurboTax",
-                                "correct": false
-                            },
-                            {
-                                "text": "OneSource",
+                                "text": "Purchase Order",
                                 "correct": true
                             },
                             {
-                                "text": "Ariba Network",
+                                "text": "Invoice",
+                                "correct": false
+                            },
+                            {
+                                "text": "Purchase Request",
                                 "correct": false
                             }
                         ],
                         "feedback": {
-                            "incorrect": "<p>This is not the right answer. </p><p>OneSourse is used to make the tax determination on the purchase order after it is created.</p>",
-                            "correct": "<p>That’s Correct! </p><p>OneSourse is used to make the tax determination on the purchase order after it is created.</p>"
+                            "incorrect": "<p>This is not the right answer. </p>",
+                            "correct": "<p>That’s Correct! </p>"
                         },
                         "image": "image\/topic\/knowledgecheck.png",
                         "transcript": [{
