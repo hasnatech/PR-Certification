@@ -273,42 +273,7 @@
                         ]
                     },
                     
-                    {
-                        "type": "custom",
-                        "title": "MARKETPLACES",
-                        "file": "common\/page4.html",
-                        "style": "common\/style\/page5.1.css",
-                        "audio": "",
-                        "showMenu": true,
-                        "interaction": true,
-                        "block": [
-                            {
-                                "text": "MARKETPLACES",
-                                "image": "image/topic1/shopping.png",
-                                "class": "image_panel",
-                                "time": "1",
-                                "p": "A marketplace catalog is a self-service buying channel that focuses on providing requesters access to procure materials in categories that are identified by CSSP as non-strategic or low risk through suppliers like Amazon Business, Mercateo, Mercado Libre, and Alibaba.",
-                                "brand_icon" : [
-                                    "image/topic1/amazon.png",
-                                    "image/topic1/mercateo.png",
-                                    "image/topic1/alibaba.png",
-                                    "image/topic1/mercado.png"
-                                ]
-                            },
-                            {
-                                "text": "Click on the tab for additional marketplace resources, including regional availability and simulations on how to create External Catalog PR using a Marketplace Supplier in SAP. ",
-                                "href":"https://cargill.ancileuperform.com/#/content/1.11.191406",
-                                "class": "instruction",
-                                "time" : 2
-                            }
-                        ],
-                        "transcript": [
-                            {
-                                "text": "",
-                                "sec": "0.01"
-                            }
-                        ]
-                    },
+                    
                     {
                         "type": "custom",
                         "title": "Personalize SAP Purchasing Parameters",
